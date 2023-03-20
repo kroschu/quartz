@@ -114,6 +114,97 @@
     }
   },
   {
+    "fileName": "setup",
+    "relativePath": "notes/setup.md",
+    "tags": [
+      "setup"
+    ],
+    "frontmatter": {
+      "title": "Setup",
+      "weight": -5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 52
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Making your own Quartz",
+        "level": 2
+      },
+      {
+        "heading": "Forking",
+        "level": 3
+      },
+      {
+        "heading": "Cloning",
+        "level": 3
+      },
+      {
+        "heading": "Editing",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "editing.md",
+        "displayText": "",
+        "relativePath": "notes/editing.md"
+      },
+      {
+        "link": "troubleshooting.md",
+        "displayText": "",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "setup.md",
+        "relativePath": "_index.md"
+      },
+      {
+        "fileName": "obsidian",
+        "link": "setup.md",
+        "relativePath": "notes/obsidian.md"
+      }
+    ]
+  },
+  {
+    "fileName": "showcase",
+    "relativePath": "notes/showcase.md",
+    "frontmatter": {
+      "title": "Showcase",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 27
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "showcase.md",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
     "fileName": "updating",
     "relativePath": "notes/updating.md",
     "frontmatter": {
@@ -310,10 +401,10 @@
     ]
   },
   {
-    "fileName": "showcase",
-    "relativePath": "notes/showcase.md",
+    "fileName": "philosophy",
+    "relativePath": "notes/philosophy.md",
     "frontmatter": {
-      "title": "Showcase",
+      "title": "Quartz Philosophy",
       "position": {
         "start": {
           "line": 0,
@@ -323,80 +414,21 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 27
-        }
-      }
-    },
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "showcase.md",
-        "relativePath": "_index.md"
-      }
-    ]
-  },
-  {
-    "fileName": "setup",
-    "relativePath": "notes/setup.md",
-    "tags": [
-      "setup"
-    ],
-    "frontmatter": {
-      "title": "Setup",
-      "weight": -5,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 52
+          "offset": 36
         }
       }
     },
     "headings": [
       {
-        "heading": "Making your own Quartz",
+        "heading": "Why Quartz?",
         "level": 2
-      },
-      {
-        "heading": "Forking",
-        "level": 3
-      },
-      {
-        "heading": "Cloning",
-        "level": 3
-      },
-      {
-        "heading": "Editing",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "editing.md",
-        "displayText": "",
-        "relativePath": "notes/editing.md"
-      },
-      {
-        "link": "troubleshooting.md",
-        "displayText": "",
-        "relativePath": "notes/troubleshooting.md"
       }
     ],
     "backlinks": [
       {
         "fileName": "_index",
-        "link": "setup.md",
+        "link": "philosophy.md",
         "relativePath": "_index.md"
-      },
-      {
-        "fileName": "obsidian",
-        "link": "setup.md",
-        "relativePath": "notes/obsidian.md"
       }
     ]
   },
@@ -497,38 +529,6 @@
         "fileName": "docker",
         "link": "preview changes.md",
         "relativePath": "notes/docker.md"
-      }
-    ]
-  },
-  {
-    "fileName": "philosophy",
-    "relativePath": "notes/philosophy.md",
-    "frontmatter": {
-      "title": "Quartz Philosophy",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 36
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Why Quartz?",
-        "level": 2
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "philosophy.md",
-        "relativePath": "_index.md"
       }
     ]
   },
@@ -824,19 +824,19 @@
     ],
     "backlinks": [
       {
-        "fileName": "troubleshooting",
-        "link": "editing.md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "troubleshooting",
-        "link": "editing.md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
         "fileName": "setup",
         "link": "editing.md",
         "relativePath": "notes/setup.md"
+      },
+      {
+        "fileName": "troubleshooting",
+        "link": "editing.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "troubleshooting",
+        "link": "editing.md",
+        "relativePath": "notes/troubleshooting.md"
       }
     ]
   },
