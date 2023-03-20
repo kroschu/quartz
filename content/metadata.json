@@ -1,0 +1,1110 @@
+[
+  {
+    "fileName": "_index",
+    "relativePath": "_index.md",
+    "frontmatter": {
+      "title": "🪴 bf",
+      "enableToc": false,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "З чого почати",
+        "level": 1
+      },
+      {
+        "heading": "Troubleshooting",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "search",
+        "displayText": "notes/search",
+        "relativePath": "notes/search.md"
+      },
+      {
+        "link": "CJK + Latex Support (测试)",
+        "displayText": "CJK + Latex Support",
+        "relativePath": "notes/CJK + Latex Support (测试).md"
+      },
+      {
+        "link": "callouts",
+        "displayText": "Admonition-style callouts",
+        "relativePath": "notes/callouts.md"
+      },
+      {
+        "link": "showcase.md",
+        "displayText": "",
+        "relativePath": "notes/showcase.md"
+      },
+      {
+        "link": "philosophy.md",
+        "displayText": "",
+        "relativePath": "notes/philosophy.md"
+      },
+      {
+        "link": "setup.md",
+        "displayText": "",
+        "relativePath": "notes/setup.md"
+      },
+      {
+        "link": "updating",
+        "displayText": "update",
+        "relativePath": "notes/updating.md"
+      },
+      {
+        "link": "setup",
+        "displayText": ""
+      },
+      {
+        "link": "troubleshooting.md",
+        "displayText": "",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ]
+  },
+  {
+    "fileName": "post",
+    "relativePath": "templates/post.md",
+    "frontmatter": {
+      "title": "{{title}}",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 26
+        }
+      }
+    }
+  },
+  {
+    "fileName": "private-note",
+    "relativePath": "private/private-note.md",
+    "frontmatter": {
+      "title": "Private Stuff",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 32
+        }
+      }
+    }
+  },
+  {
+    "fileName": "updating",
+    "relativePath": "notes/updating.md",
+    "frontmatter": {
+      "title": "Updating",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 47
+        }
+      }
+    },
+    "aliases": [
+      "update"
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "updating",
+        "relativePath": "_index.md",
+        "displayText": "update"
+      }
+    ]
+  },
+  {
+    "fileName": "troubleshooting",
+    "relativePath": "notes/troubleshooting.md",
+    "frontmatter": {
+      "title": "Troubleshooting and FAQ",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Does Quartz have Latex support?",
+        "level": 3
+      },
+      {
+        "heading": "Can I use \\<Obsidian Plugin\\> in Quartz?",
+        "level": 3
+      },
+      {
+        "heading": "My GitHub pages is just showing the README and not Quartz",
+        "level": 3
+      },
+      {
+        "heading": "Some of my pages have 'January 1, 0001' as the last modified date",
+        "level": 3
+      },
+      {
+        "heading": "Can I publish only a subset of my pages?",
+        "level": 3
+      },
+      {
+        "heading": "Can I host this myself and not on GitHub Pages?",
+        "level": 3
+      },
+      {
+        "heading": "`command not found: hugo-obsidian`",
+        "level": 3
+      },
+      {
+        "heading": "How come my notes aren't being rendered?",
+        "level": 3
+      },
+      {
+        "heading": "My custom domain isn't working!",
+        "level": 3
+      },
+      {
+        "heading": "How do I setup analytics?",
+        "level": 3
+      },
+      {
+        "heading": "How do I change the content on the home page?",
+        "level": 3
+      },
+      {
+        "heading": "How do I change the colours?",
+        "level": 3
+      },
+      {
+        "heading": "How do I add images?",
+        "level": 3
+      },
+      {
+        "heading": "My Interactive Graph and Backlinks aren't up to date",
+        "level": 3
+      },
+      {
+        "heading": "Can I use React/Vue/some other framework?",
+        "level": 3
+      },
+      {
+        "heading": "Still Stuck?",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "CJK + Latex Support (测试).md",
+        "displayText": "",
+        "relativePath": "notes/CJK + Latex Support (测试).md"
+      },
+      {
+        "link": "hosting",
+        "displayText": "",
+        "relativePath": "notes/hosting.md"
+      },
+      {
+        "link": "ignore notes.md",
+        "displayText": "",
+        "relativePath": "notes/ignore notes.md"
+      },
+      {
+        "link": "hosting.md",
+        "displayText": "",
+        "relativePath": "notes/hosting.md"
+      },
+      {
+        "link": "obsidian.md",
+        "displayText": "",
+        "relativePath": "notes/obsidian.md"
+      },
+      {
+        "link": "editing.md",
+        "displayText": "",
+        "relativePath": "notes/editing.md"
+      },
+      {
+        "link": "hosting.md",
+        "displayText": "",
+        "relativePath": "notes/hosting.md"
+      },
+      {
+        "link": "config.md",
+        "displayText": "",
+        "relativePath": "notes/config.md"
+      },
+      {
+        "link": "editing.md",
+        "displayText": "",
+        "relativePath": "notes/editing.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "troubleshooting.md",
+        "relativePath": "_index.md"
+      },
+      {
+        "fileName": "setup",
+        "link": "troubleshooting.md",
+        "relativePath": "notes/setup.md"
+      },
+      {
+        "fileName": "preview changes",
+        "link": "troubleshooting#`command not found: hugo-obsidian`",
+        "relativePath": "notes/preview changes.md",
+        "cleanLink": "troubleshooting",
+        "displayText": "the troubleshooting page"
+      },
+      {
+        "fileName": "hosting",
+        "link": "troubleshooting.md",
+        "relativePath": "notes/hosting.md"
+      },
+      {
+        "fileName": "editing",
+        "link": "troubleshooting.md",
+        "relativePath": "notes/editing.md"
+      },
+      {
+        "fileName": "config",
+        "link": "troubleshooting.md",
+        "relativePath": "notes/config.md"
+      }
+    ]
+  },
+  {
+    "fileName": "showcase",
+    "relativePath": "notes/showcase.md",
+    "frontmatter": {
+      "title": "Showcase",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 27
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "showcase.md",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
+    "fileName": "setup",
+    "relativePath": "notes/setup.md",
+    "tags": [
+      "setup"
+    ],
+    "frontmatter": {
+      "title": "Setup",
+      "weight": -5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 52
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Making your own Quartz",
+        "level": 2
+      },
+      {
+        "heading": "Forking",
+        "level": 3
+      },
+      {
+        "heading": "Cloning",
+        "level": 3
+      },
+      {
+        "heading": "Editing",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "editing.md",
+        "displayText": "",
+        "relativePath": "notes/editing.md"
+      },
+      {
+        "link": "troubleshooting.md",
+        "displayText": "",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "setup.md",
+        "relativePath": "_index.md"
+      },
+      {
+        "fileName": "obsidian",
+        "link": "setup.md",
+        "relativePath": "notes/obsidian.md"
+      }
+    ]
+  },
+  {
+    "fileName": "search",
+    "relativePath": "notes/search.md",
+    "frontmatter": {
+      "title": "Search",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 25
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Full-text",
+        "level": 2
+      },
+      {
+        "heading": "Natural Language",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "search",
+        "relativePath": "_index.md",
+        "displayText": "notes/search"
+      }
+    ]
+  },
+  {
+    "fileName": "preview changes",
+    "relativePath": "notes/preview changes.md",
+    "tags": [
+      "setup"
+    ],
+    "frontmatter": {
+      "title": "Preview Changes",
+      "weight": -2,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 62
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Install `hugo-obsidian`",
+        "level": 2
+      },
+      {
+        "heading": "Installing Hugo",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "troubleshooting#`command not found: hugo-obsidian`",
+        "cleanLink": "troubleshooting",
+        "displayText": "the troubleshooting page",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "link": "hosting.md",
+        "displayText": "",
+        "relativePath": "notes/hosting.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "obsidian",
+        "link": "preview changes.md",
+        "relativePath": "notes/obsidian.md"
+      },
+      {
+        "fileName": "editing",
+        "link": "preview changes.md",
+        "relativePath": "notes/editing.md"
+      },
+      {
+        "fileName": "docker",
+        "link": "preview changes.md",
+        "relativePath": "notes/docker.md"
+      }
+    ]
+  },
+  {
+    "fileName": "philosophy",
+    "relativePath": "notes/philosophy.md",
+    "frontmatter": {
+      "title": "Quartz Philosophy",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Why Quartz?",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "philosophy.md",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
+    "fileName": "obsidian",
+    "relativePath": "notes/obsidian.md",
+    "tags": [
+      "setup"
+    ],
+    "frontmatter": {
+      "title": "Obsidian Vault Integration",
+      "weight": -3,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 73
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Setup",
+        "level": 2
+      },
+      {
+        "heading": "New Vault",
+        "level": 3
+      },
+      {
+        "heading": "Linking an existing Vault",
+        "level": 3
+      },
+      {
+        "heading": "Settings",
+        "level": 2
+      },
+      {
+        "heading": "Templates",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "setup.md",
+        "displayText": "",
+        "relativePath": "notes/setup.md"
+      },
+      {
+        "link": "preview changes.md",
+        "displayText": "",
+        "relativePath": "notes/preview changes.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "troubleshooting",
+        "link": "obsidian.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "editing",
+        "link": "obsidian.md",
+        "relativePath": "notes/editing.md"
+      }
+    ]
+  },
+  {
+    "fileName": "ignore notes",
+    "relativePath": "notes/ignore notes.md",
+    "frontmatter": {
+      "title": "Ignoring Notes",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 33
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Quartz Ignore",
+        "level": 3
+      },
+      {
+        "heading": "Global Ignore",
+        "level": 3
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "troubleshooting",
+        "link": "ignore notes.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "hosting",
+        "link": "ignore notes.md",
+        "relativePath": "notes/hosting.md"
+      }
+    ]
+  },
+  {
+    "fileName": "hosting",
+    "relativePath": "notes/hosting.md",
+    "tags": [
+      "setup"
+    ],
+    "frontmatter": {
+      "title": "Deploying Quartz to the Web",
+      "weight": -1,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 95
+        }
+      }
+    },
+    "aliases": [
+      "hosting"
+    ],
+    "headings": [
+      {
+        "heading": "Hosting on GitHub Pages",
+        "level": 2
+      },
+      {
+        "heading": "Enable GitHub Actions Permissions",
+        "level": 3
+      },
+      {
+        "heading": "Enable GitHub Pages",
+        "level": 3
+      },
+      {
+        "heading": "Pushing Changes",
+        "level": 3
+      },
+      {
+        "heading": "Setting up the Site",
+        "level": 3
+      },
+      {
+        "heading": "Ignoring Files",
+        "level": 3
+      },
+      {
+        "heading": "Docker Support",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "custom Domain.md",
+        "displayText": "",
+        "relativePath": "notes/custom Domain.md"
+      },
+      {
+        "link": "ignore notes.md",
+        "displayText": "",
+        "relativePath": "notes/ignore notes.md"
+      },
+      {
+        "link": "docker.md",
+        "displayText": "",
+        "relativePath": "notes/docker.md"
+      },
+      {
+        "link": "config.md",
+        "displayText": "",
+        "relativePath": "notes/config.md"
+      },
+      {
+        "link": "troubleshooting.md",
+        "displayText": "",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "troubleshooting",
+        "link": "hosting",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "troubleshooting",
+        "link": "hosting.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "troubleshooting",
+        "link": "hosting.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "preview changes",
+        "link": "hosting.md",
+        "relativePath": "notes/preview changes.md"
+      },
+      {
+        "fileName": "editing",
+        "link": "hosting.md",
+        "relativePath": "notes/editing.md"
+      }
+    ]
+  },
+  {
+    "fileName": "editing",
+    "relativePath": "notes/editing.md",
+    "tags": [
+      "setup"
+    ],
+    "frontmatter": {
+      "title": "Editing Content in Quartz",
+      "weight": -4,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 72
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Editing",
+        "level": 2
+      },
+      {
+        "heading": "Folder Structure",
+        "level": 3
+      },
+      {
+        "heading": "Front Matter",
+        "level": 3
+      },
+      {
+        "heading": "Obsidian",
+        "level": 3
+      },
+      {
+        "heading": "Previewing Changes",
+        "level": 2
+      },
+      {
+        "heading": "Publishing Changes",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "obsidian.md",
+        "displayText": "",
+        "relativePath": "notes/obsidian.md"
+      },
+      {
+        "link": "preview changes.md",
+        "displayText": "",
+        "relativePath": "notes/preview changes.md"
+      },
+      {
+        "link": "hosting.md",
+        "displayText": "",
+        "relativePath": "notes/hosting.md"
+      },
+      {
+        "link": "troubleshooting.md",
+        "displayText": "",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "troubleshooting",
+        "link": "editing.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "troubleshooting",
+        "link": "editing.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "setup",
+        "link": "editing.md",
+        "relativePath": "notes/setup.md"
+      }
+    ]
+  },
+  {
+    "fileName": "docker",
+    "relativePath": "notes/docker.md",
+    "tags": [
+      "setup"
+    ],
+    "frontmatter": {
+      "title": "Hosting with Docker",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 54
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Hosting Quartz Locally",
+        "level": 2
+      },
+      {
+        "heading": "Exposing Your Container to the Internet",
+        "level": 2
+      },
+      {
+        "heading": "To Your Public IP Address with Port Forwarding (insecure)",
+        "level": 3
+      },
+      {
+        "heading": "To a Domain using Cloudflare Proxy",
+        "level": 3
+      },
+      {
+        "heading": "To a Domain using a Reverse Proxy",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "preview changes.md",
+        "displayText": "",
+        "relativePath": "notes/preview changes.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "hosting",
+        "link": "docker.md",
+        "relativePath": "notes/hosting.md"
+      }
+    ]
+  },
+  {
+    "fileName": "custom Domain",
+    "relativePath": "notes/custom Domain.md",
+    "frontmatter": {
+      "title": "Custom Domain",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 32
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Registrar",
+        "level": 3
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "hosting",
+        "link": "custom Domain.md",
+        "relativePath": "notes/hosting.md"
+      }
+    ]
+  },
+  {
+    "fileName": "config",
+    "relativePath": "notes/config.md",
+    "tags": [
+      "setup"
+    ],
+    "frontmatter": {
+      "title": "Configuration",
+      "weight": 0,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 59
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Configuration",
+        "level": 2
+      },
+      {
+        "heading": "Code Block Titles",
+        "level": 3
+      },
+      {
+        "heading": "HTML Favicons",
+        "level": 3
+      },
+      {
+        "heading": "Graph View",
+        "level": 3
+      },
+      {
+        "heading": "Styling",
+        "level": 2
+      },
+      {
+        "heading": "Partials",
+        "level": 3
+      },
+      {
+        "heading": "Language Support",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "troubleshooting.md",
+        "displayText": "",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "link": "CJK + Latex Support (测试).md",
+        "displayText": "",
+        "relativePath": "notes/CJK + Latex Support (测试).md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "troubleshooting",
+        "link": "config.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "hosting",
+        "link": "config.md",
+        "relativePath": "notes/hosting.md"
+      },
+      {
+        "fileName": "CJK + Latex Support (测试)",
+        "link": "config.md",
+        "relativePath": "notes/CJK + Latex Support (测试).md"
+      }
+    ]
+  },
+  {
+    "fileName": "CJK + Latex Support (测试)",
+    "relativePath": "notes/CJK + Latex Support (测试).md",
+    "frontmatter": {
+      "title": "CJK + Latex Support (测试)",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 43
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Chinese, Japanese, Korean Support",
+        "level": 2
+      },
+      {
+        "heading": "Latex",
+        "level": 2
+      },
+      {
+        "heading": "RTL",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "config.md",
+        "displayText": "",
+        "relativePath": "notes/config.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "CJK + Latex Support (测试)",
+        "relativePath": "_index.md",
+        "displayText": "CJK + Latex Support"
+      },
+      {
+        "fileName": "troubleshooting",
+        "link": "CJK + Latex Support (测试).md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "config",
+        "link": "CJK + Latex Support (测试).md",
+        "relativePath": "notes/config.md"
+      }
+    ]
+  },
+  {
+    "fileName": "callouts",
+    "relativePath": "notes/callouts.md",
+    "frontmatter": {
+      "title": "Callouts",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 27
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Callout support",
+        "level": 2
+      },
+      {
+        "heading": "Showcase",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "callouts",
+        "relativePath": "_index.md",
+        "displayText": "Admonition-style callouts"
+      }
+    ]
+  }
+]
