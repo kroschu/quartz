@@ -1,9 +1,8 @@
 ---
-title: "Troubleshooting and FAQ"
+title: "Виправлення несправностей та поширені запитання"
 ---
 
-Still having trouble? Here are a list of common questions and problems people encounter when installing Quartz.
-
+Все ще маєте проблеми? Ось список поширених запитань і проблем, з якими люди стикаються під час встановлення Quartz.
 While you're here, join our [Discord](https://discord.gg/cRFFHYye7t) :)
 
 ### Does Quartz have Latex support?
