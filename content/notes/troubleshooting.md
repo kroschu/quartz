@@ -46,7 +46,7 @@ source ~/.bash_profile # again, (~/.zshrc if you are on Mac)
 ```
 
 ### How come my notes aren't being rendered?
-You probably forgot to include front matter in your Markdown files. You can either setup [Obsidian](notes/obsidian.md) to do this for you or you need to manually define it. More details in [the 'how to edit' guide](Редагування%20вмісту.md).
+You probably forgot to include front matter in your Markdown files. You can either setup [Obsidian](Інтеграція%20з%20Obsidian.md) to do this for you or you need to manually define it. More details in [the 'how to edit' guide](Редагування%20вмісту.md).
 
 ### My custom domain isn't working!
 Walk through the steps in [the hosting guide](Розгортання.md) again. Make sure you wait 30 min to 1 hour for changes to take effect.
