@@ -6,7 +6,7 @@ title: "Виправлення несправностей та поширені 
 While you're here, join our [Discord](https://discord.gg/cRFFHYye7t) :)
 
 ### Does Quartz have Latex support?
-Yes! See [CJK + Latex Support (测试)](notes/CJK%20+%20Latex%20Support%20(测试).md) for a brief demo.
+Yes! See [Підтримка Latex](Підтримка%20Latex.md) for a brief demo.
 
 ### Can I use \<Obsidian Plugin\> in Quartz?
 Unless it produces direct Markdown output in the file, no. There currently is no way to bundle plugin code with Quartz.
