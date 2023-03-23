@@ -79,7 +79,7 @@ Please note that the `cname` field should *not* have any path `e.g. end with /qu
 	cname: <YOUR-DOMAIN>
 ```
 
-Have a custom domain? [Learn how to set it up with Quartz ](notes/custom%20Domain.md).
+Have a custom domain? [Learn how to set it up with Quartz ](власний%20домен.md).
 
 ### Ignoring Files
 Only want to publish a subset of all of your notes? Don't worry, Quartz makes this a simple two-step process.
@@ -94,6 +94,6 @@ I would *not use this method* unless you know what you are doing.
 
 Now that your Quartz is live, let's figure out how to make Quartz really *yours*!
 
-> Step 6: 🎨 [Customizing Quartz](notes/config.md)
+> Step 6: 🎨 [Customizing Quartz](Конфігурація.md)
 
 Having problems? Checkout our [FAQ and Troubleshooting guide](notes/troubleshooting.md).
