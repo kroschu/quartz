@@ -38,4 +38,4 @@ make serve
 
 Afterwards, start the Hugo server as shown above and your local backlinks and interactive graph should be populated! Now, let's get it hosted online.
 
-> 🌍 Step 5: [Hosting Quartz online!](notes/hosting.md)
+> 🌍 Step 5: [Hosting Quartz online!](Розгортання.md)

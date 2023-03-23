@@ -1,27 +1,22 @@
----
-title: "Hosting with Docker"
-tags:
-- setup
----
 
-If you want to host Quartz on a machine without using a webpage hosting service, it may be easier to [install Docker Compose](https://docs.docker.com/compose/install/) and follow the instructions below than to [install Quartz's dependencies manually](notes/preview%20changes.md).
-## Hosting Quartz Locally
-You can serve Quartz locally at `http://localhost:1313` with the following script, replacing `/path/to/quartz` with the 
-actual path to your Quartz folder.
+Якщо ви хочете розмістити Quartz на машині без використання хостингу веб-сторінок, може бути простіше [встановити Docker Compose](https://docs.docker.com/compose/install/) і слідувати наведеним нижче інструкціям, ніж [встановлювати залежності Quartz вручну](notes/preview%20changes.md).
+### Локальний хостинг Quartz
+Ви можете розмістити Quartz локально за адресою `http://localhost:1313` за допомогою наступного скрипта, замінивши `/path/to/quartz` на
+фактичним шляхом до вашої теки Quartz.
 
 docker-compose.yml
 ```
 services:
   quartz-hugo:
     image: ghcr.io/jackyzha0/quartz:hugo
-    container_name: quartz-hugo
-    volumes:
+    назва_контейнера: quartz-hugo
+    томи:
       - /path/to/quartz:/quartz
-    ports:
+    порти:
       - 1313:1313
 
-    # optional
-    environment:
+    # необов'язково
+    оточення:
       - HUGO_BIND=0.0.0.0
       - HUGO_BASEURL=http://localhost
       - HUGO_PORT=1313
@@ -29,29 +24,28 @@ services:
       - HUGO_LIVERELOADPORT=-1
 ```
 
-Then run with: `docker-compose up -d` in the same directory as your `docker-compose.yml` file.
+Потім запустіть з: `docker-compose up -d` у тому ж каталозі, де знаходиться ваш файл `docker-compose.yml`.
 
-While the container is running, you can update the `quartz` fork with: `docker exec -it quartz-hugo make update`.
+Поки контейнер працює, ви можете оновити форк `quartz` за допомогою: `docker exec -it quartz-hugo make update`.
 
-## Exposing Your Container to the Internet
+## Оприлюднення вашого контейнера в інтернеті
+### На вашу публічну IP-адресу з переадресацією портів (небезпечно)
 
-### To Your Public IP Address with Port Forwarding (insecure)
+Припускаємо, що ви вже знайомі з [переадресацією портів](https://en.wikipedia.org/wiki/Port_forwarding) і [налаштуванням її на вашій моделі роутера](https://portforward.com):
 
-Assuming you are already familiar with [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) and [setting it up with your router model](https://portforward.com):
+1. Встановіть змінну оточення `HUGO_BASEURL=http://your-public-ip` і запустіть ваш контейнер.
+2. Налаштуйте перенаправлення портів на вашому роутері з порту `p` на `your-local-ip:1313`.
+3. Тепер ви зможете отримати доступ до Quartz з-за меж вашої локальної мережі за адресою `http://your-public-ip:p`.
 
-1. You should set the environment variable `HUGO_BASEURL=http://your-public-ip` and then start your container.
-2. Set up port forwarding on your router from port `p` to `your-local-ip:1313`.
-3. You should now be able to access Quartz from outside your local network at `http://your-public-ip:p`.
+Однак, ваше HTTP-з'єднання буде незашифрованим і **цей метод не є безпечним**.
 
-However, your HTTP connection will be unencrypted and **this method is not secure**.
+### До домену за допомогою проксі Cloudflare
 
-### To a Domain using Cloudflare Proxy
+1. Переадресуйте порт 443 (HTTPS) зі свого комп'ютера.
+2. Придбайте власний домен (наприклад, `your-domain.com`) у [Cloudflare] (https://www.cloudflare.com/products/registrar/). Перенаправте запис DNS A з `your-domain.com` на вашу публічну IP-адресу та увімкніть проксі.
+3. Встановіть змінні оточення `HUGO_BASEURL=https://your-domain.com`, `HUGO_PORT=443` та `HUGO_APPENDPORT=false`. Замініть `1313:1313` на `443:443` для `ports` у файлі `docker-compose.yml`.
+4. Запускайте свій Quartz-контейнер і насолоджуйтеся ним на `https://your-domain.com`!
 
-1. Port forward 443 (HTTPS) from your machine.
-2. Buy a custom domain (say, `your-domain.com`) from [Cloudflare](https://www.cloudflare.com/products/registrar/). Point a DNS A record from `your-domain.com` to your public IP address and enable the proxy.
-3. Set the environment variables `HUGO_BASEURL=https://your-domain.com`, `HUGO_PORT=443`, and `HUGO_APPENDPORT=false`. Change `1313:1313` to `443:443` for the `ports` in `docker-compose.yml`.
-4. Spin up your Quartz container and enjoy it at `https://your-domain.com`!
+### До домену за допомогою зворотного проксі
 
-### To a Domain using a Reverse Proxy
-
-If you want to serve more than just Quartz to the internet on this machine (or don't want to use the Cloudflare registrar and proxy), you should follow the steps in the section above (as appropriate) and also set up a reverse proxy, like [Traefik](https://doc.traefik.io/traefik). Be sure to configure your TLS certificates too!
+Якщо ви хочете обслуговувати на цій машині не тільки Quartz (або не хочете використовувати реєстратор і проксі Cloudflare), вам слід виконати кроки, описані в розділі вище (за необхідності), а також налаштувати зворотний проксі, наприклад, [Traefik] (https://doc.traefik.io/traefik). Не забудьте також налаштувати сертифікати TLS!
