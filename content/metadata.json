@@ -30,33 +30,33 @@
     ],
     "links": [
       {
-        "link": "пошук",
-        "relativePath": "notes/пошук.md"
+        "link": "Пошук",
+        "relativePath": "notes/Пошук.md"
       },
       {
-        "link": "CJK + Latex Support (测试)",
+        "link": "Підтримка Latex",
         "displayText": "CJK + Latex Support",
-        "relativePath": "notes/CJK + Latex Support (测试).md"
+        "relativePath": "notes/Підтримка Latex.md"
       },
       {
-        "link": "callouts",
+        "link": "Виноски",
         "displayText": "Admonition-style callouts",
-        "relativePath": "notes/callouts.md"
+        "relativePath": "notes/Виноски.md"
       },
       {
-        "link": "showcase.md",
+        "link": "Варіанти використання.md",
         "displayText": "",
-        "relativePath": "notes/showcase.md"
+        "relativePath": "notes/Варіанти використання.md"
       },
       {
-        "link": "philosophy.md",
+        "link": "Філософія.md",
         "displayText": "",
-        "relativePath": "notes/philosophy.md"
+        "relativePath": "notes/Філософія.md"
       },
       {
-        "link": "setup.md",
+        "link": "Установка.md",
         "displayText": "",
-        "relativePath": "notes/setup.md"
+        "relativePath": "notes/Установка.md"
       },
       {
         "link": "updating",
@@ -88,7 +88,7 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 26
+          "offset": 28
         }
       }
     }
@@ -113,8 +113,210 @@
     }
   },
   {
-    "fileName": "пошук",
-    "relativePath": "notes/пошук.md",
+    "fileName": "Філософія",
+    "relativePath": "notes/Філософія.md",
+    "frontmatter": {
+      "title": "Філософія Quartz",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Чому Quartz?",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Філософія.md",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Установка",
+    "relativePath": "notes/Установка.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Установка",
+      "weight": -5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 55
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Створення власного Quartz",
+        "level": 2
+      },
+      {
+        "heading": "Форкінг",
+        "level": 3
+      },
+      {
+        "heading": "Клонування",
+        "level": 3
+      },
+      {
+        "heading": "Редагування",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Редагування вмісту.md",
+        "displayText": "",
+        "relativePath": "notes/Редагування вмісту.md"
+      },
+      {
+        "link": "troubleshooting.md",
+        "displayText": "",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Установка.md",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Розгортання",
+    "relativePath": "notes/Розгортання.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Розгортання Quartz в Інтернеті",
+      "weight": -1,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 107
+        }
+      }
+    },
+    "aliases": [
+      "розгортання"
+    ],
+    "headings": [
+      {
+        "heading": "Хостинг на GitHub Pages",
+        "level": 2
+      },
+      {
+        "heading": "Увімкніть дозволи на дії GitHub",
+        "level": 3
+      },
+      {
+        "heading": "Увімкнути сторінки GitHub",
+        "level": 3
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "troubleshooting",
+        "link": "Розгортання.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "troubleshooting",
+        "link": "Розгортання.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "troubleshooting",
+        "link": "Розгортання.md",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Редагування вмісту",
+    "relativePath": "notes/Редагування вмісту.md",
+    "tags": [
+      "setup"
+    ],
+    "frontmatter": {
+      "title": "Редагування вмісту в Quartz",
+      "weight": -4,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 74
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Obsidian",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "troubleshooting.md",
+        "displayText": "",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Установка",
+        "link": "Редагування вмісту.md",
+        "relativePath": "notes/Установка.md"
+      },
+      {
+        "fileName": "troubleshooting",
+        "link": "Редагування вмісту.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "troubleshooting",
+        "link": "Редагування вмісту.md",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Пошук",
+    "relativePath": "notes/Пошук.md",
     "frontmatter": {
       "title": "Пошук",
       "position": {
@@ -132,31 +334,336 @@
     },
     "headings": [
       {
-        "heading": "Natural Language",
+        "heading": "Природна мова",
         "level": 2
       }
     ],
     "links": [
       {
-        "link": "пошук",
-        "relativePath": "notes/пошук.md"
+        "link": "Пошук",
+        "relativePath": "notes/Пошук.md"
       },
       {
-        "link": "CJK + Latex Support (测试)",
-        "displayText": "CJK + Latex Support",
-        "relativePath": "notes/CJK + Latex Support (测试).md"
+        "link": "CJK + підтримка LaTex"
       },
       {
-        "link": "callouts",
-        "displayText": "Admonition-style callouts",
-        "relativePath": "notes/callouts.md"
+        "link": "виноски",
+        "displayText": "нагадування у стилі Admonition",
+        "relativePath": "notes/Виноски.md"
       }
     ],
     "backlinks": [
       {
         "fileName": "_index",
-        "link": "пошук",
+        "link": "Пошук",
         "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Перегляд змін",
+    "relativePath": "notes/Перегляд змін.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Перегляд змін",
+      "weight": -2,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 60
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Встановіть та підключіть `hugo-obsidian` локально",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "docker",
+        "link": "Перегляд змін.md",
+        "relativePath": "notes/docker.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Підтримка Latex",
+    "relativePath": "notes/Підтримка Latex.md",
+    "frontmatter": {
+      "title": "Підтримка Latex",
+      "position": {
+        "start": {
+          "line": 1,
+          "col": 0,
+          "offset": 2
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Латекс",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Підтримка Latex",
+        "relativePath": "_index.md",
+        "displayText": "CJK + Latex Support"
+      },
+      {
+        "fileName": "troubleshooting",
+        "link": "Підтримка Latex.md",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Конфігурація",
+    "relativePath": "notes/Конфігурація.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Конфігурація",
+      "weight": 0,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 62
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Конфігурація",
+        "level": 2
+      },
+      {
+        "heading": "Заголовки блоків коду",
+        "level": 3
+      },
+      {
+        "heading": "HTML-фавікони",
+        "level": 3
+      },
+      {
+        "heading": "Графічне представлення",
+        "level": 3
+      },
+      {
+        "heading": "Стайлінг",
+        "level": 2
+      },
+      {
+        "heading": "Часткові коди",
+        "level": 3
+      },
+      {
+        "heading": "Мовна підтримка",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "troubleshooting.md",
+        "displayText": "",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "troubleshooting",
+        "link": "Конфігурація.md",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ]
+  },
+  {
+    "fileName": "власний домен",
+    "relativePath": "notes/власний домен.md",
+    "frontmatter": {
+      "title": "власний домен",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 32
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Реєстрація",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "Виноски",
+    "relativePath": "notes/Виноски.md",
+    "frontmatter": {
+      "title": "Виноски",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 26
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Підтримка виносок",
+        "level": 2
+      },
+      {
+        "heading": "Вітрина",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Виноски",
+        "relativePath": "_index.md",
+        "displayText": "Admonition-style callouts"
+      },
+      {
+        "fileName": "Пошук",
+        "link": "виноски",
+        "relativePath": "notes/Пошук.md",
+        "displayText": "нагадування у стилі Admonition"
+      }
+    ]
+  },
+  {
+    "fileName": "Варіанти використання",
+    "relativePath": "notes/Варіанти використання.md",
+    "frontmatter": {
+      "title": "Варіанти використання",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 40
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Варіанти використання.md",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Інтеграція з Obsidian",
+    "relativePath": "notes/Інтеграція з Obsidian.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Інтеграція зі сховищем Obsidian",
+      "weight": -3,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 82
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Шаблони",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "troubleshooting",
+        "link": "Інтеграція з Obsidian.md",
+        "relativePath": "notes/troubleshooting.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Ігнорування нотаток",
+    "relativePath": "notes/Ігнорування нотаток.md",
+    "frontmatter": {
+      "title": "Ігнорування нотаток",
+      "position": {
+        "start": {
+          "line": 1,
+          "col": 0,
+          "offset": 2
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 40
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Quartztz Ігнорування нотаток",
+        "level": 3
+      },
+      {
+        "heading": "Глобальний ігнор",
+        "level": 3
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "troubleshooting",
+        "link": "Ігнорування нотаток.md",
+        "relativePath": "notes/troubleshooting.md"
       }
     ]
   },
@@ -276,49 +783,49 @@
     ],
     "links": [
       {
-        "link": "CJK + Latex Support (测试).md",
+        "link": "Підтримка Latex.md",
         "displayText": "",
-        "relativePath": "notes/CJK + Latex Support (测试).md"
+        "relativePath": "notes/Підтримка Latex.md"
       },
       {
-        "link": "hosting",
+        "link": "Розгортання.md",
         "displayText": "",
-        "relativePath": "notes/hosting.md"
+        "relativePath": "notes/Розгортання.md"
       },
       {
-        "link": "ignore notes.md",
+        "link": "Ігнорування нотаток.md",
         "displayText": "",
-        "relativePath": "notes/ignore notes.md"
+        "relativePath": "notes/Ігнорування нотаток.md"
       },
       {
-        "link": "hosting.md",
+        "link": "Розгортання.md",
         "displayText": "",
-        "relativePath": "notes/hosting.md"
+        "relativePath": "notes/Розгортання.md"
       },
       {
-        "link": "obsidian.md",
+        "link": "Інтеграція з Obsidian.md",
         "displayText": "",
-        "relativePath": "notes/obsidian.md"
+        "relativePath": "notes/Інтеграція з Obsidian.md"
       },
       {
-        "link": "editing.md",
+        "link": "Редагування вмісту.md",
         "displayText": "",
-        "relativePath": "notes/editing.md"
+        "relativePath": "notes/Редагування вмісту.md"
       },
       {
-        "link": "hosting.md",
+        "link": "Розгортання.md",
         "displayText": "",
-        "relativePath": "notes/hosting.md"
+        "relativePath": "notes/Розгортання.md"
       },
       {
-        "link": "config.md",
+        "link": "Конфігурація.md",
         "displayText": "",
-        "relativePath": "notes/config.md"
+        "relativePath": "notes/Конфігурація.md"
       },
       {
-        "link": "editing.md",
+        "link": "Редагування вмісту.md",
         "displayText": "",
-        "relativePath": "notes/editing.md"
+        "relativePath": "notes/Редагування вмісту.md"
       }
     ],
     "backlinks": [
@@ -328,39 +835,27 @@
         "relativePath": "_index.md"
       },
       {
-        "fileName": "setup",
+        "fileName": "Установка",
         "link": "troubleshooting.md",
-        "relativePath": "notes/setup.md"
+        "relativePath": "notes/Установка.md"
       },
       {
-        "fileName": "preview changes",
-        "link": "troubleshooting#`command not found: hugo-obsidian`",
-        "relativePath": "notes/preview changes.md",
-        "cleanLink": "troubleshooting",
-        "displayText": "the troubleshooting page"
+        "fileName": "Редагування вмісту",
+        "link": "troubleshooting.md",
+        "relativePath": "notes/Редагування вмісту.md"
       },
       {
-        "fileName": "hosting",
+        "fileName": "Конфігурація",
         "link": "troubleshooting.md",
-        "relativePath": "notes/hosting.md"
-      },
-      {
-        "fileName": "editing",
-        "link": "troubleshooting.md",
-        "relativePath": "notes/editing.md"
-      },
-      {
-        "fileName": "config",
-        "link": "troubleshooting.md",
-        "relativePath": "notes/config.md"
+        "relativePath": "notes/Конфігурація.md"
       }
     ]
   },
   {
-    "fileName": "showcase",
-    "relativePath": "notes/showcase.md",
+    "fileName": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
+    "relativePath": "notes/inbox/Використання Git для синхронізації сховища Obsidian на Android-пристроях.md",
     "frontmatter": {
-      "title": "Showcase",
+      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
       "position": {
         "start": {
           "line": 0,
@@ -370,26 +865,19 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 27
+          "offset": 91
         }
       }
-    },
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "showcase.md",
-        "relativePath": "_index.md"
-      }
-    ]
+    }
   },
   {
-    "fileName": "setup",
-    "relativePath": "notes/setup.md",
+    "fileName": "docker",
+    "relativePath": "notes/docker.md",
     "tags": [
-      "setup"
+      "установка"
     ],
     "frontmatter": {
-      "title": "Setup",
+      "title": "docker",
       "weight": -5,
       "position": {
         "start": {
@@ -406,726 +894,31 @@
     },
     "headings": [
       {
-        "heading": "Making your own Quartz",
+        "heading": "Локальний хостинг Quartz",
+        "level": 3
+      },
+      {
+        "heading": "Оприлюднення вашого контейнера в інтернеті",
         "level": 2
       },
       {
-        "heading": "Forking",
+        "heading": "На вашу публічну IP-адресу з переадресацією портів (небезпечно)",
         "level": 3
       },
       {
-        "heading": "Cloning",
+        "heading": "До домену за допомогою проксі Cloudflare",
         "level": 3
       },
       {
-        "heading": "Editing",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "editing.md",
-        "displayText": "",
-        "relativePath": "notes/editing.md"
-      },
-      {
-        "link": "troubleshooting.md",
-        "displayText": "",
-        "relativePath": "notes/troubleshooting.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "setup.md",
-        "relativePath": "_index.md"
-      },
-      {
-        "fileName": "obsidian",
-        "link": "setup.md",
-        "relativePath": "notes/obsidian.md"
-      }
-    ]
-  },
-  {
-    "fileName": "preview changes",
-    "relativePath": "notes/preview changes.md",
-    "tags": [
-      "setup"
-    ],
-    "frontmatter": {
-      "title": "Preview Changes",
-      "weight": -2,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 62
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Install `hugo-obsidian`",
-        "level": 2
-      },
-      {
-        "heading": "Installing Hugo",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "troubleshooting#`command not found: hugo-obsidian`",
-        "cleanLink": "troubleshooting",
-        "displayText": "the troubleshooting page",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "link": "hosting.md",
-        "displayText": "",
-        "relativePath": "notes/hosting.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "obsidian",
-        "link": "preview changes.md",
-        "relativePath": "notes/obsidian.md"
-      },
-      {
-        "fileName": "editing",
-        "link": "preview changes.md",
-        "relativePath": "notes/editing.md"
-      },
-      {
-        "fileName": "docker",
-        "link": "preview changes.md",
-        "relativePath": "notes/docker.md"
-      }
-    ]
-  },
-  {
-    "fileName": "philosophy",
-    "relativePath": "notes/philosophy.md",
-    "frontmatter": {
-      "title": "Quartz Philosophy",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 36
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Why Quartz?",
-        "level": 2
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "philosophy.md",
-        "relativePath": "_index.md"
-      }
-    ]
-  },
-  {
-    "fileName": "obsidian",
-    "relativePath": "notes/obsidian.md",
-    "tags": [
-      "setup"
-    ],
-    "frontmatter": {
-      "title": "Obsidian Vault Integration",
-      "weight": -3,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 73
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Setup",
-        "level": 2
-      },
-      {
-        "heading": "New Vault",
-        "level": 3
-      },
-      {
-        "heading": "Linking an existing Vault",
-        "level": 3
-      },
-      {
-        "heading": "Settings",
-        "level": 2
-      },
-      {
-        "heading": "Templates",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "setup.md",
-        "displayText": "",
-        "relativePath": "notes/setup.md"
-      },
-      {
-        "link": "preview changes.md",
-        "displayText": "",
-        "relativePath": "notes/preview changes.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "troubleshooting",
-        "link": "obsidian.md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "editing",
-        "link": "obsidian.md",
-        "relativePath": "notes/editing.md"
-      }
-    ]
-  },
-  {
-    "fileName": "hosting",
-    "relativePath": "notes/hosting.md",
-    "tags": [
-      "setup"
-    ],
-    "frontmatter": {
-      "title": "Deploying Quartz to the Web",
-      "weight": -1,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 95
-        }
-      }
-    },
-    "aliases": [
-      "hosting"
-    ],
-    "headings": [
-      {
-        "heading": "Hosting on GitHub Pages",
-        "level": 2
-      },
-      {
-        "heading": "Enable GitHub Actions Permissions",
-        "level": 3
-      },
-      {
-        "heading": "Enable GitHub Pages",
-        "level": 3
-      },
-      {
-        "heading": "Pushing Changes",
-        "level": 3
-      },
-      {
-        "heading": "Setting up the Site",
-        "level": 3
-      },
-      {
-        "heading": "Ignoring Files",
-        "level": 3
-      },
-      {
-        "heading": "Docker Support",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "custom Domain.md",
-        "displayText": "",
-        "relativePath": "notes/custom Domain.md"
-      },
-      {
-        "link": "ignore notes.md",
-        "displayText": "",
-        "relativePath": "notes/ignore notes.md"
-      },
-      {
-        "link": "docker.md",
-        "displayText": "",
-        "relativePath": "notes/docker.md"
-      },
-      {
-        "link": "config.md",
-        "displayText": "",
-        "relativePath": "notes/config.md"
-      },
-      {
-        "link": "troubleshooting.md",
-        "displayText": "",
-        "relativePath": "notes/troubleshooting.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "troubleshooting",
-        "link": "hosting",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "troubleshooting",
-        "link": "hosting.md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "troubleshooting",
-        "link": "hosting.md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "preview changes",
-        "link": "hosting.md",
-        "relativePath": "notes/preview changes.md"
-      },
-      {
-        "fileName": "editing",
-        "link": "hosting.md",
-        "relativePath": "notes/editing.md"
-      }
-    ]
-  },
-  {
-    "fileName": "ignore notes",
-    "relativePath": "notes/ignore notes.md",
-    "frontmatter": {
-      "title": "Ignoring Notes",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 33
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Quartz Ignore",
-        "level": 3
-      },
-      {
-        "heading": "Global Ignore",
-        "level": 3
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "troubleshooting",
-        "link": "ignore notes.md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "hosting",
-        "link": "ignore notes.md",
-        "relativePath": "notes/hosting.md"
-      }
-    ]
-  },
-  {
-    "fileName": "editing",
-    "relativePath": "notes/editing.md",
-    "tags": [
-      "setup"
-    ],
-    "frontmatter": {
-      "title": "Editing Content in Quartz",
-      "weight": -4,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 72
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Editing",
-        "level": 2
-      },
-      {
-        "heading": "Folder Structure",
-        "level": 3
-      },
-      {
-        "heading": "Front Matter",
-        "level": 3
-      },
-      {
-        "heading": "Obsidian",
-        "level": 3
-      },
-      {
-        "heading": "Previewing Changes",
-        "level": 2
-      },
-      {
-        "heading": "Publishing Changes",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "obsidian.md",
-        "displayText": "",
-        "relativePath": "notes/obsidian.md"
-      },
-      {
-        "link": "preview changes.md",
-        "displayText": "",
-        "relativePath": "notes/preview changes.md"
-      },
-      {
-        "link": "hosting.md",
-        "displayText": "",
-        "relativePath": "notes/hosting.md"
-      },
-      {
-        "link": "troubleshooting.md",
-        "displayText": "",
-        "relativePath": "notes/troubleshooting.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "troubleshooting",
-        "link": "editing.md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "troubleshooting",
-        "link": "editing.md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "setup",
-        "link": "editing.md",
-        "relativePath": "notes/setup.md"
-      }
-    ]
-  },
-  {
-    "fileName": "docker",
-    "relativePath": "notes/docker.md",
-    "tags": [
-      "setup"
-    ],
-    "frontmatter": {
-      "title": "Hosting with Docker",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 4,
-          "col": 3,
-          "offset": 54
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Hosting Quartz Locally",
-        "level": 2
-      },
-      {
-        "heading": "Exposing Your Container to the Internet",
-        "level": 2
-      },
-      {
-        "heading": "To Your Public IP Address with Port Forwarding (insecure)",
-        "level": 3
-      },
-      {
-        "heading": "To a Domain using Cloudflare Proxy",
-        "level": 3
-      },
-      {
-        "heading": "To a Domain using a Reverse Proxy",
+        "heading": "До домену за допомогою зворотного проксі",
         "level": 3
       }
     ],
     "links": [
       {
-        "link": "preview changes.md",
+        "link": "Перегляд змін.md",
         "displayText": "",
-        "relativePath": "notes/preview changes.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "hosting",
-        "link": "docker.md",
-        "relativePath": "notes/hosting.md"
-      }
-    ]
-  },
-  {
-    "fileName": "custom Domain",
-    "relativePath": "notes/custom Domain.md",
-    "frontmatter": {
-      "title": "Custom Domain",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 32
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Registrar",
-        "level": 3
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "hosting",
-        "link": "custom Domain.md",
-        "relativePath": "notes/hosting.md"
-      }
-    ]
-  },
-  {
-    "fileName": "config",
-    "relativePath": "notes/config.md",
-    "tags": [
-      "setup"
-    ],
-    "frontmatter": {
-      "title": "Configuration",
-      "weight": 0,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 59
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Configuration",
-        "level": 2
-      },
-      {
-        "heading": "Code Block Titles",
-        "level": 3
-      },
-      {
-        "heading": "HTML Favicons",
-        "level": 3
-      },
-      {
-        "heading": "Graph View",
-        "level": 3
-      },
-      {
-        "heading": "Styling",
-        "level": 2
-      },
-      {
-        "heading": "Partials",
-        "level": 3
-      },
-      {
-        "heading": "Language Support",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "troubleshooting.md",
-        "displayText": "",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "link": "CJK + Latex Support (测试).md",
-        "displayText": "",
-        "relativePath": "notes/CJK + Latex Support (测试).md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "troubleshooting",
-        "link": "config.md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "hosting",
-        "link": "config.md",
-        "relativePath": "notes/hosting.md"
-      },
-      {
-        "fileName": "CJK + Latex Support (测试)",
-        "link": "config.md",
-        "relativePath": "notes/CJK + Latex Support (测试).md"
-      }
-    ]
-  },
-  {
-    "fileName": "CJK + Latex Support (测试)",
-    "relativePath": "notes/CJK + Latex Support (测试).md",
-    "frontmatter": {
-      "title": "CJK + Latex Support (测试)",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 43
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Chinese, Japanese, Korean Support",
-        "level": 2
-      },
-      {
-        "heading": "Latex",
-        "level": 2
-      },
-      {
-        "heading": "RTL",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "config.md",
-        "displayText": "",
-        "relativePath": "notes/config.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "CJK + Latex Support (测试)",
-        "relativePath": "_index.md",
-        "displayText": "CJK + Latex Support"
-      },
-      {
-        "fileName": "пошук",
-        "link": "CJK + Latex Support (测试)",
-        "relativePath": "notes/пошук.md",
-        "displayText": "CJK + Latex Support"
-      },
-      {
-        "fileName": "troubleshooting",
-        "link": "CJK + Latex Support (测试).md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "config",
-        "link": "CJK + Latex Support (测试).md",
-        "relativePath": "notes/config.md"
-      }
-    ]
-  },
-  {
-    "fileName": "callouts",
-    "relativePath": "notes/callouts.md",
-    "frontmatter": {
-      "title": "Callouts",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 27
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Callout support",
-        "level": 2
-      },
-      {
-        "heading": "Showcase",
-        "level": 2
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "callouts",
-        "relativePath": "_index.md",
-        "displayText": "Admonition-style callouts"
-      },
-      {
-        "fileName": "пошук",
-        "link": "callouts",
-        "relativePath": "notes/пошук.md",
-        "displayText": "Admonition-style callouts"
+        "relativePath": "notes/Перегляд змін.md"
       }
     ]
   }
