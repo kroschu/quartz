@@ -113,6 +113,54 @@
     }
   },
   {
+    "fileName": "пошук",
+    "relativePath": "notes/пошук.md",
+    "frontmatter": {
+      "title": "Пошук",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 22
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Natural Language",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "пошук",
+        "relativePath": "notes/пошук.md"
+      },
+      {
+        "link": "CJK + Latex Support (测试)",
+        "displayText": "CJK + Latex Support",
+        "relativePath": "notes/CJK + Latex Support (测试).md"
+      },
+      {
+        "link": "callouts",
+        "displayText": "Admonition-style callouts",
+        "relativePath": "notes/callouts.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "пошук",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
     "fileName": "updating",
     "relativePath": "notes/updating.md",
     "frontmatter": {
@@ -146,7 +194,7 @@
     "fileName": "troubleshooting",
     "relativePath": "notes/troubleshooting.md",
     "frontmatter": {
-      "title": "Troubleshooting and FAQ",
+      "title": "Виправлення несправностей та поширені запитання",
       "position": {
         "start": {
           "line": 0,
@@ -156,7 +204,7 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 42
+          "offset": 66
         }
       }
     },
@@ -564,47 +612,6 @@
     ]
   },
   {
-    "fileName": "ignore notes",
-    "relativePath": "notes/ignore notes.md",
-    "frontmatter": {
-      "title": "Ignoring Notes",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 33
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Quartz Ignore",
-        "level": 3
-      },
-      {
-        "heading": "Global Ignore",
-        "level": 3
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "troubleshooting",
-        "link": "ignore notes.md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "hosting",
-        "link": "ignore notes.md",
-        "relativePath": "notes/hosting.md"
-      }
-    ]
-  },
-  {
     "fileName": "hosting",
     "relativePath": "notes/hosting.md",
     "tags": [
@@ -711,6 +718,47 @@
         "fileName": "editing",
         "link": "hosting.md",
         "relativePath": "notes/editing.md"
+      }
+    ]
+  },
+  {
+    "fileName": "ignore notes",
+    "relativePath": "notes/ignore notes.md",
+    "frontmatter": {
+      "title": "Ignoring Notes",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 33
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Quartz Ignore",
+        "level": 3
+      },
+      {
+        "heading": "Global Ignore",
+        "level": 3
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "troubleshooting",
+        "link": "ignore notes.md",
+        "relativePath": "notes/troubleshooting.md"
+      },
+      {
+        "fileName": "hosting",
+        "link": "ignore notes.md",
+        "relativePath": "notes/hosting.md"
       }
     ]
   },
@@ -1021,6 +1069,12 @@
         "displayText": "CJK + Latex Support"
       },
       {
+        "fileName": "пошук",
+        "link": "CJK + Latex Support (测试)",
+        "relativePath": "notes/пошук.md",
+        "displayText": "CJK + Latex Support"
+      },
+      {
         "fileName": "troubleshooting",
         "link": "CJK + Latex Support (测试).md",
         "relativePath": "notes/troubleshooting.md"
@@ -1065,6 +1119,12 @@
         "fileName": "_index",
         "link": "callouts",
         "relativePath": "_index.md",
+        "displayText": "Admonition-style callouts"
+      },
+      {
+        "fileName": "пошук",
+        "link": "callouts",
+        "relativePath": "notes/пошук.md",
         "displayText": "Admonition-style callouts"
       }
     ]
