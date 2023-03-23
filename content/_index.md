@@ -5,16 +5,16 @@ enableToc: false
 
 Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
 
-1. Надзвичайно швидкий  [[пошук]] природньою мовою
+1. Надзвичайно швидкий  [[Пошук]] природньою мовою
 2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
 3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
+4. Built-in [[Підтримка Latex | CJK + Latex Support]] and [[Виноски | Admonition-style callouts]]
 5. Support for both Markdown Links and Wikilinks
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
+Check out some of the [amazing gardens that community members](Варіанти%20використання.md) have published with Quartz or read about [why I made Quartz](Філософія.md) to begin with.
 
 # З чого почати 8
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
+> 📚 Step 1: [Setup your own digital garden using Quartz](Установка.md)
 
 Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
 
