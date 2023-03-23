@@ -3,83 +3,83 @@ title: "Виправлення несправностей та поширені 
 ---
 
 Все ще маєте проблеми? Ось список поширених запитань і проблем, з якими люди стикаються під час встановлення Quartz.
-While you're here, join our [Discord](https://discord.gg/cRFFHYye7t) :)
+Поки ви тут, приєднуйтесь до нашого [Discord](https://discord.gg/cRFFHYye7t) :)
 
-### Does Quartz have Latex support?
-Yes! See [Підтримка Latex](Підтримка%20Latex.md) for a brief demo.
+### Чи підтримує Quartz латекс?
+Так! Дивіться [Підтримка Latex](Підтримка%20Latex.md) для короткої демонстрації.
 
-### Can I use \<Obsidian Plugin\> in Quartz?
-Unless it produces direct Markdown output in the file, no. There currently is no way to bundle plugin code with Quartz.
+### Чи можна використовувати \<Obsidian Plugin\> у Quartz?
+Якщо він не виводить безпосередньо Markdown у файл, то ні. Наразі немає можливості об'єднати код плагіна з Quartz.
 
-The easiest way would be to add your own HTML partial that supports the functionality you are looking for.
+Найпростіший спосіб - додати власний HTML-файл, який підтримує потрібну вам функціональність.
 
-### My GitHub pages is just showing the README and not Quartz
-Make sure you set the source to deploy from `master` (and not `hugo`) using `/ (root)`! See more in the [Розгортання](Розгортання.md) guide
+### На моїх сторінках GitHub відображається лише README, а не Quartz
+Переконайтеся, що ви встановили розгортання коду з `master` (а не `hugo`) за допомогою `/ (root)`! Дивіться більше у посібнику [Розгортання](Розгортання.md)
 
-### Some of my pages have 'January 1, 0001' as the last modified date
-This is a problem caused by `git` treating files as case-insensitive by default and some of your posts probably have capitalized file names. You can turn this off in your Quartz by running this command.
+### Деякі з моїх сторінок мають дату останньої зміни '1 січня 0001'.
+Це проблема, спричинена тим, що `git` за замовчуванням розглядає файли як нечутливі до регістру, і деякі з ваших дописів, ймовірно, мають назви файлів з великої літери. Ви можете вимкнути цю опцію у вашому Quartz, виконавши цю команду.
 
-```shell
-# in the root of your Quartz (same folder as config.toml)
+```hell
+# у корені вашого Quartz (у тій самій теці, що і config.toml)
 git config core.ignorecase true
 
-# or globally (not recommended)
+# або глобально (не рекомендується)
 git config --global core.ignorecase true
 ```
 
-### Can I publish only a subset of my pages?
-Yes! Quartz makes selective publishing really easy. Heres a guide on [excluding pages from being published](Ігнорування%20нотаток.md).
+### Чи можу я опублікувати лише частину своїх сторінок?
+Так! Quartz робить вибіркову публікацію дуже простою. Ось посібник з [виключення сторінок з публікації] (Ігнорування%20нотаток.md).
 
-### Can I host this myself and not on GitHub Pages?
-Yes! All built files can be found under `/public` in the `master` branch. More details under [Розгортання](Розгортання.md).
+### Чи можу я розмістити це самостійно, а не на GitHub Pages?
+Так! Всі зібрані файли можна знайти в розділі `/public` у гілці `master`. Більш детальна інформація у [Розгортання](Розгортання.md).
 
-### `command not found: hugo-obsidian`
-Make sure you set your `GOPATH` correctly! This will allow your terminal to correctly recognize `hugo-obsidian` as an executable.
+### `команду не знайдено: hugo-obsidian`.
+Переконайтеся, що ви правильно встановили `GOPATH`! Це дозволить вашому терміналу правильно розпізнати `hugo-obsidian` як виконуваний файл.
 
-```shell
-# Add the following 2 lines to your ~/.bash_profile (~/.zshrc if you are on Mac)
+```hell
+# Додайте наступні 2 рядки до вашого ~/.bash_profile (~/.zshrc, якщо ви використовуєте Mac)
 export GOPATH=/Users/$USER/go
 export PATH=$GOPATH/bin:$PATH
 
-# In your current terminal, to reload the session
-source ~/.bash_profile # again, (~/.zshrc if you are on Mac)
+# У поточному терміналі, щоб перезавантажити сеанс
+source ~/.bash_profile # ще раз, (~/.zshrc, якщо ви на Mac)
 ```
 
-### How come my notes aren't being rendered?
-You probably forgot to include front matter in your Markdown files. You can either setup [Obsidian](Інтеграція%20з%20Obsidian.md) to do this for you or you need to manually define it. More details in [the 'how to edit' guide](Редагування%20вмісту.md).
+### Чому не відображаються мої нотатки?
+Ймовірно, ви забули додати обкладинку до ваших файлів Markdown. Ви можете налаштувати [Obsidian](Інтеграція%20з%20Obsidian.md), щоб зробити це за вас, або вам потрібно визначити його вручну. Більше подробиць у [посібнику "як редагувати"](Редагування%20вмісту.md).
 
-### My custom domain isn't working!
-Walk through the steps in [the hosting guide](Розгортання.md) again. Make sure you wait 30 min to 1 hour for changes to take effect.
+### Мій власний домен не працює!
+Повторіть кроки в [посібнику з хостингу](Розгортання.md). Зачекайте від 30 хвилин до 1 години, поки зміни набудуть чинності.
 
-### How do I setup analytics?
-Quartz by default uses [Plausible](https://plausible.io/) for analytics. 
+### Як налаштувати аналітику?
+За замовчуванням Quartz використовує [Plausible](https://plausible.io/) для аналітики.
 
-If you would prefer to use Google Analytics, you can follow this [guide in the Hugo documentation](https://gohugo.io/templates/internal/#google-analytics). 
+Якщо ви бажаєте використовувати Google Analytics, ви можете скористатися цією [інструкцією в документації Hugo](https://gohugo.io/templates/internal/#google-analytics).
 
-Alternatively, you can also import your Google Analytics data into Plausible by [following this guide](https://plausible.io/docs/google-analytics-import).
+Крім того, ви також можете імпортувати дані з Google Analytics до Plausible, дотримуючись цієї інструкції (https://plausible.io/docs/google-analytics-import).
 
 
-### How do I change the content on the home page?
-To edit the main home page, open `/content/_index.md`.
+### Як змінити вміст на головній сторінці?
+Щоб відредагувати головну домашню сторінку, відкрийте `/content/_index.md`.
 
-### How do I change the colours?
-You can change the theme by editing `assets/custom.scss`. More details on customization and themeing can be found in the [customization guide](Конфігурація.md).
+### Як змінити кольори?
+Ви можете змінити тему, відредагувавши `assets/custom.scss`. Більш детальну інформацію про кастомізацію та зміну тем можна знайти у [посібнику з кастомізації] (Конфігурація.md).
 
-### How do I add images?
-You can put images anywhere in the `/content` folder.
+### Як додати зображення?
+Ви можете додавати зображення будь-де в папці `/content`.
 
 ```markdown
-Example image (source is in content/notes/images/example.png)
-![Example Image](/content/notes/images/example.png)
+Приклад зображення (джерело знаходиться у content/notes/images/example.png)
+![Приклад зображення](/content/notes/images/example.png)
 ```
 
-### My Interactive Graph and Backlinks aren't up to date
-By default, the `linkIndex.json` (which Quartz needs to generate the Interactive Graph and Backlinks) are not regenerated locally. To set that up, see the guide on [local editing](Редагування%20вмісту.md)
+### Мій інтерактивний графік та зворотні посилання застаріли
+За замовчуванням, файл `linkIndex.json` (який потрібен Quartz для створення інтерактивного графіка та зворотних посилань) не оновлюється локально. Щоб налаштувати це, див. посібник з [локального редагування] (Редагування%20вмісту.md)
 
-### Can I use React/Vue/some other framework?
-Not out of the box. You could probably make it work by editing `/layouts/_default/single.html` but that's not what Quartz is designed to work with. 99% of things you are trying to do with those frameworks you can accomplish perfectly fine using just vanilla HTML/CSS/JS.
+### Чи можу я використовувати React/Vue/інший фреймворк?
+Ні, не з коробки. Можливо, ви могли б змусити його працювати, відредагувавши `/layouts/_default/single.html`, але це не те, з чим розроблено Quartz. 99% речей, які ви намагаєтеся зробити за допомогою цих фреймворків, ви можете чудово виконати за допомогою звичайного HTML/CSS/JS.
 
-## Still Stuck?
-Quartz isn't perfect! If you're still having troubles, file an issue in the GitHub repo with as much information as you can reasonably provide. Alternatively, you can message me on [Twitter](https://twitter.com/_jzhao) and I'll try to get back to you as soon as I can.
+## Все ще застрягли?
+Quartz не ідеальний! Якщо у вас все ще виникають проблеми, створіть проблему в репозиторії GitHub, надавши якомога більше інформації. Крім того, ви можете написати мені в [Twitter] (https://twitter.com/_jzhao), і я постараюся відповісти вам якнайшвидше.
 
-🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
+🐛 [Подати проблему] (https://github.com/jackyzha0/quartz/issues)
