@@ -9,7 +9,7 @@ weight: -3
 2. Увімкніть параметр **Автоматично оновлювати внутрішні посилання**.
 
 
-![[notes/images/obsidian-settings.png]]
+![[images/obsidian-settings.png]]
 *Налаштування Obsidian
 
 ## Шаблони
