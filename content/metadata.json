@@ -113,38 +113,6 @@
     }
   },
   {
-    "fileName": "Філософія",
-    "relativePath": "notes/Філософія.md",
-    "frontmatter": {
-      "title": "Філософія Quartz",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 35
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Чому Quartz?",
-        "level": 2
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Філософія.md",
-        "relativePath": "_index.md"
-      }
-    ]
-  },
-  {
     "fileName": "Установка",
     "relativePath": "notes/Установка.md",
     "tags": [
@@ -200,6 +168,38 @@
       {
         "fileName": "_index",
         "link": "Установка.md",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Філософія",
+    "relativePath": "notes/Філософія.md",
+    "frontmatter": {
+      "title": "Філософія Quartz",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Чому Quartz?",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Філософія.md",
         "relativePath": "_index.md"
       }
     ]
@@ -262,6 +262,52 @@
     ]
   },
   {
+    "fileName": "Пошук",
+    "relativePath": "notes/Пошук.md",
+    "frontmatter": {
+      "title": "Пошук",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 22
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Природна мова",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Пошук",
+        "relativePath": "notes/Пошук.md"
+      },
+      {
+        "link": "CJK + підтримка LaTex"
+      },
+      {
+        "link": "виноски",
+        "displayText": "нагадування у стилі Admonition",
+        "relativePath": "notes/Виноски.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Пошук",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
     "fileName": "Редагування вмісту",
     "relativePath": "notes/Редагування вмісту.md",
     "tags": [
@@ -311,52 +357,6 @@
         "fileName": "troubleshooting",
         "link": "Редагування вмісту.md",
         "relativePath": "notes/troubleshooting.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Пошук",
-    "relativePath": "notes/Пошук.md",
-    "frontmatter": {
-      "title": "Пошук",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 22
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Природна мова",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Пошук",
-        "relativePath": "notes/Пошук.md"
-      },
-      {
-        "link": "CJK + підтримка LaTex"
-      },
-      {
-        "link": "виноски",
-        "displayText": "нагадування у стилі Admonition",
-        "relativePath": "notes/Виноски.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Пошук",
-        "relativePath": "_index.md"
       }
     ]
   },
