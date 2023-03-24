@@ -1,5 +1,5 @@
 ---
-title: S–BPM
+title: "S–BPM"
 ---
 
 **S–BPM** є суб'єктно-орієнтованим підходом до управління бізнес-процесами (S–BPM - Subject-oriented BPM).
