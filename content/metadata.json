@@ -740,7 +740,7 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 40
+          "offset": 38
         }
       }
     },
@@ -770,7 +770,7 @@
         "end": {
           "line": 5,
           "col": 3,
-          "offset": 82
+          "offset": 77
         }
       }
     },
@@ -797,12 +797,12 @@
         "start": {
           "line": 1,
           "col": 0,
-          "offset": 2
+          "offset": 1
         },
         "end": {
           "line": 3,
           "col": 3,
-          "offset": 40
+          "offset": 37
         }
       }
     },
@@ -831,7 +831,7 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 91
+          "offset": 89
         }
       }
     }
