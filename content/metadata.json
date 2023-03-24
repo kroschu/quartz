@@ -59,18 +59,18 @@
         "relativePath": "notes/Установка.md"
       },
       {
-        "link": "updating",
+        "link": "Оновлення",
         "displayText": "update",
-        "relativePath": "notes/updating.md"
+        "relativePath": "notes/Оновлення.md"
       },
       {
         "link": "setup",
         "displayText": ""
       },
       {
-        "link": "troubleshooting.md",
+        "link": "Усунення проблем.md",
         "displayText": "",
-        "relativePath": "notes/troubleshooting.md"
+        "relativePath": "notes/Усунення проблем.md"
       }
     ]
   },
@@ -113,6 +113,177 @@
     }
   },
   {
+    "fileName": "Філософія",
+    "relativePath": "notes/Філософія.md",
+    "frontmatter": {
+      "title": "Філософія Quartz",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Чому Quartz?",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Філософія.md",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Усунення проблем",
+    "relativePath": "notes/Усунення проблем.md",
+    "frontmatter": {
+      "title": "Усунення проблем та поширені запитання",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 57
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Чи підтримує Quartz латекс?",
+        "level": 3
+      },
+      {
+        "heading": "Чи можна використовувати \\<Obsidian Plugin\\> у Quartz?",
+        "level": 3
+      },
+      {
+        "heading": "На моїх сторінках GitHub відображається лише README, а не Quartz",
+        "level": 3
+      },
+      {
+        "heading": "Деякі з моїх сторінок мають дату останньої зміни '1 січня 0001'.",
+        "level": 3
+      },
+      {
+        "heading": "Чи можу я опублікувати лише частину своїх сторінок?",
+        "level": 3
+      },
+      {
+        "heading": "Чи можу я розмістити це самостійно, а не на GitHub Pages?",
+        "level": 3
+      },
+      {
+        "heading": "`команду не знайдено: hugo-obsidian`.",
+        "level": 3
+      },
+      {
+        "heading": "Чому не відображаються мої нотатки?",
+        "level": 3
+      },
+      {
+        "heading": "Мій власний домен не працює!",
+        "level": 3
+      },
+      {
+        "heading": "Як налаштувати аналітику?",
+        "level": 3
+      },
+      {
+        "heading": "Як змінити вміст на головній сторінці?",
+        "level": 3
+      },
+      {
+        "heading": "Як змінити кольори?",
+        "level": 3
+      },
+      {
+        "heading": "Як додати зображення?",
+        "level": 3
+      },
+      {
+        "heading": "Мій інтерактивний графік та зворотні посилання застаріли",
+        "level": 3
+      },
+      {
+        "heading": "Чи можу я використовувати React/Vue/інший фреймворк?",
+        "level": 3
+      },
+      {
+        "heading": "Все ще застрягли?",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Підтримка Latex.md",
+        "displayText": "",
+        "relativePath": "notes/Підтримка Latex.md"
+      },
+      {
+        "link": "Розгортання.md",
+        "displayText": "",
+        "relativePath": "notes/Розгортання.md"
+      },
+      {
+        "link": "Розгортання.md",
+        "displayText": "",
+        "relativePath": "notes/Розгортання.md"
+      },
+      {
+        "link": "Інтеграція з Obsidian.md",
+        "displayText": "",
+        "relativePath": "notes/Інтеграція з Obsidian.md"
+      },
+      {
+        "link": "Редагування вмісту.md",
+        "displayText": "",
+        "relativePath": "notes/Редагування вмісту.md"
+      },
+      {
+        "link": "Розгортання.md",
+        "displayText": "",
+        "relativePath": "notes/Розгортання.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Усунення проблем.md",
+        "relativePath": "_index.md"
+      },
+      {
+        "fileName": "Установка",
+        "link": "Усунення проблем.md",
+        "relativePath": "notes/Установка.md"
+      },
+      {
+        "fileName": "Редагування вмісту",
+        "link": "Усунення проблем.md",
+        "relativePath": "notes/Редагування вмісту.md"
+      },
+      {
+        "fileName": "Конфігурація",
+        "link": "Усунення проблем.md",
+        "relativePath": "notes/Конфігурація.md"
+      }
+    ]
+  },
+  {
     "fileName": "Установка",
     "relativePath": "notes/Установка.md",
     "tags": [
@@ -130,7 +301,7 @@
         "end": {
           "line": 5,
           "col": 3,
-          "offset": 55
+          "offset": 60
         }
       }
     },
@@ -159,47 +330,15 @@
         "relativePath": "notes/Редагування вмісту.md"
       },
       {
-        "link": "troubleshooting.md",
+        "link": "Усунення проблем.md",
         "displayText": "",
-        "relativePath": "notes/troubleshooting.md"
+        "relativePath": "notes/Усунення проблем.md"
       }
     ],
     "backlinks": [
       {
         "fileName": "_index",
         "link": "Установка.md",
-        "relativePath": "_index.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Філософія",
-    "relativePath": "notes/Філософія.md",
-    "frontmatter": {
-      "title": "Філософія Quartz",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 35
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Чому Quartz?",
-        "level": 2
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Філософія.md",
         "relativePath": "_index.md"
       }
     ]
@@ -245,19 +384,71 @@
     ],
     "backlinks": [
       {
-        "fileName": "troubleshooting",
+        "fileName": "Усунення проблем",
         "link": "Розгортання.md",
-        "relativePath": "notes/troubleshooting.md"
+        "relativePath": "notes/Усунення проблем.md"
       },
       {
-        "fileName": "troubleshooting",
+        "fileName": "Усунення проблем",
         "link": "Розгортання.md",
-        "relativePath": "notes/troubleshooting.md"
+        "relativePath": "notes/Усунення проблем.md"
       },
       {
-        "fileName": "troubleshooting",
+        "fileName": "Усунення проблем",
         "link": "Розгортання.md",
-        "relativePath": "notes/troubleshooting.md"
+        "relativePath": "notes/Усунення проблем.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Редагування вмісту",
+    "relativePath": "notes/Редагування вмісту.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Редагування вмісту в Quartz",
+      "weight": -4,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 78
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Obsidian",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "obsidian.md",
+        "displayText": ""
+      },
+      {
+        "link": "Усунення проблем.md",
+        "displayText": "",
+        "relativePath": "notes/Усунення проблем.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Усунення проблем",
+        "link": "Редагування вмісту.md",
+        "relativePath": "notes/Усунення проблем.md"
+      },
+      {
+        "fileName": "Установка",
+        "link": "Редагування вмісту.md",
+        "relativePath": "notes/Установка.md"
       }
     ]
   },
@@ -275,7 +466,7 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 22
+          "offset": 24
         }
       }
     },
@@ -286,10 +477,6 @@
       }
     ],
     "links": [
-      {
-        "link": "Пошук",
-        "relativePath": "notes/Пошук.md"
-      },
       {
         "link": "CJK + підтримка LaTex"
       },
@@ -304,59 +491,6 @@
         "fileName": "_index",
         "link": "Пошук",
         "relativePath": "_index.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Редагування вмісту",
-    "relativePath": "notes/Редагування вмісту.md",
-    "tags": [
-      "setup"
-    ],
-    "frontmatter": {
-      "title": "Редагування вмісту в Quartz",
-      "weight": -4,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 74
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Obsidian",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "troubleshooting.md",
-        "displayText": "",
-        "relativePath": "notes/troubleshooting.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Установка",
-        "link": "Редагування вмісту.md",
-        "relativePath": "notes/Установка.md"
-      },
-      {
-        "fileName": "troubleshooting",
-        "link": "Редагування вмісту.md",
-        "relativePath": "notes/troubleshooting.md"
-      },
-      {
-        "fileName": "troubleshooting",
-        "link": "Редагування вмісту.md",
-        "relativePath": "notes/troubleshooting.md"
       }
     ]
   },
@@ -428,9 +562,39 @@
         "displayText": "CJK + Latex Support"
       },
       {
-        "fileName": "troubleshooting",
+        "fileName": "Усунення проблем",
         "link": "Підтримка Latex.md",
-        "relativePath": "notes/troubleshooting.md"
+        "relativePath": "notes/Усунення проблем.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Оновлення",
+    "relativePath": "notes/Оновлення.md",
+    "frontmatter": {
+      "title": "Оновлення",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 48
+        }
+      }
+    },
+    "aliases": [
+      "update"
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Оновлення",
+        "relativePath": "_index.md",
+        "displayText": "update"
       }
     ]
   },
@@ -488,22 +652,15 @@
     ],
     "links": [
       {
-        "link": "troubleshooting.md",
+        "link": "Усунення проблем.md",
         "displayText": "",
-        "relativePath": "notes/troubleshooting.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "troubleshooting",
-        "link": "Конфігурація.md",
-        "relativePath": "notes/troubleshooting.md"
+        "relativePath": "notes/Усунення проблем.md"
       }
     ]
   },
   {
-    "fileName": "власний домен",
-    "relativePath": "notes/власний домен.md",
+    "fileName": "Власний домен",
+    "relativePath": "notes/Власний домен.md",
     "frontmatter": {
       "title": "власний домен",
       "position": {
@@ -515,7 +672,7 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 32
+          "offset": 30
         }
       }
     },
@@ -625,9 +782,9 @@
     ],
     "backlinks": [
       {
-        "fileName": "troubleshooting",
+        "fileName": "Усунення проблем",
         "link": "Інтеграція з Obsidian.md",
-        "relativePath": "notes/troubleshooting.md"
+        "relativePath": "notes/Усунення проблем.md"
       }
     ]
   },
@@ -657,197 +814,6 @@
       {
         "heading": "Глобальний ігнор",
         "level": 3
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "troubleshooting",
-        "link": "Ігнорування нотаток.md",
-        "relativePath": "notes/troubleshooting.md"
-      }
-    ]
-  },
-  {
-    "fileName": "updating",
-    "relativePath": "notes/updating.md",
-    "frontmatter": {
-      "title": "Updating",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 4,
-          "col": 3,
-          "offset": 47
-        }
-      }
-    },
-    "aliases": [
-      "update"
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "updating",
-        "relativePath": "_index.md",
-        "displayText": "update"
-      }
-    ]
-  },
-  {
-    "fileName": "troubleshooting",
-    "relativePath": "notes/troubleshooting.md",
-    "frontmatter": {
-      "title": "Виправлення несправностей та поширені запитання",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 66
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Does Quartz have Latex support?",
-        "level": 3
-      },
-      {
-        "heading": "Can I use \\<Obsidian Plugin\\> in Quartz?",
-        "level": 3
-      },
-      {
-        "heading": "My GitHub pages is just showing the README and not Quartz",
-        "level": 3
-      },
-      {
-        "heading": "Some of my pages have 'January 1, 0001' as the last modified date",
-        "level": 3
-      },
-      {
-        "heading": "Can I publish only a subset of my pages?",
-        "level": 3
-      },
-      {
-        "heading": "Can I host this myself and not on GitHub Pages?",
-        "level": 3
-      },
-      {
-        "heading": "`command not found: hugo-obsidian`",
-        "level": 3
-      },
-      {
-        "heading": "How come my notes aren't being rendered?",
-        "level": 3
-      },
-      {
-        "heading": "My custom domain isn't working!",
-        "level": 3
-      },
-      {
-        "heading": "How do I setup analytics?",
-        "level": 3
-      },
-      {
-        "heading": "How do I change the content on the home page?",
-        "level": 3
-      },
-      {
-        "heading": "How do I change the colours?",
-        "level": 3
-      },
-      {
-        "heading": "How do I add images?",
-        "level": 3
-      },
-      {
-        "heading": "My Interactive Graph and Backlinks aren't up to date",
-        "level": 3
-      },
-      {
-        "heading": "Can I use React/Vue/some other framework?",
-        "level": 3
-      },
-      {
-        "heading": "Still Stuck?",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Підтримка Latex.md",
-        "displayText": "",
-        "relativePath": "notes/Підтримка Latex.md"
-      },
-      {
-        "link": "Розгортання.md",
-        "displayText": "",
-        "relativePath": "notes/Розгортання.md"
-      },
-      {
-        "link": "Ігнорування нотаток.md",
-        "displayText": "",
-        "relativePath": "notes/Ігнорування нотаток.md"
-      },
-      {
-        "link": "Розгортання.md",
-        "displayText": "",
-        "relativePath": "notes/Розгортання.md"
-      },
-      {
-        "link": "Інтеграція з Obsidian.md",
-        "displayText": "",
-        "relativePath": "notes/Інтеграція з Obsidian.md"
-      },
-      {
-        "link": "Редагування вмісту.md",
-        "displayText": "",
-        "relativePath": "notes/Редагування вмісту.md"
-      },
-      {
-        "link": "Розгортання.md",
-        "displayText": "",
-        "relativePath": "notes/Розгортання.md"
-      },
-      {
-        "link": "Конфігурація.md",
-        "displayText": "",
-        "relativePath": "notes/Конфігурація.md"
-      },
-      {
-        "link": "Редагування вмісту.md",
-        "displayText": "",
-        "relativePath": "notes/Редагування вмісту.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "troubleshooting.md",
-        "relativePath": "_index.md"
-      },
-      {
-        "fileName": "Установка",
-        "link": "troubleshooting.md",
-        "relativePath": "notes/Установка.md"
-      },
-      {
-        "fileName": "Редагування вмісту",
-        "link": "troubleshooting.md",
-        "relativePath": "notes/Редагування вмісту.md"
-      },
-      {
-        "fileName": "Конфігурація",
-        "link": "troubleshooting.md",
-        "relativePath": "notes/Конфігурація.md"
       }
     ]
   },
@@ -888,7 +854,7 @@
         "end": {
           "line": 5,
           "col": 3,
-          "offset": 52
+          "offset": 57
         }
       }
     },
