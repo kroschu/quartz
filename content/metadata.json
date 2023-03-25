@@ -582,7 +582,7 @@
         "end": {
           "line": 4,
           "col": 3,
-          "offset": 48
+          "offset": 44
         }
       }
     },
@@ -818,6 +818,414 @@
     ]
   },
   {
+    "fileName": "Цикл управління знаннями",
+    "relativePath": "notes/inbox/Цикл управління знаннями.md",
+    "frontmatter": {
+      "title": "Цикл управління знаннями",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 41
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Накопичення",
+        "level": 4
+      },
+      {
+        "heading": "Структурування",
+        "level": 4
+      },
+      {
+        "heading": "Формалізація і програмна реалізація",
+        "level": 4
+      },
+      {
+        "heading": "Обслуговування",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "fileName": "Управління знаннями",
+    "relativePath": "notes/inbox/Управління знаннями.md",
+    "frontmatter": {
+      "title": "Управління знаннями",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "**Рівень** 1.",
+        "level": 2
+      },
+      {
+        "heading": "**Рівень** 2.",
+        "level": 2
+      },
+      {
+        "heading": "**Витяг**.",
+        "level": 2
+      },
+      {
+        "heading": "**Структурування**.",
+        "level": 2
+      },
+      {
+        "heading": "**Формалізація** і програмна реалізація.",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Технологічна операція",
+    "relativePath": "notes/inbox/Технологічна операція.md",
+    "frontmatter": {
+      "title": "Технологічна операція",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Сучасний стан та опис проекту",
+    "relativePath": "notes/inbox/Сучасний стан та опис проекту.md",
+    "frontmatter": {
+      "title": "Сучасний стан та опис проекту",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 46
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "**Що зараз собою являє проект ТребаТак ?**",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "Складання",
+    "relativePath": "notes/inbox/Складання/Складання.md",
+    "frontmatter": {
+      "title": "Складання",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 26
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Курс теоретичних та практичних уроків для складальників.",
+        "level": 4
+      },
+      {
+        "heading": "Мета:",
+        "level": 4
+      },
+      {
+        "heading": "title: \"Складання\"",
+        "level": 2
+      },
+      {
+        "heading": "title: \"Складання\"",
+        "level": 2
+      },
+      {
+        "heading": "Складання",
+        "level": 3
+      },
+      {
+        "heading": "Інструменти для складання.",
+        "level": 3
+      },
+      {
+        "heading": "RIVETEC RIV938",
+        "level": 4
+      },
+      {
+        "heading": "4.Від єднуємо інструмент від пневмомережі",
+        "level": 5
+      },
+      {
+        "heading": "Заміна затискних втулок:",
+        "level": 4
+      },
+      {
+        "heading": "г и",
+        "level": 1
+      },
+      {
+        "heading": "Безпека на робочому місці",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "fileName": "Процесний підхід",
+    "relativePath": "notes/inbox/Процесний підхід.md",
+    "frontmatter": {
+      "title": "Процесний підхід",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 33
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "до управління бізнес-процесами підприємства",
+        "level": 2
+      },
+      {
+        "heading": "Отже:",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
+    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
+    "frontmatter": {
+      "title": "Процесний підхід до управління бізнес-процесами підприємства",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 77
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Принцип Парето в управлінні бізнес-процесами",
+    "relativePath": "notes/inbox/Принцип Парето в управлінні бізнес-процесами/Принцип Парето в управлінні бізнес-процесами.md",
+    "frontmatter": {
+      "title": "Принцип Парето в управлінні бізнес-процесами",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 61
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Потокове виробництво, ощадливе виробництво та інструменти ощадливого",
+    "relativePath": "notes/inbox/Потокове виробництво/Потокове виробництво, ощадливе виробництво та інструменти ощадливого.md",
+    "frontmatter": {
+      "title": "Потокове виробництво, ощадливе виробництво та інструменти ощадливого",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 85
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Онтологія знань",
+    "relativePath": "notes/inbox/Онтологія знань.md",
+    "frontmatter": {
+      "title": "Онтологія знань",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 32
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Онтологічний інжиніринг",
+    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
+    "frontmatter": {
+      "title": "Онтологічний інжиніринг",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 40
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Методологічна основа проекту",
+    "relativePath": "notes/inbox/Методологічна основа проекту.md",
+    "frontmatter": {
+      "title": "Методологічна основа проекту",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 45
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Етап 1. **Створення** **знань**",
+        "level": 2
+      },
+      {
+        "heading": "Етап 2. **Організація** **знань**",
+        "level": 2
+      },
+      {
+        "heading": "Етап 3. **Розповсюдження** **знань**",
+        "level": 2
+      },
+      {
+        "heading": "Етап 4. **Використання** **знань**",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Комплексна методологія",
+    "relativePath": "notes/inbox/Комплексна методологія.md",
+    "frontmatter": {
+      "title": "Комплексна методологія",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 39
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Вимоги до проекту",
+    "relativePath": "notes/inbox/Вимоги до проекту.md",
+    "frontmatter": {
+      "title": "Вимоги до проекту",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 34
+        }
+      }
+    }
+  },
+  {
     "fileName": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
     "relativePath": "notes/inbox/Використання Git для синхронізації сховища Obsidian на Android-пристроях.md",
     "frontmatter": {
@@ -835,6 +1243,54 @@
         }
       }
     }
+  },
+  {
+    "fileName": "Алгоритм онтологічного інженірінгу",
+    "relativePath": "notes/inbox/Алгоритм онтологічного інженірінгу.md",
+    "frontmatter": {
+      "title": "Алгоритм онтологічного інженірінгу",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 51
+        }
+      }
+    }
+  },
+  {
+    "fileName": "S–BPM",
+    "relativePath": "notes/inbox/S–BPM.md",
+    "frontmatter": {
+      "title": "S–BPM",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 22
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Основний фокус",
+        "level": 2
+      },
+      {
+        "heading": "Ключова відмінність нового покоління інструментів",
+        "level": 2
+      }
+    ]
   },
   {
     "fileName": "docker",
