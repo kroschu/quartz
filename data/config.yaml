@@ -9,14 +9,14 @@ enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: false
+enableRecentNotes: true
 enableGitHubEdit: true
 enableMermaid: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: https://github.com/kroschu/quartz/tree/hugo/content
 search:
   enableSemanticSearch: false
-  operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
-  operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
+  operandApiKey: "muxk3wky6rv8ry8g38kvr5v7vttw7wtt"
+  operandIndexId: "trebatak"
 description:
    Разом -зможемо!
 page_title:
