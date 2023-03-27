@@ -14,7 +14,7 @@ enableGitHubEdit: true
 enableMermaid: true
 GitHubLink: https://github.com/kroschu/quartz/tree/hugo/content
 search:
-  enableSemanticSearch: false
+  enableSemanticSearch: true
   operandApiKey: "muxk3wky6rv8ry8g38kvr5v7vttw7wtt"
   operandIndexId: "trebatak"
 description:
