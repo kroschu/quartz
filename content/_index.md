@@ -16,7 +16,7 @@ Check out some of the [amazing gardens that community members](Варіанти%
 # З чого почати 8
 > 📚 Step 1: [Setup your own digital garden using Quartz](Установка.md)
 
-Returning user? Figure out how to [[notes/Оновлення|update]] your existing Quartz garden.
+Returning user? Figure out how [[notes/Оновлення|оновлення]] your existing Quartz garden.
 
 If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
 
