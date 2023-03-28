@@ -2,13 +2,13 @@
 
 <hr/>
 
-{{if $.Site.Data.config.enableFooter}}
-<div class="page-end" id="footer">
     <div class="backlinks-container">
         {{partial "backlinks.html" .}}
-    </div>
+   </div>
+{{if $.Site.Data.config.enableFooter}}
+<div class="page-end" id="footer">
     <div>
-        {{partial "graph.html" .}}
+        {{partial "chat.html" .}}
     </div>
 </div>
 {{end}}
