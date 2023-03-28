@@ -1,5 +1,5 @@
 baseURL = "https://treba.m-e.pp.ua/"
-languageCode = "uk-ua"
+languageCode = "uk"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
