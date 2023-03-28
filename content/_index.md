@@ -3,7 +3,7 @@ title: 🦉 ТребаТак
 enableToc: false
 ---
 
-{{< chat #cactus-comments:matrix.m-e.pp.ua >}}
+{{chat #cactus-comments:matrix.m-e.pp.ua}}
 
 Розмістіть свій другий мозок і [[notes/inbox/Сад знань|сад знань]] безкоштовно. Особливості Quartz:
 
