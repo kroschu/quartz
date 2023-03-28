@@ -1,65 +1,65 @@
 [404_message]
-other = "Hey! You look a little lost. This page doesn't exist (or may be private)."
+other = "Хей! Виглядаєте здивовано. Цієї сторінки не існує (або вона приватна)."
 
 [404_back]
-other = "↳ Let's get you home."
+other = "↳ Повернемося додому."
 
 [all_posts]
-other = "All {{.Title}}"
+other = "Всі {{.Title}}"
 
 [last_updated]
-other = "Last updated"
+other = "Оновлено"
 
 [notes_count]
-other = "notes with this tag"
+other = "нонаток з цим тегом"
 
 [first_10]
-other = "showing first 10 results"
+other = "показано 10 перших результатів"
 
 [tag]
-other = "Tag"
+other = "Тег"
 
 [backlinks]
-other = "Backlinks"
+other = "Зворотнє посилання"
 
 [no_backlinks]
-other = "No backlinks found"
+other = "Зворотних посилань не знайдено"
 
 [home]
-other = "Home"
+other = "Дім"
 
 [light_mode]
-other = "Light Mode"
+other = "Світлий Режим"
 
 [dark_mode]
-other = "Dark Mode"
+other = "Темний Режим"
 
 [edit_source]
-other = "Edit Source"
+other = "Редагувати Джерело"
 
 [interactive_graph]
-other = "Interactive Graph"
+other = "Інтерактивний граф"
 
 [search]
-other = "Search"
+other = "Пошук"
 
 [search_icon]
-other = "Search Icon"
+other = "Іконка Пошуку"
 
 [icon_search]
-other = "Icon to open search"
+other = "Іконка для відкриття пошуку"
 
 [recent_notes]
-other = "Recent Notes"
+other = "Нещодавні Нотатки"
 
 [first_3_notes]
-other = "first 3 {{ .notes }}"
+other = "перші 3 {{ .notes }}"
 
 [search_for_something]
-other = "Search for something..."
+other = "Знайти щось..."
 
 [toc]
-other = "Table of Contents"
+other = "Зміст"
 
 [copyright]
-other = "Made by {{ .name }} using <a href=\"https://github.com/jackyzha0/quartz\">Quartz</a>, © {{ .year }}"
+other = "Створено {{ .name }} з використанням <a href=\"https://github.com/jackyzha0/quartz\">Quartz</a>, © {{ .year }}"
