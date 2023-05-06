@@ -213,9 +213,9 @@
         "relativePath": "notes/Інтеграція з Obsidian.md"
       },
       {
-        "link": "Редагування вмісту.md",
+        "link": "Редагування_вмісту.md",
         "displayText": "",
-        "relativePath": "notes/Редагування вмісту.md"
+        "relativePath": "notes/Редагування_вмісту.md"
       },
       {
         "link": "Розгортання.md",
@@ -230,9 +230,9 @@
         "relativePath": "notes/Установка.md"
       },
       {
-        "fileName": "Редагування вмісту",
+        "fileName": "Редагування_вмісту",
         "link": "Усунення проблем.md",
-        "relativePath": "notes/Редагування вмісту.md"
+        "relativePath": "notes/Редагування_вмісту.md"
       },
       {
         "fileName": "Конфігурація",
@@ -283,9 +283,9 @@
     ],
     "links": [
       {
-        "link": "Редагування вмісту.md",
+        "link": "Редагування_вмісту.md",
         "displayText": "",
-        "relativePath": "notes/Редагування вмісту.md"
+        "relativePath": "notes/Редагування_вмісту.md"
       },
       {
         "link": "Усунення проблем.md",
@@ -352,8 +352,8 @@
     ]
   },
   {
-    "fileName": "Редагування вмісту",
-    "relativePath": "notes/Редагування вмісту.md",
+    "fileName": "Редагування_вмісту",
+    "relativePath": "notes/Редагування_вмісту.md",
     "tags": [
       "установка"
     ],
@@ -393,12 +393,12 @@
     "backlinks": [
       {
         "fileName": "Усунення проблем",
-        "link": "Редагування вмісту.md",
+        "link": "Редагування_вмісту.md",
         "relativePath": "notes/Усунення проблем.md"
       },
       {
         "fileName": "Установка",
-        "link": "Редагування вмісту.md",
+        "link": "Редагування_вмісту.md",
         "relativePath": "notes/Установка.md"
       }
     ]
