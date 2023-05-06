@@ -1,9 +1,16 @@
 [
   {
+    "fileName": "Без назви",
+    "relativePath": "Без назви.md"
+  },
+  {
     "fileName": "_index",
     "relativePath": "_index.md",
+    "tags": [
+      "cactus-comments"
+    ],
     "frontmatter": {
-      "title": "🪴 bf",
+      "title": "🦉 ТребаТак",
       "enableToc": false,
       "position": {
         "start": {
@@ -14,63 +21,29 @@
         "end": {
           "line": 3,
           "col": 3,
-          "offset": 40
+          "offset": 46
         }
       }
     },
-    "headings": [
-      {
-        "heading": "З чого почати 8",
-        "level": 1
-      },
-      {
-        "heading": "Troubleshooting",
-        "level": 3
-      }
-    ],
     "links": [
       {
+        "link": "Сад знань",
+        "displayText": "сад знань",
+        "relativePath": "notes/inbox/Сад знань.md"
+      },
+      {
         "link": "Пошук",
+        "displayText": "пошук",
         "relativePath": "notes/Пошук.md"
       },
       {
-        "link": "Підтримка Latex",
-        "displayText": "CJK + Latex Support",
-        "relativePath": "notes/Підтримка Latex.md"
+        "link": "Hugo",
+        "relativePath": "notes/inbox/Hugo.md"
       },
       {
-        "link": "Виноски",
-        "displayText": "Admonition-style callouts",
-        "relativePath": "notes/Виноски.md"
-      },
-      {
-        "link": "Варіанти використання.md",
-        "displayText": "",
-        "relativePath": "notes/Варіанти використання.md"
-      },
-      {
-        "link": "Філософія.md",
-        "displayText": "",
-        "relativePath": "notes/Філософія.md"
-      },
-      {
-        "link": "Установка.md",
-        "displayText": "",
-        "relativePath": "notes/Установка.md"
-      },
-      {
-        "link": "Оновлення",
-        "displayText": "update",
-        "relativePath": "notes/Оновлення.md"
-      },
-      {
-        "link": "setup",
-        "displayText": ""
-      },
-      {
-        "link": "Усунення проблем.md",
-        "displayText": "",
-        "relativePath": "notes/Усунення проблем.md"
+        "link": "Сад знань",
+        "displayText": "сад знань",
+        "relativePath": "notes/inbox/Сад знань.md"
       }
     ]
   },
@@ -134,13 +107,6 @@
       {
         "heading": "Чому Quartz?",
         "level": 2
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Філософія.md",
-        "relativePath": "_index.md"
       }
     ]
   },
@@ -262,11 +228,6 @@
     ],
     "backlinks": [
       {
-        "fileName": "_index",
-        "link": "Усунення проблем.md",
-        "relativePath": "_index.md"
-      },
-      {
         "fileName": "Установка",
         "link": "Усунення проблем.md",
         "relativePath": "notes/Установка.md"
@@ -280,66 +241,6 @@
         "fileName": "Конфігурація",
         "link": "Усунення проблем.md",
         "relativePath": "notes/Конфігурація.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Установка",
-    "relativePath": "notes/Установка.md",
-    "tags": [
-      "установка"
-    ],
-    "frontmatter": {
-      "title": "Установка",
-      "weight": -5,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 60
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Створення власного Quartz",
-        "level": 2
-      },
-      {
-        "heading": "Форкінг",
-        "level": 3
-      },
-      {
-        "heading": "Клонування",
-        "level": 3
-      },
-      {
-        "heading": "Редагування",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Редагування вмісту.md",
-        "displayText": "",
-        "relativePath": "notes/Редагування вмісту.md"
-      },
-      {
-        "link": "Усунення проблем.md",
-        "displayText": "",
-        "relativePath": "notes/Усунення проблем.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Установка.md",
-        "relativePath": "_index.md"
       }
     ]
   },
@@ -401,6 +302,59 @@
     ]
   },
   {
+    "fileName": "Установка",
+    "relativePath": "notes/Установка.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Установка",
+      "weight": -5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 60
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Створення власного Quartz",
+        "level": 2
+      },
+      {
+        "heading": "Форкінг",
+        "level": 3
+      },
+      {
+        "heading": "Клонування",
+        "level": 3
+      },
+      {
+        "heading": "Редагування",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Редагування вмісту.md",
+        "displayText": "",
+        "relativePath": "notes/Редагування вмісту.md"
+      },
+      {
+        "link": "Усунення проблем.md",
+        "displayText": "",
+        "relativePath": "notes/Усунення проблем.md"
+      }
+    ]
+  },
+  {
     "fileName": "Редагування вмісту",
     "relativePath": "notes/Редагування вмісту.md",
     "tags": [
@@ -453,6 +407,42 @@
     ]
   },
   {
+    "fileName": "Перегляд змін",
+    "relativePath": "notes/Перегляд змін.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Перегляд змін",
+      "weight": -2,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 60
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Встановіть та підключіть `hugo-obsidian` локально",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "docker",
+        "link": "Перегляд змін.md",
+        "relativePath": "notes/docker.md"
+      }
+    ]
+  },
+  {
     "fileName": "Пошук",
     "relativePath": "notes/Пошук.md",
     "frontmatter": {
@@ -490,43 +480,8 @@
       {
         "fileName": "_index",
         "link": "Пошук",
-        "relativePath": "_index.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Перегляд змін",
-    "relativePath": "notes/Перегляд змін.md",
-    "tags": [
-      "установка"
-    ],
-    "frontmatter": {
-      "title": "Перегляд змін",
-      "weight": -2,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 60
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Встановіть та підключіть `hugo-obsidian` локально",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "docker",
-        "link": "Перегляд змін.md",
-        "relativePath": "notes/docker.md"
+        "relativePath": "_index.md",
+        "displayText": "пошук"
       }
     ]
   },
@@ -556,45 +511,9 @@
     ],
     "backlinks": [
       {
-        "fileName": "_index",
-        "link": "Підтримка Latex",
-        "relativePath": "_index.md",
-        "displayText": "CJK + Latex Support"
-      },
-      {
         "fileName": "Усунення проблем",
         "link": "Підтримка Latex.md",
         "relativePath": "notes/Усунення проблем.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Оновлення",
-    "relativePath": "notes/Оновлення.md",
-    "frontmatter": {
-      "title": "Оновлення",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 4,
-          "col": 3,
-          "offset": 44
-        }
-      }
-    },
-    "aliases": [
-      "update"
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Оновлення",
-        "relativePath": "_index.md",
-        "displayText": "update"
       }
     ]
   },
@@ -659,6 +578,47 @@
     ]
   },
   {
+    "fileName": "Варіанти використання",
+    "relativePath": "notes/Варіанти використання.md",
+    "frontmatter": {
+      "title": "Варіанти використання",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Оновлення",
+    "relativePath": "notes/Оновлення.md",
+    "frontmatter": {
+      "title": "Оновлення",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 44
+        }
+      }
+    },
+    "aliases": [
+      "update"
+    ]
+  },
+  {
     "fileName": "Власний домен",
     "relativePath": "notes/Власний домен.md",
     "frontmatter": {
@@ -713,42 +673,10 @@
     ],
     "backlinks": [
       {
-        "fileName": "_index",
-        "link": "Виноски",
-        "relativePath": "_index.md",
-        "displayText": "Admonition-style callouts"
-      },
-      {
         "fileName": "Пошук",
         "link": "виноски",
         "relativePath": "notes/Пошук.md",
         "displayText": "нагадування у стилі Admonition"
-      }
-    ]
-  },
-  {
-    "fileName": "Варіанти використання",
-    "relativePath": "notes/Варіанти використання.md",
-    "frontmatter": {
-      "title": "Варіанти використання",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    },
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Варіанти використання.md",
-        "relativePath": "_index.md"
       }
     ]
   },
@@ -855,6 +783,25 @@
     ]
   },
   {
+    "fileName": "Технологічна операція",
+    "relativePath": "notes/inbox/Технологічна операція.md",
+    "frontmatter": {
+      "title": "Технологічна операція",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    }
+  },
+  {
     "fileName": "Управління знаннями",
     "relativePath": "notes/inbox/Управління знаннями.md",
     "frontmatter": {
@@ -896,25 +843,6 @@
     ]
   },
   {
-    "fileName": "Технологічна операція",
-    "relativePath": "notes/inbox/Технологічна операція.md",
-    "frontmatter": {
-      "title": "Технологічна операція",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    }
-  },
-  {
     "fileName": "Сучасний стан та опис проекту",
     "relativePath": "notes/inbox/Сучасний стан та опис проекту.md",
     "frontmatter": {
@@ -938,6 +866,54 @@
         "level": 3
       }
     ]
+  },
+  {
+    "fileName": "Процесний підхід",
+    "relativePath": "notes/inbox/Процесний підхід.md",
+    "frontmatter": {
+      "title": "Процесний підхід",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 33
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "до управління бізнес-процесами підприємства",
+        "level": 2
+      },
+      {
+        "heading": "Отже:",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
+    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
+    "frontmatter": {
+      "title": "Процесний підхід до управління бізнес-процесами підприємства",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 77
+        }
+      }
+    }
   },
   {
     "fileName": "Складання",
@@ -1005,54 +981,6 @@
     ]
   },
   {
-    "fileName": "Процесний підхід",
-    "relativePath": "notes/inbox/Процесний підхід.md",
-    "frontmatter": {
-      "title": "Процесний підхід",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 33
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "до управління бізнес-процесами підприємства",
-        "level": 2
-      },
-      {
-        "heading": "Отже:",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
-    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
-    "frontmatter": {
-      "title": "Процесний підхід до управління бізнес-процесами підприємства",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 77
-        }
-      }
-    }
-  },
-  {
     "fileName": "Принцип Парето в управлінні бізнес-процесами",
     "relativePath": "notes/inbox/Принцип Парето в управлінні бізнес-процесами/Принцип Парето в управлінні бізнес-процесами.md",
     "frontmatter": {
@@ -1114,22 +1042,7 @@
   },
   {
     "fileName": "Онтологія знань",
-    "relativePath": "notes/inbox/Онтологія знань.md",
-    "frontmatter": {
-      "title": "Онтологія знань",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 32
-        }
-      }
-    }
+    "relativePath": "notes/inbox/Онтологія знань.md"
   },
   {
     "fileName": "Онтологічний інжиніринг",
@@ -1146,6 +1059,25 @@
           "line": 2,
           "col": 3,
           "offset": 40
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Комплексна методологія",
+    "relativePath": "notes/inbox/Комплексна методологія.md",
+    "frontmatter": {
+      "title": "Комплексна методологія",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 39
         }
       }
     }
@@ -1188,25 +1120,6 @@
     ]
   },
   {
-    "fileName": "Комплексна методологія",
-    "relativePath": "notes/inbox/Комплексна методологія.md",
-    "frontmatter": {
-      "title": "Комплексна методологія",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 39
-        }
-      }
-    }
-  },
-  {
     "fileName": "Вимоги до проекту",
     "relativePath": "notes/inbox/Вимоги до проекту.md",
     "frontmatter": {
@@ -1246,22 +1159,7 @@
   },
   {
     "fileName": "Алгоритм онтологічного інженірінгу",
-    "relativePath": "notes/inbox/Алгоритм онтологічного інженірінгу.md",
-    "frontmatter": {
-      "title": "Алгоритм онтологічного інженірінгу",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 51
-        }
-      }
-    }
+    "relativePath": "notes/inbox/Алгоритм онтологічного інженірінгу.md"
   },
   {
     "fileName": "S–BPM",
