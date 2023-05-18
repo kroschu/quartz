@@ -3,6 +3,7 @@
     <img class="qr-code" src="https://chart.googleapis.com/chart?chs=90x90&amp;cht=qr&amp;chl=https://treba.m-e.pp.ua/{{ trim .Page.RelPermalink "/"}}&amp;chco=6B879A|FAF8F8" alt="QR Code">
     <div class="spacer"></div>
     <h1 id="page-title"><a class="root-title" href="{{ "" | absLangURL }}">{{ ( index $.Site.Data $config ).page_title | default $.Site.Data.config.page_title }}</a></h1>
+    <div class="spacer"></div>
     <div id="search-icon">
         <p>{{ i18n "search" }}</p>
         <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
