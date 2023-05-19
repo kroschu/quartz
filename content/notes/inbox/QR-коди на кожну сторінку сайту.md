@@ -23,7 +23,7 @@
   </header>
 ```
 
- Вже додано QR - код :
+ Вже додано html-код :
 
  `<img class="qr-code" src="https://chart.googleapis.com/chart?chs=90x90&amp;cht=qr&amp;chl=https://treba.m-e.pp.ua/{{ trim .Page.RelPermalink "/"}}&amp;chco=6B879A|FAF8F8" alt="QR Code">`
 

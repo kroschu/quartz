@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2579ceaefe1c103a",
+        "id": "37eb847812061254",
         "type": "tabs",
         "children": [
           {
-            "id": "9404bb68fd69c348",
+            "id": "875ebe88bdeadc97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/inbox/QR-коди на кожну сторінку сайту.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "notes/inbox/QR-коди на кожну сторінку сайту.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "notes/inbox/QR-коди на кожну сторінку сайту.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -113,9 +107,7 @@
         "type": "leaf",
         "state": {
           "type": "outline",
-          "state": {
-            "file": "notes/inbox/QR-коди на кожну сторінку сайту.md"
-          }
+          "state": {}
         }
       }
     ],
@@ -131,8 +123,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9404bb68fd69c348",
+  "active": "875ebe88bdeadc97",
   "lastOpenFiles": [
+    "notes/inbox/QR-коди на кожну сторінку сайту.md",
     "notes/inbox/Видаляємо непотрібну для генерації аудіо розмітку та частини тексту.md",
     "_DelSyncFiles/html/_index.html",
     "_DelSyncFiles/html",
