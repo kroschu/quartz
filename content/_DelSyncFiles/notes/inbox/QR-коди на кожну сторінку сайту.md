@@ -1,47 +1,23 @@
-Щоб вставити QR-коди на кожну сторінку сайту, згенерованого за допомогою Hugo, використовуючи плагін Hugo-qr, дотримуйтесь наступних кроків:
 
-1. **Встановіть плагін Hugo-qr**
-
-   Перш за все, потрібно встановити плагін Hugo-qr. Відкрийте термінал і перейдіть до кореневої директорії вашого проекту Hugo. Виконайте наступну команду для встановлення плагіну:
-
-   ```
-   git submodule add https://github.com/zzossig/hugo-qr.git themes/hugo-qr
-   ```
-
-2. **Налаштуйте конфігурацію**
-
-   Відкрийте файл конфігурації вашого проекту Hugo (наприклад, `config.toml`) і додайте наступний рядок, щоб включити плагін Hugo-qr:
-
-   ```
-   theme = "hugo-qr"
-   ```
-
-3. **Додайте QR-код до шаблонів**
-
-   Тепер потрібно додати QR-код до шаблонів вашого сайту. Відкрийте файл шаблону, де ви хочете відображати QR-код (наприклад, `layouts/_default/single.html`). Додайте наступний рядок коду в тому місці, де ви хочете показати QR-код:
-
-   ``` ​html
-   {{- with . -}}
-   {{- $url := .Permalink -}}
-   {{- $qr := (hugoqr $url) -}}
-   <img src="{{$qr}}" alt="QR код">
-   {{- end -}}
-   ```
-
-   Цей код отримує посилання на поточну сторінку (`$url`), генерує QR-код, використовуючи функцію `hugoqr`, і відображає його у вигляді зображення.
-
-4. **Перезапустити сайт**
-
-   Збережіть зміни у шаблоні та перезапустіть сайт за допомогою команди `hugo` у вашому терміналі:
-
-`
+  ``` HTML
+  
+<header>
+    {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
+    <img class="qr-code" src="https://chart.googleapis.com/chart?chs=90x90&amp;cht=qr&amp;chl=https://treba.m-e.pp.ua/{{ trim .Page.RelPermalink "/"}}&amp;chco=6B879A|FAF8F8" alt="QR Code">
+    <div class="spacer"></div>
+    <h1 id="page-title"><a class="root-title" href="{{ "" | absLangURL }}">{{ ( index $.Site.Data $config ).page_title | default $.Site.Data.config.page_title }}</a></h1>
+    <div class="spacer"></div>
+    <div id="search-icon">
+        <p>{{ i18n "search" }}</p>
+        <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
+            <title id="title">{{ i18n "search_icon" }}</title>
+            <desc id="desc">{{ i18n "icon_search" }}</desc>
+            <g class="search-path" fill="none">
+                <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/>
+                <circle cx="8" cy="8" r="7"/>
+            </g>
+        </svg>
+    </div>
+    {{ partial "darkmode.html" .}}
+  </header>
 ```
- hugo
- 
-```
-
-5. **Перевірте результат**
-
-   Відкрийте ваш сайт у веб-переглядачі та перевірте, чи відображаєтся QR-код на кожній сторінці, де ви додали код у шаблоні.
-
-Тепер на вашому сайті, згенерованому за допомогою Hugo, повинні бути відображені QR-коди, що відповідають посиланням на сторінку, за допомогою плагіну Hugo-qr.
