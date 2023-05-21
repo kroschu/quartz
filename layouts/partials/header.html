@@ -1,6 +1,6 @@
 <header>
     {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
-<img class="qr-code" src="https://chart.googleapis.com/chart?chs=125x125&amp;cht=qr&amp;chl=https://treba.m-e.pp.ua/{{ trim .Page.RelPermalink "/"}}&amp;chco=262626|FAF8F8&amp;chld=L|1" alt="QR Code">
+<img class="qr-code" src="https://chart.googleapis.com/chart?chs=125x125&amp;cht=qr&amp;chl=https://treba.m-e.pp.ua/{{ trim .Page.RelPermalink "/"}}&amp;chco=284B63|FAF8F8&amp;chld=L|1" alt="QR Code">
     <div class="spacer"></div>
     <h1 id="page-title"><a class="root-title" href="{{ "" | absLangURL }}">{{ ( index $.Site.Data $config ).page_title | default $.Site.Data.config.page_title }}</a></h1>
     <div class="spacer"></div>
