@@ -1255,25 +1255,6 @@
     }
   },
   {
-    "fileName": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
-    "relativePath": "notes/inbox/Використання Git для синхронізації сховища Obsidian на Android-пристроях.md",
-    "frontmatter": {
-      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 91
-        }
-      }
-    }
-  },
-  {
     "fileName": "Видаляємо непотрібну для генерації аудіо розмітку та частини тексту",
     "relativePath": "notes/inbox/Видаляємо непотрібну для генерації аудіо розмітку та частини тексту.md",
     "headings": [
@@ -1401,6 +1382,25 @@
   {
     "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
     "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
+  },
+  {
+    "fileName": "Cинхронізації сховища Obsidian на Android",
+    "relativePath": "notes/inbox/Cинхронізації сховища Obsidian на Android.md",
+    "frontmatter": {
+      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 89
+        }
+      }
+    }
   },
   {
     "fileName": "ChatGPT в текст",
