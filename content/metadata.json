@@ -7,17 +7,18 @@
     "fileName": "_index",
     "relativePath": "_index.md",
     "frontmatter": {
-      "title": "  Треба:)",
+      "title": "...треба...",
       "enableToc": false,
       "position": {
         "start": {
+          "line": 0,
           "col": 0,
           "offset": 0
         },
         "end": {
           "line": 3,
           "col": 3,
-          "offset": 43
+          "offset": 46
         }
       }
     },
@@ -42,6 +43,44 @@
         "relativePath": "notes/Сад знань.md"
       }
     ]
+  },
+  {
+    "fileName": "post",
+    "relativePath": "templates/post.md",
+    "frontmatter": {
+      "title": "{{title}}",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 26
+        }
+      }
+    }
+  },
+  {
+    "fileName": "private-note",
+    "relativePath": "private/private-note.md",
+    "frontmatter": {
+      "title": "Private Stuff",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 32
+        }
+      }
+    }
   },
   {
     "fileName": "Філософія",
@@ -191,14 +230,67 @@
         "relativePath": "notes/Установка.md"
       },
       {
-        "fileName": "Конфігурація",
-        "link": "Усунення проблем.md",
-        "relativePath": "notes/Конфігурація.md"
-      },
-      {
         "fileName": "Редагування_вмісту",
         "link": "Усунення проблем.md",
         "relativePath": "notes/Редагування_вмісту.md"
+      },
+      {
+        "fileName": "Конфігурація",
+        "link": "Усунення проблем.md",
+        "relativePath": "notes/Конфігурація.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Установка",
+    "relativePath": "notes/Установка.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Установка",
+      "weight": -5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 60
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Створення власного Quartz",
+        "level": 2
+      },
+      {
+        "heading": "Форкінг",
+        "level": 3
+      },
+      {
+        "heading": "Клонування",
+        "level": 3
+      },
+      {
+        "heading": "Редагування",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Редагування_вмісту.md",
+        "displayText": "",
+        "relativePath": "notes/Редагування_вмісту.md"
+      },
+      {
+        "link": "Усунення проблем.md",
+        "displayText": "",
+        "relativePath": "notes/Усунення проблем.md"
       }
     ]
   },
@@ -269,59 +361,6 @@
     ]
   },
   {
-    "fileName": "Установка",
-    "relativePath": "notes/Установка.md",
-    "tags": [
-      "установка"
-    ],
-    "frontmatter": {
-      "title": "Установка",
-      "weight": -5,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 60
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Створення власного Quartz",
-        "level": 2
-      },
-      {
-        "heading": "Форкінг",
-        "level": 3
-      },
-      {
-        "heading": "Клонування",
-        "level": 3
-      },
-      {
-        "heading": "Редагування",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Редагування_вмісту.md",
-        "displayText": "",
-        "relativePath": "notes/Редагування_вмісту.md"
-      },
-      {
-        "link": "Усунення проблем.md",
-        "displayText": "",
-        "relativePath": "notes/Усунення проблем.md"
-      }
-    ]
-  },
-  {
     "fileName": "Розгортання",
     "relativePath": "notes/Розгортання.md",
     "tags": [
@@ -379,116 +418,6 @@
     ]
   },
   {
-    "fileName": "Пошук",
-    "relativePath": "notes/Пошук.md",
-    "frontmatter": {
-      "title": "Пошук",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 4,
-          "col": 3,
-          "offset": 43
-        }
-      }
-    },
-    "aliases": [
-      "пошук"
-    ],
-    "headings": [
-      {
-        "heading": "Природна мова",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Пошук",
-        "relativePath": "notes/Пошук.md"
-      },
-      {
-        "link": "CJK + підтримка LaTex"
-      },
-      {
-        "link": "виноски",
-        "displayText": "нагадування у стилі Admonition",
-        "relativePath": "notes/Виноски.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Пошук",
-        "relativePath": "_index.md",
-        "displayText": "пошук"
-      }
-    ]
-  },
-  {
-    "fileName": "Конфігурація",
-    "relativePath": "notes/Конфігурація.md",
-    "tags": [
-      "установка"
-    ],
-    "frontmatter": {
-      "title": "Конфігурація",
-      "weight": 0,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 62
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Конфігурація",
-        "level": 2
-      },
-      {
-        "heading": "Заголовки блоків коду",
-        "level": 3
-      },
-      {
-        "heading": "HTML-фавікони",
-        "level": 3
-      },
-      {
-        "heading": "Графічне представлення",
-        "level": 3
-      },
-      {
-        "heading": "Стайлінг",
-        "level": 2
-      },
-      {
-        "heading": "Часткові коди",
-        "level": 3
-      },
-      {
-        "heading": "Мовна підтримка",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Усунення проблем.md",
-        "displayText": "",
-        "relativePath": "notes/Усунення проблем.md"
-      }
-    ]
-  },
-  {
     "fileName": "Редагування_вмісту",
     "relativePath": "notes/Редагування_вмісту.md",
     "tags": [
@@ -537,6 +466,56 @@
         "fileName": "Установка",
         "link": "Редагування_вмісту.md",
         "relativePath": "notes/Установка.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Пошук",
+    "relativePath": "notes/Пошук.md",
+    "frontmatter": {
+      "title": "Пошук",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 43
+        }
+      }
+    },
+    "aliases": [
+      "пошук"
+    ],
+    "headings": [
+      {
+        "heading": "Природна мова",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Пошук",
+        "relativePath": "notes/Пошук.md"
+      },
+      {
+        "link": "CJK + підтримка LaTex"
+      },
+      {
+        "link": "виноски",
+        "displayText": "нагадування у стилі Admonition",
+        "relativePath": "notes/Виноски.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Пошук",
+        "relativePath": "_index.md",
+        "displayText": "пошук"
       }
     ]
   },
@@ -631,10 +610,14 @@
     ]
   },
   {
-    "fileName": "Варіанти використання",
-    "relativePath": "notes/Варіанти використання.md",
+    "fileName": "Конфігурація",
+    "relativePath": "notes/Конфігурація.md",
+    "tags": [
+      "установка"
+    ],
     "frontmatter": {
-      "title": "Варіанти використання",
+      "title": "Конфігурація",
+      "weight": 0,
       "position": {
         "start": {
           "line": 0,
@@ -642,35 +625,47 @@
           "offset": 0
         },
         "end": {
-          "line": 2,
+          "line": 5,
           "col": 3,
-          "offset": 38
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Власний домен",
-    "relativePath": "notes/Власний домен.md",
-    "frontmatter": {
-      "title": "власний домен",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 30
+          "offset": 62
         }
       }
     },
     "headings": [
       {
-        "heading": "Реєстрація",
+        "heading": "Конфігурація",
+        "level": 2
+      },
+      {
+        "heading": "Заголовки блоків коду",
         "level": 3
+      },
+      {
+        "heading": "HTML-фавікони",
+        "level": 3
+      },
+      {
+        "heading": "Графічне представлення",
+        "level": 3
+      },
+      {
+        "heading": "Стайлінг",
+        "level": 2
+      },
+      {
+        "heading": "Часткові коди",
+        "level": 3
+      },
+      {
+        "heading": "Мовна підтримка",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Усунення проблем.md",
+        "displayText": "",
+        "relativePath": "notes/Усунення проблем.md"
       }
     ]
   },
@@ -695,11 +690,11 @@
     "headings": [
       {
         "heading": "Підтримка виносок",
-        "level": 2
+        "level": 1
       },
       {
         "heading": "Вітрина",
-        "level": 2
+        "level": 1
       }
     ],
     "backlinks": [
@@ -708,6 +703,61 @@
         "link": "виноски",
         "relativePath": "notes/Пошук.md",
         "displayText": "нагадування у стилі Admonition"
+      }
+    ]
+  },
+  {
+    "fileName": "Варіанти використання",
+    "relativePath": "notes/Варіанти використання.md",
+    "frontmatter": {
+      "title": "Варіанти використання",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Інтеграція з Obsidian",
+    "relativePath": "notes/Інтеграція з Obsidian.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Інтеграція зі сховищем Obsidian",
+      "weight": -3,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 77
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Шаблони",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Усунення проблем",
+        "link": "Інтеграція з Obsidian.md",
+        "relativePath": "notes/Усунення проблем.md"
       }
     ]
   },
@@ -739,6 +789,25 @@
         "level": 3
       }
     ]
+  },
+  {
+    "fileName": "Що таке Lua",
+    "relativePath": "notes/inbox/Що таке Lua.md",
+    "frontmatter": {
+      "title": "Lua",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 22
+        }
+      }
+    }
   },
   {
     "fileName": "Цикл управління знаннями",
@@ -776,44 +845,6 @@
         "level": 4
       }
     ]
-  },
-  {
-    "fileName": "Що таке Lua",
-    "relativePath": "notes/inbox/Що таке Lua.md",
-    "frontmatter": {
-      "title": "Lua",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 22
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Технологічна операція",
-    "relativePath": "notes/inbox/Технологічна операція.md",
-    "frontmatter": {
-      "title": "Технологічна операція",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    }
   },
   {
     "fileName": "Управління знаннями",
@@ -857,10 +888,10 @@
     ]
   },
   {
-    "fileName": "Сучасний стан та опис проекту",
-    "relativePath": "notes/inbox/Сучасний стан та опис проекту.md",
+    "fileName": "Технологічна операція",
+    "relativePath": "notes/inbox/Технологічна операція.md",
     "frontmatter": {
-      "title": "Сучасний стан та опис проекту",
+      "title": "Технологічна операція",
       "position": {
         "start": {
           "line": 0,
@@ -870,16 +901,10 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 46
+          "offset": 38
         }
       }
-    },
-    "headings": [
-      {
-        "heading": "**Що зараз собою являє проект ТребаТак ?**",
-        "level": 3
-      }
-    ]
+    }
   },
   {
     "fileName": "Складання",
@@ -943,54 +968,6 @@
       {
         "heading": "Безпека на робочому місці",
         "level": 4
-      }
-    ]
-  },
-  {
-    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
-    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
-    "frontmatter": {
-      "title": "Процесний підхід до управління бізнес-процесами підприємства",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 77
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Процесний підхід",
-    "relativePath": "notes/inbox/Процесний підхід.md",
-    "frontmatter": {
-      "title": "Процесний підхід",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 33
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "до управління бізнес-процесами підприємства",
-        "level": 2
-      },
-      {
-        "heading": "Отже:",
-        "level": 1
       }
     ]
   },
@@ -1074,44 +1051,6 @@
     }
   },
   {
-    "fileName": "Комплексна методологія",
-    "relativePath": "notes/inbox/Комплексна методологія.md",
-    "frontmatter": {
-      "title": "Комплексна методологія",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 39
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Онтологічний інжиніринг",
-    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
-    "frontmatter": {
-      "title": "Онтологічний інжиніринг",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 40
-        }
-      }
-    }
-  },
-  {
     "fileName": "Методологічна основа проекту",
     "relativePath": "notes/inbox/Методологічна основа проекту.md",
     "frontmatter": {
@@ -1149,6 +1088,25 @@
     ]
   },
   {
+    "fileName": "Комплексна методологія",
+    "relativePath": "notes/inbox/Комплексна методологія.md",
+    "frontmatter": {
+      "title": "Комплексна методологія",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 39
+        }
+      }
+    }
+  },
+  {
     "fileName": "Вимоги до проекту",
     "relativePath": "notes/inbox/Вимоги до проекту.md",
     "frontmatter": {
@@ -1168,6 +1126,10 @@
     }
   },
   {
+    "fileName": "Без назви",
+    "relativePath": "notes/inbox/Без назви.md"
+  },
+  {
     "fileName": "Алгоритм онтологічного інженірінгу",
     "relativePath": "notes/inbox/Алгоритм онтологічного інженірінгу.md",
     "frontmatter": {
@@ -1185,29 +1147,6 @@
         }
       }
     }
-  },
-  {
-    "fileName": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
-    "relativePath": "notes/inbox/Використання Git для синхронізації сховища Obsidian на Android-пристроях.md",
-    "frontmatter": {
-      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 89
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Без назви",
-    "relativePath": "notes/inbox/Без назви.md"
   },
   {
     "fileName": "S–BPM",
@@ -1262,6 +1201,36 @@
         "level": 3
       }
     ]
+  },
+  {
+    "fileName": "Hugo",
+    "relativePath": "notes/inbox/Hugo.md",
+    "frontmatter": {
+      "title": "Hugo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 23
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Hugo",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
+    "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
   },
   {
     "fileName": "ChatGPT в текст",
@@ -1325,98 +1294,6 @@
     "relativePath": "notes/inbox/ChatGPT/Без назви.md"
   },
   {
-    "fileName": "Hugo",
-    "relativePath": "notes/inbox/Hugo.md",
-    "frontmatter": {
-      "title": "Hugo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 23
-        }
-      }
-    },
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Hugo",
-        "relativePath": "_index.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
-    "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
-  },
-  {
-    "fileName": "Самостійне розгортання cactus-comments",
-    "relativePath": "notes/inbox/cactus-comments/Самостійне розгортання cactus-comments.md",
-    "headings": [
-      {
-        "heading": "Передумови [#](https://cactus.chat/docs/server/self-host/#prerequisites)",
-        "level": 2
-      },
-      {
-        "heading": "Синапс [#](https://cactus.chat/docs/server/self-host/#synapse)",
-        "level": 3
-      },
-      {
-        "heading": "Сервіс додатків Cactus Comments [#](https://cactus.chat/docs/server/self-host/#cactus-comments-application-service)",
-        "level": 3
-      },
-      {
-        "heading": "Запуск cactus-appservice [#](https://cactus.chat/docs/server/self-host/#running-cactus-appservice)",
-        "level": 2
-      },
-      {
-        "heading": "Використання докера [#](https://cactus.chat/docs/server/self-host/#using-docker)",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "Інтеграція з Obsidian",
-    "relativePath": "notes/Інтеграція з Obsidian.md",
-    "tags": [
-      "установка"
-    ],
-    "frontmatter": {
-      "title": "Інтеграція зі сховищем Obsidian",
-      "weight": -3,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 77
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Шаблони",
-        "level": 2
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Усунення проблем",
-        "link": "Інтеграція з Obsidian.md",
-        "relativePath": "notes/Усунення проблем.md"
-      }
-    ]
-  },
-  {
     "fileName": "docker",
     "relativePath": "notes/docker.md",
     "tags": [
@@ -1469,41 +1346,11 @@
     ]
   },
   {
-    "fileName": "private-note",
-    "relativePath": "private/private-note.md",
-    "frontmatter": {
-      "title": "Private Stuff",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 32
-        }
-      }
-    }
+    "fileName": "2023-05-19",
+    "relativePath": "2023-05-19.md"
   },
   {
-    "fileName": "post",
-    "relativePath": "templates/post.md",
-    "frontmatter": {
-      "title": "{{title}}",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 26
-        }
-      }
-    }
+    "fileName": "(invalid)",
+    "relativePath": "(invalid).md"
   }
 ]
