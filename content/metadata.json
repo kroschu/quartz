@@ -435,7 +435,7 @@
         "end": {
           "line": 5,
           "col": 3,
-          "offset": 78
+          "offset": 73
         }
       }
     },
@@ -468,6 +468,10 @@
         "relativePath": "notes/Установка.md"
       }
     ]
+  },
+  {
+    "fileName": "Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown",
+    "relativePath": "notes/Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown.md"
   },
   {
     "fileName": "Пошук",
@@ -670,6 +674,31 @@
     ]
   },
   {
+    "fileName": "Власний домен",
+    "relativePath": "notes/Власний домен.md",
+    "frontmatter": {
+      "title": "власний домен",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 32
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Реєстрація",
+        "level": 3
+      }
+    ]
+  },
+  {
     "fileName": "Виноски",
     "relativePath": "notes/Виноски.md",
     "frontmatter": {
@@ -791,23 +820,8 @@
     ]
   },
   {
-    "fileName": "Що таке Lua",
-    "relativePath": "notes/inbox/Що таке Lua.md",
-    "frontmatter": {
-      "title": "Lua",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 22
-        }
-      }
-    }
+    "fileName": "QR-коди на кожну сторінку сайту",
+    "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
   },
   {
     "fileName": "Цикл управління знаннями",
@@ -845,6 +859,25 @@
         "level": 4
       }
     ]
+  },
+  {
+    "fileName": "Що таке Lua",
+    "relativePath": "notes/inbox/Що таке Lua.md",
+    "frontmatter": {
+      "title": "Lua",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 22
+        }
+      }
+    }
   },
   {
     "fileName": "Управління знаннями",
@@ -905,6 +938,31 @@
         }
       }
     }
+  },
+  {
+    "fileName": "Сучасний стан та опис проекту",
+    "relativePath": "notes/inbox/Сучасний стан та опис проекту.md",
+    "frontmatter": {
+      "title": "Сучасний стан та опис проекту",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 48
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "**Що зараз собою являє проект ТребаТак ?**",
+        "level": 3
+      }
+    ]
   },
   {
     "fileName": "Складання",
@@ -970,6 +1028,54 @@
         "level": 4
       }
     ]
+  },
+  {
+    "fileName": "Процесний підхід",
+    "relativePath": "notes/inbox/Процесний підхід.md",
+    "frontmatter": {
+      "title": "Процесний підхід",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "до управління бізнес-процесами підприємства",
+        "level": 2
+      },
+      {
+        "heading": "Отже:",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
+    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
+    "frontmatter": {
+      "title": "Процесний підхід до управління бізнес-процесами підприємства",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 79
+        }
+      }
+    }
   },
   {
     "fileName": "Принцип Парето в управлінні бізнес-процесами",
@@ -1051,6 +1157,25 @@
     }
   },
   {
+    "fileName": "Онтологічний інжиніринг",
+    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
+    "frontmatter": {
+      "title": "Онтологічний інжиніринг",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    }
+  },
+  {
     "fileName": "Методологічна основа проекту",
     "relativePath": "notes/inbox/Методологічна основа проекту.md",
     "frontmatter": {
@@ -1107,6 +1232,10 @@
     }
   },
   {
+    "fileName": "Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot",
+    "relativePath": "notes/inbox/Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot.md"
+  },
+  {
     "fileName": "Вимоги до проекту",
     "relativePath": "notes/inbox/Вимоги до проекту.md",
     "frontmatter": {
@@ -1124,6 +1253,39 @@
         }
       }
     }
+  },
+  {
+    "fileName": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
+    "relativePath": "notes/inbox/Використання Git для синхронізації сховища Obsidian на Android-пристроях.md",
+    "frontmatter": {
+      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 91
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Видаляємо непотрібну для генерації аудіо розмітку та частини тексту",
+    "relativePath": "notes/inbox/Видаляємо непотрібну для генерації аудіо розмітку та частини тексту.md",
+    "headings": [
+      {
+        "heading": "Запит:",
+        "level": 2
+      },
+      {
+        "heading": "Відповідь:",
+        "level": 2
+      }
+    ]
   },
   {
     "fileName": "Без назви",
@@ -1147,6 +1309,14 @@
         }
       }
     }
+  },
+  {
+    "fileName": "Інтеграція медіаплеєра Plyr в Hugo",
+    "relativePath": "notes/inbox/Інтеграція медіаплеєра Plyr в Hugo.md"
+  },
+  {
+    "fileName": "Інверсія крльору тексту у вікні вводу коментарів",
+    "relativePath": "notes/inbox/Інверсія крльору тексту у вікні вводу коментарів.md"
   },
   {
     "fileName": "S–BPM",
@@ -1292,6 +1462,32 @@
   {
     "fileName": "Без назви",
     "relativePath": "notes/inbox/ChatGPT/Без назви.md"
+  },
+  {
+    "fileName": "Самостійне розгортання cactus-comments",
+    "relativePath": "notes/inbox/cactus-comments/Самостійне розгортання cactus-comments.md",
+    "headings": [
+      {
+        "heading": "Передумови [#](https://cactus.chat/docs/server/self-host/#prerequisites)",
+        "level": 2
+      },
+      {
+        "heading": "Синапс [#](https://cactus.chat/docs/server/self-host/#synapse)",
+        "level": 3
+      },
+      {
+        "heading": "Сервіс додатків Cactus Comments [#](https://cactus.chat/docs/server/self-host/#cactus-comments-application-service)",
+        "level": 3
+      },
+      {
+        "heading": "Запуск cactus-appservice [#](https://cactus.chat/docs/server/self-host/#running-cactus-appservice)",
+        "level": 2
+      },
+      {
+        "heading": "Використання докера [#](https://cactus.chat/docs/server/self-host/#using-docker)",
+        "level": 3
+      }
+    ]
   },
   {
     "fileName": "docker",
