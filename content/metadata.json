@@ -213,9 +213,9 @@
         "relativePath": "notes/Інтеграція з Obsidian.md"
       },
       {
-        "link": "Редагування_вмісту.md",
+        "link": "Редагування вмісту.md",
         "displayText": "",
-        "relativePath": "notes/Редагування_вмісту.md"
+        "relativePath": "notes/Редагування вмісту.md"
       },
       {
         "link": "Розгортання.md",
@@ -230,9 +230,9 @@
         "relativePath": "notes/Установка.md"
       },
       {
-        "fileName": "Редагування_вмісту",
+        "fileName": "Редагування вмісту",
         "link": "Усунення проблем.md",
-        "relativePath": "notes/Редагування_вмісту.md"
+        "relativePath": "notes/Редагування вмісту.md"
       },
       {
         "fileName": "Конфігурація",
@@ -283,9 +283,9 @@
     ],
     "links": [
       {
-        "link": "Редагування_вмісту.md",
+        "link": "Редагування вмісту.md",
         "displayText": "",
-        "relativePath": "notes/Редагування_вмісту.md"
+        "relativePath": "notes/Редагування вмісту.md"
       },
       {
         "link": "Усунення проблем.md",
@@ -418,8 +418,8 @@
     ]
   },
   {
-    "fileName": "Редагування_вмісту",
-    "relativePath": "notes/Редагування_вмісту.md",
+    "fileName": "Редагування вмісту",
+    "relativePath": "notes/Редагування вмісту.md",
     "tags": [
       "установка"
     ],
@@ -459,12 +459,12 @@
     "backlinks": [
       {
         "fileName": "Усунення проблем",
-        "link": "Редагування_вмісту.md",
+        "link": "Редагування вмісту.md",
         "relativePath": "notes/Усунення проблем.md"
       },
       {
         "fileName": "Установка",
-        "link": "Редагування_вмісту.md",
+        "link": "Редагування вмісту.md",
         "relativePath": "notes/Установка.md"
       }
     ]
@@ -824,6 +824,25 @@
     "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
   },
   {
+    "fileName": "Що таке Lua",
+    "relativePath": "notes/inbox/Що таке Lua.md",
+    "frontmatter": {
+      "title": "Lua",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 22
+        }
+      }
+    }
+  },
+  {
     "fileName": "Цикл управління знаннями",
     "relativePath": "notes/inbox/Цикл управління знаннями.md",
     "frontmatter": {
@@ -859,25 +878,6 @@
         "level": 4
       }
     ]
-  },
-  {
-    "fileName": "Що таке Lua",
-    "relativePath": "notes/inbox/Що таке Lua.md",
-    "frontmatter": {
-      "title": "Lua",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 22
-        }
-      }
-    }
   },
   {
     "fileName": "Управління знаннями",
