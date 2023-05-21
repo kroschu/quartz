@@ -16,8 +16,13 @@
   <script type="module">
     import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0.0.42/dist/web.js'
   
-    Typebot.initPopup({
+    Typebot.initBubble({
       typebot: "lead-scoring-copy-6ax3bbl",
       apiHost: "https://typebot-v.m-e.pp.ua",
+      theme: {
+        button: { backgroundColor: "#264653", iconColor: "#d8f3dc" },
+        previewMessage: { backgroundColor: "#ffffff", textColor: "black" },
+        chatWindow: { backgroundColor: "#ffffff" },
+      },
     });
   </script>
