@@ -14,9 +14,11 @@
   {{else}}
       <hr/>
       <div class="page-end" id="footer">
-        <div>
-            {{partial "chat.html" .}}
-        </div>
+ {{ if ne .Permalink "https://treba.m-e.pp.ua/" }}
+    <div>
+        {{ partial "chat.html" . }}
+    </div>
+{{ end }}
       </div>
   {{end}}
 {{end}}
