@@ -10,9 +10,11 @@
     <article>
         {{partial "toc.html" .}}
         {{partial "textprocessing.html" . }}
-        {{if $.Site.Data.config.enableRecentNotes}}
+{{ if not .IsHome }}
+      {{if $.Site.Data.config.enableRecentNotes}}
           {{partial "recent.html" . }}
         {{end}}
+{{ end }}
     </article>
     {{partial "footerIndex.html" .}}
 </div>
