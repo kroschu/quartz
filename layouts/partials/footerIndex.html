@@ -1,6 +1,10 @@
 <hr/>
 <div class="backlinks-container">
+{{ if not .IsHome }}
+    <div>
     {{partial "backlinks.html" .}}
+    </div>
+{{ end }}
 </div>
 {{if $.Site.Data.config.enableFooter}}
   {{if $.Site.Data.graphConfig.enableGlobalGraph}}
