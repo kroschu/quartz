@@ -1,11 +1,11 @@
 <hr/>
-<div class="backlinks-container">
 {{ if not .IsHome }}
+   <div class="backlinks-container">
     <div>
     {{partial "backlinks.html" .}}
     </div>
+   </div>
 {{ end }}
-</div>
 {{if $.Site.Data.config.enableFooter}}
   {{if $.Site.Data.graphConfig.enableGlobalGraph}}
       <div class="page-end" id="footer">

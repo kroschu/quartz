@@ -2,13 +2,13 @@
 
 <hr/>
 
-    <div class="backlinks-container">
 {{ if not .IsHome }}
+   <div class="backlinks-container">
     <div>
     {{partial "backlinks.html" .}}
     </div>
-{{ end }}
    </div>
+{{ end }}
 {{if $.Site.Data.config.enableFooter}}
 <div class="page-end" id="footer">
  {{ if not .IsHome }}
