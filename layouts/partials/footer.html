@@ -7,10 +7,11 @@
    </div>
 {{if $.Site.Data.config.enableFooter}}
 <div class="page-end" id="footer">
+ {{ if ne .Permalink "https://treba.m-e.pp.ua/" }}
     <div>
-        {{partial "chat.html" .}}
+        {{ partial "chat.html" . }}
     </div>
-</div>
+{{ end }}
 {{end}}
 
 {{partial "contact.html" .}}
