@@ -1,5 +1,9 @@
 [
   {
+    "fileName": "Без назви 1",
+    "relativePath": "Без назви 1.md"
+  },
+  {
     "fileName": "Без назви",
     "relativePath": "Без назви.md"
   },
@@ -81,31 +85,6 @@
         }
       }
     }
-  },
-  {
-    "fileName": "Філософія",
-    "relativePath": "notes/Філософія.md",
-    "frontmatter": {
-      "title": "Філософія Quartz",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 35
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Чому Quartz?",
-        "level": 2
-      }
-    ]
   },
   {
     "fileName": "Усунення проблем",
@@ -242,6 +221,31 @@
     ]
   },
   {
+    "fileName": "Філософія",
+    "relativePath": "notes/Філософія.md",
+    "frontmatter": {
+      "title": "Філософія Quartz",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Чому Quartz?",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "Установка",
     "relativePath": "notes/Установка.md",
     "tags": [
@@ -290,6 +294,63 @@
       {
         "link": "Усунення проблем.md",
         "displayText": "",
+        "relativePath": "notes/Усунення проблем.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Розгортання",
+    "relativePath": "notes/Розгортання.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Розгортання Quartz в Інтернеті",
+      "weight": -1,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 107
+        }
+      }
+    },
+    "aliases": [
+      "розгортання"
+    ],
+    "headings": [
+      {
+        "heading": "Хостинг на GitHub Pages",
+        "level": 2
+      },
+      {
+        "heading": "Увімкніть дозволи на дії GitHub",
+        "level": 3
+      },
+      {
+        "heading": "Увімкнути сторінки GitHub",
+        "level": 3
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Усунення проблем",
+        "link": "Розгортання.md",
+        "relativePath": "notes/Усунення проблем.md"
+      },
+      {
+        "fileName": "Усунення проблем",
+        "link": "Розгортання.md",
+        "relativePath": "notes/Усунення проблем.md"
+      },
+      {
+        "fileName": "Усунення проблем",
+        "link": "Розгортання.md",
         "relativePath": "notes/Усунення проблем.md"
       }
     ]
@@ -357,63 +418,6 @@
         "link": "Сад знань",
         "relativePath": "_index.md",
         "displayText": "сад знань"
-      }
-    ]
-  },
-  {
-    "fileName": "Розгортання",
-    "relativePath": "notes/Розгортання.md",
-    "tags": [
-      "установка"
-    ],
-    "frontmatter": {
-      "title": "Розгортання Quartz в Інтернеті",
-      "weight": -1,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 107
-        }
-      }
-    },
-    "aliases": [
-      "розгортання"
-    ],
-    "headings": [
-      {
-        "heading": "Хостинг на GitHub Pages",
-        "level": 2
-      },
-      {
-        "heading": "Увімкніть дозволи на дії GitHub",
-        "level": 3
-      },
-      {
-        "heading": "Увімкнути сторінки GitHub",
-        "level": 3
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Усунення проблем",
-        "link": "Розгортання.md",
-        "relativePath": "notes/Усунення проблем.md"
-      },
-      {
-        "fileName": "Усунення проблем",
-        "link": "Розгортання.md",
-        "relativePath": "notes/Усунення проблем.md"
-      },
-      {
-        "fileName": "Усунення проблем",
-        "link": "Розгортання.md",
-        "relativePath": "notes/Усунення проблем.md"
       }
     ]
   },
@@ -699,6 +703,25 @@
     ]
   },
   {
+    "fileName": "Варіанти використання",
+    "relativePath": "notes/Варіанти використання.md",
+    "frontmatter": {
+      "title": "Варіанти використання",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    }
+  },
+  {
     "fileName": "Виноски",
     "relativePath": "notes/Виноски.md",
     "frontmatter": {
@@ -734,25 +757,6 @@
         "displayText": "нагадування у стилі Admonition"
       }
     ]
-  },
-  {
-    "fileName": "Варіанти використання",
-    "relativePath": "notes/Варіанти використання.md",
-    "frontmatter": {
-      "title": "Варіанти використання",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    }
   },
   {
     "fileName": "Інтеграція з Obsidian",
@@ -824,6 +828,47 @@
     "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
   },
   {
+    "fileName": "Управління знаннями",
+    "relativePath": "notes/inbox/Управління знаннями.md",
+    "frontmatter": {
+      "title": "Управління знаннями",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "**Рівень** 1.",
+        "level": 2
+      },
+      {
+        "heading": "**Рівень** 2.",
+        "level": 2
+      },
+      {
+        "heading": "**Витяг**.",
+        "level": 2
+      },
+      {
+        "heading": "**Структурування**.",
+        "level": 2
+      },
+      {
+        "heading": "**Формалізація** і програмна реалізація.",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "Що таке Lua",
     "relativePath": "notes/inbox/Що таке Lua.md",
     "frontmatter": {
@@ -880,47 +925,6 @@
     ]
   },
   {
-    "fileName": "Управління знаннями",
-    "relativePath": "notes/inbox/Управління знаннями.md",
-    "frontmatter": {
-      "title": "Управління знаннями",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 36
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "**Рівень** 1.",
-        "level": 2
-      },
-      {
-        "heading": "**Рівень** 2.",
-        "level": 2
-      },
-      {
-        "heading": "**Витяг**.",
-        "level": 2
-      },
-      {
-        "heading": "**Структурування**.",
-        "level": 2
-      },
-      {
-        "heading": "**Формалізація** і програмна реалізація.",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "Технологічна операція",
     "relativePath": "notes/inbox/Технологічна операція.md",
     "frontmatter": {
@@ -935,6 +939,54 @@
           "line": 2,
           "col": 3,
           "offset": 38
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Процесний підхід",
+    "relativePath": "notes/inbox/Процесний підхід.md",
+    "frontmatter": {
+      "title": "Процесний підхід",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "до управління бізнес-процесами підприємства",
+        "level": 2
+      },
+      {
+        "heading": "Отже:",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
+    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
+    "frontmatter": {
+      "title": "Процесний підхід до управління бізнес-процесами підприємства",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 79
         }
       }
     }
@@ -1030,54 +1082,6 @@
     ]
   },
   {
-    "fileName": "Процесний підхід",
-    "relativePath": "notes/inbox/Процесний підхід.md",
-    "frontmatter": {
-      "title": "Процесний підхід",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 35
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "до управління бізнес-процесами підприємства",
-        "level": 2
-      },
-      {
-        "heading": "Отже:",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
-    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
-    "frontmatter": {
-      "title": "Процесний підхід до управління бізнес-процесами підприємства",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 79
-        }
-      }
-    }
-  },
-  {
     "fileName": "Принцип Парето в управлінні бізнес-процесами",
     "relativePath": "notes/inbox/Принцип Парето в управлінні бізнес-процесами/Принцип Парето в управлінні бізнес-процесами.md",
     "frontmatter": {
@@ -1092,6 +1096,25 @@
           "line": 2,
           "col": 3,
           "offset": 61
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Комплексна методологія",
+    "relativePath": "notes/inbox/Комплексна методологія.md",
+    "frontmatter": {
+      "title": "Комплексна методологія",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 39
         }
       }
     }
@@ -1213,25 +1236,6 @@
     ]
   },
   {
-    "fileName": "Комплексна методологія",
-    "relativePath": "notes/inbox/Комплексна методологія.md",
-    "frontmatter": {
-      "title": "Комплексна методологія",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 39
-        }
-      }
-    }
-  },
-  {
     "fileName": "Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot",
     "relativePath": "notes/inbox/Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot.md"
   },
@@ -1292,12 +1296,61 @@
     }
   },
   {
+    "fileName": "Без назви 1",
+    "relativePath": "notes/inbox/Без назви 1.md"
+  },
+  {
     "fileName": "Інтеграція медіаплеєра Plyr в Hugo",
     "relativePath": "notes/inbox/Інтеграція медіаплеєра Plyr в Hugo.md"
   },
   {
     "fileName": "Інверсія крльору тексту у вікні вводу коментарів",
     "relativePath": "notes/inbox/Інверсія крльору тексту у вікні вводу коментарів.md"
+  },
+  {
+    "fileName": "Інструкція по встановленню Alpine Linux Extended",
+    "relativePath": "notes/inbox/Інструкція по встановленню Alpine Linux Extended.md",
+    "headings": [
+      {
+        "heading": "Вимоги",
+        "level": 2
+      },
+      {
+        "heading": "Крок 1: Завантажте Alpine Linux",
+        "level": 2
+      },
+      {
+        "heading": "Крок 2: Встановлення Alpine Linux",
+        "level": 2
+      },
+      {
+        "heading": "Крок 3: Налаштування SSH",
+        "level": 2
+      },
+      {
+        "heading": "Крок 4: Встановлення та налаштування Cloudflared",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Cинхронізації сховища Obsidian на Android",
+    "relativePath": "notes/inbox/Cинхронізації сховища Obsidian на Android.md",
+    "frontmatter": {
+      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 89
+        }
+      }
+    }
   },
   {
     "fileName": "S–BPM",
@@ -1382,25 +1435,6 @@
   {
     "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
     "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
-  },
-  {
-    "fileName": "Cинхронізації сховища Obsidian на Android",
-    "relativePath": "notes/inbox/Cинхронізації сховища Obsidian на Android.md",
-    "frontmatter": {
-      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 89
-        }
-      }
-    }
   },
   {
     "fileName": "ChatGPT в текст",
