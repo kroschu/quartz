@@ -1,30 +1,7 @@
 [
   {
-    "fileName": "post",
-    "relativePath": "templates/post.md",
-    "frontmatter": {
-      "title": "{{title}}",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 26
-        }
-      }
-    }
-  },
-  {
     "fileName": "Без назви",
     "relativePath": "Без назви.md"
-  },
-  {
-    "fileName": "getting_started.html",
-    "relativePath": "getting_started/getting_started.html.md"
   },
   {
     "fileName": "Без назви 1",
@@ -72,6 +49,25 @@
     ]
   },
   {
+    "fileName": "post",
+    "relativePath": "templates/post.md",
+    "frontmatter": {
+      "title": "{{title}}",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 26
+        }
+      }
+    }
+  },
+  {
     "fileName": "private-note",
     "relativePath": "private/private-note.md",
     "frontmatter": {
@@ -89,101 +85,6 @@
         }
       }
     }
-  },
-  {
-    "fileName": "Виноски",
-    "relativePath": "notes/Виноски.md",
-    "frontmatter": {
-      "title": "Виноски",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 26
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Підтримка виносок",
-        "level": 1
-      },
-      {
-        "heading": "Вітрина",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Пошук",
-        "link": "виноски",
-        "relativePath": "notes/Пошук.md",
-        "displayText": "нагадування у стилі Admonition"
-      }
-    ]
-  },
-  {
-    "fileName": "Без назви",
-    "relativePath": "notes/LangChain/Без назви.md"
-  },
-  {
-    "fileName": "Грабер в Obsidian-markdown",
-    "relativePath": "notes/LangChain/Грабер в Obsidian-markdown.md"
-  },
-  {
-    "fileName": "aiplugin-tool",
-    "relativePath": "notes/LangChain/aiplugin-tool.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Додатки ChatGPT",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "Філософія",
-    "relativePath": "notes/Філософія.md",
-    "frontmatter": {
-      "title": "Філософія Quartz",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 35
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Чому Quartz?",
-        "level": 2
-      }
-    ]
   },
   {
     "fileName": "Усунення проблем",
@@ -320,6 +221,31 @@
     ]
   },
   {
+    "fileName": "Філософія",
+    "relativePath": "notes/Філософія.md",
+    "frontmatter": {
+      "title": "Філософія Quartz",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Чому Quartz?",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "Установка",
     "relativePath": "notes/Установка.md",
     "tags": [
@@ -369,6 +295,42 @@
         "link": "Усунення проблем.md",
         "displayText": "",
         "relativePath": "notes/Усунення проблем.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Перегляд змін",
+    "relativePath": "notes/Перегляд змін.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Перегляд змін",
+      "weight": -2,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 60
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Встановіть та підключіть `hugo-obsidian` локально",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "docker",
+        "link": "Перегляд змін.md",
+        "relativePath": "notes/docker.md"
       }
     ]
   },
@@ -437,6 +399,10 @@
         "displayText": "сад знань"
       }
     ]
+  },
+  {
+    "fileName": "Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown",
+    "relativePath": "notes/Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown.md"
   },
   {
     "fileName": "Розгортання",
@@ -548,10 +514,6 @@
     ]
   },
   {
-    "fileName": "Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown",
-    "relativePath": "notes/Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown.md"
-  },
-  {
     "fileName": "Пошук",
     "relativePath": "notes/Пошук.md",
     "frontmatter": {
@@ -602,14 +564,10 @@
     ]
   },
   {
-    "fileName": "Перегляд змін",
-    "relativePath": "notes/Перегляд змін.md",
-    "tags": [
-      "установка"
-    ],
+    "fileName": "Власний домен",
+    "relativePath": "notes/Власний домен.md",
     "frontmatter": {
-      "title": "Перегляд змін",
-      "weight": -2,
+      "title": "власний домен",
       "position": {
         "start": {
           "line": 0,
@@ -617,23 +575,16 @@
           "offset": 0
         },
         "end": {
-          "line": 5,
+          "line": 2,
           "col": 3,
-          "offset": 60
+          "offset": 32
         }
       }
     },
     "headings": [
       {
-        "heading": "Встановіть та підключіть `hugo-obsidian` локально",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "docker",
-        "link": "Перегляд змін.md",
-        "relativePath": "notes/docker.md"
+        "heading": "Реєстрація",
+        "level": 3
       }
     ]
   },
@@ -752,10 +703,10 @@
     ]
   },
   {
-    "fileName": "Власний домен",
-    "relativePath": "notes/Власний домен.md",
+    "fileName": "Виноски",
+    "relativePath": "notes/Виноски.md",
     "frontmatter": {
-      "title": "власний домен",
+      "title": "Виноски",
       "position": {
         "start": {
           "line": 0,
@@ -765,14 +716,26 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 32
+          "offset": 26
         }
       }
     },
     "headings": [
       {
-        "heading": "Реєстрація",
-        "level": 3
+        "heading": "Підтримка виносок",
+        "level": 1
+      },
+      {
+        "heading": "Вітрина",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Пошук",
+        "link": "виноски",
+        "relativePath": "notes/Пошук.md",
+        "displayText": "нагадування у стилі Admonition"
       }
     ]
   },
@@ -861,6 +824,2170 @@
     ]
   },
   {
+    "fileName": "QR-коди на кожну сторінку сайту",
+    "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
+  },
+  {
+    "fileName": "Грабер в Obsidian-markdown",
+    "relativePath": "notes/LangChain/Грабер в Obsidian-markdown.md"
+  },
+  {
+    "fileName": "Без назви",
+    "relativePath": "notes/LangChain/Без назви.md"
+  },
+  {
+    "fileName": "zapier_agent",
+    "relativePath": "notes/LangChain/zapier_agent.md",
+    "headings": [
+      {
+        "heading": "Agent with Zapier NLA Integration",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "webbrowser",
+    "relativePath": "notes/LangChain/webbrowser.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Web Browser Tool",
+        "level": 1
+      },
+      {
+        "heading": "Setup",
+        "level": 2
+      },
+      {
+        "heading": "Usage, standalone",
+        "level": 2
+      },
+      {
+        "heading": "Usage, in an Agent",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "weaviate",
+    "relativePath": "notes/LangChain/weaviate.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Weaviate",
+        "level": 1
+      },
+      {
+        "heading": "Setup",
+        "level": 2
+      },
+      {
+        "heading": "Usage, insert documents",
+        "level": 2
+      },
+      {
+        "heading": "Usage, query documents",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "vector_store_memory",
+    "relativePath": "notes/LangChain/vector_store_memory.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "VectorStore-Backed Memory",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "vectorstore",
+    "relativePath": "notes/LangChain/vectorstore.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "VectorStore Agent Toolkit",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "upstash_redis",
+    "relativePath": "notes/LangChain/upstash_redis.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Upstash Redis-Backed Chat Memory",
+        "level": 1
+      },
+      {
+        "heading": "Setup",
+        "level": 2
+      },
+      {
+        "heading": "Usage",
+        "level": 2
+      },
+      {
+        "heading": "Advanced Usage",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "unstructured",
+    "relativePath": "notes/LangChain/unstructured.md",
+    "headings": [
+      {
+        "heading": "Unstructured",
+        "level": 1
+      },
+      {
+        "heading": "What is Unstructured?",
+        "level": 2
+      },
+      {
+        "heading": "Quick start",
+        "level": 2
+      },
+      {
+        "heading": "Directories",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "directory.md",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "token",
+    "relativePath": "notes/LangChain/token.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "TokenTextSplitter",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "time-weighted-retriever",
+    "relativePath": "notes/LangChain/time-weighted-retriever.md",
+    "headings": [
+      {
+        "heading": "Time-Weighted Retriever",
+        "level": 1
+      },
+      {
+        "heading": "Usage",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "tigris",
+    "relativePath": "notes/LangChain/tigris.md",
+    "frontmatter": {
+      "sidebar_class_name": "node-only",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 39
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Tigris",
+        "level": 1
+      },
+      {
+        "heading": "Setup",
+        "level": 2
+      },
+      {
+        "heading": "1. Install the Tigris SDK",
+        "level": 3
+      },
+      {
+        "heading": "2. Fetch Tigris API credentials",
+        "level": 3
+      },
+      {
+        "heading": "Index docs",
+        "level": 2
+      },
+      {
+        "heading": "Query docs",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "tabular",
+    "relativePath": "notes/LangChain/tabular.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "sidebar_position": 3,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 59
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Tabular Question Answering",
+        "level": 1
+      },
+      {
+        "heading": "Chains",
+        "level": 2
+      },
+      {
+        "heading": "Agents",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "sql",
+        "displayText": ""
+      },
+      {
+        "link": "sql.mdx",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "supabase",
+    "relativePath": "notes/LangChain/supabase.md",
+    "headings": [
+      {
+        "heading": "Supabase",
+        "level": 1
+      },
+      {
+        "heading": "Setup",
+        "level": 2
+      },
+      {
+        "heading": "Install the library with",
+        "level": 3
+      },
+      {
+        "heading": "Create a table and search function in your database",
+        "level": 3
+      },
+      {
+        "heading": "Usage",
+        "level": 2
+      },
+      {
+        "heading": "Standard Usage",
+        "level": 3
+      },
+      {
+        "heading": "Metadata Filtering",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "supabase-hybrid",
+    "relativePath": "notes/LangChain/supabase-hybrid.md",
+    "headings": [
+      {
+        "heading": "Supabase Hybrid Search",
+        "level": 1
+      },
+      {
+        "heading": "Setup",
+        "level": 2
+      },
+      {
+        "heading": "Install the library with",
+        "level": 3
+      },
+      {
+        "heading": "Create a table and search functions in your database",
+        "level": 3
+      },
+      {
+        "heading": "Usage",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "summarization",
+    "relativePath": "notes/LangChain/summarization.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "sidebar_position": 6,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 59
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Summarization",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "summarization",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "structured_chat",
+    "relativePath": "notes/LangChain/structured_chat.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "sidebar_position": 4,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 59
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Structured Tool Chat Agent",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "sql",
+    "relativePath": "notes/LangChain/sql.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "SQL Agent Toolkit",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "sequential_chain",
+    "relativePath": "notes/LangChain/sequential_chain.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "sidebar_position": 3,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 56
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Sequential Chain",
+        "level": 1
+      },
+      {
+        "heading": "`SimpleSequentialChain`",
+        "level": 2
+      },
+      {
+        "heading": "`SequentialChain`",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "remote-retriever",
+    "relativePath": "notes/LangChain/remote-retriever.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Remote Retriever",
+        "level": 1
+      },
+      {
+        "heading": "Usage",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "s3",
+    "relativePath": "notes/LangChain/s3.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "sidebar_class_name": "node-only",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 69
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "S3 File",
+        "level": 1
+      },
+      {
+        "heading": "Setup",
+        "level": 2
+      },
+      {
+        "heading": "Usage",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "retrieval_qa",
+    "relativePath": "notes/LangChain/retrieval_qa.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "sidebar_position": 2,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 56
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Retrieval QA",
+        "level": 1
+      },
+      {
+        "heading": "Usage",
+        "level": 2
+      },
+      {
+        "heading": "Usage, with a custom `QA` chain",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "redis",
+    "relativePath": "notes/LangChain/redis.md",
+    "frontmatter": {
+      "sidebar_class_name": "node-only",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 39
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Redis",
+        "level": 1
+      },
+      {
+        "heading": "Setup",
+        "level": 2
+      },
+      {
+        "heading": "Index docs",
+        "level": 2
+      },
+      {
+        "heading": "Query docs",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "recursive_character",
+    "relativePath": "notes/LangChain/recursive_character.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "`RecursiveCharacterTextSplitter`",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "question_answering",
+    "relativePath": "notes/LangChain/question_answering.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "sidebar_position": 2,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 59
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Question Answering",
+        "level": 1
+      },
+      {
+        "heading": "Indexing",
+        "level": 2
+      },
+      {
+        "heading": "Chains",
+        "level": 2
+      },
+      {
+        "heading": "Agents",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "retrieval_qa",
+        "displayText": ""
+      },
+      {
+        "link": "conversational_retrieval",
+        "displayText": ""
+      },
+      {
+        "link": ""
+      },
+      {
+        "link": ""
+      },
+      {
+        "link": "vectorstore",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "qdrant",
+    "relativePath": "notes/LangChain/qdrant.md",
+    "frontmatter": {
+      "sidebar_class_name": "тільки вузол",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Крант",
+        "level": 1
+      },
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      },
+      {
+        "heading": "Створення нового покажчика з текстів",
+        "level": 3
+      },
+      {
+        "heading": "Створити новий індекс із документів",
+        "level": 3
+      },
+      {
+        "heading": "Запитати документи з наявної колекції",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "prisma",
+    "relativePath": "notes/LangChain/prisma.md",
+    "headings": [
+      {
+        "heading": "Призма",
+        "level": 1
+      },
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Інсталяція екземпляра бази даних із використанням бази даних Supabase",
+        "level": 3
+      },
+      {
+        "heading": "Встановити Prisma",
+        "level": 3
+      },
+      {
+        "heading": "Налаштування `pgvector` самостійне розміщення екземпляра з `docker-compose`",
+        "level": 3
+      },
+      {
+        "heading": "Створити нову схему",
+        "level": 3
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "pinecone-self-query",
+    "relativePath": "notes/LangChain/pinecone-self-query.md",
+    "headings": [
+      {
+        "heading": "Self Query Ретривер Pinecone",
+        "level": 1
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "personal_assistants",
+    "relativePath": "notes/LangChain/personal_assistants.md",
+    "headings": [
+      {
+        "heading": "Персональні асистенти",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "index.mdx",
+        "displayText": ""
+      },
+      {
+        "link": "index.mdx",
+        "displayText": ""
+      },
+      {
+        "link": "index.mdx",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "notion_markdown",
+    "relativePath": "notes/LangChain/notion_markdown.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Експортування поняття markdown",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "notiondb",
+    "relativePath": "notes/LangChain/notiondb.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Поняття БД",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "myscale",
+    "relativePath": "notes/LangChain/myscale.md",
+    "frontmatter": {
+      "sidebar_class_name": "тільки вузол",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Мій масштаб",
+        "level": 1
+      },
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Документація індексів і запитів",
+        "level": 2
+      },
+      {
+        "heading": "Документація запиту з наявної колекції",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "multi_retrieval_qa_chain",
+    "relativePath": "notes/LangChain/multi_retrieval_qa_chain.md",
+    "headings": [
+      {
+        "heading": "`MultiRetrievalQAChain`",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "multi_prompt_chain",
+    "relativePath": "notes/LangChain/multi_prompt_chain.md",
+    "headings": [
+      {
+        "heading": "`MultiPromptChain`",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "moderation_chain",
+    "relativePath": "notes/LangChain/moderation_chain.md",
+    "headings": [
+      {
+        "heading": "`OpenAIModerationChain`",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "metal-retriever",
+    "relativePath": "notes/LangChain/metal-retriever.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Метал ретривер",
+        "level": 1
+      },
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "memory",
+    "relativePath": "notes/LangChain/memory.md",
+    "headings": [
+      {
+        "heading": "`MemoryVectorStore`",
+        "level": 1
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      },
+      {
+        "heading": "Створення нового покажчика з текстів",
+        "level": 3
+      },
+      {
+        "heading": "Створити новий індекс із завантажувача",
+        "level": 3
+      },
+      {
+        "heading": "Використовувати настроюваний показник подібності",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "markdown",
+    "relativePath": "notes/LangChain/markdown.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "`MarkdownTextSplitter`",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "llm_mrkl",
+    "relativePath": "notes/LangChain/llm_mrkl.md",
+    "headings": [
+      {
+        "heading": "Агент МРКЛ для ЛМ",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "chat_mrkl",
+        "displayText": "",
+        "relativePath": "notes/LangChain/chat_mrkl.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "chat_mrkl",
+        "link": "llm_mrkl",
+        "relativePath": "notes/LangChain/chat_mrkl.md"
+      }
+    ]
+  },
+  {
+    "fileName": "llm_chain",
+    "relativePath": "notes/LangChain/llm_chain.md",
+    "headings": [
+      {
+        "heading": "Початок роботи: Початок роботи",
+        "level": 1
+      },
+      {
+        "heading": "Використання з LLM",
+        "level": 2
+      },
+      {
+        "heading": "Використання з моделями чату",
+        "level": 2
+      },
+      {
+        "heading": "Використання в режимі потокового передавання",
+        "level": 2
+      },
+      {
+        "heading": "Скасування запущеного LLMChain",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": ""
+      },
+      {
+        "link": ""
+      }
+    ]
+  },
+  {
+    "fileName": "latex",
+    "relativePath": "notes/LangChain/latex.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "`LatexTextSplitter`",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "integrations",
+    "relativePath": "notes/LangChain/integrations.md",
+    "headings": [
+      {
+        "heading": "Інтеграції: LLM",
+        "level": 1
+      },
+      {
+        "heading": "`OpenAI`",
+        "level": 2
+      },
+      {
+        "heading": "Лазуровий `OpenAI`",
+        "level": 2
+      },
+      {
+        "heading": "Google Вершина AI",
+        "level": 2
+      },
+      {
+        "heading": "`HuggingFaceInference`",
+        "level": 2
+      },
+      {
+        "heading": "`Cohere`",
+        "level": 2
+      },
+      {
+        "heading": "`Replicate`",
+        "level": 2
+      },
+      {
+        "heading": "AWS `SageMakerEndpoint`",
+        "level": 2
+      },
+      {
+        "heading": "Додаткові реалізації LLM",
+        "level": 2
+      },
+      {
+        "heading": "`PromptLayerOpenAI`",
+        "level": 3
+      },
+      {
+        "heading": "Лазуровий `PromptLayerOpenAI`",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "index",
+    "relativePath": "notes/LangChain/index.md",
+    "headings": [
+      {
+        "heading": "Автономні агенти",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "hyde",
+    "relativePath": "notes/LangChain/hyde.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Ретрівер Ходе",
+        "level": 1
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "hnswlib",
+    "relativePath": "notes/LangChain/hnswlib.md",
+    "frontmatter": {
+      "sidebar_class_name": "тільки вузол",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "HNSWLib",
+        "level": 1
+      },
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      },
+      {
+        "heading": "Створення нового покажчика з текстів",
+        "level": 3
+      },
+      {
+        "heading": "Створити новий індекс із завантажувача",
+        "level": 3
+      },
+      {
+        "heading": "Збереження покажчика до файлу та повторне завантаження",
+        "level": 3
+      },
+      {
+        "heading": "Фільтрувати документи",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "guide-llm",
+    "relativePath": "notes/LangChain/guide-llm.md",
+    "frontmatter": {
+      "позиція_бічної панелі": 2,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 34
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Швидкий запуск, використання LLM",
+        "level": 1
+      },
+      {
+        "heading": "Інсталяція та настроювання",
+        "level": 2
+      },
+      {
+        "heading": "Отримання LLM",
+        "level": 2
+      },
+      {
+        "heading": "Створення програми мовної моделі",
+        "level": 2
+      },
+      {
+        "heading": "LLM: отримати прогнози від мовної моделі",
+        "level": 3
+      },
+      {
+        "heading": "Шаблони підказок: керування підказками для LLM",
+        "level": 3
+      },
+      {
+        "heading": "Ланцюжки: об'єднуйте LLM та підказки в багатокрокових робочих процесах",
+        "level": 3
+      },
+      {
+        "heading": "Агенти: Динамічно запускаються ланцюжки на основі введення користувача",
+        "level": 3
+      },
+      {
+        "heading": "Пам'ять: Додати стан до ланцюгів і агентів",
+        "level": 3
+      },
+      {
+        "heading": "Потокове передавання",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "install",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "guide-chat",
+    "relativePath": "notes/LangChain/guide-chat.md",
+    "frontmatter": {
+      "позиція_бічної панелі": 3,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 34
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Швидкий запуск із використанням моделей чату",
+        "level": 1
+      },
+      {
+        "heading": "Інсталяція та настроювання",
+        "level": 2
+      },
+      {
+        "heading": "Початок роботи",
+        "level": 2
+      },
+      {
+        "heading": "Моделі чатів: повідомлення, повідомлення",
+        "level": 3
+      },
+      {
+        "heading": "Кілька повідомлень",
+        "level": 4
+      },
+      {
+        "heading": "Багаторазові завершення",
+        "level": 4
+      },
+      {
+        "heading": "Шаблони підказок чату: керування підказками для моделей чату",
+        "level": 3
+      },
+      {
+        "heading": "Модель + Запит = LLMChain",
+        "level": 3
+      },
+      {
+        "heading": "Агенти: Динамічно запускаються ланцюжки на основі введення користувача",
+        "level": 3
+      },
+      {
+        "heading": "Пам'ять: Додати стан до ланцюгів і агентів",
+        "level": 3
+      },
+      {
+        "heading": "Потокове передавання",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "install",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "github",
+    "relativePath": "notes/LangChain/github.md",
+    "headings": [
+      {
+        "heading": "GitHub",
+        "level": 1
+      },
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      },
+      {
+        "heading": "Використання синтаксису .gitignore",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "getting-started",
+    "relativePath": "notes/LangChain/getting-started.md",
+    "headings": [
+      {
+        "heading": "Початок роботи: виконавці агентів",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "figma",
+    "relativePath": "notes/LangChain/figma.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Фігма",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "faiss",
+    "relativePath": "notes/LangChain/faiss.md",
+    "frontmatter": {
+      "sidebar_class_name": "тільки вузол",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Файсс",
+        "level": 1
+      },
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      },
+      {
+        "heading": "Створення нового покажчика з текстів",
+        "level": 3
+      },
+      {
+        "heading": "Створити новий індекс із завантажувача",
+        "level": 3
+      },
+      {
+        "heading": "Зберегти індекс у файл і завантажити його знову",
+        "level": 3
+      },
+      {
+        "heading": "Завантажити збережений файл з [Реалізація Python](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/faiss.html#saving-and-loading)",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "entity_memory",
+    "relativePath": "notes/LangChain/entity_memory.md",
+    "headings": [
+      {
+        "heading": "Пам’ять сутності",
+        "level": 1
+      },
+      {
+        "heading": "Використання:",
+        "level": 2
+      },
+      {
+        "heading": "Перевірка сховища пам'яті",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "dynamodb",
+    "relativePath": "notes/LangChain/dynamodb.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Чат-пам'ять DynamoDB-Backed",
+        "level": 1
+      },
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "document_qa",
+    "relativePath": "notes/LangChain/document_qa.md",
+    "headings": [
+      {
+        "heading": "Запитання й відповіді про документ",
+        "level": 1
+      },
+      {
+        "heading": "Використання, `StuffDocumentsChain` і `MapReduceDocumentsChain`",
+        "level": 2
+      },
+      {
+        "heading": "Використання, `RefineDocumentsChain`",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "databerry-retriever",
+    "relativePath": "notes/LangChain/databerry-retriever.md",
+    "headings": [
+      {
+        "heading": "Ретрівер",
+        "level": 1
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "custom_prompt_chat",
+    "relativePath": "notes/LangChain/custom_prompt_chat.md",
+    "headings": [
+      {
+        "heading": "Призначені для користувача підказки, за допомогою Чат Моделі",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "custom_agent_llm",
+    "relativePath": "notes/LangChain/custom_agent_llm.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Настроюваний агент LLM",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "custom_agent_chat",
+    "relativePath": "notes/LangChain/custom_agent_chat.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Власний агент чату",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "creating-subclasses",
+    "relativePath": "notes/LangChain/creating-subclasses.md",
+    "frontmatter": {
+      "sidebar_label": "Зворотні виклики в користувацьких ланцюжках",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 68
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Зворотні виклики в ланцюжках/агентах користувача",
+        "level": 1
+      },
+      {
+        "heading": "Додавання зворотних викликів до користувацьких ланцюжків",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "chains#subclassing-basechain",
+        "cleanLink": "chains",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "create-handlers",
+    "relativePath": "notes/LangChain/create-handlers.md",
+    "headings": [
+      {
+        "heading": "Створення обробників зворотного виклику",
+        "level": 1
+      },
+      {
+        "heading": "Створення власного обробника",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "#built-in-handlers",
+        "relativePath": "notes/LangChain/create-handlers.md",
+        "cleanLink": "create-handlers",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "conversation_summary",
+    "relativePath": "notes/LangChain/conversation_summary.md",
+    "headings": [
+      {
+        "heading": "Зведена пам’ять розмови",
+        "level": 1
+      },
+      {
+        "heading": "Використання, з LLM",
+        "level": 2
+      },
+      {
+        "heading": "Використання, з моделлю чату",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "conversational_retrieval",
+    "relativePath": "notes/LangChain/conversational_retrieval.md",
+    "headings": [
+      {
+        "heading": "Розмовний пошук QA",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "conversational_agent",
+    "relativePath": "notes/LangChain/conversational_agent.md",
+    "headings": [
+      {
+        "heading": "Розмовний агент",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "contextual-compression-retriever",
+    "relativePath": "notes/LangChain/contextual-compression-retriever.md",
+    "headings": [
+      {
+        "heading": "Контекстуальний ретрівер стиснення",
+        "level": 1
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "constitutional_chain",
+    "relativePath": "notes/LangChain/constitutional_chain.md",
+    "headings": [
+      {
+        "heading": "`ConstitutionalChain`",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "confluence",
+    "relativePath": "notes/LangChain/confluence.md",
+    "frontmatter": {
+      "sidebar_class_name": "тільки вузол",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Злиття",
+        "level": 1
+      },
+      {
+        "heading": "Облікові дані",
+        "level": 2
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "chroma",
+    "relativePath": "notes/LangChain/chroma.md",
+    "headings": [
+      {
+        "heading": "Хрома",
+        "level": 1
+      },
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Документи про використання, індекс і запити",
+        "level": 2
+      },
+      {
+        "heading": "Використання, індекс і тексти запитів",
+        "level": 2
+      },
+      {
+        "heading": "Використання, документація запитів з наявної колекції",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "chroma-self-query",
+    "relativePath": "notes/LangChain/chroma-self-query.md",
+    "headings": [
+      {
+        "heading": "Self Query Chroma Ретрівер",
+        "level": 1
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "chat_mrkl",
+    "relativePath": "notes/LangChain/chat_mrkl.md",
+    "headings": [
+      {
+        "heading": "MRKL агент для моделей чату",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "llm_mrkl",
+        "displayText": "",
+        "relativePath": "notes/LangChain/llm_mrkl.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "llm_mrkl",
+        "link": "chat_mrkl",
+        "relativePath": "notes/LangChain/llm_mrkl.md"
+      }
+    ]
+  },
+  {
+    "fileName": "chatgpt-retriever-plugin",
+    "relativePath": "notes/LangChain/chatgpt-retriever-plugin.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Інструмент отримання додатків ChatGPT",
+        "level": 1
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "character",
+    "relativePath": "notes/LangChain/character.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Роздільник_тексту_символів",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "buffer_memory_chat",
+    "relativePath": "notes/LangChain/buffer_memory_chat.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Використання буферної пам'яті з моделями чату",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "baby_agi",
+    "relativePath": "notes/LangChain/baby_agi.md",
+    "headings": [
+      {
+        "heading": "БебіАГІ",
+        "level": 1
+      },
+      {
+        "heading": "Простий приклад",
+        "level": 2
+      },
+      {
+        "heading": "Приклад з інструментами",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "auto_gpt",
+    "relativePath": "notes/LangChain/auto_gpt.md",
+    "headings": [
+      {
+        "heading": "АвтоGPT",
+        "level": 1
+      },
+      {
+        "heading": "Ізоморфний приклад",
+        "level": 2
+      },
+      {
+        "heading": "Приклад Node.js",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "api_chain",
+    "relativePath": "notes/LangChain/api_chain.md",
+    "headings": [
+      {
+        "heading": "`APIChain`",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "apify_dataset",
+    "relativePath": "notes/LangChain/apify_dataset.md",
+    "headings": [
+      {
+        "heading": "Апіфікація набору даних",
+        "level": 1
+      },
+      {
+        "heading": "Огляд",
+        "level": 2
+      },
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      },
+      {
+        "heading": "З нового набору даних",
+        "level": 3
+      },
+      {
+        "heading": "З наявного набору даних",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "api",
+    "relativePath": "notes/LangChain/api.md",
+    "headings": [
+      {
+        "heading": "Взаємодія з API",
+        "level": 1
+      },
+      {
+        "heading": "Ланцюги",
+        "level": 2
+      },
+      {
+        "heading": "Агенти",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "api_chain.mdx",
+        "displayText": ""
+      },
+      {
+        "link": "openapi.md",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "analyze_document",
+    "relativePath": "notes/LangChain/analyze_document.md",
+    "headings": [
+      {
+        "heading": "`AnalyzeDocumentChain`",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "aiplugin-tool",
+    "relativePath": "notes/LangChain/aiplugin-tool.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Додатки ChatGPT",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "additional_functionality",
+    "relativePath": "notes/LangChain/additional_functionality.md",
+    "frontmatter": {
+      "sidebar_label": "Додаткові можливості",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 45
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Додаткова функціональність: LLM",
+        "level": 1
+      },
+      {
+        "heading": "Додаткові методи",
+        "level": 2
+      },
+      {
+        "heading": "Потокові відповіді",
+        "level": 2
+      },
+      {
+        "heading": "Кешування",
+        "level": 2
+      },
+      {
+        "heading": "Кешування в пам'яті",
+        "level": 3
+      },
+      {
+        "heading": "Кешування з Redis",
+        "level": 3
+      },
+      {
+        "heading": "Додавання часу очікування",
+        "level": 2
+      },
+      {
+        "heading": "Скасування запитів",
+        "level": 2
+      },
+      {
+        "heading": "Робота з лімітами ставок",
+        "level": 2
+      },
+      {
+        "heading": "Робота з помилками API",
+        "level": 2
+      },
+      {
+        "heading": "Підписка на події",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": ""
+      }
+    ]
+  },
+  {
     "fileName": "Як налаштувати autogpt через проксі gpt4free",
     "relativePath": "notes/inbox/Як налаштувати autogpt через проксі gpt4free.md"
   },
@@ -882,43 +3009,6 @@
         }
       }
     }
-  },
-  {
-    "fileName": "Цикл управління знаннями",
-    "relativePath": "notes/inbox/Цикл управління знаннями.md",
-    "frontmatter": {
-      "title": "Цикл управління знаннями",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 41
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Накопичення",
-        "level": 4
-      },
-      {
-        "heading": "Структурування",
-        "level": 4
-      },
-      {
-        "heading": "Формалізація і програмна реалізація",
-        "level": 4
-      },
-      {
-        "heading": "Обслуговування",
-        "level": 4
-      }
-    ]
   },
   {
     "fileName": "Управління знаннями",
@@ -958,6 +3048,43 @@
       {
         "heading": "**Формалізація** і програмна реалізація.",
         "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Цикл управління знаннями",
+    "relativePath": "notes/inbox/Цикл управління знаннями.md",
+    "frontmatter": {
+      "title": "Цикл управління знаннями",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 41
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Накопичення",
+        "level": 4
+      },
+      {
+        "heading": "Структурування",
+        "level": 4
+      },
+      {
+        "heading": "Формалізація і програмна реалізація",
+        "level": 4
+      },
+      {
+        "heading": "Обслуговування",
+        "level": 4
       }
     ]
   },
@@ -1071,6 +3198,25 @@
     ]
   },
   {
+    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
+    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
+    "frontmatter": {
+      "title": "Процесний підхід до управління бізнес-процесами підприємства",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 79
+        }
+      }
+    }
+  },
+  {
     "fileName": "Процесний підхід",
     "relativePath": "notes/inbox/Процесний підхід.md",
     "frontmatter": {
@@ -1100,25 +3246,6 @@
     ]
   },
   {
-    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
-    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
-    "frontmatter": {
-      "title": "Процесний підхід до управління бізнес-процесами підприємства",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 79
-        }
-      }
-    }
-  },
-  {
     "fileName": "Принцип Парето в управлінні бізнес-процесами",
     "relativePath": "notes/inbox/Принцип Парето в управлінні бізнес-процесами/Принцип Парето в управлінні бізнес-процесами.md",
     "frontmatter": {
@@ -1133,6 +3260,25 @@
           "line": 2,
           "col": 3,
           "offset": 61
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Онтологія знань",
+    "relativePath": "notes/inbox/Онтологія знань.md",
+    "frontmatter": {
+      "title": "Онтологія знань",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 34
         }
       }
     }
@@ -1179,44 +3325,6 @@
     ]
   },
   {
-    "fileName": "Онтологія знань",
-    "relativePath": "notes/inbox/Онтологія знань.md",
-    "frontmatter": {
-      "title": "Онтологія знань",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 34
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Онтологічний інжиніринг",
-    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
-    "frontmatter": {
-      "title": "Онтологічний інжиніринг",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 42
-        }
-      }
-    }
-  },
-  {
     "fileName": "Методологічна основа проекту",
     "relativePath": "notes/inbox/Методологічна основа проекту.md",
     "frontmatter": {
@@ -1254,6 +3362,25 @@
     ]
   },
   {
+    "fileName": "Онтологічний інжиніринг",
+    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
+    "frontmatter": {
+      "title": "Онтологічний інжиніринг",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    }
+  },
+  {
     "fileName": "Комплексна методологія",
     "relativePath": "notes/inbox/Комплексна методологія.md",
     "frontmatter": {
@@ -1277,6 +3404,20 @@
     "relativePath": "notes/inbox/Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot.md"
   },
   {
+    "fileName": "Видаляємо непотрібну для генерації аудіо розмітку та частини тексту",
+    "relativePath": "notes/inbox/Видаляємо непотрібну для генерації аудіо розмітку та частини тексту.md",
+    "headings": [
+      {
+        "heading": "Запит:",
+        "level": 2
+      },
+      {
+        "heading": "Відповідь:",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "Вимоги до проекту",
     "relativePath": "notes/inbox/Вимоги до проекту.md",
     "frontmatter": {
@@ -1296,30 +3437,16 @@
     }
   },
   {
-    "fileName": "Видаляємо непотрібну для генерації аудіо розмітку та частини тексту",
-    "relativePath": "notes/inbox/Видаляємо непотрібну для генерації аудіо розмітку та частини тексту.md",
-    "headings": [
-      {
-        "heading": "Запит:",
-        "level": 2
-      },
-      {
-        "heading": "Відповідь:",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "Без назви",
     "relativePath": "notes/inbox/Без назви.md"
   },
   {
-    "fileName": "Без назви 2",
-    "relativePath": "notes/inbox/Без назви 2.md"
-  },
-  {
     "fileName": "Без назви 1",
     "relativePath": "notes/inbox/Без назви 1.md"
+  },
+  {
+    "fileName": "Без назви 2",
+    "relativePath": "notes/inbox/Без назви 2.md"
   },
   {
     "fileName": "Алгоритм онтологічного інженірінгу",
@@ -1343,6 +3470,10 @@
   {
     "fileName": "Інтеграція медіаплеєра Plyr в Hugo",
     "relativePath": "notes/inbox/Інтеграція медіаплеєра Plyr в Hugo.md"
+  },
+  {
+    "fileName": "Інверсія крльору тексту у вікні вводу коментарів",
+    "relativePath": "notes/inbox/Інверсія крльору тексту у вікні вводу коментарів.md"
   },
   {
     "fileName": "Інструкція по встановленню Alpine Linux Extended",
@@ -1369,10 +3500,6 @@
         "level": 2
       }
     ]
-  },
-  {
-    "fileName": "Інверсія крльору тексту у вікні вводу коментарів",
-    "relativePath": "notes/inbox/Інверсія крльору тексту у вікні вводу коментарів.md"
   },
   {
     "fileName": "S–BPM",
@@ -1565,10 +3692,6 @@
     ]
   },
   {
-    "fileName": "QR-коди на кожну сторінку сайту",
-    "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
-  },
-  {
     "fileName": "docker",
     "relativePath": "notes/docker.md",
     "tags": [
@@ -1623,6 +3746,10 @@
   {
     "fileName": "2023-05-19",
     "relativePath": "2023-05-19.md"
+  },
+  {
+    "fileName": "getting_started.html",
+    "relativePath": "getting_started/getting_started.html.md"
   },
   {
     "fileName": "(invalid)",
