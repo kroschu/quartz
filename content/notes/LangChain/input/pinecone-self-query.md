@@ -1,14 +1,13 @@
-# Self Query Pinecone Retriever
+# Self Query Ретривер Pinecone
 
-The Self Query Retriever, which as the name suggests, has the ability to query itself. Specifically, given any natural language query, the retriever uses a query-constructing LLM chain to write a structured query and then applies that structured query to it's underlying vector store. This allows the retriever to not only use the user-input query for semantic similarity comparison with the contents of stored documents, but to also extract filters from the user query on the metadata of stored documents and to execute those filter.
+Ретривер самозапитів, який, як випливає з назви, має можливість запиту. Зокрема, для будь-якого запиту на природну мову, ретривер використовує LLM-ланцюг створення запитів для запису структурованого запиту, а потім застосовує цей структурований запит до основного векторного сховища. Це дозволяє ретриверу не тільки використовувати запит на введення користувача для порівняння семантичної подібності зі вмістом збережених документів, але також витягувати фільтри з користувацького запиту на метадані збережених документів і виконувати ці фільтри.
 
-This example uses Pinecone vector store.
+У цьому прикладі використовується векторне сховище Pinecone.
 
-## Usage
+## Використання
 
-This example shows how to intialize a `SelfQueryRetriever` with a vector store:
+Цей приклад показує, як ініціалізувати `SelfQueryRetriever` з векторним магазином:
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/retrievers/pinecone_self_query.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/retrievers/pinecone_self_query.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

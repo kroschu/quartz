@@ -1,13 +1,11 @@
 ---
-hide_table_of_contents: true
-sidebar_position: 2
+hide_table_of_contents: істинна бічна панель_позиція: 2
 ---
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/agents/chat_mrkl.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/agents/chat_mrkl.ts»;
 
-# MRKL Agent for Chat Models
+# MRKL агент для моделей чату
 
-This example covers how to use an agent that uses the ReAct Framework (based on the descriptions of tools) to decide what action to take. This agent is optimized to be used with Chat Models. If you want to use it with an LLM, you can use the [LLM MRKL Agent](./llm_mrkl) instead.
+Цей приклад показує, як використовувати агент, який використовує ReAct Framework (на основі опису інструментів), щоб вирішити, яку дію зробити. Цей агент оптимізований для використання з моделями чату. Якщо ви хочете використовувати його з LLM, ви можете використовувати [Агент LLM MRKL](./llm_mrkl) натомість.
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

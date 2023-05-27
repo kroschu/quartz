@@ -1,11 +1,11 @@
 ---
-sidebar_label: Callbacks in custom Chains
+sidebar_label: Зворотні виклики в користувацьких ланцюжках
 ---
 
-# Callbacks in custom Chains/Agents
+# Зворотні виклики в ланцюжках/агентах користувача
 
-LangChain is designed to be extensible. You can add your own custom Chains and Agents to the library. This page will show you how to add callbacks to your custom Chains and Agents.
+LangChain розроблений, щоб бути розширюваним. Ви можете додати свої власні ланцюжки та агенти до бібліотеки. Ця сторінка покаже вам, як додати зворотні виклики до користувацьких ланцюжків і агентів.
 
-## Adding callbacks to custom Chains
+## Додавання зворотних викликів до користувацьких ланцюжків
 
-When you create a custom chain you can easily set it up to use the same callback system as all the built-in chains. See this guide for more information on how to [create custom chains and use callbacks inside them](../../modules/chains#subclassing-basechain).
+Коли ви створюєте власний ланцюжок, ви можете легко налаштувати його так, щоб він використовував ту саму систему зворотного виклику, що й усі вбудовані ланцюжки. Див. цей посібник для отримання додаткової інформації про те, як [створюйте користувацькі ланцюжки та використовуйте зворотні виклики всередині них](../../modules/chains#subclassing-basechain).

@@ -1,40 +1,33 @@
 ---
-hide_table_of_contents: true
-sidebar_position: 2
+hide_table_of_contents: істинна бічна панель_позиція: 2
 ---
 
-# Question Answering
+# Питання Відповідь
 
-:::info
-[Conceptual Guide](https://docs.langchain.com/docs/use-cases/qa-docs)
+:::інформація [Концептуальне керівництво](https://docs.langchain.com/docs/use-cases/qa-docs)
 :::
 
-Question answering in this context refers to question answering over your document data.
-There are a few different types of question answering:
+Під відповіддю на запитання в цьому контексті мається на увазі відповідь на запитання щодо даних вашого документа. Є кілька різних типів відповідей на питання:
 
-- [Retrieval Question Answering](../modules/chains/index_related_chains/retrieval_qa): Use this to ingest documents, index them into a vectorstore, and then be able to ask questions about it.
-- [Chat Retrieval](../modules/chains/index_related_chains/conversational_retrieval): Similar to above in that you ingest and index documents, but this lets you have more a conversation (ask follow up questions, etc) rather than just asking one-off questions.
+- [Отримання Відповіді На Питання](../modules/chains/index_related_chains/retrieval_qa): Використовуйте це, щоб отримати документи, проіндексувати їх у vectorstore, а потім зможете задавати питання про це.
+- [Отримання чату](../modules/chains/index_related_chains/conversational_retrieval): Схоже на вище, в тому, що ви ковтаєте і індексувати документи, але це дозволяє вам мати більше розмови (задавати подальші питання, і т.д.), а не просто задавати разові питання.
 
-## Indexing
+## Індексація
 
-For question answering over many documents, you almost always want to create an index over the data.
-This can be used to smartly access the most relevant documents for a given question, allowing you to avoid having to pass all the documents to the LLM (saving you time and money).
+Якщо ви маєте питання, що відповідає на більшість документів, ви майже завжди бажаєте створити індекс над даними. Це може бути використано для швидкого доступу до найбільш релевантних документів для даного питання, що дозволяє уникнути необхідності передавати всі документи до LLM (заощаджуючи ваш час і гроші).
 
-Therefore, it is really important to understand how to create indexes, and so you should familiarize yourself with all the documentation related to that.
+Тому дуже важливо розуміти, як створюються індекси, і тому слід ознайомитися з усією документацією, пов'язаною з цим.
 
 - [Indexes](../modules/indexes/)
 
-## Chains
+## Ланцюги
 
-After you create an index, you can then use it in a chain.
-You can just do normal question answering over it, or you can use it a conversational way.
-For an overview of these chains (and more) see the below documentation.
+Після створення індексу можна використовувати його у ланцюжку. Ви можете просто зробити звичайне питання, відповідаючи на нього, або ви можете використовувати його розмовний спосіб. Для перегляду цих ланцюгів (і більше) див. наведену нижче документацію.
 
-- [Index related chains](../modules/chains/index_related_chains/)
+- [Ланцюжки, пов’язані з індексом](../modules/chains/index_related_chains/)
 
-## Agents
+## Агенти
 
-If you want to be able to answer more complex, multi-hop questions you should look into combining your indexes with an agent.
-For an example of how to do that, please see the below.
+Якщо ви хочете мати можливість відповісти на більш складні, мульти-хоп питання, ви повинні дивитися на об'єднання ваших індексів з агентом. Приклад того, як це зробити, див. нижче.
 
-- [Vectorstore Agent](../modules/agents/toolkits/vectorstore)
+- [Агент Vectorstore](../modules/agents/toolkits/vectorstore)

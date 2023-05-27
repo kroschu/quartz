@@ -1,8 +1,7 @@
-import CodeBlock from "@theme/CodeBlock";
-import APIExample from "@examples/chains/api_chain.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт APIExample з «@examples/chains/api_chain.ts»;
 
-# `APIChain`
+#  `APIChain`
 
-APIChain enables using LLMs to interact with APIs to retrieve relevant information. Construct the chain by providing a question relevant to the provided API documentation.
+APIChain дозволяє використовувати LLM для взаємодії з API для отримання відповідної інформації. Створіть ланцюжок, надавши запитання стосовно наданої документації API.
 
-<CodeBlock language="typescript">{APIExample}</CodeBlock>
+<CodeBlock language="typescript">{APIПриклад}</CodeBlock>

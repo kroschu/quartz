@@ -1,8 +1,7 @@
-import CodeBlock from "@theme/CodeBlock";
-import OpenAIModerationExample from "@examples/chains/openai_moderation.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт OpenAIModerationExample з «@examples/chains/openai_moderation.ts»;
 
-# `OpenAIModerationChain`
+#  `OpenAIModerationChain`
 
-You can use the `OpenAIModerationChain` which takes care of evaluating the input and identifying whether it violates OpenAI's Terms of Service (TOS). If the input contains any content that breaks the TOS and throwError is set to true, an error will be thrown and caught. If throwError is set to false the chain will return "Text was found that violates OpenAI's content policy."
+Ви можете використовувати `OpenAIModerationChain` яка піклується про оцінку входу та виявлення того, чи порушує вона Умови надання послуг (TOS) OpenAI. Якщо на вході є будь-який вміст, що порушує умови TOS і throwError, встановлено значення true, то буде викинута і перехоплена помилка. Якщо throwError встановлено у значення false, ланцюжок поверне «Знайдено текст, який порушує політику вмісту OpenAI».
 
 <CodeBlock language="typescript">{OpenAIModerationExample}</CodeBlock>

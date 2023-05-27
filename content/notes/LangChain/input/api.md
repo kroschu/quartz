@@ -1,29 +1,22 @@
 ---
-hide_table_of_contents: true
-sidebar_position: 4
+hide_table_of_contents: true sidebar_position: 4
 ---
 
-# Interacting with APIs
+# Взаємодія з API
 
-:::info
-[Conceptual Guide](https://docs.langchain.com/docs/use-cases/apis)
+:::інформація [Концептуальне керівництво](https://docs.langchain.com/docs/use-cases/apis)
 :::
 
-Lots of data and information is stored behind APIs.
-This page covers all resources available in LangChain for working with APIs.
+Багато даних та інформації зберігаються за API. Ця сторінка охоплює всі ресурси, доступні в LangChain для роботи з API.
 
-## Chains
+## Ланцюги
 
-If you are just getting started and you have relatively simple APIs, you should get started with chains.
-Chains are a sequence of predetermined steps, so they are good to get started with as they give you more control and let you
-understand what is happening better.
+Якщо ви тільки починаєте роботу і у вас є відносно прості API, ви повинні почати роботу з ланцюгами. Ланцюги — це послідовність заздалегідь визначених кроків, тому їх добре розпочати, оскільки вони дають вам більше контролю та дозволяють зрозуміти, що відбувається краще.
 
 - [API Chain](../modules/chains/other_chains/api_chain.mdx)
 
-## Agents
+## Агенти
 
-Agents are more complex, and involve multiple queries to the LLM to understand what to do.
-The downside of agents are that you have less control. The upside is that they are more powerful,
-which allows you to use them on larger and more complex schemas.
+Агенти складніші, і залучають до LLM декілька запитів, щоб зрозуміти, що робити. Недоліком агентів є те, що у вас є менший контроль. При цьому позитивна сторона полягає в тому, що вони більш потужні, що дозволяє використовувати їх на великих і більш складних схемах.
 
-- [OpenAPI Agent](../modules/agents/toolkits/openapi.md)
+- [Агент OpenAPI](../modules/agents/toolkits/openapi.md)

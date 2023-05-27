@@ -1,24 +1,20 @@
 ---
-hide_table_of_contents: true
-sidebar_position: 1
+hide_table_of_contents: істинна бічна панель_позиція: 1
 ---
 
-# Personal Assistants
+# Персональні асистенти
 
-:::info
-[Conceptual Guide](https://docs.langchain.com/docs/use-cases/personal-assistants)
+:::інформація [Концептуальне керівництво](https://docs.langchain.com/docs/use-cases/personal-assistants)
 :::
 
-We use "personal assistant" here in a very broad sense.
-Personal assistants have a few characteristics:
+Ми використовуємо «особистого асистента» тут у дуже широкому сенсі. Особисті асистенти мають кілька характеристик:
 
-- They can interact with the outside world
-- They have knowledge of your data
-- They remember your interactions
+- Вони можуть взаємодіяти із зовнішнім світом
+- Вони знають ваші дані
+- Вони пам'ятають ваші взаємодії
 
-Really all of the functionality in LangChain is relevant for building a personal assistant.
-Highlighting specific parts:
+Дійсно весь функціонал в LangChain актуальний для побудови особистого асистента. Підсвічування окремих частин:
 
-- [Agent Documentation](../modules/agents/index.mdx) (for interacting with the outside world)
-- [Index Documentation](../modules/indexes/index.mdx) (for giving them knowledge of your data)
-- [Memory](../modules/memory/index.mdx) (for helping them remember interactions)
+- [Агентська документація](../modules/agents/index.mdx) (для взаємодії з зовнішнім світом)
+- [Документація індексу](../modules/indexes/index.mdx) (за надання їм знань про ваші дані)
+- [Memory](../modules/memory/index.mdx) (щоб допомогти їм пам'ятати взаємодії)

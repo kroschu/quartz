@@ -1,25 +1,24 @@
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-# AutoGPT
+# АвтоGPT
 
-:::info
-Original Repo: https://github.com/Significant-Gravitas/Auto-GPT
+:::інформація Оригінальне Сховище: https://github.com/Significant-Gravitas/Auto-GPT
 :::
 
-AutoGPT is a custom agent that uses long-term memory along with a prompt designed for independent work (ie. without asking user input) to perform tasks.
+AutoGPT — це кастомний агент, який використовує довготривалу пам'ять, а також підказку, призначену для незалежної роботи (тобто без введення користувачем) для виконання завдань.
 
-## Isomorphic Example
+## Ізоморфний приклад
 
-import IsomorphicExample from "@examples/experimental/autogpt/weather_browser.ts";
+імпорт ізоморфного прикладу з «@examples/experimental/autogpt/weather_browser.ts»;
 
-In this example we use AutoGPT to predict the weather for a given location. This example is designed to run in all JS environments, including the browser.
+У цьому прикладі ми використовуємо AutoGPT, щоб передбачити погоду для даного місця. Цей приклад призначений для роботи у всіх JS середовищах, в тому числі в браузері.
 
-<CodeBlock language="typescript">{IsomorphicExample}</CodeBlock>
+<CodeBlock language="typescript">{Ізоморфний приклад}</CodeBlock>
 
-## Node.js Example
+## Приклад Node.js
 
-import NodeExample from "@examples/experimental/autogpt/weather.ts";
+імпорт NodeExample з «@examples/experimental/autogpt/weather.ts»;
 
-In this example we use AutoGPT to predict the weather for a given location. This example is designed to run in Node.js, so it uses the local filesystem, and a Node-only vector store.
+У цьому прикладі ми використовуємо AutoGPT, щоб передбачити погоду для даного місця. Цей приклад призначений для запуску в Node.js, тому він використовує локальну файлову систему, і векторне сховище тільки вузлів.
 
-<CodeBlock language="typescript">{NodeExample}</CodeBlock>
+<CodeBlock language="typescript">Приклад вузла {NodeExample}</CodeBlock>

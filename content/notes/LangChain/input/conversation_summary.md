@@ -1,22 +1,21 @@
 ---
-hide_table_of_contents: true
-sidebar_label: Conversation Summary
+hide_table_of_contents: true sidebar_label: зведення розмови
 ---
 
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-# Conversation Summary Memory
+# Зведена пам’ять розмови
 
-The Conversation Summary Memory summarizes the conversation as it happens and stores the current summary in memory. This memory can then be used to inject the summary of the conversation so far into a prompt/chain. This memory is most useful for longer conversations, where keeping the past message history in the prompt verbatim would take up too many tokens.
+У зведеній пам'яті розмови підсумовується розмова в міру її виникнення та зберігає поточне зведення в пам'яті. Ця пам'ять потім може бути використана для введення резюме розмови до цих пір в підказку / ланцюжок. Ця пам'ять є найбільш корисною для тривалих розмов, де збереження історії минулих повідомлень в запиті дослівно займе занадто багато знаків.
 
-## Usage, with an LLM
+## Використання, з LLM
 
-import TextExample from "@examples/memory/summary_llm.ts";
+імпорт TextExample з «@examples/memory/summary_llm.ts»;
 
-<CodeBlock language="typescript">{TextExample}</CodeBlock>
+<CodeBlock language="typescript">{Приклад тексту}</CodeBlock>
 
-## Usage, with a Chat Model
+## Використання, з моделлю чату
 
-import ChatExample from "@examples/memory/summary_chat.ts";
+імпорт ChatExample з «@examples/memory/summary_chat.ts»;
 
 <CodeBlock language="typescript">{ChatExample}</CodeBlock>

@@ -1,11 +1,45 @@
 [
   {
+    "fileName": "private-note",
+    "relativePath": "private/private-note.md",
+    "frontmatter": {
+      "title": "Private Stuff",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 32
+        }
+      }
+    }
+  },
+  {
     "fileName": "Без назви",
     "relativePath": "Без назви.md"
   },
   {
-    "fileName": "Без назви 1",
-    "relativePath": "Без назви 1.md"
+    "fileName": "post",
+    "relativePath": "templates/post.md",
+    "frontmatter": {
+      "title": "{{title}}",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 26
+        }
+      }
+    }
   },
   {
     "fileName": "_index",
@@ -49,201 +83,8 @@
     ]
   },
   {
-    "fileName": "post",
-    "relativePath": "templates/post.md",
-    "frontmatter": {
-      "title": "{{title}}",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 26
-        }
-      }
-    }
-  },
-  {
-    "fileName": "private-note",
-    "relativePath": "private/private-note.md",
-    "frontmatter": {
-      "title": "Private Stuff",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 32
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Розгортання",
-    "relativePath": "notes/Розгортання.md",
-    "tags": [
-      "установка"
-    ],
-    "frontmatter": {
-      "title": "Розгортання Quartz в Інтернеті",
-      "weight": -1,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 107
-        }
-      }
-    },
-    "aliases": [
-      "розгортання"
-    ],
-    "headings": [
-      {
-        "heading": "Хостинг на GitHub Pages",
-        "level": 2
-      },
-      {
-        "heading": "Увімкніть дозволи на дії GitHub",
-        "level": 3
-      },
-      {
-        "heading": "Увімкнути сторінки GitHub",
-        "level": 3
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Усунення проблем",
-        "link": "Розгортання.md",
-        "relativePath": "notes/Усунення проблем.md"
-      },
-      {
-        "fileName": "Усунення проблем",
-        "link": "Розгортання.md",
-        "relativePath": "notes/Усунення проблем.md"
-      },
-      {
-        "fileName": "Усунення проблем",
-        "link": "Розгортання.md",
-        "relativePath": "notes/Усунення проблем.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Редагування вмісту",
-    "relativePath": "notes/Редагування вмісту.md",
-    "tags": [
-      "установка"
-    ],
-    "frontmatter": {
-      "title": "Редагування вмісту в Quartz",
-      "weight": -4,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 73
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Obsidian",
-        "level": 3
-      }
-    ],
-    "links": [
-      {
-        "link": "obsidian.md",
-        "displayText": ""
-      },
-      {
-        "link": "Усунення проблем.md",
-        "displayText": "",
-        "relativePath": "notes/Усунення проблем.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Усунення проблем",
-        "link": "Редагування вмісту.md",
-        "relativePath": "notes/Усунення проблем.md"
-      },
-      {
-        "fileName": "Установка",
-        "link": "Редагування вмісту.md",
-        "relativePath": "notes/Установка.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Пошук",
-    "relativePath": "notes/Пошук.md",
-    "frontmatter": {
-      "title": "Пошук",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 4,
-          "col": 3,
-          "offset": 43
-        }
-      }
-    },
-    "aliases": [
-      "пошук"
-    ],
-    "headings": [
-      {
-        "heading": "Природна мова",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Пошук",
-        "relativePath": "notes/Пошук.md"
-      },
-      {
-        "link": "CJK + підтримка LaTex"
-      },
-      {
-        "link": "виноски",
-        "displayText": "нагадування у стилі Admonition",
-        "relativePath": "notes/Виноски.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Пошук",
-        "relativePath": "_index.md",
-        "displayText": "пошук"
-      }
-    ]
+    "fileName": "Без назви 1",
+    "relativePath": "Без назви 1.md"
   },
   {
     "fileName": "Філософія",
@@ -388,72 +229,19 @@
     ],
     "backlinks": [
       {
-        "fileName": "Редагування вмісту",
-        "link": "Усунення проблем.md",
-        "relativePath": "notes/Редагування вмісту.md"
-      },
-      {
         "fileName": "Установка",
         "link": "Усунення проблем.md",
         "relativePath": "notes/Установка.md"
       },
       {
-        "fileName": "Конфігурація",
+        "fileName": "Редагування вмісту",
         "link": "Усунення проблем.md",
-        "relativePath": "notes/Конфігурація.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Установка",
-    "relativePath": "notes/Установка.md",
-    "tags": [
-      "установка"
-    ],
-    "frontmatter": {
-      "title": "Установка",
-      "weight": -5,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 60
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Створення власного Quartz",
-        "level": 2
-      },
-      {
-        "heading": "Форкінг",
-        "level": 3
-      },
-      {
-        "heading": "Клонування",
-        "level": 3
-      },
-      {
-        "heading": "Редагування",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Редагування вмісту.md",
-        "displayText": "",
         "relativePath": "notes/Редагування вмісту.md"
       },
       {
+        "fileName": "Конфігурація",
         "link": "Усунення проблем.md",
-        "displayText": "",
-        "relativePath": "notes/Усунення проблем.md"
+        "relativePath": "notes/Конфігурація.md"
       }
     ]
   },
@@ -524,8 +312,220 @@
     ]
   },
   {
+    "fileName": "Установка",
+    "relativePath": "notes/Установка.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Установка",
+      "weight": -5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 60
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Створення власного Quartz",
+        "level": 2
+      },
+      {
+        "heading": "Форкінг",
+        "level": 3
+      },
+      {
+        "heading": "Клонування",
+        "level": 3
+      },
+      {
+        "heading": "Редагування",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Редагування вмісту.md",
+        "displayText": "",
+        "relativePath": "notes/Редагування вмісту.md"
+      },
+      {
+        "link": "Усунення проблем.md",
+        "displayText": "",
+        "relativePath": "notes/Усунення проблем.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Розгортання",
+    "relativePath": "notes/Розгортання.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Розгортання Quartz в Інтернеті",
+      "weight": -1,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 107
+        }
+      }
+    },
+    "aliases": [
+      "розгортання"
+    ],
+    "headings": [
+      {
+        "heading": "Хостинг на GitHub Pages",
+        "level": 2
+      },
+      {
+        "heading": "Увімкніть дозволи на дії GitHub",
+        "level": 3
+      },
+      {
+        "heading": "Увімкнути сторінки GitHub",
+        "level": 3
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Усунення проблем",
+        "link": "Розгортання.md",
+        "relativePath": "notes/Усунення проблем.md"
+      },
+      {
+        "fileName": "Усунення проблем",
+        "link": "Розгортання.md",
+        "relativePath": "notes/Усунення проблем.md"
+      },
+      {
+        "fileName": "Усунення проблем",
+        "link": "Розгортання.md",
+        "relativePath": "notes/Усунення проблем.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Редагування вмісту",
+    "relativePath": "notes/Редагування вмісту.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Редагування вмісту в Quartz",
+      "weight": -4,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 73
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Obsidian",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "obsidian.md",
+        "displayText": ""
+      },
+      {
+        "link": "Усунення проблем.md",
+        "displayText": "",
+        "relativePath": "notes/Усунення проблем.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Усунення проблем",
+        "link": "Редагування вмісту.md",
+        "relativePath": "notes/Усунення проблем.md"
+      },
+      {
+        "fileName": "Установка",
+        "link": "Редагування вмісту.md",
+        "relativePath": "notes/Установка.md"
+      }
+    ]
+  },
+  {
     "fileName": "Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown",
     "relativePath": "notes/Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown.md"
+  },
+  {
+    "fileName": "Пошук",
+    "relativePath": "notes/Пошук.md",
+    "frontmatter": {
+      "title": "Пошук",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 43
+        }
+      }
+    },
+    "aliases": [
+      "пошук"
+    ],
+    "headings": [
+      {
+        "heading": "Природна мова",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Пошук",
+        "relativePath": "notes/Пошук.md"
+      },
+      {
+        "link": "CJK + підтримка LaTex"
+      },
+      {
+        "link": "виноски",
+        "displayText": "нагадування у стилі Admonition",
+        "relativePath": "notes/Виноски.md"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Пошук",
+        "relativePath": "_index.md",
+        "displayText": "пошук"
+      }
+    ]
   },
   {
     "fileName": "Перегляд змін",
@@ -618,6 +618,31 @@
     ]
   },
   {
+    "fileName": "Власний домен",
+    "relativePath": "notes/Власний домен.md",
+    "frontmatter": {
+      "title": "власний домен",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 32
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Реєстрація",
+        "level": 3
+      }
+    ]
+  },
+  {
     "fileName": "Конфігурація",
     "relativePath": "notes/Конфігурація.md",
     "tags": [
@@ -674,31 +699,6 @@
         "link": "Усунення проблем.md",
         "displayText": "",
         "relativePath": "notes/Усунення проблем.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Власний домен",
-    "relativePath": "notes/Власний домен.md",
-    "frontmatter": {
-      "title": "власний домен",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 32
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Реєстрація",
-        "level": 3
       }
     ]
   },
@@ -824,14 +824,22 @@
     ]
   },
   {
-    "fileName": "docker",
-    "relativePath": "notes/docker.md",
-    "tags": [
-      "установка"
-    ],
+    "fileName": "QR-коди на кожну сторінку сайту",
+    "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
+  },
+  {
+    "fileName": "Грабер в Obsidian-markdown",
+    "relativePath": "notes/LangChain/Грабер в Obsidian-markdown.md"
+  },
+  {
+    "fileName": "Без назви",
+    "relativePath": "notes/LangChain/Без назви.md"
+  },
+  {
+    "fileName": "additional_functionality",
+    "relativePath": "notes/LangChain/input/additional_functionality.md",
     "frontmatter": {
-      "title": "docker",
-      "weight": -5,
+      "sidebar_label": "Додаткові можливості",
       "position": {
         "start": {
           "line": 0,
@@ -839,45 +847,92 @@
           "offset": 0
         },
         "end": {
-          "line": 5,
+          "line": 2,
           "col": 3,
-          "offset": 57
+          "offset": 45
         }
       }
     },
     "headings": [
       {
-        "heading": "Локальний хостинг Quartz",
-        "level": 3
+        "heading": "Додаткова функціональність: LLM",
+        "level": 1
       },
       {
-        "heading": "Оприлюднення вашого контейнера в інтернеті",
+        "heading": "Додаткові методи",
         "level": 2
       },
       {
-        "heading": "На вашу публічну IP-адресу з переадресацією портів (небезпечно)",
+        "heading": "Потокові відповіді",
+        "level": 2
+      },
+      {
+        "heading": "Кешування",
+        "level": 2
+      },
+      {
+        "heading": "Кешування в пам'яті",
         "level": 3
       },
       {
-        "heading": "До домену за допомогою проксі Cloudflare",
+        "heading": "Кешування з Redis",
         "level": 3
       },
       {
-        "heading": "До домену за допомогою зворотного проксі",
-        "level": 3
+        "heading": "Додавання часу очікування",
+        "level": 2
+      },
+      {
+        "heading": "Скасування запитів",
+        "level": 2
+      },
+      {
+        "heading": "Робота з лімітами ставок",
+        "level": 2
+      },
+      {
+        "heading": "Робота з помилками API",
+        "level": 2
+      },
+      {
+        "heading": "Підписка на події",
+        "level": 2
       }
     ],
     "links": [
       {
-        "link": "Перегляд змін.md",
-        "displayText": "",
-        "relativePath": "notes/Перегляд змін.md"
+        "link": ""
       }
     ]
   },
   {
-    "fileName": "QR-коди на кожну сторінку сайту",
-    "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
+    "fileName": "Процесний підхід",
+    "relativePath": "notes/inbox/Процесний підхід.md",
+    "frontmatter": {
+      "title": "Процесний підхід",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "до управління бізнес-процесами підприємства",
+        "level": 2
+      },
+      {
+        "heading": "Отже:",
+        "level": 1
+      }
+    ]
   },
   {
     "fileName": "Технологічна операція",
@@ -897,6 +952,29 @@
         }
       }
     }
+  },
+  {
+    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
+    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
+    "frontmatter": {
+      "title": "Процесний підхід до управління бізнес-процесами підприємства",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 79
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Як налаштувати autogpt через проксі gpt4free",
+    "relativePath": "notes/inbox/Як налаштувати autogpt через проксі gpt4free.md"
   },
   {
     "fileName": "Що таке Lua",
@@ -996,6 +1074,25 @@
     ]
   },
   {
+    "fileName": "Комплексна методологія",
+    "relativePath": "notes/inbox/Комплексна методологія.md",
+    "frontmatter": {
+      "title": "Комплексна методологія",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 39
+        }
+      }
+    }
+  },
+  {
     "fileName": "Сучасний стан та опис проекту",
     "relativePath": "notes/inbox/Сучасний стан та опис проекту.md",
     "frontmatter": {
@@ -1086,54 +1183,6 @@
     ]
   },
   {
-    "fileName": "Процесний підхід",
-    "relativePath": "notes/inbox/Процесний підхід.md",
-    "frontmatter": {
-      "title": "Процесний підхід",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 35
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "до управління бізнес-процесами підприємства",
-        "level": 2
-      },
-      {
-        "heading": "Отже:",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
-    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
-    "frontmatter": {
-      "title": "Процесний підхід до управління бізнес-процесами підприємства",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 79
-        }
-      }
-    }
-  },
-  {
     "fileName": "Принцип Парето в управлінні бізнес-процесами",
     "relativePath": "notes/inbox/Принцип Парето в управлінні бізнес-процесами/Принцип Парето в управлінні бізнес-процесами.md",
     "frontmatter": {
@@ -1148,25 +1197,6 @@
           "line": 2,
           "col": 3,
           "offset": 61
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Комплексна методологія",
-    "relativePath": "notes/inbox/Комплексна методологія.md",
-    "frontmatter": {
-      "title": "Комплексна методологія",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 39
         }
       }
     }
@@ -1232,25 +1262,6 @@
     }
   },
   {
-    "fileName": "Онтологічний інжиніринг",
-    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
-    "frontmatter": {
-      "title": "Онтологічний інжиніринг",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 42
-        }
-      }
-    }
-  },
-  {
     "fileName": "Методологічна основа проекту",
     "relativePath": "notes/inbox/Методологічна основа проекту.md",
     "frontmatter": {
@@ -1288,8 +1299,41 @@
     ]
   },
   {
+    "fileName": "Онтологічний інжиніринг",
+    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
+    "frontmatter": {
+      "title": "Онтологічний інжиніринг",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    }
+  },
+  {
     "fileName": "Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot",
     "relativePath": "notes/inbox/Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot.md"
+  },
+  {
+    "fileName": "Видаляємо непотрібну для генерації аудіо розмітку та частини тексту",
+    "relativePath": "notes/inbox/Видаляємо непотрібну для генерації аудіо розмітку та частини тексту.md",
+    "headings": [
+      {
+        "heading": "Запит:",
+        "level": 2
+      },
+      {
+        "heading": "Відповідь:",
+        "level": 2
+      }
+    ]
   },
   {
     "fileName": "Вимоги до проекту",
@@ -1311,22 +1355,20 @@
     }
   },
   {
-    "fileName": "Видаляємо непотрібну для генерації аудіо розмітку та частини тексту",
-    "relativePath": "notes/inbox/Видаляємо непотрібну для генерації аудіо розмітку та частини тексту.md",
-    "headings": [
-      {
-        "heading": "Запит:",
-        "level": 2
-      },
-      {
-        "heading": "Відповідь:",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "Без назви",
     "relativePath": "notes/inbox/Без назви.md"
+  },
+  {
+    "fileName": "Інверсія крльору тексту у вікні вводу коментарів",
+    "relativePath": "notes/inbox/Інверсія крльору тексту у вікні вводу коментарів.md"
+  },
+  {
+    "fileName": "Без назви 2",
+    "relativePath": "notes/inbox/Без назви 2.md"
+  },
+  {
+    "fileName": "Без назви 1",
+    "relativePath": "notes/inbox/Без назви 1.md"
   },
   {
     "fileName": "Алгоритм онтологічного інженірінгу",
@@ -1350,6 +1392,32 @@
   {
     "fileName": "Інтеграція медіаплеєра Plyr в Hugo",
     "relativePath": "notes/inbox/Інтеграція медіаплеєра Plyr в Hugo.md"
+  },
+  {
+    "fileName": "Інструкція по встановленню Alpine Linux Extended",
+    "relativePath": "notes/inbox/Інструкція по встановленню Alpine Linux Extended.md",
+    "headings": [
+      {
+        "heading": "Вимоги",
+        "level": 2
+      },
+      {
+        "heading": "Крок 1: Завантажте Alpine Linux",
+        "level": 2
+      },
+      {
+        "heading": "Крок 2: Встановлення Alpine Linux",
+        "level": 2
+      },
+      {
+        "heading": "Крок 3: Налаштування SSH",
+        "level": 2
+      },
+      {
+        "heading": "Крок 4: Встановлення та налаштування Cloudflared",
+        "level": 2
+      }
+    ]
   },
   {
     "fileName": "S–BPM",
@@ -1381,34 +1449,23 @@
     ]
   },
   {
-    "fileName": "Інструкція по встановленню Alpine Linux Extended",
-    "relativePath": "notes/inbox/Інструкція по встановленню Alpine Linux Extended.md",
-    "headings": [
-      {
-        "heading": "Вимоги",
-        "level": 2
-      },
-      {
-        "heading": "Крок 1: Завантажте Alpine Linux",
-        "level": 2
-      },
-      {
-        "heading": "Крок 2: Встановлення Alpine Linux",
-        "level": 2
-      },
-      {
-        "heading": "Крок 3: Налаштування SSH",
-        "level": 2
-      },
-      {
-        "heading": "Крок 4: Встановлення та налаштування Cloudflared",
-        "level": 2
+    "fileName": "Cинхронізації сховища Obsidian на Android",
+    "relativePath": "notes/inbox/Cинхронізації сховища Obsidian на Android.md",
+    "frontmatter": {
+      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 89
+        }
       }
-    ]
-  },
-  {
-    "fileName": "Інверсія крльору тексту у вікні вводу коментарів",
-    "relativePath": "notes/inbox/Інверсія крльору тексту у вікні вводу коментарів.md"
+    }
   },
   {
     "fileName": "Налаштування maubot за допомогою Docker",
@@ -1436,6 +1493,10 @@
     ]
   },
   {
+    "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
+    "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
+  },
+  {
     "fileName": "Hugo",
     "relativePath": "notes/inbox/Hugo.md",
     "frontmatter": {
@@ -1460,29 +1521,6 @@
         "relativePath": "_index.md"
       }
     ]
-  },
-  {
-    "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
-    "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
-  },
-  {
-    "fileName": "Cинхронізації сховища Obsidian на Android",
-    "relativePath": "notes/inbox/Cинхронізації сховища Obsidian на Android.md",
-    "frontmatter": {
-      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 89
-        }
-      }
-    }
   },
   {
     "fileName": "ChatGPT в текст",
@@ -1568,6 +1606,58 @@
       {
         "heading": "Використання докера [#](https://cactus.chat/docs/server/self-host/#using-docker)",
         "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "docker",
+    "relativePath": "notes/docker.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "docker",
+      "weight": -5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 57
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Локальний хостинг Quartz",
+        "level": 3
+      },
+      {
+        "heading": "Оприлюднення вашого контейнера в інтернеті",
+        "level": 2
+      },
+      {
+        "heading": "На вашу публічну IP-адресу з переадресацією портів (небезпечно)",
+        "level": 3
+      },
+      {
+        "heading": "До домену за допомогою проксі Cloudflare",
+        "level": 3
+      },
+      {
+        "heading": "До домену за допомогою зворотного проксі",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "Перегляд змін.md",
+        "displayText": "",
+        "relativePath": "notes/Перегляд змін.md"
       }
     ]
   },

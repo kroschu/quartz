@@ -1,24 +1,21 @@
 ---
-hide_table_of_contents: true
-sidebar_position: 1
+hide_table_of_contents: істинна бічна панель_позиція: 1
 ---
 
-import QAExample from "@examples/chains/question_answering.ts";
-import RefineExample from "@examples/chains/qa_refine.ts";
-import CodeBlock from "@theme/CodeBlock";
+імпорт QAExample з «@examples/chains/question_answering.ts»; імпорт RefineExample з «@examples/chains/qa_refine.ts»; імпорт CodeBlock з «@theme/CodeBlock»;
 
-# Document QA
+# Запитання й відповіді про документ
 
-LangChain provides an assortment of chains specifically tailored for dealing with unstructured text data: `StuffDocumentsChain`, `MapReduceDocumentsChain`, and `RefineDocumentsChain`. These chains form the basic building blocks for developing more complex chains that interact with such data. They are designed to take both documents and a question as input, then utilize the language model to formulate a response based on the provided documents.
+LangChain надає асортимент ланцюжків, спеціально розроблених для роботи з неструктурованими текстовими даними: `StuffDocumentsChain`, `MapReduceDocumentsChain`, і `RefineDocumentsChain`. Ці ланцюги утворюють основні будівельні блоки для розробки більш складних ланцюгів, які взаємодіють з такими даними. Вони призначені для того, щоб взяти як документи, так і питання в якості вхідних даних, а потім використовувати мовну модель для формулювання відповіді на основі наданих документів.
 
-- `StuffDocumentsChain`: This chain is the most straightforward among the three. It simply injects all input documents into the prompt as context and returns the answer to the question. It is suitable for QA tasks over a small number of documents.
-- `MapReduceDocumentsChain`: This chain incorporates a preprocessing step to select relevant sections from each document until the total number of tokens is less than the maximum number of tokens allowed by the model. It then uses the transformed documents as context to answer the question. It is suitable for QA tasks over larger documents and can run the preprocessing step in parallel, reducing the running time.
-- `RefineDocumentsChain`: This chain iterates over the input documents one by one, updating an intermediate answer with each iteration. It uses the previous version of the answer and the next document as context. It is suitable for QA tasks over a large number of documents.
+-  `StuffDocumentsChain` : Цей ланцюжок є найбільш простим з трьох. Він просто вводить всі вхідні документи в запит як контекст і повертає відповідь на питання. Він підходить для завдань контролю якості над невеликою кількістю документів.
+-  `MapReduceDocumentsChain` : Цей ланцюжок містить крок попередньої обробки для вибору відповідних розділів із кожного документа, доки загальна кількість маркерів не перевищує максимальну кількість маркерів, дозволену моделлю. Потім він використовує перетворені документи як контекст, щоб відповісти на питання. Він підходить для завдань контролю якості над великими документами та може паралельно виконувати етап попередньої обробки, зменшуючи час виконання.
+-  `RefineDocumentsChain` : Цей ланцюжок повторюється поверх вхідних документів по одному, оновлюючи проміжну відповідь з кожною ітерацією. Він використовує попередню версію відповіді та наступний документ як контекст. Він підходить для завдань контролю якості над великою кількістю документів.
 
-## Usage, `StuffDocumentsChain` and `MapReduceDocumentsChain`
+## Використання, `StuffDocumentsChain` і `MapReduceDocumentsChain`
 
 <CodeBlock language="typescript">{QAExample}</CodeBlock>
 
-## Usage, `RefineDocumentsChain`
+## Використання, `RefineDocumentsChain`
 
-<CodeBlock language="typescript">{RefineExample}</CodeBlock>
+<CodeBlock language="typescript">{УточнитиПриклад}</CodeBlock>

@@ -1,14 +1,11 @@
 ---
-hide_table_of_contents: true
-sidebar_label: Custom Chat Prompt
-sidebar_position: 1
+hide_table_of_contents: true sidebar_label: Настроювана бічна панель підказки чату_позиція: 1
 ---
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/chat/agent.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/chat/agent.ts»;
 
-# Custom Prompt, using Chat Models
+# Призначені для користувача підказки, за допомогою Чат Моделі
 
-This example covers how to create a custom prompt for a chat model Agent.
+У цьому прикладі описано, як створити власний запит для агента моделі чату.
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

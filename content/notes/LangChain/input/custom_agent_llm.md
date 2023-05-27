@@ -1,12 +1,11 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/agents/custom_llm_agent.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/agents/custom_llm_agent.ts»;
 
-# Custom LLM Agent
+# Настроюваний агент LLM
 
-This example covers how to create a custom Agent powered by an LLM.
+У цьому прикладі описано, як створити власний Агент під керуванням LLM.
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

@@ -1,9 +1,9 @@
-import DocCardList from "@theme/DocCardList";
+імпорт DocCardList з «@theme/DocCardList»;
 
-# Autonomous Agents
+# Автономні агенти
 
-Autonomous Agents are agents that designed to be more long running. You give them one or multiple long term goals, and they independently execute towards those goals. The applications combine tool usage and long term memory.
+Автономні агенти - це агенти, які призначені для більш тривалої роботи. Ви даєте їм одну або кілька довгострокових цілей, і вони самостійно виконують ці цілі. Програми поєднують в собі використання інструментів і довгострокову пам'ять.
 
-At the moment, Autonomous Agents are fairly experimental and based off of other open-source projects. By implementing these open source projects in LangChain primitives we can get the benefits of LangChain - easy switching and experimenting with multiple LLMs, usage of different vectorstores as memory, usage of LangChain's collection of tools.
+На даний момент, автономні агенти є досить експериментальними і заснованими на інших проектах з відкритим вихідним кодом. Реалізуючи ці проекти з відкритим вихідним кодом в примітивах LangChain, ми можемо отримати переваги LangChain - просте перемикання та експерименти з кількома LLM, використання різних векторшопів як пам'яті, використання колекції інструментів LangChain.
 
 <DocCardList />

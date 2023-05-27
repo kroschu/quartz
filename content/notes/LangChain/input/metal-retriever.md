@@ -1,20 +1,20 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-# Metal Retriever
+# Метал ретривер
 
-This example shows how to use the Metal Retriever in a `RetrievalQAChain` to retrieve documents from a Metal index.
+Цей приклад показує, як використовувати ретрівер металу в `RetrievalQAChain` для отримання документів з Металевого індексу.
 
-## Setup
+## Налаштування
+
 
 ```bash npm2yarn
 npm i @getmetal/metal-sdk
 ```
 
-## Usage
+## Використання
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/retrievers/metal.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/retrievers/metal.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

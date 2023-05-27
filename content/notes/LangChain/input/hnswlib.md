@@ -1,53 +1,53 @@
 ---
-sidebar_class_name: node-only
+sidebar_class_name: тільки вузол
 ---
 
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
 # HNSWLib
 
-:::tip Compatibility
-Only available on Node.js.
+:::tip Сумісність доступна тільки на Node.js.
 :::
 
-HNSWLib is an in-memory vectorstore that can be saved to a file. It uses [HNSWLib](https://github.com/nmslib/hnswlib).
+HNSWLib є вектором у пам'яті, який можна зберегти у файл. Він використовує [HNSWLib](https://github.com/nmslib/hnswlib).
 
-## Setup
+## Налаштування
 
-:::caution
+:::увага
 
-**On Windows**, you might need to install [Visual Studio](https://visualstudio.microsoft.com/downloads/) first in order to properly build the `hnswlib-node` package.
+**У Windows**, можливо, знадобиться інсталювати [Visual Studio](https://visualstudio.microsoft.com/downloads/) спочатку для того, щоб правильно побудувати `hnswlib-node` пакунок.
 
 :::
 
-You can install it with
+Ви можете встановити його за допомогою
+
 
 ```bash npm2yarn
 npm install hnswlib-node
 ```
 
-## Usage
+## Використання
 
-### Create a new index from texts
+### Створення нового покажчика з текстів
 
-import ExampleTexts from "@examples/indexes/vector_stores/hnswlib.ts";
+імпорт текстів ExampleTexts із сайту «@examples/indexes/vector_stores/hnswlib.ts»;
 
-<CodeBlock language="typescript">{ExampleTexts}</CodeBlock>
+<CodeBlock language="typescript">{ПрикладТексту}</CodeBlock>
 
-### Create a new index from a loader
+### Створити новий індекс із завантажувача
 
-import ExampleLoader from "@examples/indexes/vector_stores/hnswlib_fromdocs.ts";
+імпорт ExampleLoader з «@examples/indexes/vector_stores/hnswlib_fromdocs.ts»;
 
-<CodeBlock language="typescript">{ExampleLoader}</CodeBlock>
+<CodeBlock language="typescript">{Завантажувач прикладів}</CodeBlock>
 
-### Save an index to a file and load it again
+### Збереження покажчика до файлу та повторне завантаження
 
-import ExampleSave from "@examples/indexes/vector_stores/hnswlib_saveload.ts";
+імпорт властивості ExampleSave із файлу «@examples/indexes/vector_stores/hnswlib_saveload.ts»;
 
-<CodeBlock language="typescript">{ExampleSave}</CodeBlock>
+<CodeBlock language="typescript">{ПрикладЗбереження}</CodeBlock>
 
-### Filter documents
+### Фільтрувати документи
 
-import ExampleFilter from "@examples/indexes/vector_stores/hnswlib_filter.ts";
+імпорт фільтра ExampleFilter із шаблону «@examples/indexes/vector_stores/hnswlib_filter.ts»;
 
 <CodeBlock language="typescript">{ExampleFilter}</CodeBlock>

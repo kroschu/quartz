@@ -1,24 +1,23 @@
 ---
-hide_table_of_contents: true
-sidebar_position: 3
+hide_table_of_contents: істинна бічна панель_позиція: 3
 ---
 
-import CodeBlock from "@theme/CodeBlock";
-import ConvoRetrievalQAExample from "@examples/chains/conversational_qa.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт ConvoRetrievalQAExample з «@examples/chains/conversational_qa.ts»;
 
-# Conversational Retrieval QA
+# Розмовний пошук QA
 
-The `ConversationalRetrievalQA` chain builds on `RetrievalQAChain` to provide a chat history component.
+Значення `ConversationalRetrievalQA` ланцюг будується `RetrievalQAChain` надати компонент історії чату.
 
-It requires two inputs: a question and the chat history. It first combines the chat history and the question into a standalone question, then looks up relevant documents from the retriever, and then passes those documents and the question to a question answering chain to return a response.
+Це вимагає двох входів: питання і історію чату. Спочатку він об'єднує історію чату та питання в окреме питання, а потім шукає відповідні документи від ретривера, а потім передає ці документи та питання до ланцюжка відповідей на запитання, щоб повернути відповідь.
 
-To create one, you will need a retriever. In the below example, we will create one from a vectorstore, which can be created from embeddings.
+Для його створення знадобиться ретривер. У наведеному нижче прикладі ми створимо один з vectorstore, який можна створити з вкладених файлів.
 
-import Example from "@examples/chains/conversational_qa.ts";
+імпорт прикладу з «@examples/chains/conversational_qa.ts»;
 
 <CodeBlock language="typescript">{ConvoRetrievalQAExample}</CodeBlock>
 
-In this code snippet, the fromLLM method of the `ConversationalRetrievalQAChain` class has the following signature:
+У цьому фрагменті коду, методом fromLLM `ConversationalRetrievalQAChain` клас має наступний підпис:
+
 
 ```typescript
 static fromLLM(
@@ -32,10 +31,10 @@ static fromLLM(
 ): ConversationalRetrievalQAChain
 ```
 
-Here's an explanation of each of the attributes of the options object:
+Ось пояснення кожного з атрибутів об’єкта параметрів:
 
-- `questionGeneratorTemplate`: A string that specifies a question generation template. If provided, the `ConversationalRetrievalQAChain` will use this template to generate a question from the conversation context, instead of using the question provided in the question parameter. This can be useful if the original question does not contain enough information to retrieve a suitable answer.
-- `qaTemplate`: A string that specifies a response template. If provided, the `ConversationalRetrievalQAChain` will use this template to format a response before returning the result. This can be useful if you want to customize the way the response is presented to the end user.
-- `returnSourceDocuments`: A boolean value that indicates whether the `ConversationalRetrievalQAChain` should return the source documents that were used to retrieve the answer. If set to true, the documents will be included in the result returned by the call() method. This can be useful if you want to allow the user to see the sources used to generate the answer. If not set, the default value will be false.
+-  `questionGeneratorTemplate` : Рядок, який визначає шаблон створення питання. Якщо передбачено, `ConversationalRetrievalQAChain` цей шаблон буде використано для створення питання з контексту розмови, а не для використання параметра питання. Це може бути корисним, якщо початкове питання не містить достатньо інформації для отримання правильної відповіді.
+-  `qaTemplate` : Рядок, який визначає шаблон відповіді. Якщо передбачено, `ConversationalRetrievalQAChain` цей шаблон використовуватиметься для форматування відповіді перед поверненням результату. Це може бути корисним, якщо ви хочете налаштувати спосіб представлення відповіді кінцевому користувачу.
+-  `returnSourceDocuments` : логічне значення, яке вказує, чи `ConversationalRetrievalQAChain` слід повернути вихідні документи, які використовувалися для отримання відповіді. Якщо встановити значення true, документи буде включено до результату, який повертає метод call(). Це може бути корисно, якщо ви хочете, щоб користувач міг бачити джерела, що використовуються для створення відповіді. Якщо його не встановлено, типовим значенням буде false.
 
-In summary, the `questionGeneratorTemplate`, `qaTemplate`, and `returnSourceDocuments` options allow the user to customize the behavior of the `ConversationalRetrievalQAChain`
+Підсумовуючи, `questionGeneratorTemplate`, `qaTemplate`, і `returnSourceDocuments` параметри дозволяють користувачеві налаштувати поведінку `ConversationalRetrievalQAChain`

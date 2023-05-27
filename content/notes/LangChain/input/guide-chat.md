@@ -1,25 +1,23 @@
 ---
-sidebar_position: 3
+позиція_бічної панелі: 3
 ---
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/models/chat/chat_streaming_stdout.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/models/chat/chat_streaming_stdout.ts»;
 
-# Quickstart, using Chat Models
+# Швидкий запуск із використанням моделей чату
 
-Chat models are a variation on language models.
-While chat models use language models under the hood, the interface they expose is a bit different.
-Rather than expose a "text in, text out" API, they expose an interface where "chat messages" are the inputs and outputs.
+Чат-моделі - це різновид мовних моделей. У той час як моделі чату використовують мовні моделі під капотом, інтерфейс, який вони надають, трохи відрізняється. Замість того, щоб викрити API «текст у, текст назовні», вони надають інтерфейс, де «повідомлення чату» є вхідними та вихідними даними.
 
-Chat model APIs are fairly new, so we are still figuring out the correct abstractions.
+Чат моделі API є досить новими, тому ми все ще з'ясовуємо правильні абстракції.
 
-## Installation and Setup
+## Інсталяція та настроювання
 
-To get started, follow the [installation instructions](./install) to install LangChain.
+Щоб почати роботу, виконайте наведені нижче дії. [інструкції з інсталяції](./install) щоб встановити LangChain.
 
-## Getting Started
+## Початок роботи
 
-This section covers how to get started with chat models. The interface is based around messages rather than raw text.
+У цьому розділі описано, як почати роботу з моделями чату. Інтерфейс базується на повідомленнях, а не на необробленому тексті.
+
 
 ```typescript
 import { ChatOpenAI } from "langchain/chat_models/openai";
@@ -28,13 +26,14 @@ import { HumanChatMessage, SystemChatMessage } from "langchain/schema";
 const chat = new ChatOpenAI({ temperature: 0 });
 ```
 
-Here we create a chat model using the API key stored in the environment variable `OPENAI_API_KEY` or `AZURE_OPENAI_API_KEY` in case you are using Azure OpenAI. We'll be calling this chat model throughout this section.
+Тут ми створюємо модель чату за допомогою ключа API, що зберігається в змінній середовища `OPENAI_API_KEY` або `AZURE_OPENAI_API_KEY` у випадку, якщо ви використовуєте Azure OpenAI. Ми телефонуватимемо цій моделі чату в цьому розділі.
 
-> **&#9432;** Note, if you are using Azure OpenAI make sure to also set the environment variables `AZURE_OPENAI_API_INSTANCE_NAME`, `AZURE_OPENAI_API_DEPLOYMENT_NAME` and `AZURE_OPENAI_API_VERSION`.
+> **&#9432;** Примітка, якщо ви використовуєте Azure OpenAI переконайтеся, що також встановити змінні середовища `AZURE_OPENAI_API_INSTANCE_NAME`, `AZURE_OPENAI_API_DEPLOYMENT_NAME` і `AZURE_OPENAI_API_VERSION`.
 
-### Chat Models: Message in, Message out
+### Моделі чатів: повідомлення, повідомлення
 
-You can get chat completions by passing one or more messages to the chat model. The response will also be a message. The types of messages currently supported in LangChain are `AIChatMessage`, `HumanChatMessage`, `SystemChatMessage`, and a generic `ChatMessage` -- ChatMessage takes in an arbitrary role parameter, which we won't be using here. Most of the time, you'll just be dealing with `HumanChatMessage`, `AIChatMessage`, and `SystemChatMessage`.
+Ви можете отримати завершення чату, передаючи одне або кілька повідомлень моделі чату. У відповідь також буде з'являтися повідомлення. Типи повідомлень, які в даний час підтримуються в LangChain є `AIChatMessage`, `HumanChatMessage`, `SystemChatMessage`, а також загальний `ChatMessage` — ChatMessage приймає довільний параметр ролі, який ми тут не використовуватимемо. Більшу частину часу, ви будете мати справу з `HumanChatMessage`, `AIChatMessage`, і `SystemChatMessage`.
+
 
 ```typescript
 const response = await chat.call([
@@ -46,15 +45,17 @@ const response = await chat.call([
 console.log(response);
 ```
 
+
 ```
 AIChatMessage { text: "J'aime programmer." }
 ```
 
-#### Multiple Messages
+#### Кілька повідомлень
 
-OpenAI's chat-based models (currently `gpt-3.5-turbo` and `gpt-4` and in case of azure OpenAI `gpt-4-32k`) support multiple messages as input. See [here](https://platform.openai.com/docs/guides/chat/chat-vs-completions) for more information. Here is an example of sending a system and user message to the chat model:
+Чат-моделі OpenAI (в даний час `gpt-3.5-turbo` і `gpt-4` і у випадку з azure OpenAI `gpt-4-32k`) підтримує декілька повідомлень як вхідні дані. Див. [here](https://platform.openai.com/docs/guides/chat/chat-vs-completions) для отримання додаткової інформації. Ось приклад відправки системного і користувальницького повідомлення в модель чату:
 
-> **&#9432;** Note, if you are using Azure OpenAI make sure to change the deployment name to the deployment for the model you choose.
+> **&#9432;** Примітка. Якщо використовується Azure OpenAI, переконайтеся, що ім’я розгортання змінено на розгортання для вибраної моделі.
+
 
 ```typescript
 const responseB = await chat.call([
@@ -67,13 +68,15 @@ const responseB = await chat.call([
 console.log(responseB);
 ```
 
+
 ```
 AIChatMessage { text: "J'aime programmer." }
 ```
 
-#### Multiple Completions
+#### Багаторазові завершення
 
-You can go one step further and generate completions for multiple sets of messages using generate. This returns an LLMResult with an additional message parameter.
+Ви можете йти на один крок далі і створювати доповнення для декількох наборів повідомлень за допомогою генерування. Це повертає результат з додатковим параметром повідомлення.
+
 
 ```typescript
 const responseC = await chat.generate([
@@ -98,6 +101,7 @@ const responseC = await chat.generate([
 console.log(responseC);
 ```
 
+
 ```
 {
   generations: [
@@ -117,11 +121,12 @@ console.log(responseC);
 }
 ```
 
-### Chat Prompt Templates: Manage Prompts for Chat Models
+### Шаблони підказок чату: керування підказками для моделей чату
 
-You can make use of templating by using a `MessagePromptTemplate`. You can build a `ChatPromptTemplate` from one or more `MessagePromptTemplates`. You can use `ChatPromptTemplate`'s `formatPromptValue` -- this returns a `PromptValue`, which you can convert to a string or Message object, depending on whether you want to use the formatted value as input to an llm or chat model.
+Ви можете використовувати шаблон, використовуючи `MessagePromptTemplate`. Ви можете побудувати `ChatPromptTemplate` від одного або декількох `MessagePromptTemplates`. Ви можете використовувати `ChatPromptTemplate` с `formatPromptValue` — це повертає a `PromptValue`, який можна перетворити на рядок або об’єкт Message, залежно від того, чи слід використовувати форматоване значення як вхідні дані до моделі llm або chat.
 
-Continuing with the previous example:
+Продовжуючи з попереднім прикладом:
+
 
 ```typescript
 import {
@@ -131,7 +136,8 @@ import {
 } from "langchain/prompts";
 ```
 
-First we create a reusable template:
+Спочатку створюємо багаторазовий шаблон:
+
 
 ```typescript
 const translationPrompt = ChatPromptTemplate.fromPromptMessages([
@@ -142,7 +148,8 @@ const translationPrompt = ChatPromptTemplate.fromPromptMessages([
 ]);
 ```
 
-Then we can use the template to generate a response:
+Потім ми можемо використовувати шаблон для створення відповіді:
+
 
 ```typescript
 const responseA = await chat.generatePrompt([
@@ -155,6 +162,7 @@ const responseA = await chat.generatePrompt([
 
 console.log(responseA);
 ```
+
 
 ```
 {
@@ -169,9 +177,10 @@ console.log(responseA);
 }
 ```
 
-### Model + Prompt = LLMChain
+### Модель + Запит = LLMChain
 
-This pattern of asking for the completion of a formatted prompt is quite common, so we introduce the next piece of the puzzle: LLMChain
+Такий шаблон прохання про завершення форматованої підказки досить поширений, тому представляємо наступний фрагмент пазла: LLMChain
+
 
 ```typescript
 const chain = new LLMChain({
@@ -180,7 +189,8 @@ const chain = new LLMChain({
 });
 ```
 
-Then you can call the chain:
+Далі можна назвати ланцюжок:
+
 
 ```typescript
 const responseB = await chain.call({
@@ -192,15 +202,17 @@ const responseB = await chain.call({
 console.log(responseB);
 ```
 
+
 ```
 { text: "J'aime programmer." }
 ```
 
-### Agents: Dynamically Run Chains Based on User Input
+### Агенти: Динамічно запускаються ланцюжки на основі введення користувача
 
-Finally, we introduce Tools and Agents, which extend the model with other abilities, such as search, or a calculator.
+Нарешті, ми представляємо інструменти та агенти, які розширюють модель з іншими можливостями, такими як пошук, або калькулятор.
 
-A tool is a function that takes a string (such as a search query) and returns a string (such as a search result). They also have a name and description, which are used by the chat model to identify which tool it should call.
+Інструмент — це функція, яка приймає рядок (наприклад, пошуковий запит) і повертає рядок (наприклад, результат пошуку). Вони також мають назву та опис, які використовуються моделлю чату для визначення того, який інструмент він повинен викликати.
+
 
 ```typescript
 class Tool {
@@ -210,7 +222,8 @@ class Tool {
 }
 ```
 
-An agent is a stateless wrapper around an agent prompt chain (such as MRKL) which takes care of formatting tools into the prompt, as well as parsing the responses obtained from the chat model.
+Агент — це обгортка без громадянства навколо ланцюжка запитів агента (такого як MRKL), який піклується про інструменти форматування в запит, а також розбору відповідей, отриманих з моделі чату.
+
 
 ```typescript
 interface AgentStep {
@@ -232,7 +245,8 @@ class Agent {
 }
 ```
 
-To make agents more powerful we need to make them iterative, ie. call the model multiple times until they arrive at the final answer. That's the job of the AgentExecutor.
+Для того, щоб зробити агенти більш потужними, ми повинні зробити їх ітеративними, тобто. називати модель кілька разів, поки вони не дійдуть до остаточної відповіді. Це робота АгентаВиконавця.
+
 
 ```typescript
 class AgentExecutor {
@@ -250,7 +264,8 @@ class AgentExecutor {
 }
 ```
 
-And finally, we can use the AgentExecutor to run an agent:
+І, нарешті, ми можемо використовувати AgentActor для запуску агента:
+
 
 ```typescript
 // Define the list of tools the agent can use
@@ -273,13 +288,15 @@ const responseG = await executor.run(
 console.log(responseG);
 ```
 
+
 ```
 38,626,704.
 ```
 
-### Memory: Add State to Chains and Agents
+### Пам'ять: Додати стан до ланцюгів і агентів
 
-You can also use the chain to store state. This is useful for eg. chatbots, where you want to keep track of the conversation history. MessagesPlaceholder is a special prompt template that will be replaced with the messages passed in each call.
+Ви також можете використовувати ланцюг для зберігання стану. Це корисно для, наприклад, чат-ботів, де ви хочете відстежувати історію розмов. MessagesPlaceholder - це спеціальний шаблон запиту, який буде замінено повідомленнями, переданими під час кожного виклику.
+
 
 ```typescript
 const chatPrompt = ChatPromptTemplate.fromPromptMessages([
@@ -297,7 +314,8 @@ const chain = new ConversationChain({
 });
 ```
 
-The chain will internally accumulate the messages sent to the model, and the ones received as output. Then it will inject the messages into the prompt on the next call. So you can call the chain a few times, and it remembers previous messages:
+Ланцюг буде внутрішньо накопичувати повідомлення, відправлені в модель, і ті, які отримані в якості вихідних даних. Потім він буде вводити повідомлення в підказку на наступний дзвінок. Так ви зможете викликати ланцюжок кілька разів, і вона запам'ятовує попередні повідомлення:
+
 
 ```typescript
 const responseH = await chain.call({
@@ -307,11 +325,13 @@ const responseH = await chain.call({
 console.log(responseH);
 ```
 
+
 ```
 {
   response: "Hello! As an AI language model, I don't have feelings, but I'm functioning properly and ready to assist you with any questions or tasks you may have. How can I help you today?"
 }
 ```
+
 
 ```typescript
 const responseI = await chain.call({
@@ -321,14 +341,15 @@ const responseI = await chain.call({
 console.log(responseI);
 ```
 
+
 ```
 {
   response: "Yes, you mentioned that you are from London. However, as an AI language model, I don't have access to your current location unless you provide me with that information."
 }
 ```
 
-## Streaming
+## Потокове передавання
 
-You can also use the streaming API to get words streamed back to you as they are generated. This is useful for eg. chatbots, where you want to show the user what is being generated as it is being generated. Note: OpenAI as of this writing does not support `tokenUsage` reporting while streaming is enabled.
+Ви також можете використовувати потокове API, щоб отримувати потокове передавання слів назад до вас, коли вони генеруються. Це корисно для, наприклад,. чат-ботів, де ви хочете, щоб показати користувачеві, що генерується, як вона генерується. Примітка: OpenAI з цього запису не підтримує `tokenUsage` звітування: увімкнуто потокове передавання.
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

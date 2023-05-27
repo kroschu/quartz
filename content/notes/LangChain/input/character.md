@@ -1,10 +1,11 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-# CharacterTextSplitter
+# Роздільник_тексту_символів
 
-Besides the `RecursiveCharacterTextSplitter`, there is also the more standard `CharacterTextSplitter`. This splits only on one type of character (defaults to `"\n\n"`). You can use it in the exact same way.
+Крім того, `RecursiveCharacterTextSplitter`, є також більш стандартний `CharacterTextSplitter`. Цей символ розділяє лише на один тип (типове значення `"\n\n"`). Ви можете використовувати його точно так само.
+
 
 ```typescript
 import { Document } from "langchain/document";

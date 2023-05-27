@@ -1,8 +1,7 @@
-import CodeBlock from "@theme/CodeBlock";
-import ConstitutionalChainExample from "@examples/chains/constitutional_chain.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт ConstitutionalChainExample з «@examples/chains/constitutional_chain.ts»;
 
-# `ConstitutionalChain`
+#  `ConstitutionalChain`
 
-The `ConstitutionalChain` is a chain that ensures the output of a language model adheres to a predefined set of constitutional principles. By incorporating specific rules and guidelines, the `ConstitutionalChain` filters and modifies the generated content to align with these principles, thus providing more controlled, ethical, and contextually appropriate responses. This mechanism helps maintain the integrity of the output while minimizing the risk of generating content that may violate guidelines, be offensive, or deviate from the desired context.
+Значення `ConstitutionalChain` являє собою ланцюг, який забезпечує вихід мовної моделі, дотримується заздалегідь визначеного набору конституційних принципів. Включивши конкретні правила і рекомендації, `ConstitutionalChain` фільтрує і змінює сформований контент, щоб відповідати цим принципам, забезпечуючи тим самим більш контрольовані, етичні і контекстуально відповідні відповіді. Цей механізм допомагає підтримувати цілісність даних, мінімізуючи ризик створення вмісту, який може порушувати настанови, бути образливим або відхилятися від бажаного контексту.
 
 <CodeBlock language="typescript">{ConstitutionalChainExample}</CodeBlock>

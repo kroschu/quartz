@@ -1,16 +1,15 @@
 ---
-hide_table_of_contents: true
-sidebar_position: 3
+hide_table_of_contents: істинна бічна панель_позиція: 3
 ---
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/agents/chat_convo_with_tracing.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/agents/chat_convo_with_tracing.ts»;
 
-# Conversational Agent
+# Розмовний агент
 
-This example covers how to create a conversational agent for a chat model. It will utilize chat specific prompts.
+У цьому прикладі описано, як створити розмовний агент для моделі чату. Він буде використовувати чат конкретних підказок.
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>
+
 
 ````
 Loaded agent.
@@ -35,13 +34,13 @@ Entering new agent_executor chain...
     "action_input": "weather in pomfret"
 }
 ```
-A steady rain early...then remaining cloudy with a few showers. High 48F. Winds WNW at 10 to 15 mph. Chance of rain 80%.
+Стійкий дощ рано... потім залишається хмарно з декількома зливами. Дай 48Ф. Вітер ЗСЗ при 10 до 15 миль/год. Можливий дощ 80%.
+
 ```json
 {
     "action": "Final Answer",
     "action_input": "The weather in Pomfret is a steady rain early...then remaining cloudy with a few showers. High 48F. Winds WNW at 10 to 15 mph. Chance of rain 80%."
 }
 ```
-Finished chain.
-Got output The weather in Pomfret is a steady rain early...then remaining cloudy with a few showers. High 48F. Winds WNW at 10 to 15 mph. Chance of rain 80%.
+Готовий ланцюжок. Погода в Помфрі - це стабільний дощ рано... потім залишається хмарно з кількома душами. Дай 48Ф. Вітер ЗСЗ при 10 до 15 миль/год. Можливий дощ 80%.
 ````

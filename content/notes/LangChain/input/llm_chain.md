@@ -1,46 +1,40 @@
 ---
-sidebar_label: LLM Chain
-sidebar_position: 1
+sidebar_label: LLM Ланцюжок бічна панель_позиція: 1
 ---
 
-import CodeBlock from "@theme/CodeBlock";
-import ExampleLLM from "@examples/chains/llm_chain.ts";
-import ExampleChat from "@examples/chains/llm_chain_chat.ts";
-import ExampleStream from "@examples/chains/llm_chain_stream.ts";
-import ExampleCancellation from "@examples/chains/llm_chain_cancellation.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт ExampleLLM з «@examples/chains/llm_chain.ts»; імпорт ExampleChat з «@examples/chains/llm_chain_chat.ts»; імпорт ExampleStream з «@examples/chains/llm_chain_stream.ts»; імпорт ExampleCancellation з «@examples/chains/llm_chain_cancellation.ts»;
 
-# Getting Started: LLMChain
+# Початок роботи: Початок роботи
 
-:::info
-[Conceptual Guide](https://docs.langchain.com/docs/components/chains/llm-chain)
+:::інформація [Концептуальне керівництво](https://docs.langchain.com/docs/components/chains/llm-chain)
 :::
 
-An `LLMChain` is a simple chain that adds some functionality around language models. It is used widely throughout LangChain, including in other chains and agents.
+Ан `LLMChain` це простий ланцюжок, який додає деякі функціональні можливості навколо мовних моделей. Він широко використовується по всьому лангЧейн, в тому числі в інших ланцюгах і агентів.
 
-An `LLMChain` consists of a `PromptTemplate` and a language model (either an [LLM](../models/llms/) or [chat model](../models/chat/)).
+Ан `LLMChain` складається з `PromptTemplate` і модель мови (або [LLM](../models/llms/) або [chat model](../models/chat/)).
 
-## Usage with LLMs
+## Використання з LLM
 
-We can construct an LLMChain which takes user input, formats it with a PromptTemplate, and then passes the formatted response to an LLM:
+Ми можемо побудувати LLMChain, який приймає введення користувача, форматує його з PromptTemplate, а потім передає відформатовану відповідь на LLM:
 
-<CodeBlock language="typescript">{ExampleLLM}</CodeBlock>
+<CodeBlock language="typescript">{ПрикладLLM}</CodeBlock>
 
-## Usage with Chat Models
+## Використання з моделями чату
 
-We can also construct an LLMChain which takes user input, formats it with a PromptTemplate, and then passes the formatted response to a ChatModel:
+Ми також можемо побудувати LLMChain, який приймає введення користувача, форматує його за допомогою PromptTemplate, а потім передає форматовану відповідь на ChatModel:
 
-<CodeBlock language="typescript">{ExampleChat}</CodeBlock>
+<CodeBlock language="typescript">{ПрикладЧату}</CodeBlock>
 
-## Usage in Streaming Mode
+## Використання в режимі потокового передавання
 
-We can also construct an LLMChain which takes user input, formats it with a PromptTemplate, and then passes the formatted response to an LLM in streaming mode, which will stream back tokens as they are generated:
+Ми також можемо побудувати LLMChain, який приймає введення користувача, форматує його з PromptTemplate, а потім передає відформатовану відповідь на LLM в потоковому режимі, який буде передавати назад маркери, як вони генеруються:
 
 <CodeBlock language="typescript">{ExampleStream}</CodeBlock>
 
-## Cancelling a running LLMChain
+## Скасування запущеного LLMChain
 
-We can also cancel a running LLMChain by passing an AbortSignal to the `call` method:
+Також можна скасувати запуск LLMChain, передавши AbortSignal до `call` метод:
 
-<CodeBlock language="typescript">{ExampleCancellation}</CodeBlock>
+<CodeBlock language="typescript">{ПрикладСкасування}</CodeBlock>
 
-In this example we show cancellation in streaming mode, but it works the same way in non-streaming mode.
+У цьому прикладі ми показуємо скасування в потоковому режимі, але він працює так само в режимі без потокового передавання.

@@ -1,10 +1,11 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-# `MarkdownTextSplitter`
+#  `MarkdownTextSplitter`
 
-If your content is in Markdown format then `MarkdownTextSplitter`. This class will split your content into documents based on the Markdown headers. For example, if you have the following Markdown content:
+Якщо ваш вміст має формат Markdown, тоді `MarkdownTextSplitter`. Цей клас поділить ваш вміст на документи на основі заголовків Markdown. Наприклад, якщо у вас є наступний вміст Markdown:
+
 
 ```markdown
 # Header 1
@@ -20,7 +21,8 @@ This is some more content.
 This is even more content.
 ```
 
-Then the `MarkdownTextSplitter` will split the content into three documents:
+Потім `MarkdownTextSplitter` розділить вміст на три документи:
+
 
 ```typescript
 import { MarkdownTextSplitter } from "langchain/text_splitter";

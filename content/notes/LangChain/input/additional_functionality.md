@@ -1,43 +1,38 @@
 ---
-sidebar_label: Additional Functionality
+sidebar_label: Додаткові можливості
 ---
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/models/llm/llm.ts";
-import DebuggingExample from "@examples/models/llm/llm_debugging.ts";
-import StreamingExample from "@examples/models/llm/llm_streaming.ts";
-import TimeoutExample from "@examples/models/llm/llm_timeout.ts";
-import CancellationExample from "@examples/models/llm/llm_cancellation.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт Example з «@examples/models/llm/llm.ts»; імпорт DebuggingExample з «@examples/models/llm/llm_debugging.ts»; імпорт StreamingExample з «@examples/models/llm/llm_streaming.ts»; імпорт TimeoutExample з «@examples/models/llm/llm_timeout.ts»; імпорт CancellationExample з «@examples/models/llm/llm_cancellation.ts»;
 
-# Additional Functionality: LLMs
+# Додаткова функціональність: LLM
 
-We offer a number of additional features for LLMs. In most of the examples below, we'll be using the `OpenAI` LLM. However, all of these features are available for all LLMs.
+Ми пропонуємо ряд додаткових функцій для LLM. У більшості наведених нижче прикладів ми використовуватимемо `OpenAI` ТЛМ. Однак всі ці функції доступні для всіх LLM.
 
-## Additional Methods
+## Додаткові методи
 
-LangChain provides a number of additional methods for interacting with LLMs:
+LangChain надає ряд додаткових методів для взаємодії з LLM:
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>
 
-## Streaming Responses
+## Потокові відповіді
 
-Some LLMs provide a streaming response. This means that instead of waiting for the entire response to be returned, you can start processing it as soon as it's available. This is useful if you want to display the response to the user as it's being generated, or if you want to process the response as it's being generated.
-LangChain currently provides streaming for the `OpenAI` LLM:
+Деякі LLM-модулі надають функцію потокового передавання. Це означає, що замість того, щоб чекати на повернення всієї відповіді, ви можете розпочати її обробку, як тільки вона стане доступною. Це корисно, якщо ви хочете, щоб відображалася відповідь користувачу в процесі її створення, або якщо ви хочете обробити відповідь так, як вона генерується. LangChain в даний час забезпечує потокове передавання для `OpenAI` LLM:
 
-<CodeBlock language="typescript">{StreamingExample}</CodeBlock>
+<CodeBlock language="typescript">{StreamingПриклад}</CodeBlock>
 
-## Caching
+## Кешування
 
-LangChain provides an optional caching layer for LLMs. This is useful for two reasons:
+LangChain надає додатковий рівень кешування для LLM. Це корисно з двох причин:
 
-1. It can save you money by reducing the number of API calls you make to the LLM provider, if you're often requesting the same completion multiple times.
-2. It can speed up your application by reducing the number of API calls you make to the LLM provider.
+1. Це може заощадити ваші гроші, зменшуючи кількість викликів API до постачальника LLM, якщо ви часто запитуєте одне і те ж завершення кілька разів.
+2. Це може прискорити вашу програму, зменшуючи кількість викликів API, які ви робите постачальнику LLM.
 
-### Caching in-memory
+### Кешування в пам'яті
 
-The default cache is stored in-memory. This means that if you restart your application, the cache will be cleared.
+Кеш за замовчуванням зберігається в пам'яті. Це означає, що якщо ви перезапустите програму, кеш буде очищений.
 
-To enable it you can pass `cache: true` when you instantiate the LLM. For example:
+Для того, щоб включити його ви можете пройти `cache: true` коли ви інстанціюєте LLM. Наприклад:
+
 
 ```typescript
 import { OpenAI } from "langchain/llms/openai";
@@ -45,15 +40,17 @@ import { OpenAI } from "langchain/llms/openai";
 const model = new OpenAI({ cache: true });
 ```
 
-### Caching with Redis
+### Кешування з Redis
 
-LangChain also provides a Redis-based cache. This is useful if you want to share the cache across multiple processes or servers. To use it, you'll need to install the `redis` package:
+LangChain також надає кеш на базі Redis. Це корисно, якщо ви хочете поділитися кешем між декількома процесами або серверами. Щоб використовувати його, вам потрібно встановити `redis` пакунок:
+
 
 ```bash npm2yarn
 npm install redis
 ```
 
-Then, you can pass a `cache` option when you instantiate the LLM. For example:
+Потім, ви можете пройти `cache` варіант, коли ви вставляєте LLM. Наприклад:
+
 
 ```typescript
 import { OpenAI } from "langchain/llms/openai";
@@ -67,27 +64,28 @@ const cache = new RedisCache(client);
 const model = new OpenAI({ cache });
 ```
 
-## Adding a timeout
+## Додавання часу очікування
 
-By default, LangChain will wait indefinitely for a response from the model provider. If you want to add a timeout, you can pass a `timeout` option, in milliseconds, when you call the model. For example, for OpenAI:
+За замовчуванням, LangChain буде чекати невизначений час для відповіді від постачальника моделі. Якщо ви хочете додати тайм-аут, ви можете передати `timeout` параметр, у мілісекундах, коли ви викликаєте модель. Наприклад, для OpenAI:
 
-<CodeBlock language="typescript">{TimeoutExample}</CodeBlock>
+<CodeBlock language="typescript">{ExampleTimeout}</CodeBlock>
 
-## Cancelling requests
+## Скасування запитів
 
-You can cancel a request by passing a `signal` option when you call the model. For example, for OpenAI:
+Ви можете скасувати запит, пройшовши `signal` варіант, коли ви викликаєте модель. Наприклад, для OpenAI:
 
-<CodeBlock language="typescript">{CancellationExample}</CodeBlock>
+<CodeBlock language="typescript">{Приклад_скасування}</CodeBlock>
 
-Note, this will only cancel the outgoing request if the underlying provider exposes that option. LangChain will cancel the underlying request if possible, otherwise it will cancel the processing of the response.
+Зауважте, що вихідний запит буде скасовано, лише якщо постачальник, який його надав, надасть цю можливість. LangChain скасує базовий запит, якщо це можливо, в іншому випадку він скасує обробку відповіді.
 
-## Dealing with Rate Limits
+## Робота з лімітами ставок
 
-Some LLM providers have rate limits. If you exceed the rate limit, you'll get an error. To help you deal with this, LangChain provides a `maxConcurrency` option when instantiating an LLM. This option allows you to specify the maximum number of concurrent requests you want to make to the LLM provider. If you exceed this number, LangChain will automatically queue up your requests to be sent as previous requests complete.
+Деякі LLM-провайдери мають ліміти ставок. Якщо ви перевищите ліміт тарифу, то отримаєте повідомлення про помилку. Щоб допомогти вам впоратися з цим, LangChain надає `maxConcurrency` варіант під час створення екземпляра LLM. За допомогою цього параметра ви можете вказати максимальну кількість одночасних запитів, які слід зробити постачальнику LLM. Якщо ви перевищите цей номер, LangChain автоматично поставить в чергу ваші запити, які будуть відправлені після завершення попередніх запитів.
 
-For example, if you set `maxConcurrency: 5`, then LangChain will only send 5 requests to the LLM provider at a time. If you send 10 requests, the first 5 will be sent immediately, and the next 5 will be queued up. Once one of the first 5 requests completes, the next request in the queue will be sent.
+Наприклад, якщо ви встановили `maxConcurrency: 5`, Тоді LangChain буде відправляти тільки 5 запитів до постачальника LLM в той час. Якщо ви надішлете 10 запитів, перші 5 будуть відправлені негайно, а наступні 5 будуть поставлені в чергу. Після того, як один з перших 5 запитів завершиться, наступний запит в черзі буде відправлений.
 
-To use this feature, simply pass `maxConcurrency: <number>` when you instantiate the LLM. For example:
+Щоб використовувати цю функцію, просто перейдіть `maxConcurrency: <number>` коли ви інстанціюєте LLM. Наприклад:
+
 
 ```typescript
 import { OpenAI } from "langchain/llms/openai";
@@ -95,9 +93,10 @@ import { OpenAI } from "langchain/llms/openai";
 const model = new OpenAI({ maxConcurrency: 5 });
 ```
 
-## Dealing with API Errors
+## Робота з помилками API
 
-If the model provider returns an error from their API, by default LangChain will retry up to 6 times on an exponential backoff. This enables error recovery without any additional effort from you. If you want to change this behavior, you can pass a `maxRetries` option when you instantiate the model. For example:
+Якщо постачальник моделі повертає помилку від свого API, за замовчуванням LangChain намагатиметься до 6 разів на експоненційному фоні. Це дозволяє відновити помилку без будь-яких додаткових зусиль від вас. Якщо ви хочете змінити цю поведінку, ви можете передати `maxRetries` варіант при інстанціюванні моделі. Наприклад:
+
 
 ```typescript
 import { OpenAI } from "langchain/llms/openai";
@@ -105,10 +104,10 @@ import { OpenAI } from "langchain/llms/openai";
 const model = new OpenAI({ maxRetries: 10 });
 ```
 
-## Subscribing to events
+## Підписка на події
 
-Especially when using an agent, there can be a lot of back-and-forth going on behind the scenes as a LLM processes a prompt. For agents, the response object contains an intermediateSteps object that you can print to see an overview of the steps it took to get there. If that's not enough and you want to see every exchange with the LLM, you can pass callbacks to the LLM for custom logging (or anything else you want to do) as the model goes through the steps:
+Особливо при використанні агента, може бути багато вперед-назад відбувається за лаштунками, як LLM обробляє підказку. Для агентів об'єкт відповіді містить об'єкт intermediateSteps, який можна надрукувати, щоб переглянути огляд кроків, які він взяв, щоб потрапити туди. Якщо цього недостатньо і ви хочете бачити кожен обмін з LLM, ви можете передати зворотні виклики до LLM для користувацького журналювання (або що-небудь ще, що ви хочете зробити), як модель проходить через кроки:
 
-For more info on the events available see the [Callbacks](/docs/production/callbacks/) section of the docs.
+Щоб дізнатися більше про доступні події, див. [Callbacks](/docs/production/callbacks/) розділ документації.
 
 <CodeBlock language="typescript">{DebuggingExample}</CodeBlock>

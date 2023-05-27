@@ -1,18 +1,17 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-# Notion markdown export
+# Експортування поняття markdown
 
-This example goes over how to load data from your Notion pages exported from the notion dashboard.
+Цей приклад показує, як завантажувати дані з ваших сторінок понять, експортованих з прикладної дошки понять.
 
-First, export your notion pages as **Markdown & CSV** as per the offical explanation [here](https://www.notion.so/help/export-your-content). Make sure to select `include subpages` and `Create folders for subpages.`
+Спочатку експортуйте сторінки з поняттями як **Markdown &amp; CSV** за офіційними поясненнями [here](https://www.notion.so/help/export-your-content). Обов'язково виберіть `include subpages` і `Create folders for subpages.`
 
-Then, unzip the downloaded file and move the unzipped folder into your repository. It should contain the markdown files of your pages.
+Потім розпакуйте завантажений файл і перемістіть розпаковану папку у своє сховище. Він повинен містити файли розмітки ваших сторінок.
 
-Once the folder is in your repository, simply run the example below:
+Після того, як папка знаходиться у вашому сховищі, просто запустіть приклад нижче:
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/document_loaders/notion_markdown.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/document_loaders/notion_markdown.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

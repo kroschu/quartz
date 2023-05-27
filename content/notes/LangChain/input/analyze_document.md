@@ -1,9 +1,7 @@
-import CodeBlock from "@theme/CodeBlock";
-import AnalyzeDocumentExample from "@examples/chains/analyze_document_chain_summarize.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт AnalyzeDocumentExample з «@examples/chains/analyze_document_chain_summarize.ts»;
 
-# `AnalyzeDocumentChain`
+#  `AnalyzeDocumentChain`
 
-You can use the `AnalyzeDocumentChain`, which accepts a single piece of text as input and operates over it.
-This chain takes care of splitting up the text and then passing it to the `MapReduceDocumentsChain` to generate a summary.
+Ви можете використовувати `AnalyzeDocumentChain`, яка приймає один шматок тексту як вхід і працює над ним. Цей ланцюжок піклується про поділ тексту, а потім передачу його на `MapReduceDocumentsChain` для створення резюме.
 
 <CodeBlock language="typescript">{AnalyzeDocumentExample}</CodeBlock>

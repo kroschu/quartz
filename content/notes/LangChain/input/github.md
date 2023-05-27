@@ -1,34 +1,32 @@
 ---
-sidebar_class_name: node-only
-hide_table_of_contents: true
+sidebar_class_name: node-only hide_table_of_contents: true
 ---
 
 # GitHub
 
-This example goes over how to load data from a GitHub repository.
-You can set the `GITHUB_ACCESS_TOKEN` environment variable to a GitHub access token to increase the rate limit and access private repositories.
+У цьому прикладі описано, як завантажувати дані зі сховища GitHub. Ви можете встановити `GITHUB_ACCESS_TOKEN` змінна середовища на токен доступу GitHub для збільшення ліміту швидкості та доступу до приватних репозиторіїв.
 
-## Setup
+## Налаштування
 
-The GitHub loader requires the [ignore npm package](https://www.npmjs.com/package/ignore) as a peer dependency. Install it like this:
+Завантажувач GitHub вимагає [ігнорувати пакет npm](https://www.npmjs.com/package/ignore) як рівноправна залежність. Встановити його наступним чином:
+
 
 ```bash npm2yarn
 npm install ignore
 ```
 
-## Usage
+## Використання
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/document_loaders/github.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/document_loaders/github.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>
 
-The loader will ignore binary files like images.
+Завантажувач буде ігнорувати бінарні файли, такі як зображення.
 
-### Using .gitignore syntax
+### Використання синтаксису .gitignore
 
-To ignore specific files, you can pass in an `ignorePaths` array into the constructor:
+Щоб ігнорувати певні файли, ви можете передати їх `ignorePaths` створити масив у конструкторі:
 
-import IgnoreExample from "@examples/document_loaders/github_ignore_paths.ts";
+імпорт IgnoreExample з «@examples/document_loaders/github_ignore_paths.ts»;
 
 <CodeBlock language="typescript">{IgnoreExample}</CodeBlock>

@@ -1,8 +1,7 @@
-import CodeBlock from "@theme/CodeBlock";
-import MultiRetrievalQAExample from "@examples/chains/multi_retrieval_qa.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт MultiRetrievalQAExample з «@examples/chains/multi_retrieval_qa.ts»;
 
-# `MultiRetrievalQAChain`
+#  `MultiRetrievalQAChain`
 
-MultiRetrievalQAChain enables an LLM to select from multiple retrievers. Construct the chain by providing a collection of vector stores (as retrievers) along with their corresponding names and descriptions. The chain takes a query as input, picks an appropriate retrievers, and subsequently feeds the input into the chosen retrievers.
+MultiRetrievalQAChain дозволяє LLM вибирати з декількох ретриверів. Створіть ланцюжок, надавши колекцію векторних магазинів (як ретриверів) разом з відповідними іменами та описами. Ланцюжок отримує запит на вхід, обирає відповідних отримувачів, а потім подає його до вибраних отримувачів.
 
 <CodeBlock language="typescript">{MultiRetrievalQAExample}</CodeBlock>

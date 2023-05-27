@@ -1,14 +1,11 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-# Notion DB
+# Поняття БД
 
-This example goes over how to load data from a Notion Database.
-You will need your Notion integration token and the `databaseId` of the resource you want to access.
-Don't forget to add your integration to the database!
+У цьому прикладі описано, як завантажувати дані з бази даних понять. Вам знадобиться ваш токен інтеграції поняття та `databaseId` ресурсу, до якого потрібно отримати доступ. Не забудьте додати свою інтеграцію в базу даних!
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/document_loaders/notiondb.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/document_loaders/notiondb.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

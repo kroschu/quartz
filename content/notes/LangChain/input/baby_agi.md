@@ -1,31 +1,30 @@
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-# BabyAGI
+# БебіАГІ
 
-:::info
-Original Repo: https://github.com/yoheinakajima/babyagi
+:::інформація Оригінальне Сховище: https://github.com/yoheinakajima/babyagi
 :::
 
-BabyAGI is made up of 3 components:
+BabyAGI складається з 3 компонентів:
 
-- A chain responsible for creating tasks
-- A chain responsible for prioritising tasks
-- A chain responsible for executing tasks
+- Ланцюжок, що відповідає за створення завдань
+- Ланцюжок, що відповідає за пріоритетність завдань
+- Ланцюжок, що відповідає за виконання завдань
 
-These chains are executed in sequence until the task list is empty or the maximum number of iterations is reached.
+Ці ланцюжки виконуються послідовно, поки список завдань не порожній, або не досягнуто максимальної кількості ітерацій.
 
-## Simple Example
+## Простий приклад
 
-import SimpleExample from "@examples/experimental/babyagi/weather.ts";
+імпорт SimpleExample з «@examples/experimental/babyagi/weather.ts»;
 
-In this example we use BabyAGI directly without any tools. You'll see this results in successfully creating a list of tasks but when it comes to executing the tasks we do not get concrete results. This is because we have not provided any tools to the BabyAGI. We'll see how to do that in the next example.
+У цьому прикладі ми використовуємо BabyAGI безпосередньо без будь-яких інструментів. Ви побачите, що ці результати успішно створюють список завдань, але коли мова йде про виконання завдань, ми не отримуємо конкретних результатів. Це тому, що ми не надали будь-які інструменти для BabyAGI. Ми побачимо, як це зробити у наступному прикладі.
 
-<CodeBlock language="typescript">{SimpleExample}</CodeBlock>
+<CodeBlock language="typescript">{Простий приклад}</CodeBlock>
 
-## Example with Tools
+## Приклад з інструментами
 
-import ToolsExample from "@examples/experimental/babyagi/weather_with_tools.ts";
+імпорт ToolsExample з «@examples/experimental/babyagi/weather_with_tools.ts»;
 
-In this next example we replace the execution chain with a custom agent with a Search tool. This gives BabyAGI the ability to use real-world data when executing tasks, which makes it much more powerful. You can add additional tools to give it more capabilities.
+У цьому наступному прикладі ми замінимо ланцюжок виконання на власний агент інструментом пошуку. Це дає BabyAGI можливість використовувати реальні дані при виконанні завдань, що робить його набагато більш потужним. Ви можете додати додаткові інструменти, щоб надати йому більше можливостей.
 
 <CodeBlock language="typescript">{ToolsExample}</CodeBlock>

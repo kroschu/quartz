@@ -1,27 +1,28 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-# DynamoDB-Backed Chat Memory
+# Чат-пам'ять DynamoDB-Backed
 
-For longer-term persistence across chat sessions, you can swap out the default in-memory `chatHistory` that backs chat memory classes like `BufferMemory` for a DynamoDB instance.
+Для довготривалої персистентності в чатах можна замінити дані за замовчуванням в пам'яті `chatHistory` що підтримує класи чату пам'яті, як `BufferMemory` для примірника DynamoDB.
 
-## Setup
+## Налаштування
 
-First, install the AWS DynamoDB client in your project:
+Спочатку встановіть клієнт AWS DynamoDB у свій проект:
+
 
 ```bash npm2yarn
 npm install @aws-sdk/client-dynamodb
 ```
 
-Next, sign into your AWS account and create a DynamoDB table. Name the table `langchain`, and name your partition key `id`. Make sure your partition key is a string. You can leave sort key and the other settings alone.
+Потім увійдіть у свій обліковий запис AWS і створіть таблицю DynamoDB. Укажіть ім'я таблиці `langchain` і назвіть ключ розділу `id`. Переконайтеся, що ключ розділу є рядком. Ви можете залишити ключ сортування та інші налаштування окремо.
 
-You'll also need to retrieve an AWS access key and secret key for a role or user that has access to the table and add them to your environment variables.
+Вам також потрібно отримати ключ доступу AWS і секретний ключ для ролі або користувача, який має доступ до таблиці, і додати їх до змінних середовища.
 
-## Usage
+## Використання
 
-import Example from "@examples/memory/dynamodb-store.ts";
+імпорт прикладу з «@examples/memory/dynamodb-store.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

@@ -1,15 +1,15 @@
 ---
-sidebar_position: 3
-sidebar_label: Integrations
+sidebar_position: 3 sidebar_label: інтеграція
 ---
 
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-# Integrations: LLMs
+# Інтеграції: LLM
 
-LangChain offers a number of LLM implementations that integrate with various model providers. These are:
+LangChain пропонує ряд реалізацій LLM, які інтегруються з різними постачальниками моделей. Це:
 
-## `OpenAI`
+##  `OpenAI`
+
 
 ```typescript
 import { OpenAI } from "langchain/llms/openai";
@@ -24,7 +24,8 @@ const res = await model.call(
 console.log({ res });
 ```
 
-## Azure `OpenAI`
+## Лазуровий `OpenAI`
+
 
 ```typescript
 import { OpenAI } from "langchain/llms/openai";
@@ -42,36 +43,32 @@ const res = await model.call(
 console.log({ res });
 ```
 
-## Google Vertex AI
+## Google Вершина AI
 
-The Vertex AI implementation is meant to be used in Node.js and not
-directly in a browser, since it requires a service account to use.
+Реалізація Vertex AI призначена для використання в Node.js, а не безпосередньо в браузері, оскільки вона вимагає обліковий запис служби, щоб використовувати.
 
-Before running this code, you should make sure the Vertex AI API is
-enabled for the relevant project in your Google Cloud dashboard and that you've authenticated to
-Google Cloud using one of these methods:
+Перш ніж запускати цей код, переконайтеся, що API Vertex AI увімкнуто для відповідного проекту на приладній дошці Google Cloud, і ви пройшли автентифікацію в Google Cloud, використовуючи один із цих методів:
 
-- You are logged into an account (using `gcloud auth application-default login`)
-  permitted to that project.
-- You are running on a machine using a service account that is permitted
-  to the project.
-- You have downloaded the credentials for a service account that is permitted
-  to the project and set the `GOOGLE_APPLICATION_CREDENTIALS` environment
-  variable to the path of this file.
+- Ви увійшли в обліковий запис (за допомогою `gcloud auth application-default login`) дозволена для цього проекту.
+- Ви працюєте на комп’ютері з обліковим записом служби, дозволеним для цього проекту.
+- Завантажено облікові дані для облікового запису служби, дозволеного для проекту, і встановлено `GOOGLE_APPLICATION_CREDENTIALS` змінна середовища до шляху до цього файла.
+
 
 ```bash npm2yarn
 npm install google-auth-library
 ```
 
-import GoogleVertexAIExample from "@examples/llms/googlevertexai.ts";
+імпорт GoogleVertexAIExample з «@examples/llms/googlevertexai.ts»;
 
 <CodeBlock language="typescript">{GoogleVertexAIExample}</CodeBlock>
 
-## `HuggingFaceInference`
+##  `HuggingFaceInference`
+
 
 ```bash npm2yarn
 npm install @huggingface/inference@1
 ```
+
 
 ```typescript
 import { HuggingFaceInference } from "langchain/llms/hf";
@@ -84,11 +81,13 @@ const res = await model.call("1 + 1 =");
 console.log({ res });
 ```
 
-## `Cohere`
+##  `Cohere`
+
 
 ```bash npm2yarn
 npm install cohere-ai
 ```
+
 
 ```typescript
 import { Cohere } from "langchain/llms/cohere";
@@ -103,11 +102,13 @@ const res = await model.call(
 console.log({ res });
 ```
 
-## `Replicate`
+##  `Replicate`
+
 
 ```bash npm2yarn
 npm install replicate
 ```
+
 
 ```typescript
 import { Replicate } from "langchain/llms/replicate";
@@ -125,24 +126,26 @@ console.log({ res });
 
 ## AWS `SageMakerEndpoint`
 
-Check [Amazon SageMaker JumpStart](https://aws.amazon.com/sagemaker/jumpstart/) for a list of available models, and how to deploy your own.
+Перевірка [Швидкий запуск Amazon SageMaker](https://aws.amazon.com/sagemaker/jumpstart/) для списку доступних моделей, і як розгорнути свій власний.
+
 
 ```bash npm2yarn
 npm install @aws-sdk/client-sagemaker-runtime
 ```
 
-import SageMakerEndpointExample from "@examples/models/llm/sagemaker_endpoint.ts";
+імпорт SageMakerEndpointExample з «@examples/models/llm/sagemaker_endpoint.ts»;
 
 <CodeBlock language="typescript">{SageMakerEndpointExample}</CodeBlock>
 
-## Additional LLM Implementations
+## Додаткові реалізації LLM
 
-### `PromptLayerOpenAI`
+###  `PromptLayerOpenAI`
 
-LangChain integrates with PromptLayer for logging and debugging prompts and responses. To add support for PromptLayer:
+LangChain інтегрується з PromptLayer для реєстрації та відлагодження запитів та відповідей. Щоб додати підтримку PromptLayer:
 
-1. Create a PromptLayer account here: [https://promptlayer.com](https://promptlayer.com).
-2. Create an API token and pass it either as `promptLayerApiKey` argument in the `PromptLayerOpenAI` constructor or in the `PROMPTLAYER_API_KEY` environment variable.
+1. Створіть обліковий запис PromptLayer тут: [https://promptlayer.com](https://promptlayer.com).
+2. Створіть токен API та передайте його як `promptLayerApiKey` аргумент у `PromptLayerOpenAI` конструктор або в `PROMPTLAYER_API_KEY` змінна середовища.
+
 
 ```typescript
 import { PromptLayerOpenAI } from "langchain/llms/openai";
@@ -157,12 +160,13 @@ const res = await model.call(
 );
 ```
 
-### Azure `PromptLayerOpenAI`
+### Лазуровий `PromptLayerOpenAI`
 
-LangChain integrates with PromptLayer for logging and debugging prompts and responses. To add support for PromptLayer:
+LangChain інтегрується з PromptLayer для реєстрації та відлагодження запитів та відповідей. Щоб додати підтримку PromptLayer:
 
-1. Create a PromptLayer account here: [https://promptlayer.com](https://promptlayer.com).
-2. Create an API token and pass it either as `promptLayerApiKey` argument in the `PromptLayerOpenAI` constructor or in the `PROMPTLAYER_API_KEY` environment variable.
+1. Створіть обліковий запис PromptLayer тут: [https://promptlayer.com](https://promptlayer.com).
+2. Створіть токен API та передайте його як `promptLayerApiKey` аргумент у `PromptLayerOpenAI` конструктор або в `PROMPTLAYER_API_KEY` змінна середовища.
+
 
 ```typescript
 import { PromptLayerOpenAI } from "langchain/llms/openai";
@@ -184,6 +188,6 @@ const res = await model.call(
 );
 ```
 
-The request and the response will be logged in the [PromptLayer dashboard](https://promptlayer.com/home).
+Запит і відповідь будуть зареєстровані в [Приладна дошка PromptLayer](https://promptlayer.com/home).
 
-> **_Note:_** In streaming mode PromptLayer will not log the response.
+> **_Примітка:_** У режимі потокової передачі PromptLayer не запише відповідь.

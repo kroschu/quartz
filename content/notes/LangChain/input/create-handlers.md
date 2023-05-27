@@ -1,13 +1,13 @@
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-# Creating callback handlers
+# Створення обробників зворотного виклику
 
-## Creating a custom handler
+## Створення власного обробника
 
-You can also create your own handler by implementing the `BaseCallbackHandler` interface. This is useful if you want to do something more complex than just logging to the console, eg. send the events to a logging service. As an example here is a simple implementation of a handler that logs to the console:
+Ви також можете створити свій власний обробник, реалізуючи `BaseCallbackHandler` інтерфейс. Це корисно, якщо ви хочете зробити щось більш складне, ніж просто увійти в консоль, наприклад, надіслати події до служби журналювання. Як приклад можна навести просту реалізацію обробника, що входить в консоль:
 
-import CustomHandlerExample from "@examples/callbacks/custom_handler.ts";
+імпорт CustomHandlerExample з адреси «@examples/callbacks/custom_handler.ts»;
 
 <CodeBlock language="typescript">{CustomHandlerExample}</CodeBlock>
 
-You could then use it as described in the [section](#built-in-handlers) above.
+Ви можете використовувати його, як описано в [section](#built-in-handlers) вище.

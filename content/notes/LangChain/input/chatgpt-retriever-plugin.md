@@ -1,16 +1,15 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-# ChatGPT Plugin Retriever
+# Інструмент отримання додатків ChatGPT
 
-This example shows how to use the ChatGPT Retriever Plugin within LangChain.
+У цьому прикладі показано, як користуватися додатком ChatGPT Retriever у LangChain.
 
-To set up the ChatGPT Retriever Plugin, please follow instructions [here](https://github.com/openai/chatgpt-retrieval-plugin).
+Щоб налаштувати плагін ретрівера ChatGPT, дотримуйтесь інструкцій [here](https://github.com/openai/chatgpt-retrieval-plugin).
 
-## Usage
+## Використання
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/retrievers/chatgpt-plugin.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/retrievers/chatgpt-plugin.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

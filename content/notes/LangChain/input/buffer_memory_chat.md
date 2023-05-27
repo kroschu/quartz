@@ -1,13 +1,11 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/chat/memory.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/chat/memory.ts»;
 
-# Using Buffer Memory with Chat Models
+# Використання буферної пам'яті з моделями чату
 
-This example covers how to use chat-specific memory classes with chat models.
-The key thing to notice is that setting `returnMessages: true` makes the memory return a list of chat messages instead of a string.
+Цей приклад показує, як використовувати специфічні для чату класи пам'яті з моделями чату. Головне, що потрібно помітити, це налаштування `returnMessages: true` примушує пам'ять повертати список повідомлень чату замість рядка.
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

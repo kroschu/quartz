@@ -1,35 +1,35 @@
 ---
-sidebar_class_name: node-only
+sidebar_class_name: тільки вузол
 ---
 
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-# MyScale
+# Мій масштаб
 
-:::tip Compatibility
-Only available on Node.js.
+:::tip Сумісність доступна тільки на Node.js.
 :::
 
-[MyScale](https://myscale.com/) is an emerging AI database that harmonizes the power of vector search and SQL analytics, providing a managed, efficient, and responsive experience.
+[MyScale](https://myscale.com/) є новою базою даних AI, яка гармонізує силу векторного пошуку та аналітики SQL, забезпечуючи керований, ефективний та чуйний досвід.
 
-## Setup
+## Налаштування
 
-1. Launch a cluster through [MyScale's Web Console](https://console.myscale.com/). See [MyScale's official documentation](https://docs.myscale.com/en/quickstart/) for more information.
-2. After launching a cluster, view your `Connection Details` from your cluster's `Actions` menu. You will need the host, port, username, and password.
-3. Install the required Node.js peer dependency in your workspace.
+1. Запуск кластера через [Веб-консоль MyScale](https://console.myscale.com/). Див. [Офіційна документація MyScale](https://docs.myscale.com/en/quickstart/) для отримання додаткової інформації.
+2. Після запуску кластера, переглянути свій `Connection Details` з вашого кластера `Actions` меню. Вам знадобиться хост, порт, ім'я користувача та пароль.
+3. Встановіть необхідну однорангову залежність Node.js у вашій робочій області.
+
 
 ```bash npm2yarn
 npm install -S @clickhouse/client
 ```
 
-## Index and Query Docs
+## Документація індексів і запитів
 
-import InsertExample from "@examples/indexes/vector_stores/myscale_fromTexts.ts";
+імпорт InsertExample з «@examples/indexes/vector_stores/myscale_fromTexts.ts»;
 
 <CodeBlock language="typescript">{InsertExample}</CodeBlock>
 
-## Query Docs From an Existing Collection
+## Документація запиту з наявної колекції
 
-import SearchExample from "@examples/indexes/vector_stores/myscale_search.ts";
+імпорт SearchExample з «@examples/indexes/vector_stores/myscale_search.ts»;
 
 <CodeBlock language="typescript">{SearchExample}</CodeBlock>

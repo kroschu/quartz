@@ -1,15 +1,13 @@
-# Contextual Compression Retriever
+# Контекстуальний ретрівер стиснення
 
-A Contextual Compression Retriever is designed to improve the answers returned from vector store document similarity searches by better taking into account the context from the query.
+Ретривер контекстного стиснення призначений для поліпшення відповідей, отриманих від пошуку подібності документів векторного сховища, шляхом кращого врахування контексту запиту.
 
-It wraps another retriever, and uses a Document Compressor as an intermediate step after the initial similarity search that removes information irrelevant to the initial query from the retrieved documents.
-This reduces the amount of distraction a subsequent chain has to deal with when parsing the retrieved documents and making its final judgements.
+Він обгортає інший ретривер і використовує компресор документів як проміжний етап після початкового пошуку подібності, який видаляє інформацію, невідповідну до початкового запиту з отриманих документів. Це зменшує відволікання, з яким має мати справу наступний ланцюжок при аналізі отриманих документів та остаточних суджень.
 
-## Usage
+## Використання
 
-This example shows how to intialize a `ContextualCompressionRetriever` with a vector store and a document compressor:
+Цей приклад показує, як ініціалізувати `ContextualCompressionRetriever` за допомогою векторного сховища та компресора документів:
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/retrievers/contextual_compression.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/retrievers/contextual_compression.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

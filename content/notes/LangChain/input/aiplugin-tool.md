@@ -1,19 +1,19 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/agents/aiplugin-tool.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/agents/aiplugin-tool.ts»;
 
-# ChatGPT Plugins
+# Додатки ChatGPT
 
-This example shows how to use ChatGPT Plugins within LangChain abstractions.
+У цьому прикладі показано, як користуватися плагінами ChatGPT в абстракціях LangChain.
 
-Note 1: This currently only works for plugins with no auth.
+Примітка 1: Наразі це працює тільки для плагінів без авторизації.
 
-Note 2: There are almost certainly other ways to do this, this is just a first pass. If you have better ideas, please open a PR!
+Примітка 2: Є майже напевно інші способи, щоб зробити це, це просто перший прохід. Якщо у вас є кращі ідеї, будь ласка, відкрийте PR!
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>
+
 
 ````
 Entering new agent_executor chain...
@@ -21,10 +21,8 @@ Thought: Klarna is a payment provider, not a store. I need to check if there is 
 Action:
 ```
 
-{
-"action": "KlarnaProducts",
-"action_input": ""
-}
+{ «action»: «KlarnaProducts», «action_input»: «» }
+
 
 ```
 
@@ -35,20 +33,14 @@ Now that I know there is a Klarna Shopping API, I can use it to search for t-shi
 Action:
 ```
 
-{
-"action": "requests_get",
-"action_input": "https://www.klarna.com/us/shopping/public/openai/v0/products?q=t-shirt"
-}
+{ «action»: «requests_get», «action_input»: «https://www.klarna.com/us/shopping/public/openai/v0/products?q=t-shirt» }
 
 ```
 
 
-{"products":[{"name":"Psycho Bunny Mens Copa Gradient Logo Graphic Tee","url":"https://www.klarna.com/us/shopping/pl/cl10001/3203663222/Clothing/Psycho-Bunny-Mens-Copa-Gradient-Logo-Graphic-Tee/?source=openai","price":"$35.00","attributes":["Material:Cotton","Target Group:Man","Color:White,Blue,Black,Orange"]},{"name":"T-shirt","url":"https://www.klarna.com/us/shopping/pl/cl10001/3203506327/Clothing/T-shirt/?source=openai","price":"$20.45","attributes":["Material:Cotton","Target Group:Man","Color:Gray,White,Blue,Black,Orange"]},{"name":"Palm Angels Bear T-shirt - Black","url":"https://www.klarna.com/us/shopping/pl/cl10001/3201090513/Clothing/Palm-Angels-Bear-T-shirt-Black/?source=openai","price":"$168.36","attributes":["Material:Cotton","Target Group:Man","Color:Black"]},{"name":"Tommy Hilfiger Essential Flag Logo T-shirt","url":"https://www.klarna.com/us/shopping/pl/cl10001/3201840629/Clothing/Tommy-Hilfiger-Essential-Flag-Logo-T-shirt/?source=openai","price":"$22.52","attributes":["Material:Cotton","Target Group:Man","Color:Red,Gray,White,Blue,Black","Pattern:Solid Color","Environmental Attributes :Organic"]},{"name":"Coach Outlet Signature T Shirt","url":"https://www.klarna.com/us/shopping/pl/cl10001/3203005573/Clothing/Coach-Outlet-Signature-T-Shirt/?source=openai","price":"$75.00","attributes":["Material:Cotton","Target Group:Man","Color:Gray"]}]}
-Finished chain.
-{
-  result: {
-    output: 'The available t-shirts in Klarna are Psycho Bunny Mens Copa Gradient Logo Graphic Tee, T-shirt, Palm Angels Bear T-shirt - Black, Tommy Hilfiger Essential Flag Logo T-shirt, and Coach Outlet Signature T Shirt.',
-    intermediateSteps: [ [Object], [Object] ]
+{»products»:[{»name»:»Psycho Bunny Mens Copa Gradient Logo Graphic Tee»,»url»:»https://www.klarna.com/us/shopping/pl/cl10001/3203663222/Clothing/Psycho-Bunny-Mens-Copa-Gradient-Logo-Graphic-Tee/?source=openai»,»price»:»$35.00»,»attributes»:[»Material:Cotton»,»Target Group:Man»,»Color:White,Blue,Black,Orange»]},{»name»:»T-shirt»,»url»:»https://www.klarna.com/us/shopping/pl/cl10001/3203506327/Clothing/T-shirt/?source=openai»,»Price»:»$20.45»,»attributes»:[»Material:Cotton»,»Target Group:Man»,White,Blue,Black,Orange»]},{»name»:»Palm Angels Bear T-shirt - Black»,»url»:»https://www.klarna.com/us/shopping/pl/cl10001/3201090513/Clothing/Palm-Angels-Bear-T-shirt-Black/?source=openai»,»price»:»$168.36»,»attributes»:[»Material:Cotton»,»Target Group:Man»,»Color:Black»]},{»name»:»Tommy Hilfiger Essential Flag Logo T-shirt»,»url»:»https://www.klarna.com/us/shopping/pl/cl10001/3201840629/Clothing/Tommy-Hilfiger-Essential-Flag-Logo-T-shirt/?source=openai»,»price»:»$222.522»,»target attributtattributes»:[»Material:Material:Cotattrial»,» Група:Man»,»Color:Red,Grey,White,Blue,Black»,»Pattern:Solid Color»,»Environmental Attributes :Organic»]},{»name»:»Coach Outlet Signature T Shirt»,»url»:»https://www.klarna.com/us/shopping/pl/cl10001/3203005573/Clothing/Coach-Outlet-Signature-T-Shirt/?source=openai»,»price»:»$75.00»,»attributes»:[»Material:Cotton»,»Target Group:Man»,»Color:Grey»]}]. {
+  результат: {
+    output: 'The available t-shirts in Klarna are Psycho Bunny Mens Copa Gradient Logo Graphic Tee, T-shirt, Palm Angels Bear T-shirt - Black, Tommy Hilfiger Essential Flag Logo T-shirt, and Coach Outlet Signature T Shirt.', intermediateSteps: [ [Object], [Object] ]
   }
 }
 ````

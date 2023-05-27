@@ -1,25 +1,23 @@
 ---
-hide_table_of_contents: true
-sidebar_label: Entity Memory
+hide_table_of_contents: true sidebar_label: Пам'ять сутності
 ---
 
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-# Entity Memory
+# Пам’ять сутності
 
-Entity Memory remembers given facts about specific entities in a conversation.
-It extracts information on entities (using an LLM) and builds up its knowledge about that entity over time (also using an LLM).
+Сутність пам'яті пам'ятає дані факти про конкретні сутності в розмові. Вона витягує інформацію про суб'єкти (використовуючи LLM) і будує свої знання про цю сутність протягом довгого часу (також використовуючи LLM).
 
-## Usage:
+## Використання:
 
-import Example from "@examples/memory/entity.ts";
+імпорт прикладу з «@examples/memory/entity.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>
 
-### Inspecting the Memory Store
+### Перевірка сховища пам'яті
 
-You can also inspect the memory store directly to see the current summary of each entity:
+Ви також можете перевірити сховище пам'яті безпосередньо, щоб побачити поточне резюме кожної сутності:
 
-import MemoryInspectionExample from "@examples/memory/entity_memory_inspection.ts";
+імпорт MemoryInspectionExample з «@examples/memory/entity_memory_inspection.ts»;
 
 <CodeBlock language="typescript">{MemoryInspectionExample}</CodeBlock>

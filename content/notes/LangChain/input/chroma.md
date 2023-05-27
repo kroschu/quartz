@@ -1,32 +1,33 @@
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-# Chroma
+# Хрома
 
-Chroma is an open-source Apache 2.0 embedding database.
+Chroma є відкритим вихідним кодом Apache 2.0 вбудованої бази даних.
 
-## Setup
+## Налаштування
 
-1. Run chroma with Docker on your computer [docs](https://docs.trychroma.com/api-reference)
-2. Install the Chroma JS SDK.
+1. Запустіть chroma за допомогою Docker на вашому комп'ютері [docs](https://docs.trychroma.com/api-reference)
+2. Встановіть пакет SDK Chroma JS.
+
 
 ```bash npm2yarn
 npm install -S chromadb
 ```
 
-## Usage, Index and query Documents
+## Документи про використання, індекс і запити
 
-import FromDocs from "@examples/indexes/vector_stores/chroma/fromDocs.ts";
+імпорт FromDocs з «@examples/indexes/vector_stores/chroma/fromDocs.ts»;
 
-<CodeBlock language="typescript">{FromDocs}</CodeBlock>
+<CodeBlock language="typescript">{З документів}</CodeBlock>
 
-## Usage, Index and query texts
+## Використання, індекс і тексти запитів
 
-import FromTexts from "@examples/indexes/vector_stores/chroma/fromTexts.ts";
+імпорт FromTexts із сайту «@examples/indexes/vector_stores/chroma/fromTexts.ts»;
 
-<CodeBlock language="typescript">{FromTexts}</CodeBlock>
+<CodeBlock language="typescript">{ЗТекстів}</CodeBlock>
 
-## Usage, Query docs from existing collection
+## Використання, документація запитів з наявної колекції
 
-import Search from "@examples/indexes/vector_stores/chroma/search.ts";
+імпорт пошуку з «@examples/indexes/vector_stores/chroma/search.ts»;
 
-<CodeBlock language="typescript">{Search}</CodeBlock>
+<CodeBlock language="typescript">{Пошук}</CodeBlock>

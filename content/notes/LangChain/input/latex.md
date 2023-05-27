@@ -1,11 +1,11 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-# `LatexTextSplitter`
+#  `LatexTextSplitter`
 
-If you want to load documents in Latex format then try out the `LatexTextSplitter`. This class will split your content into documents based on the Latex syntax.
-For example, given this Latex input:
+Якщо ви хочете завантажити документи у форматі Latex, спробуйте `LatexTextSplitter`. Цей клас розділить ваш вміст на документи на основі синтаксису Latex. Наприклад, для цього параметра Latex вводить такі дані:
+
 
 ```latex
 \begin{document}
@@ -24,9 +24,8 @@ As an open source project in a rapidly developing field, we are extremely open t
 \end{document}
 ```
 
-The `LatexTextSplitter` will split the content into the following documents:
+Значення `LatexTextSplitter` розділить вміст на наступні документи:
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/indexes/latex_text_splitter.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/indexes/latex_text_splitter.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

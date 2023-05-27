@@ -1,31 +1,29 @@
 ---
-hide_table_of_contents: true
-sidebar_label: Memory
-sidebar_position: 1
+hide_table_of_contents: true sidebar_label: Бічна панель пам'яті_позиція: 1
 ---
 
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-# `MemoryVectorStore`
+#  `MemoryVectorStore`
 
-MemoryVectorStore is an in-memory, ephemeral vectorstore that stores embeddings in-memory and does an exact, linear search for the most similar embeddings. The default similarity metric is cosine similarity, but can be changed to any of the similarity metrics supported by [ml-distance](https://mljs.github.io/distance/modules/similarity.html).
+MemoryVectorStore — це вбудоване в пам'ять векторне сховище, яке зберігає вбудовування в пам'ять і виконує точний, лінійний пошук найбільш схожих вбудованих об'єктів. Метрика подібності за замовчуванням є косинусом подібності, але її можна змінити на будь-який з метрик подібності, підтримуваних [ml-відстань](https://mljs.github.io/distance/modules/similarity.html).
 
-## Usage
+## Використання
 
-### Create a new index from texts
+### Створення нового покажчика з текстів
 
-import ExampleTexts from "@examples/indexes/vector_stores/memory.ts";
+імпорт текстів ExampleTexts із сайту «@examples/indexes/vector_stores/memory.ts»;
 
-<CodeBlock language="typescript">{ExampleTexts}</CodeBlock>
+<CodeBlock language="typescript">{ПрикладТексту}</CodeBlock>
 
-### Create a new index from a loader
+### Створити новий індекс із завантажувача
 
-import ExampleLoader from "@examples/indexes/vector_stores/memory_fromdocs.ts";
+імпорт ExampleLoader з «@examples/indexes/vector_stores/memory_fromdocs.ts»;
 
-<CodeBlock language="typescript">{ExampleLoader}</CodeBlock>
+<CodeBlock language="typescript">{Завантажувач прикладів}</CodeBlock>
 
-### Use a custom similarity metric
+### Використовувати настроюваний показник подібності
 
-import ExampleCustom from "@examples/indexes/vector_stores/memory_custom_similarity.ts";
+імпорт ExampleCustom з «@examples/indexes/vector_stores/memory_custom_similarity.ts»;
 
 <CodeBlock language="typescript">{ExampleCustom}</CodeBlock>

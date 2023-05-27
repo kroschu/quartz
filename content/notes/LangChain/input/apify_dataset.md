@@ -1,59 +1,48 @@
 ---
-hide_table_of_contents: true
-sidebar_class_name: node-only
+hide_table_of_contents: істинна sidebar_class_name: тільки вузол
 ---
 
-# Apify Dataset
+# Апіфікація набору даних
 
-This guide shows how to use [Apify](https://apify.com) with LangChain to load documents from an Apify Dataset.
+У цьому посібнику показано, як користуватися програмою [Apify](https://apify.com) за допомогою LangChain для завантаження документів з набору даних Apify.
 
-## Overview
+## Огляд
 
-[Apify](https://apify.com) is a cloud platform for web scraping and data extraction,
-which provides an [ecosystem](https://apify.com/store) of more than a thousand
-ready-made apps called _Actors_ for various web scraping, crawling, and data extraction use cases.
+[Apify](https://apify.com) це хмарна платформа для веб-скрапінгу та вилучення даних, яка забезпечує [ecosystem](https://apify.com/store) з більш ніж тисячі готових додатків під назвою _Актори_ для різних випадків веб-скрепінгу, сканування та вилучення даних.
 
-This guide shows how to load documents
-from an [Apify Dataset](https://docs.apify.com/platform/storage/dataset) — a scalable append-only
-storage built for storing structured web scraping results,
-such as a list of products or Google SERPs, and then export them to various
-formats like JSON, CSV, or Excel.
+У цьому посібнику описано завантаження документів із [Апіфікація набору даних](https://docs.apify.com/platform/storage/dataset) — масштабоване сховище, створене лише для зберігання структурованих результатів веб-сканування, наприклад, списку продуктів або Google SERPs, а потім експортуйте їх у різні формати, такі як JSON, CSV або Excel.
 
-Datasets are typically used to save results of Actors.
-For example, [Website Content Crawler](https://apify.com/apify/website-content-crawler) Actor
-deeply crawls websites such as documentation, knowledge bases, help centers, or blogs,
-and then stores the text content of webpages into a dataset,
-from which you can feed the documents into a vector index and answer questions from it.
+Набори даних зазвичай використовуються для збереження результатів акторів. Наприклад, [Засіб обходу вмісту веб-сайту](https://apify.com/apify/website-content-crawler) Актор глибоко сканує веб-сайти, такі як документація, бази знань, довідкові центри або блоги, а потім зберігає текстовий вміст веб-сторінок у набір даних, з якого ви можете надсилати документи у векторний індекс і відповідати на запитання з нього.
 
-## Setup
+## Налаштування
 
-You'll first need to install the official Apify client:
+Спочатку потрібно встановити офіційний клієнт Apify:
+
 
 ```bash npm2yarn
 npm install apify-client
 ```
 
-You'll also need to sign up and retrieve your [Apify API token](https://console.apify.com/account/integrations).
+Вам також потрібно зареєструватися і отримати ваш [Apify API токен](https://console.apify.com/account/integrations).
 
-## Usage
+## Використання
 
-### From a New Dataset
+### З нового набору даних
 
-If you don't already have an existing dataset on the Apify platform, you'll need to initialize the document loader by calling an Actor and waiting for the results.
+Якщо у вас ще немає набору даних на платформі Apify, вам потрібно ініціалізувати завантажувач документа, викликавши Actor і чекаючи результатів.
 
-**Note:** Calling an Actor can take a significant amount of time, on the order of hours, or even days for large sites!
+**Примітка:** Виклик актора може зайняти значну кількість часу, на порядок годин, або навіть днів для великих сайтів!
 
-Here's an example:
+Ось приклад:
 
-import CodeBlock from "@theme/CodeBlock";
-import NewExample from "@examples/document_loaders/apify_dataset_new.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт NewExample з «@examples/document_loaders/apify_dataset_new.ts»;
 
-<CodeBlock language="typescript">{NewExample}</CodeBlock>
+<CodeBlock language="typescript">{Новий приклад}</CodeBlock>
 
-## From an Existing Dataset
+## З наявного набору даних
 
-If you already have an existing dataset on the Apify platform, you can initialize the document loader with the constructor directly:
+Якщо у вас вже є набір даних на платформі Apify, ви можете ініціалізувати завантажувач документа безпосередньо за допомогою конструктора:
 
-import ExistingExample from "@examples/document_loaders/apify_dataset_existing.ts";
+імпорт ExistingExample з «@examples/document_loaders/apify_dataset_existing.ts»;
 
-<CodeBlock language="typescript">{ExistingExample}</CodeBlock>
+<CodeBlock language="typescript">Наявний приклад {ExistingExample}</CodeBlock>

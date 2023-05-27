@@ -1,10 +1,9 @@
-# Databerry Retriever
+# Ретрівер
 
-This example shows how to use the Databerry Retriever in a `RetrievalQAChain` to retrieve documents from a Databerry.ai datastore.
+Цей приклад показує, як використовувати ретрівер з бази даних в `RetrievalQAChain` щоб отримати документи зі сховища даних Databerry.ai.
 
-## Usage
+## Використання
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/retrievers/databerry.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/retrievers/databerry.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

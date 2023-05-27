@@ -1,22 +1,24 @@
-# Prisma
+# Призма
 
-For augmenting existing models in PostgreSQL database with vector search, Langchain supports using [Prisma](https://www.prisma.io/) together with PostgreSQL and [`pgvector`](https://github.com/pgvector/pgvector) Postgres extension.
+Для доповнення існуючих моделей в базі даних PostgreSQL з векторним пошуком, Langchain підтримує використання [Prisma](https://www.prisma.io/) разом з PostgreSQL і [ `pgvector`](https://github.com/pgvector/pgvector) Розширення Postgres.
 
-## Setup
+## Налаштування
 
-### Setup database instance with Supabase
+### Інсталяція екземпляра бази даних із використанням бази даних Supabase
 
-Refer to the [Prisma and Supabase integration guide](https://supabase.com/docs/guides/integrations/prisma) to setup a new database instance with Supabase and Prisma.
+Зверніться до [Посібник з інтеграції з Prisma та Supabase](https://supabase.com/docs/guides/integrations/prisma) щоб налаштувати новий екземпляр бази даних за допомогою Supabase і Prisma.
 
-### Install Prisma
+### Встановити Prisma
+
 
 ```bash npm2yarn
 npm install prisma
 ```
 
-### Setup `pgvector` self hosted instance with `docker-compose`
+### Налаштування `pgvector` самостійне розміщення екземпляра з `docker-compose`
 
-`pgvector` provides a prebuilt Docker image that can be used to quickly setup a self-hosted Postgres instance.
+ `pgvector` надає попередньо створений образ Docker, який можна використовувати для швидкого налаштування власного екземпляра Postgres.
+
 
 ```yaml
 services:
@@ -35,9 +37,10 @@ volumes:
   db:
 ```
 
-### Create a new schema
+### Створити нову схему
 
-Assuming you haven't created a schema yet, create a new model with a `vector` field of type `Unsupported("vector")`:
+Якщо ви ще не створили схему, створіть нову модель за допомогою `vector` поле типу `Unsupported("vector")` :
+
 
 ```prisma
 model Document {
@@ -47,34 +50,35 @@ model Document {
 }
 ```
 
-Afterwards, create a new migration with `--create-only` to avoid running the migration directly.
+Після цього створіть нову міграцію за допомогою `--create-only` щоб не запускати міграцію безпосередньо.
+
 
 ```bash npm2yarn
 npx prisma migrate dev --create-only
 ```
 
-Add the following line to the newly created migration to enable `pgvector` extension if it hasn't been enabled yet:
+Додайте наступний рядок до новоствореного перенесення, щоб увімкнути `pgvector` розширення, якщо воно ще не було увімкнене:
+
 
 ```sql
 CREATE EXTENSION IF NOT EXISTS vector;
 ```
 
-Run the migration afterwards:
+Запустіть міграцію після цього:
+
 
 ```bash npm2yarn
 npx prisma migrate dev
 ```
 
-## Usage
+## Використання
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/indexes/vector_stores/prisma_vectorstore/prisma.ts";
-import Schema from "@examples/indexes/vector_stores/prisma_vectorstore/prisma/schema.prisma";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/indexes/vector_stores/prisma_vectorstore/prisma.ts»; імпорт схеми з «@examples/indexes/vector_stores/prisma_vectorstore/prisma/schema.prisma»;
 
-Use the `withModel` method to get proper type hints for `metadata` field:
+Використовувати `withModel` метод, щоб отримати правильний тип підказки для `metadata` поле:
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>
 
-The sample above uses the following schema:
+У наведеному вище прикладі використовується така схема:
 
-<CodeBlock language="prisma">{Schema}</CodeBlock>
+<CodeBlock language="prisma">{Схема}</CodeBlock>

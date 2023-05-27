@@ -1,18 +1,17 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-# HyDE Retriever
+# Ретрівер Ходе
 
-This example shows how to use the HyDE Retriever, which implements Hypothetical Document Embeddings (HyDE) as described in [this paper](https://arxiv.org/abs/2212.10496).
+Цей приклад показує, як використовувати ретрівер HyDE, який реалізує гіпотетичні вкладення документів (HyDE), як описано в [this paper](https://arxiv.org/abs/2212.10496).
 
-At a high level, HyDE is an embedding technique that takes queries, generates a hypothetical answer, and then embeds that generated document and uses that as the final example.
+На високому рівні, HyDE - це техніка вбудовування, яка приймає запити, формує гіпотетичну відповідь, а потім вбудовує цей документ і використовує його як кінцевий приклад.
 
-In order to use HyDE, we therefore need to provide a base embedding model, as well as an LLM that can be used to generate those documents. By default, the HyDE class comes with some default prompts to use (see the paper for more details on them), but we can also create our own, which should have a single input variable `{question}`.
+Для того, щоб використовувати HyDE, нам, таким чином, необхідно забезпечити базову модель вбудовування, а також LLM, яка може бути використана для створення цих документів. За замовчуванням клас HyDE поставляється з деякими підказками за замовчуванням, щоб використовувати (див. Папір для більш докладної інформації про них), але ми також можемо створити свій власний, який повинен мати одну вхідну змінну `{question}`.
 
-## Usage
+## Використання
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/retrievers/hyde.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/retrievers/hyde.ts»;
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

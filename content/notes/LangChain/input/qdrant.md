@@ -1,27 +1,28 @@
 ---
-sidebar_class_name: node-only
+sidebar_class_name: тільки вузол
 ---
 
-# Qdrant
+# Крант
 
-[Qdrant](https://qdrant.tech/) is a vector similarity search engine. It provides a production-ready service with a convenient API to store, search, and manage points - vectors with an additional payload.
+[Qdrant](https://qdrant.tech/) є пошуковою системою подібності векторів. Він надає готовий до виробництва сервіс зі зручним API для зберігання, пошуку та управління точками - векторами з додатковим корисним навантаженням.
 
-:::tip Compatibility
-Only available on Node.js.
+:::tip Сумісність доступна тільки на Node.js.
 :::
 
-## Setup
+## Налаштування
 
-1. Run a Qdrant instance with Docker on your computer by following the [Qdrant setup instructions](https://qdrant.tech/documentation/install/).
-2. Install the Qdrant Node.js SDK.
+1. Запустіть екземпляр Qdrant з докером на вашому комп'ютері, виконавши [Настанови зі встановлення Qdrant](https://qdrant.tech/documentation/install/).
+2. Встановіть Qdrant Node.js SDK.
+
 
    ```bash npm2yarn
    npm install -S @qdrant/js-client-rest
    ```
 
-3. Setup Env variables for Qdrant before running the code
+3. Налаштування Env змінних для Qdrant перед запуском коду
 
    3.1 OpenAI
+
 
    ```bash
    export OPENAI_API_KEY=YOUR_OPENAI_API_KEY_HERE
@@ -29,6 +30,7 @@ Only available on Node.js.
    ```
 
    3.2 Azure OpenAI
+
 
    ```bash
    export AZURE_OPENAI_API_KEY=YOUR_AZURE_OPENAI_API_KEY_HERE
@@ -40,24 +42,24 @@ Only available on Node.js.
    export QDRANT_URL=YOUR_QDRANT_URL_HERE # for example http://localhost:6333
    ```
 
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-## Usage
+## Використання
 
-### Create a new index from texts
+### Створення нового покажчика з текстів
 
-import TextsExample from "@examples/indexes/vector_stores/qdrant/fromTexts.ts";
+імпорт TextsExample з «@examples/indexes/vector_stores/qdrant/fromTexts.ts»;
 
-<CodeBlock language="typescript">{TextsExample}</CodeBlock>
+<CodeBlock language="typescript">{ТекстПриклад}</CodeBlock>
 
-### Create a new index from docs
+### Створити новий індекс із документів
 
-import DocsExample from "@examples/indexes/vector_stores/qdrant/fromDocs.ts";
+імпорт DocsExample з «@examples/indexes/vector_stores/qdrant/fromDocs.ts»;
 
-<CodeBlock language="typescript">{DocsExample}</CodeBlock>
+<CodeBlock language="typescript">{Приклад_документації}</CodeBlock>
 
-### Query docs from existing collection
+### Запитати документи з наявної колекції
 
-import ExistingExample from "@examples/indexes/vector_stores/qdrant/fromExisting.ts";
+імпорт ExistingExample з «@examples/indexes/vector_stores/qdrant/fromExisting.ts»;
 
-<CodeBlock language="typescript">{ExistingExample}</CodeBlock>
+<CodeBlock language="typescript">Наявний приклад {ExistingExample}</CodeBlock>

@@ -1,12 +1,11 @@
 ---
-hide_table_of_contents: true
+hide_table_of_contents: так
 ---
 
-import CodeBlock from "@theme/CodeBlock";
-import Example from "@examples/agents/custom_llm_agent_chat.ts";
+імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/agents/custom_llm_agent_chat.ts»;
 
-# Custom Chat Agent
+# Власний агент чату
 
-This example covers how to create a custom Agent powered by a Chat Model.
+У цьому прикладі описано, як створити власний Агент під керуванням моделі чату.
 
-<CodeBlock language="typescript">{Example}</CodeBlock>
+<CodeBlock language="typescript">{Приклад}</CodeBlock>

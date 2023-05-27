@@ -1,55 +1,56 @@
 ---
-sidebar_class_name: node-only
+sidebar_class_name: тільки вузол
 ---
 
-import CodeBlock from "@theme/CodeBlock";
+імпорт CodeBlock з «@theme/CodeBlock»;
 
-# Faiss
+# Файсс
 
-:::tip Compatibility
-Only available on Node.js.
+:::tip Сумісність доступна тільки на Node.js.
 :::
 
-[Faiss](https://github.com/facebookresearch/faiss) is a library for efficient similarity search and clustering of dense vectors.
+[Faiss](https://github.com/facebookresearch/faiss) є бібліотекою для ефективного пошуку подібності та кластеризації щільних векторів.
 
-Langchainjs supports using Faiss as a vectorstore that can be saved to file. It also provides the ability to read the saved file from [Python's implementation](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/faiss.html#saving-and-loading).
+Langchainjs підтримує використання Faiss як векторний магазин, який може бути збережений у файл. Він також надає можливість прочитати збережений файл з [Реалізація Python](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/faiss.html#saving-and-loading).
 
-## Setup
+## Налаштування
 
-Install the [faiss-node](https://github.com/ewfian/faiss-node), which is a Node.js bindings for [Faiss](https://github.com/facebookresearch/faiss).
+Встановити [faiss-node](https://github.com/ewfian/faiss-node), що є Node.js прив'язки для [Faiss](https://github.com/facebookresearch/faiss).
+
 
 ```bash npm2yarn
 npm install -S faiss-node
 ```
 
-To enable the ability to read the saved file from [Python's implementation](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/faiss.html#saving-and-loading), the [pickleparser](https://github.com/ewfian/pickleparser) also needs to install.
+Щоб увімкнути можливість читання збережених файлів [Реалізація Python](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/faiss.html#saving-and-loading), [аналізатор](https://github.com/ewfian/pickleparser) також потрібно встановити.
+
 
 ```bash npm2yarn
 npm install -S pickleparser
 ```
 
-## Usage
+## Використання
 
-### Create a new index from texts
+### Створення нового покажчика з текстів
 
-import ExampleTexts from "@examples/indexes/vector_stores/faiss.ts";
+імпорт текстів ExampleTexts із сайту «@examples/indexes/vector_stores/faiss.ts»;
 
-<CodeBlock language="typescript">{ExampleTexts}</CodeBlock>
+<CodeBlock language="typescript">{ПрикладТексту}</CodeBlock>
 
-### Create a new index from a loader
+### Створити новий індекс із завантажувача
 
-import ExampleLoader from "@examples/indexes/vector_stores/faiss_fromdocs.ts";
+імпорт ExampleLoader з «@examples/indexes/vector_stores/faiss_fromdocs.ts»;
 
-<CodeBlock language="typescript">{ExampleLoader}</CodeBlock>
+<CodeBlock language="typescript">{Завантажувач прикладів}</CodeBlock>
 
-### Save an index to file and load it again
+### Зберегти індекс у файл і завантажити його знову
 
-import ExampleSave from "@examples/indexes/vector_stores/faiss_saveload.ts";
+імпорт властивості ExampleSave із файлу «@examples/indexes/vector_stores/faiss_saveload.ts»;
 
-<CodeBlock language="typescript">{ExampleSave}</CodeBlock>
+<CodeBlock language="typescript">{ПрикладЗбереження}</CodeBlock>
 
-### Load the saved file from [Python's implementation](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/faiss.html#saving-and-loading)
+### Завантажити збережений файл з [Реалізація Python](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/faiss.html#saving-and-loading)
 
-import ExamplePython from "@examples/indexes/vector_stores/faiss_loadfrompython.ts";
+імпорт ExamplePython з «@examples/indexes/vector_stores/faiss_loadfrompython.ts»;
 
-<CodeBlock language="typescript">{ExamplePython}</CodeBlock>
+<CodeBlock language="typescript">{ПрикладPython}</CodeBlock>
