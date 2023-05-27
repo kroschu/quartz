@@ -1,0 +1,218 @@
+checkWebCfgHrs=3
+cvg=12090100
+cva=9020200
+cvgAPI21=12090100
+cvaAPI21=9020200
+cvwAPI21=9020200
+adDefault=1
+promoOpts=1
+min:ADMOB=-1
+min:AMAZON=0
+adk=777
+nas:FB=-1
+nas:ADMOB=0
+IAS:=300|M
+AdLoadingTimeout=10000
+assetsVer=26030600
+TrainDataDownLink=https://github.com/tesseract-ocr/tessdata/raw/4.0.0/
+TrainDataListLink=https://github.com/tesseract-ocr/tessdata/tree/4.0.0/
+UseArt:livejournal.com
+UseArt:www.translationnations.com
+UseArt:www.dobreprogramy.pl
+UseArt:www.ksl.com
+AVAR:https?://(www\.)?(abc7\.com/(news|weather)/)
+Filt:"https?://.+\.translate\.goog/" translate-goog_JSX_1.json
+Filt:"https?://www\.engadget\.com/" Engadget_1.json
+Filt:"https?://(www\.)?soundguys\.com/" soundguys_1.json
+Filt:"https?://(www\.)?proteste\.org\.br/" ProtesteOrgBr_1.json
+Filt:"https?://(www\.)?flipboard\.com/@flipboard/" Flipboard_JSX_4.json
+Filt:"https?://(www\.)?psychologytoday\.com/blog/" PsychTodayBlog_1.json
+Filt:"https?://(www\.)?wsws\.org/" WSWS-org_1.json
+Filt:"https?://m\.esakal\.com/details\.aspx\?.+&sn=.+#\d+" m.esakal.com_1.json
+Filt:"https?://(www\.)?politico\.com/" politico-com_4.json
+Filt:"https?://((www|mobile)\.)?nytimes\.com/" nytimes-com_JSX_4.json
+Filt:"https?://(www\.)?bloomberg\.com/" bloomberg_news_articles_JSX_5.json
+Filt:"https?://(www\.)?vox\.com/" vox.com_1.json
+Filt:"https?://www\.theverge\.com/" TheVerge_3.json
+Filt:"https?://(www\.)?lifesitenews\.com/" lifesitenews-com_1.json
+Filt:"https?://(www\.)?antyweb\.pl/" antyweb-pl_1.json
+Filt:"https?://(www\.)?pap\.pl/" pap-pl_1.json
+Filt:"https?://(www\.)?hablarcondios\.org/pt/meditacaodiaria\.asp" Meditacaodiaria_JSX_1.json
+Filt:"https?://(www\.)?birdinflight\.com/" birdinflight-com_1.json
+Filt:"https?://((www|m)\.)?heise\.de/" heise-de_3.json
+Filt:"https?://((www|m)\.)?goodnewsnetwork\.org/" goodnewsnetwork-org_2.json
+Filt:"https?://samlib\.ru/" samlib-ru_1.json
+Filt:"https?://index\.hu/" index-hu_5.json
+Filt:"https?://totalcar\.hu/" totalcar-hu_1.json
+Filt:"https?://forums\.forzamotorsport\.net/" ForzaForum_1.json
+Filt:"https?://(www\.)?napi\.hu/" napi-hu_2.json
+Filt:"https?://(www\.)?rawstory\.com/" rawstory-com_2.json
+Filt:"https?://(www\.)?sciencedaily\.com/" _JSX_
+Filt:"https?://(www\.)?zerohedge\.com/news/" zerohedge-com_1.json
+Filt:"https?://(www\.)?androidpolice\.com/" androidpolice-com_1.json
+Filt:"https?://((www)\.)?mobilarena\.hu" _JSX_
+Filt:"https?://torokgaborelemez\.blog\.hu/" torokgaborelemez-blog-hu_1.json
+Filt:"https?://((www|m)\.)?portfolio\.hu/" portfolio-hu_3.json
+Filt:"https?://(www\.)?reddit\.com/r/" reddit-com-r_JSX_9.json
+Filt:"https?://proactiveadvisormagazine\.com/" proactiveadvisormagazine-com_1.json
+Filt:"https?://(.*\.)?medium\.com/" medium-com_JSX_4.json
+Filt:"https?://lifehacker\.com/" LifeHacker_1.json
+Filt:"https?://paste\.imirhil\.fr/"  _JSX_
+Filt:"https?://(www\.)?chronicle\.com/"  _JSX_
+Filt:"https?://(www\.)?latimes\.com/" latimes-com_2.json
+Filt:"https?://(.+\.)?derstandard.at/" _JSX_
+Filt:"https?://news\.google\.com/" _JSX_
+Filt:"https?://(.+\.)?uploadvr\.com/" uploadvr-com_1.json
+Filt:"https?://(.+\.)?ubisoft\.com/" _JSX_
+Filt:"https?://((www|mobile)\.)?newatlas\.com/" newatlas-com_1.json
+Filt:"https?://mobil\.stern\.de/" _JSX_
+Filt:"https?://(www\.)?gizmodo\.com/" gizmodo-com_1.json
+Filt:"https?://(www\.)?notebookcheck\.net/" notebookcheck-net_2.json
+Filt:"https?://m\.dw\.com/" m-dw-com_1.json
+Filt:"https?://(www\.)?forbes\.com/" forbes-com_JSX_2.json
+Filt:"https?://(www\.)?penzcentrum\.hu/" penzcentrum-hu_1.json
+Filt:"https?://examine\.com/supplements/" examine-com-supplements_2.json
+Filt:"https?://(.+\.)?wyborcza\.pl/" wyborcza-pl_JSX_2.json
+Filt:"https?://((www|m)\.)?tichyseinblick\.de/" tichyseinblick-de_1.json
+Filt:"https?://((www|m)\.)?seekingalpha.com/" _JSX_
+Filt:"https?://fee\.org/articles/" fee-org_1.json
+Filt:"https?://(www\.)?finnomena\.com/testz/" finnomena-com_1.json
+Filt:"https?://(www|m)\.facebook\.com((/photo\.php)|(.+?/posts/))" _JSX_
+Filt:"https?://(www\.)?dailymail\.co\.uk/" dailymail-co-uk_3.json
+Filt:"https?://(www\.)?quora\.com/" quora-com_JSX_7.json
+Filt:"https?://(www\.)?investmentwatchblog\.com/" _JSX_
+Filt:"https?://(www|m)\.webnovel\.com/" webnovel-com_1.json
+Filt:"https?://((www|m)\.)?flying-lines\.com/" _JSX_
+Filt:"https?://.+\.uukanshu\.com/read\.aspx" uukanshu-com_1.json
+Filt:"https?://thehill\.com/" thehill-com_1.json
+Filt:"https?://11fs\.com/blog/" 11fs-com-blog_1.json
+Filt:"https?://(www|www-m)?\.cnn\.com/" cnn-com_JSX_2.json
+Filt:"https?://((www|m)\.)?anandtech\.com/show/" anandtech-com_1.json
+Filt:"https?://.+\.scmp\.com/" scmp-com_1.json
+Filt:"https?://(www\.)?cnbc\.com/" cnbc-com_1.json
+Filt:"https?://(www\.)?independent\.co\.uk/news/" independent-co-uk_1.json
+Filt:"https?://(.+\.)?mspoweruser\.com/" mspoweruser-com_1.json
+Filt:"https?://(.+\.)?1177\.se/" 1177-se_1.json
+Filt:"https?://illvet\.se/" illvet-se_1.json
+Filt:"https?://(.+\.)?terveyskirjasto\.fi/" terveyskirjasto-fi_1.json
+Filt:"https?://(www\.)?tuwroclaw\.com/" tuwroclaw-com_1.json
+Filt:"https?://(www\.)?peopleinpraise\.org/" peopleinpraise-org_1.json
+Filt:"https?://(www\.)?washingtonpost\.com/" washingtonpost-com_1.json
+Filt:"https?://forums\.sufficientvelocity\.com/threads/" forum-sufficientvelocity-com_1.json
+Filt:"https?://((www|m)\.)?lewrockwell\.com/" lewrockwell-com_1.json
+Filt:"https?://timesofindia\.indiatimes\.com/" _JSX_
+Filt:"https?://([a-zA-Z]){2,3}\.wikipedia\.org/" wikipedia-org_2.json
+Filt:"https?://([a-zA-Z]){2,3}\.m\.wikipedia\.org/" m-wikipedia-org_1.json
+Filt:"https?://s\.bluemail\.me/" s-bluemail-me_JSX_1.json
+Filt:"https?://(www\.)?litcharts\.com/" litcharts-com-poetry_JSX_1.json
+Filt:"https?://spectrum\.ieee\.org/" _JSX_
+Filt:"https?://(www\.)?ncbi\.nlm\.nih\.gov/pmc/articles/" ncbi-nlm-nih-gov-pmc-articles_1.json
+Filt:"https?://threadreaderapp\.com/thread/" threadreaderapp-com_JSX_1.json
+Filt:"https?://(www.*\.)?istoe\.com\.br/" istoe-com-br_1.json
+Filt:"https?://(www.*\.)?folha\.uol\.com\.br/" folha-uol-com-br_1.json
+Filt:"https?://(www\.)?rtlnieuws\.nl/" rtlnieuws-nl_1.json
+Filt:"https?://chrisblattman\.com/" chrisblattman-com_1.json
+Filt:"https?://(www\.|m\.)?ecosophia\.net/" ecosophia-net_2.json
+Filt:"https?://(www\.|m\.)?hurriyet\.com\.tr/" hurriyet-com-tr_JSX_2.json
+Filt:"https?://(www\.|m\.)?libertarianism\.org/" libertarianism-org_1.json
+Filt:"https?://(www\.|m\.)?read\.cash/@" read-cash-at_1.json
+Filt:"https?://(www\.|m\.)?clojuredocs\.org/" clojuredocs-org_JSX_1.json
+Filt:"https?://(www\.|m\.)?alexdamour\.com/blog/" alexdamour-com-blog_1.json
+Filt:"https?://(www\.)?mnovelfree\.com/" mnovelfree-com_1.json
+Filt:"https?://((www|m)\.)?theatlantic\.com/" theatlantic-com_1.json
+Filt:"https?://.*\.yahoo\.com/" yahoo-com_1.json
+Filt:"https?://(www|www-m)\.rfi\.fr/" rfi-fr_1.json
+Filt:"https?://(www\.)?gq\.com/" gq-com_1.json
+Filt:"https?://(www\.)?royalroad\.com/fiction/" royalroad-com-fiction_1.json
+Filt:"https?://(www\.)?boxnovel\.com/novel/" boxnovel-com-novel_1.json
+Filt:"https?://(www\.)?skynovels\.net/novelas/" skynovels-net-novelas_1.json
+Filt:"https?://(www\.)?tunovelaligera\.com/" tunovelaligera-com_2.json
+Filt:"https?://(www|m)\.vanityfair\.com/news/" vanityfair-com-news_1.json
+Filt:"https?://(.*\.)?evernote\.com/shard/" evernote-com-shard_JSX_1.json
+Filt:"https?://(www\.)?fontanka\.ru/" fontanka-ru_JSX_1.json
+Filt:"https?://(www\.)?jammersreviews\.com/" jammersreviews-com_1.json
+Filt:"https?://(([a-z]+)\.)?mtlnovel\.com/" mtlnovel-com_JSX_2.json
+Filt:"https?://(www\.)?bbc\.com/future/" bbc-com-future_1.json
+Filt:"https?://(www\.)?bbc\.com/news/" bbc-com-news_2.json
+Filt:"https?://(www\.)?bbc\.com/travel/article/" bbc-com-travel-article_2.json
+Filt:"https?://(www\.|m\.)?explainthatstuff\.com/" explainthatstuff-com_1.json
+Filt:"https?://(www\.)?eurosport\.fr/" eurosport-fr_1.json
+Filt:"https?://((www|m)\.)?fanfiction\.net/" fanfiction-net_JSX_1.json
+Filt:"https?://(www\.|m\.)?express\.co\.uk/" express-co-uk_1.json
+Filt:"https?://(www\.)?jw\.org/" jw-org_1.json
+Filt:"https?://(www\.)?archiveofourown\.org/works/" archiveofourown-org-works_1.json
+Filt:"https?://(www\.)?(dailygospel|levangileauquotidien|evangeliumtagfuertag|evangeliodeldia|vangelodelgiorno|ewangelia|evangelhoquotidiano)\.org/" dailygospel-org_JSX_2.json
+Filt:"https?://(www|m)\.qzxyzy\.com/" qzxyzy-com_1.json
+Filt:"https?://(www\.)?thestreet\.com/" thestreet-com_1.json
+Filt:"https?://(www\.)?newyorker\.com/" newyorker-com_1.json
+Filt:"https?://(www\.|m\.)?wired\.com/" wired-com_JSX_1.json
+Filt:"https?://(www\.)?newsweek\.(pl|com)/" newsweek_1.json
+Filt:"https?://(www\.)?rp\.pl/" rp-pl_4.json
+Filt:"https?://((www|m)\.)?hvg\.hu/360/" hvg-hu_JSX_1.json
+Filt:"https?://(meduza\.io/live/)|(meduza\d+\.global\.ssl\.fastly\.net/live/)|(https://fdgaa\.me/mm/mmL/meduza.io/live/)" meduza-io-live_6.json
+Filt:"https?://meduza\.io/" meduza-io_4.json
+Filt:"https?://(www\.|m\.)?thedailybeast\.com/" thedailybeast-com_1.json
+Filt:".+[&?]avft=1(&|$)" full-text_1.json
+Filt:"https?://(www\.)?novelfull\.com/" novelfull-com_1.json
+Filt:"https?://(www\.)?nbcnews\.com/" nbcnews-com_1.json
+Filt:"https?://blog\.reedsy\.com/guide/" blog-reedsy-com-guide_JSX_1.json
+Filt:"https?://(www\.)?fastcompany\.com/" fastcompany-com_JSX_1.json
+Filt:"https?://(www\.)?dailykos\.com/stories/" dailykos-com_JSX_2.json
+Filt:"https?://(www\.|m\.)?express\.de/" express-de_4.json
+Filt:"https?://(www\.|m\.)?moneycontrol\.com/news/" moneycontrol-com_1.json
+Filt:"https?://((www|m)\.)?techcrunch\.com/" techcrunch-com_1.json
+Filt:"https?://((www|m)\.)?novelruby\.com/book/" novelruby-com-book_1.json
+Filt:"https?://(www\.)?mayoclinic\.org/diseases-conditions" mayoclinic-org-disease-conditions_1.json
+Filt:"https?://(www\.)?mintgenie\.livemint\.com/news/" mintgenie-livemint-com-news_JSX_1.json
+Filt:"https?://epaper\.tagesanzeiger\.ch/article/" epaper.tagesanzeiger-ch-article_JSX_1.json
+Filt:"https?://(www\.|m\.)?haber\.sol\.org\.tr/" haber-sol-org-tr_JSX_1.json
+Filt:"https?://g1\\.globo\\.com/" g1-globo-com_1.json
+Filt:"https?://(www\.|m\.)?novelbin\.net/" novelbin-net_1.json
+Filt:"https?://(www\.|m\.)?ytscribe\.com/v/" ytscribe-com-v_JSX_1.json
+Filt:"https?://app\.mxmnews\.com/" app-mxmnews-com_JSX_1.json
+Filt:"https?://((www|mobile)\.)?quantamagazine\.org/" quantamagazine-org_JSX_1.json
+Filt:"https?://((www|m)\.)?evrensel\.net/" evrensel-net_JSX_1.json
+Filt:"https?://(www\.)?universalis\.com/" universalis-com_1.json
+Filt:"https?://(www\.)?indy100\.com/", indy100-com_1.json
+Filt:"https?://(www\.)?cosworth\.com/" cosworth-com_2.json
+Filt:"https?://(www\.)?nypost\.com/" nypost-com_1.json
+Filt:"https?://(www\.)?allfreenovel\.com/" allfreenovel-com_2.json
+Filt:"https?://(www\.|m\.)?novel12\.com/" novel12-com_1.json
+Filt:"https?://(www\.|m\.)?ga\.de/" ga-de_1.json
+Filt:"https?://(www\.|m\.)?lnmtl\.com/chapter/" lnmtl-com_1.json
+Filt:"https?://truyendich\.org/" _JSX_
+Filt:"https?://((www|m)\.)?novayagazeta\.(ru|eu)/" _JSX_
+Filt:"https?://((www|m)\.)?fa-mag\.com/" _JSX_
+Filt:"https?://nimbusweb\.me/" _JSX_
+Filt:"https?://((www|m)\.)?jacobinmag\.com/" _JSX_
+Filt:"https?://((www|m)\.)?allaboutcookies\.org/" _JSX_
+Filt:"https?://((www|m)\.)?electrical4u\.com/" _JSX_
+Filt:"https?://vc\.ru/" _JSX_
+Filt:"https?://((www|m)\.)?advisorperspectives.com/" _JSX_
+Filt:"https?://((www|m)\.)?ranobes\.net/" _JSX_
+Filt:"https?://.*\.translate\.goog/" _JSX_
+Filt:"https?://((www|m)\.)?wuxiaworld\.com" _JSX_
+Filt:"https?://((www|m)\.)?armstrongeconomics\.com/" _JSX_
+Filt:"https?://(www\.)?gardeningknowhow\.com/" _JSX_
+Filt:"https?://((www|m)\.)?ethresear\.ch/" _JSX_
+Filt:"https?://((www|m)\.)?hackmd\.io/" _JSX_
+Filt:"https?://(www\.)?winespectator\.com/articles/" _JSX_
+Filt:"https?://((www|m)\.)?liff\.line\.me/.+?utm_source=copyshare" _JSX_
+Filt:"https?://((www|m)\.)?readhive\.org/" _JSX_
+Filt:"https?://((www|m)\.)?inc\.com/" _JSX_
+Filt:"https?://((www|m)\.)?vk\.com/" _JSX_
+CuUA:"https?://(www\.)?wysokieobcasy\.pl[/:]" Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36
+CuUA:"https?://((www|m)\.)?wyborcza\.pl[/:]" Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36
+CuUA:"https?://(www\.)?bloomberg\.com/" Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36
+CuUA:"https?://(.*\.)?medium\.com/" Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36
+CuUA:"https?://((www|m)\.)?sfchronicle\.com/" Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36
+CuUA:"https?://((www|m)\.)?armstrongeconomics\.com/" Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36
+CuUA:"https?://((www|m)\.)?webnovelpub\.com/" Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36
+CuUA:"https?://((www|m)\.)?fanfiction\.net/" Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36
+Xurl:"https?://(.+\.)?nytimes\.com" (.+)(&REFUSE_COOKIE_ERROR=)
+Xurl:"https://news\.internet\.apps\.samsung\.com/\?news=" .+=(https?://.+)
+Xurl:"https?://((www|m)\.)?seekingalpha\.com/article/%3Clink%20rel=" .+href=%22(.+)%22.*
+Xurl:"https?://((www|m)\.)?facebook\.com/flx/warn/\?u=" u=(http.+?)&
+Xurl:"https?://(.+\.)?facebook\.com/l\.php\?u=" u=(http.+?)&
+Xurl:"https?://((www|m)\.)?bild\.de/.+###" (https?://((www|m)\.)?bild\.de/.+)###
+Sig:SSlGxTPYhlUSjfF5zLGv9LTZdde3O8BXqK2WRHyMHX/xqM5vXWcjQIHYNnhnRTaqTrHODWF5EapfU4IXCFhRxicM4QiN2IBls740BwGimX8zdywjxoHK1n3CXf0bN19UXsISa7UGHT+H9TJm4yDfeb8/OhX3+Ljskh403NYQEdXhZZ+BIfqbJXSMG+5b2cV46CbxuDbI22QgaIoAvZVdbvEtykC2ZieF4m8zKauL8PbSzdtyBJO+6bb3h7RyWxS0E4jea91w5HLNLYPKFy6h9+25TK3g5jqQRL6JsvSnw176mcJtlPNyiw6AKbqFpOKB+7BcxXx4cUbMqIBSYTgWfw==
