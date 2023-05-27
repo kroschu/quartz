@@ -1,28 +1,5 @@
 [
   {
-    "fileName": "private-note",
-    "relativePath": "private/private-note.md",
-    "frontmatter": {
-      "title": "Private Stuff",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 32
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Без назви",
-    "relativePath": "Без назви.md"
-  },
-  {
     "fileName": "post",
     "relativePath": "templates/post.md",
     "frontmatter": {
@@ -40,6 +17,18 @@
         }
       }
     }
+  },
+  {
+    "fileName": "Без назви",
+    "relativePath": "Без назви.md"
+  },
+  {
+    "fileName": "getting_started.html",
+    "relativePath": "getting_started/getting_started.html.md"
+  },
+  {
+    "fileName": "Без назви 1",
+    "relativePath": "Без назви 1.md"
   },
   {
     "fileName": "_index",
@@ -83,8 +72,93 @@
     ]
   },
   {
-    "fileName": "Без назви 1",
-    "relativePath": "Без назви 1.md"
+    "fileName": "private-note",
+    "relativePath": "private/private-note.md",
+    "frontmatter": {
+      "title": "Private Stuff",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 32
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Виноски",
+    "relativePath": "notes/Виноски.md",
+    "frontmatter": {
+      "title": "Виноски",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 26
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Підтримка виносок",
+        "level": 1
+      },
+      {
+        "heading": "Вітрина",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Пошук",
+        "link": "виноски",
+        "relativePath": "notes/Пошук.md",
+        "displayText": "нагадування у стилі Admonition"
+      }
+    ]
+  },
+  {
+    "fileName": "Без назви",
+    "relativePath": "notes/LangChain/Без назви.md"
+  },
+  {
+    "fileName": "Грабер в Obsidian-markdown",
+    "relativePath": "notes/LangChain/Грабер в Obsidian-markdown.md"
+  },
+  {
+    "fileName": "aiplugin-tool",
+    "relativePath": "notes/LangChain/aiplugin-tool.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Додатки ChatGPT",
+        "level": 1
+      }
+    ]
   },
   {
     "fileName": "Філософія",
@@ -246,6 +320,59 @@
     ]
   },
   {
+    "fileName": "Установка",
+    "relativePath": "notes/Установка.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Установка",
+      "weight": -5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 60
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Створення власного Quartz",
+        "level": 2
+      },
+      {
+        "heading": "Форкінг",
+        "level": 3
+      },
+      {
+        "heading": "Клонування",
+        "level": 3
+      },
+      {
+        "heading": "Редагування",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Редагування вмісту.md",
+        "displayText": "",
+        "relativePath": "notes/Редагування вмісту.md"
+      },
+      {
+        "link": "Усунення проблем.md",
+        "displayText": "",
+        "relativePath": "notes/Усунення проблем.md"
+      }
+    ]
+  },
+  {
     "fileName": "Сад знань",
     "relativePath": "notes/Сад знань.md",
     "frontmatter": {
@@ -308,59 +435,6 @@
         "link": "Сад знань",
         "relativePath": "_index.md",
         "displayText": "сад знань"
-      }
-    ]
-  },
-  {
-    "fileName": "Установка",
-    "relativePath": "notes/Установка.md",
-    "tags": [
-      "установка"
-    ],
-    "frontmatter": {
-      "title": "Установка",
-      "weight": -5,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 60
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Створення власного Quartz",
-        "level": 2
-      },
-      {
-        "heading": "Форкінг",
-        "level": 3
-      },
-      {
-        "heading": "Клонування",
-        "level": 3
-      },
-      {
-        "heading": "Редагування",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Редагування вмісту.md",
-        "displayText": "",
-        "relativePath": "notes/Редагування вмісту.md"
-      },
-      {
-        "link": "Усунення проблем.md",
-        "displayText": "",
-        "relativePath": "notes/Усунення проблем.md"
       }
     ]
   },
@@ -618,31 +692,6 @@
     ]
   },
   {
-    "fileName": "Власний домен",
-    "relativePath": "notes/Власний домен.md",
-    "frontmatter": {
-      "title": "власний домен",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 32
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Реєстрація",
-        "level": 3
-      }
-    ]
-  },
-  {
     "fileName": "Конфігурація",
     "relativePath": "notes/Конфігурація.md",
     "tags": [
@@ -703,10 +752,10 @@
     ]
   },
   {
-    "fileName": "Виноски",
-    "relativePath": "notes/Виноски.md",
+    "fileName": "Власний домен",
+    "relativePath": "notes/Власний домен.md",
     "frontmatter": {
-      "title": "Виноски",
+      "title": "власний домен",
       "position": {
         "start": {
           "line": 0,
@@ -716,26 +765,14 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 26
+          "offset": 32
         }
       }
     },
     "headings": [
       {
-        "heading": "Підтримка виносок",
-        "level": 1
-      },
-      {
-        "heading": "Вітрина",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Пошук",
-        "link": "виноски",
-        "relativePath": "notes/Пошук.md",
-        "displayText": "нагадування у стилі Admonition"
+        "heading": "Реєстрація",
+        "level": 3
       }
     ]
   },
@@ -822,155 +859,6 @@
         "level": 3
       }
     ]
-  },
-  {
-    "fileName": "QR-коди на кожну сторінку сайту",
-    "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
-  },
-  {
-    "fileName": "Грабер в Obsidian-markdown",
-    "relativePath": "notes/LangChain/Грабер в Obsidian-markdown.md"
-  },
-  {
-    "fileName": "Без назви",
-    "relativePath": "notes/LangChain/Без назви.md"
-  },
-  {
-    "fileName": "additional_functionality",
-    "relativePath": "notes/LangChain/input/additional_functionality.md",
-    "frontmatter": {
-      "sidebar_label": "Додаткові можливості",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 45
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Додаткова функціональність: LLM",
-        "level": 1
-      },
-      {
-        "heading": "Додаткові методи",
-        "level": 2
-      },
-      {
-        "heading": "Потокові відповіді",
-        "level": 2
-      },
-      {
-        "heading": "Кешування",
-        "level": 2
-      },
-      {
-        "heading": "Кешування в пам'яті",
-        "level": 3
-      },
-      {
-        "heading": "Кешування з Redis",
-        "level": 3
-      },
-      {
-        "heading": "Додавання часу очікування",
-        "level": 2
-      },
-      {
-        "heading": "Скасування запитів",
-        "level": 2
-      },
-      {
-        "heading": "Робота з лімітами ставок",
-        "level": 2
-      },
-      {
-        "heading": "Робота з помилками API",
-        "level": 2
-      },
-      {
-        "heading": "Підписка на події",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": ""
-      }
-    ]
-  },
-  {
-    "fileName": "Процесний підхід",
-    "relativePath": "notes/inbox/Процесний підхід.md",
-    "frontmatter": {
-      "title": "Процесний підхід",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 35
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "до управління бізнес-процесами підприємства",
-        "level": 2
-      },
-      {
-        "heading": "Отже:",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "Технологічна операція",
-    "relativePath": "notes/inbox/Технологічна операція.md",
-    "frontmatter": {
-      "title": "Технологічна операція",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
-    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
-    "frontmatter": {
-      "title": "Процесний підхід до управління бізнес-процесами підприємства",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 79
-        }
-      }
-    }
   },
   {
     "fileName": "Як налаштувати autogpt через проксі gpt4free",
@@ -1074,10 +962,10 @@
     ]
   },
   {
-    "fileName": "Комплексна методологія",
-    "relativePath": "notes/inbox/Комплексна методологія.md",
+    "fileName": "Технологічна операція",
+    "relativePath": "notes/inbox/Технологічна операція.md",
     "frontmatter": {
-      "title": "Комплексна методологія",
+      "title": "Технологічна операція",
       "position": {
         "start": {
           "line": 0,
@@ -1087,7 +975,7 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 39
+          "offset": 38
         }
       }
     }
@@ -1183,6 +1071,54 @@
     ]
   },
   {
+    "fileName": "Процесний підхід",
+    "relativePath": "notes/inbox/Процесний підхід.md",
+    "frontmatter": {
+      "title": "Процесний підхід",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "до управління бізнес-процесами підприємства",
+        "level": 2
+      },
+      {
+        "heading": "Отже:",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
+    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
+    "frontmatter": {
+      "title": "Процесний підхід до управління бізнес-процесами підприємства",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 79
+        }
+      }
+    }
+  },
+  {
     "fileName": "Принцип Парето в управлінні бізнес-процесами",
     "relativePath": "notes/inbox/Принцип Парето в управлінні бізнес-процесами/Принцип Парето в управлінні бізнес-процесами.md",
     "frontmatter": {
@@ -1262,6 +1198,25 @@
     }
   },
   {
+    "fileName": "Онтологічний інжиніринг",
+    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
+    "frontmatter": {
+      "title": "Онтологічний інжиніринг",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    }
+  },
+  {
     "fileName": "Методологічна основа проекту",
     "relativePath": "notes/inbox/Методологічна основа проекту.md",
     "frontmatter": {
@@ -1299,10 +1254,10 @@
     ]
   },
   {
-    "fileName": "Онтологічний інжиніринг",
-    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
+    "fileName": "Комплексна методологія",
+    "relativePath": "notes/inbox/Комплексна методологія.md",
     "frontmatter": {
-      "title": "Онтологічний інжиніринг",
+      "title": "Комплексна методологія",
       "position": {
         "start": {
           "line": 0,
@@ -1312,7 +1267,7 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 42
+          "offset": 39
         }
       }
     }
@@ -1320,20 +1275,6 @@
   {
     "fileName": "Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot",
     "relativePath": "notes/inbox/Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot.md"
-  },
-  {
-    "fileName": "Видаляємо непотрібну для генерації аудіо розмітку та частини тексту",
-    "relativePath": "notes/inbox/Видаляємо непотрібну для генерації аудіо розмітку та частини тексту.md",
-    "headings": [
-      {
-        "heading": "Запит:",
-        "level": 2
-      },
-      {
-        "heading": "Відповідь:",
-        "level": 2
-      }
-    ]
   },
   {
     "fileName": "Вимоги до проекту",
@@ -1355,12 +1296,22 @@
     }
   },
   {
-    "fileName": "Без назви",
-    "relativePath": "notes/inbox/Без назви.md"
+    "fileName": "Видаляємо непотрібну для генерації аудіо розмітку та частини тексту",
+    "relativePath": "notes/inbox/Видаляємо непотрібну для генерації аудіо розмітку та частини тексту.md",
+    "headings": [
+      {
+        "heading": "Запит:",
+        "level": 2
+      },
+      {
+        "heading": "Відповідь:",
+        "level": 2
+      }
+    ]
   },
   {
-    "fileName": "Інверсія крльору тексту у вікні вводу коментарів",
-    "relativePath": "notes/inbox/Інверсія крльору тексту у вікні вводу коментарів.md"
+    "fileName": "Без назви",
+    "relativePath": "notes/inbox/Без назви.md"
   },
   {
     "fileName": "Без назви 2",
@@ -1420,6 +1371,10 @@
     ]
   },
   {
+    "fileName": "Інверсія крльору тексту у вікні вводу коментарів",
+    "relativePath": "notes/inbox/Інверсія крльору тексту у вікні вводу коментарів.md"
+  },
+  {
     "fileName": "S–BPM",
     "relativePath": "notes/inbox/S–BPM.md",
     "frontmatter": {
@@ -1449,25 +1404,6 @@
     ]
   },
   {
-    "fileName": "Cинхронізації сховища Obsidian на Android",
-    "relativePath": "notes/inbox/Cинхронізації сховища Obsidian на Android.md",
-    "frontmatter": {
-      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 89
-        }
-      }
-    }
-  },
-  {
     "fileName": "Налаштування maubot за допомогою Docker",
     "relativePath": "notes/inbox/maubot/Налаштування maubot за допомогою Docker.md",
     "frontmatter": {
@@ -1491,10 +1427,6 @@
         "level": 3
       }
     ]
-  },
-  {
-    "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
-    "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
   },
   {
     "fileName": "Hugo",
@@ -1521,6 +1453,29 @@
         "relativePath": "_index.md"
       }
     ]
+  },
+  {
+    "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
+    "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
+  },
+  {
+    "fileName": "Cинхронізації сховища Obsidian на Android",
+    "relativePath": "notes/inbox/Cинхронізації сховища Obsidian на Android.md",
+    "frontmatter": {
+      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 89
+        }
+      }
+    }
   },
   {
     "fileName": "ChatGPT в текст",
@@ -1610,6 +1565,10 @@
     ]
   },
   {
+    "fileName": "QR-коди на кожну сторінку сайту",
+    "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
+  },
+  {
     "fileName": "docker",
     "relativePath": "notes/docker.md",
     "tags": [
@@ -1660,10 +1619,6 @@
         "relativePath": "notes/Перегляд змін.md"
       }
     ]
-  },
-  {
-    "fileName": "getting_started.html",
-    "relativePath": "getting_started/getting_started.html.md"
   },
   {
     "fileName": "2023-05-19",
