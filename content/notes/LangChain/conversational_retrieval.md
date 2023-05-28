@@ -1,10 +1,6 @@
----
-hide_table_of_contents: істинна бічна панель_позиція: 3
----
+
 
 імпорт CodeBlock з «@theme/CodeBlock»; імпорт ConvoRetrievalQAExample з «@examples/chains/conversational_qa.ts»;
-
-# Розмовний пошук QA
 
 Значення `ConversationalRetrievalQA` ланцюг будується `RetrievalQAChain` надати компонент історії чату.
 
