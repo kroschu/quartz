@@ -1,10 +1,6 @@
----
-hide_table_of_contents: true
----
 
 import CodeBlock from "@theme/CodeBlock";
 
-# Weaviate
 
 Weaviate is an open source vector database that stores both objects and vectors, allowing for combining vector search with structured filtering. LangChain connects to Weaviate via the `weaviate-ts-client` package, the official Typescript client for Weaviate.
 

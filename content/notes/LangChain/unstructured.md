@@ -1,6 +1,5 @@
 import CodeBlock from "@theme/CodeBlock";
 
-# Unstructured
 
 This page covers how to use [Unstructured](https://unstructured.io) within LangChain.
 
