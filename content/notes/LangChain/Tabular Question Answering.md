@@ -1,9 +1,3 @@
----
-hide_table_of_contents: true
-sidebar_position: 3
----
-
-# Tabular Question Answering
 
 :::info
 [Conceptual Guide](https://docs.langchain.com/docs/use-cases/qa-tabular)

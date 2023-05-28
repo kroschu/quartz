@@ -1,6 +1,6 @@
-# Supabase Hybrid Search
 
-Langchain supports hybrid search with a Supabase Postgres database. The hybrid search combines the postgres `pgvector` extension (similarity search) and Full-Text Search (keyword search) to retrieve documents. You can add documents via SupabaseVectorStore `addDocuments` function. SupabaseHybridKeyWordSearch accepts embedding, supabase client, number of results for similarity search, and number of results for keyword search as parameters. The `getRelevantDocuments` function produces a list of documents that has duplicates removed and is sorted by relevance score.
+
+Ланчлайн підтримує гібридний пошук за допомогою бази даних Supabase Postgres. Гібридний пошук поєднує розширення Postgres pgvector (пошук за схожістю) та повнотекстовий пошук (пошук за ключовими словами) для пошуку документів. Ви можете додавати документи за допомогою функції SupabaseVectorStore addDocuments. SupabaseHybridKeyWordSearch приймає як параметри вбудовування, клієнт supabase, кількість результатів для пошуку за схожістю та кількість результатів для пошуку за ключовим словом. Функція getRelevantDocuments створює список документів, з яких видалено дублікати, відсортований за показником релевантності.
 
 ## Setup
 

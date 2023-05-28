@@ -1,12 +1,7 @@
----
-sidebar_class_name: node-only
----
 
 import CodeBlock from "@theme/CodeBlock";
 
-# Tigris
-
-Tigris makes it easy to build AI applications with vector embeddings.
+**Tigris** makes it easy to build AI applications with vector embeddings.
 It is a fully managed cloud-native database that allows you store and
 index documents and vector embeddings for fast and scalable vector search.
 
