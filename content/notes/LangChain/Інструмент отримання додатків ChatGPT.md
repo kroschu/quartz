@@ -1,8 +1,4 @@
----
-hide_table_of_contents: так
----
 
-# Інструмент отримання додатків ChatGPT
 
 У цьому прикладі показано, як користуватися додатком ChatGPT Retriever у LangChain.
 
