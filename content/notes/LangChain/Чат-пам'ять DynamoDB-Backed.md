@@ -1,10 +1,7 @@
----
-hide_table_of_contents: так
----
+
 
 імпорт CodeBlock з «@theme/CodeBlock»;
 
-# Чат-пам'ять DynamoDB-Backed
 
 Для довготривалої персистентності в чатах можна замінити дані за замовчуванням в пам'яті `chatHistory` що підтримує класи чату пам'яті, як `BufferMemory` для примірника DynamoDB.
 
