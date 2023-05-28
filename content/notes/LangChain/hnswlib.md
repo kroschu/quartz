@@ -1,10 +1,5 @@
----
-sidebar_class_name: тільки вузол
----
 
 імпорт CodeBlock з «@theme/CodeBlock»;
-
-# HNSWLib
 
 :::tip Сумісність доступна тільки на Node.js.
 :::
