@@ -1,10 +1,6 @@
----
-sidebar_class_name: node-only
----
 
 import CodeBlock from "@theme/CodeBlock";
 
-# Redis
 
 [Redis](https://redis.io/) is a fast open source, in-memory data store.
 As part of the [Redis Stack](https://redis.io/docs/stack/get-started/), [RediSearch](https://redis.io/docs/stack/search/) is the module that enables vector similarity semantic search, as well as many other types of searching.

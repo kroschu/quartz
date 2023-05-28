@@ -1,9 +1,3 @@
----
-hide_table_of_contents: true
-sidebar_class_name: node-only
----
-
-# S3 File
 
 :::tip Compatibility
 Only available on Node.js.
