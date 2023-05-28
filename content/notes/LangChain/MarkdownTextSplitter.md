@@ -1,8 +1,3 @@
----
-hide_table_of_contents: так
----
-
-#  `MarkdownTextSplitter`
 
 Якщо ваш вміст має формат Markdown, тоді `MarkdownTextSplitter`. Цей клас поділить ваш вміст на документи на основі заголовків Markdown. Наприклад, якщо у вас є наступний вміст Markdown:
 

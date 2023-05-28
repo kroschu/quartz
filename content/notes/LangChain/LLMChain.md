@@ -1,10 +1,7 @@
----
-sidebar_label: LLM Ланцюжок бічна панель_позиція: 1
----
 
 імпорт CodeBlock з «@theme/CodeBlock»; імпорт ExampleLLM з «@examples/chains/llm_chain.ts»; імпорт ExampleChat з «@examples/chains/llm_chain_chat.ts»; імпорт ExampleStream з «@examples/chains/llm_chain_stream.ts»; імпорт ExampleCancellation з «@examples/chains/llm_chain_cancellation.ts»;
 
-# Початок роботи: Початок роботи
+# Початок роботи:
 
 :::інформація [Концептуальне керівництво](https://docs.langchain.com/docs/components/chains/llm-chain)
 :::
