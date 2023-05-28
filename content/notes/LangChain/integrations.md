@@ -1,10 +1,5 @@
----
-sidebar_position: 3 sidebar_label: інтеграція
----
 
 імпорт CodeBlock з «@theme/CodeBlock»;
-
-# Інтеграції: LLM
 
 LangChain пропонує ряд реалізацій LLM, які інтегруються з різними постачальниками моделей. Це:
 
