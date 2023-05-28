@@ -1,6 +1,5 @@
 імпорт CodeBlock з «@theme/CodeBlock»;
 
-# АвтоGPT
 
 :::інформація Оригінальне Сховище: https://github.com/Significant-Gravitas/Auto-GPT
 :::
