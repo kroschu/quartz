@@ -1,6 +1,3 @@
----
-hide_table_of_contents: true
----
 
 import CodeBlock from "@theme/CodeBlock";
 
