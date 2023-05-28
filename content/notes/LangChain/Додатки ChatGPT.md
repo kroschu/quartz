@@ -1,10 +1,5 @@
----
-hide_table_of_contents: так
----
 
 імпорт CodeBlock з «@theme/CodeBlock»; імпорт прикладу з «@examples/agents/aiplugin-tool.ts»;
-
-# Додатки ChatGPT
 
 У цьому прикладі показано, як користуватися плагінами ChatGPT в абстракціях LangChain.
 

@@ -1,6 +1,4 @@
----
-sidebar_label: Додаткові можливості
----
+
 
 імпорт CodeBlock з «@theme/CodeBlock»; імпорт Example з «@examples/models/llm/llm.ts»; імпорт DebuggingExample з «@examples/models/llm/llm_debugging.ts»; імпорт StreamingExample з «@examples/models/llm/llm_streaming.ts»; імпорт TimeoutExample з «@examples/models/llm/llm_timeout.ts»; імпорт CancellationExample з «@examples/models/llm/llm_cancellation.ts»;
 
