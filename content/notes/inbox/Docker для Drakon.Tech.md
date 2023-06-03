@@ -6,7 +6,7 @@ https://drakon.tech/
 
 Щоб створити Dockerfile для запуску Drakon.Tech в контейнері, вам потрібно налаштувати Dockerfile, який включає всі кроки встановлення, зазначені в інструкціях. Я створив приклад Dockerfile, який ви можете використовувати:
 
-```Dockerfile
+``` Dockerfile
 # Set base image
 FROM ubuntu:20.04
 
@@ -87,3 +87,54 @@ docker run -d -p 8090:8090 --name drakon_tech_container drakon_tech
 ```
 
 Це запустить контейнер з Drakon.Tech на порту 8090 вашої машини.
+
+``` Dockerfile
+# Set base image
+FROM ubuntu:20.04
+
+# Set environment variables
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=UTC
+ENV RELEASE=focal
+ENV DRAKON_VERSION=201811110836
+
+# Install required packages
+RUN apt-get update && \
+    apt-get install -y gnupg2 curl lsb-release apt-transport-https \
+    tarantool luarocks \
+    lua-sec expat libexpat1-dev \
+    openjdk-8-jdk tcl && \
+    curl http://download.tarantool.org/tarantool/1.9/gpgkey | apt-key add - && \
+    echo "deb http://download.tarantool.org/tarantool/1.9/ubuntu/ ${RELEASE} main" > /etc/apt/sources.list.d/tarantool_1_9.list && \
+    echo "deb-src http://download.tarantool.org/tarantool/1.9/ubuntu/ ${RELEASE} main" >> /etc/apt/sources.list.d/tarantool_1_9.list && \
+    apt-get update && \
+    apt-get install -y tarantool && \
+    luarocks install luautf8 && \
+    luarocks install luaexpat && \
+    luarocks install luasoap
+
+# Install tarantool-http
+RUN tarantoolctl rocks install http
+
+# Install tarantool-mysql
+RUN git clone https://github.com/tarantool/mysql.git tarantool-mysql && \
+    cd tarantool-mysql && cmake . -DCMAKE_BUILD_TYPE=RelWithDebInfo && \
+    make && make install
+
+# Create directory structure
+RUN mkdir /dewt && \
+    cd /dewt && \
+    mkdir app data emails feedback journal logs ssl static tmp content read && \
+    echo "return {}" > app/external_creds.lua && \
+    chown -R tarantool *
+
+# Copy Drakon.Tech source code
+COPY . /drakon
+
+# Build and deploy Drakon.Tech
+RUN cd /drakon && \
+    ./build && \
+    cp /tmp/${DRAKON_VERSION}.zip /dewt && \
+    cp
+    
+```
