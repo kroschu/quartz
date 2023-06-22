@@ -49,25 +49,6 @@
     ]
   },
   {
-    "fileName": "post",
-    "relativePath": "templates/post.md",
-    "frontmatter": {
-      "title": "{{title}}",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 26
-        }
-      }
-    }
-  },
-  {
     "fileName": "private-note",
     "relativePath": "private/private-note.md",
     "frontmatter": {
@@ -87,10 +68,10 @@
     }
   },
   {
-    "fileName": "Сад знань",
-    "relativePath": "notes/Сад знань.md",
+    "fileName": "post",
+    "relativePath": "templates/post.md",
     "frontmatter": {
-      "title": "Сад знань",
+      "title": "{{title}}",
       "position": {
         "start": {
           "line": 0,
@@ -98,59 +79,12 @@
           "offset": 0
         },
         "end": {
-          "line": 4,
+          "line": 2,
           "col": 3,
-          "offset": 51
+          "offset": 26
         }
       }
-    },
-    "aliases": [
-      "сад знань"
-    ],
-    "headings": [
-      {
-        "heading": "Що таке цифрове садівництво?",
-        "level": 1
-      },
-      {
-        "heading": "Як я займаюся садом",
-        "level": 1
-      },
-      {
-        "heading": "Потік знань",
-        "level": 1
-      },
-      {
-        "heading": "Насіння",
-        "level": 1
-      },
-      {
-        "heading": "Саджанці",
-        "level": 1
-      },
-      {
-        "heading": "Плоди",
-        "level": 1
-      },
-      {
-        "heading": "Почніть свій власний",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Сад знань",
-        "relativePath": "_index.md",
-        "displayText": "сад знань"
-      },
-      {
-        "fileName": "_index",
-        "link": "Сад знань",
-        "relativePath": "_index.md",
-        "displayText": "сад знань"
-      }
-    ]
+    }
   },
   {
     "fileName": "Філософія",
@@ -312,14 +246,10 @@
     ]
   },
   {
-    "fileName": "Установка",
-    "relativePath": "notes/Установка.md",
-    "tags": [
-      "установка"
-    ],
+    "fileName": "Сад знань",
+    "relativePath": "notes/Сад знань.md",
     "frontmatter": {
-      "title": "Установка",
-      "weight": -5,
+      "title": "Сад знань",
       "position": {
         "start": {
           "line": 0,
@@ -327,40 +257,57 @@
           "offset": 0
         },
         "end": {
-          "line": 5,
+          "line": 4,
           "col": 3,
-          "offset": 60
+          "offset": 51
         }
       }
     },
+    "aliases": [
+      "сад знань"
+    ],
     "headings": [
       {
-        "heading": "Створення власного Quartz",
-        "level": 2
+        "heading": "Що таке цифрове садівництво?",
+        "level": 1
       },
       {
-        "heading": "Форкінг",
-        "level": 3
+        "heading": "Як я займаюся садом",
+        "level": 1
       },
       {
-        "heading": "Клонування",
-        "level": 3
+        "heading": "Потік знань",
+        "level": 1
       },
       {
-        "heading": "Редагування",
-        "level": 2
+        "heading": "Насіння",
+        "level": 1
+      },
+      {
+        "heading": "Саджанці",
+        "level": 1
+      },
+      {
+        "heading": "Плоди",
+        "level": 1
+      },
+      {
+        "heading": "Почніть свій власний",
+        "level": 1
       }
     ],
-    "links": [
+    "backlinks": [
       {
-        "link": "Редагування вмісту.md",
-        "displayText": "",
-        "relativePath": "notes/Редагування вмісту.md"
+        "fileName": "_index",
+        "link": "Сад знань",
+        "relativePath": "_index.md",
+        "displayText": "сад знань"
       },
       {
-        "link": "Усунення проблем.md",
-        "displayText": "",
-        "relativePath": "notes/Усунення проблем.md"
+        "fileName": "_index",
+        "link": "Сад знань",
+        "relativePath": "_index.md",
+        "displayText": "сад знань"
       }
     ]
   },
@@ -422,6 +369,59 @@
     ]
   },
   {
+    "fileName": "Установка",
+    "relativePath": "notes/Установка.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Установка",
+      "weight": -5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 60
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Створення власного Quartz",
+        "level": 2
+      },
+      {
+        "heading": "Форкінг",
+        "level": 3
+      },
+      {
+        "heading": "Клонування",
+        "level": 3
+      },
+      {
+        "heading": "Редагування",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Редагування вмісту.md",
+        "displayText": "",
+        "relativePath": "notes/Редагування вмісту.md"
+      },
+      {
+        "link": "Усунення проблем.md",
+        "displayText": "",
+        "relativePath": "notes/Усунення проблем.md"
+      }
+    ]
+  },
+  {
     "fileName": "Редагування вмісту",
     "relativePath": "notes/Редагування вмісту.md",
     "tags": [
@@ -474,10 +474,6 @@
     ]
   },
   {
-    "fileName": "Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown",
-    "relativePath": "notes/Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown.md"
-  },
-  {
     "fileName": "Пошук",
     "relativePath": "notes/Пошук.md",
     "frontmatter": {
@@ -524,96 +520,6 @@
         "link": "Пошук",
         "relativePath": "_index.md",
         "displayText": "пошук"
-      }
-    ]
-  },
-  {
-    "fileName": "Перегляд змін",
-    "relativePath": "notes/Перегляд змін.md",
-    "tags": [
-      "установка"
-    ],
-    "frontmatter": {
-      "title": "Перегляд змін",
-      "weight": -2,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 60
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Встановіть та підключіть `hugo-obsidian` локально",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "docker",
-        "link": "Перегляд змін.md",
-        "relativePath": "notes/docker.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Оновлення",
-    "relativePath": "notes/Оновлення.md",
-    "frontmatter": {
-      "title": "Оновлення",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 4,
-          "col": 3,
-          "offset": 47
-        }
-      }
-    },
-    "aliases": [
-      "оновлення"
-    ]
-  },
-  {
-    "fileName": "Підтримка Latex",
-    "relativePath": "notes/Підтримка Latex.md",
-    "frontmatter": {
-      "title": "Підтримка Latex",
-      "position": {
-        "start": {
-          "line": 1,
-          "col": 0,
-          "offset": 2
-        },
-        "end": {
-          "line": 3,
-          "col": 3,
-          "offset": 36
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Латекс",
-        "level": 2
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Усунення проблем",
-        "link": "Підтримка Latex.md",
-        "relativePath": "notes/Усунення проблем.md"
       }
     ]
   },
@@ -678,6 +584,100 @@
     ]
   },
   {
+    "fileName": "Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown",
+    "relativePath": "notes/Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown.md"
+  },
+  {
+    "fileName": "Перегляд змін",
+    "relativePath": "notes/Перегляд змін.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Перегляд змін",
+      "weight": -2,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 60
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Встановіть та підключіть `hugo-obsidian` локально",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "docker",
+        "link": "Перегляд змін.md",
+        "relativePath": "notes/docker.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Підтримка Latex",
+    "relativePath": "notes/Підтримка Latex.md",
+    "frontmatter": {
+      "title": "Підтримка Latex",
+      "position": {
+        "start": {
+          "line": 1,
+          "col": 0,
+          "offset": 2
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Латекс",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Усунення проблем",
+        "link": "Підтримка Latex.md",
+        "relativePath": "notes/Усунення проблем.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Оновлення",
+    "relativePath": "notes/Оновлення.md",
+    "frontmatter": {
+      "title": "Оновлення",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 47
+        }
+      }
+    },
+    "aliases": [
+      "оновлення"
+    ]
+  },
+  {
     "fileName": "Власний домен",
     "relativePath": "notes/Власний домен.md",
     "frontmatter": {
@@ -701,6 +701,25 @@
         "level": 3
       }
     ]
+  },
+  {
+    "fileName": "Варіанти використання",
+    "relativePath": "notes/Варіанти використання.md",
+    "frontmatter": {
+      "title": "Варіанти використання",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    }
   },
   {
     "fileName": "Виноски",
@@ -736,54 +755,6 @@
         "link": "виноски",
         "relativePath": "notes/Пошук.md",
         "displayText": "нагадування у стилі Admonition"
-      }
-    ]
-  },
-  {
-    "fileName": "Варіанти використання",
-    "relativePath": "notes/Варіанти використання.md",
-    "frontmatter": {
-      "title": "Варіанти використання",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Ігнорування нотаток",
-    "relativePath": "notes/Ігнорування нотаток.md",
-    "frontmatter": {
-      "title": "Ігнорування нотаток",
-      "position": {
-        "start": {
-          "line": 1,
-          "col": 0,
-          "offset": 1
-        },
-        "end": {
-          "line": 3,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Quartztz Ігнорування нотаток",
-        "level": 3
-      },
-      {
-        "heading": "Глобальний ігнор",
-        "level": 3
       }
     ]
   },
@@ -824,91 +795,45 @@
     ]
   },
   {
-    "fileName": "QR-коди на кожну сторінку сайту",
-    "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
-  },
-  {
-    "fileName": "Інструменти ощадливого виробництва",
-    "relativePath": "notes/inbox/Потокове виробництво/Інструменти ощадливого виробництва.md",
+    "fileName": "Ігнорування нотаток",
+    "relativePath": "notes/Ігнорування нотаток.md",
     "frontmatter": {
-      "title": "Потокове виробництво, ощадливе виробництво та інструменти ощадливого",
+      "title": "Ігнорування нотаток",
       "position": {
         "start": {
-          "line": 0,
+          "line": 1,
           "col": 0,
-          "offset": 0
+          "offset": 1
         },
         "end": {
-          "line": 2,
+          "line": 3,
           "col": 3,
-          "offset": 85
+          "offset": 37
         }
       }
     },
     "headings": [
       {
-        "heading": "Інструменти ощадливого виробництва",
-        "level": 2
+        "heading": "Quartztz Ігнорування нотаток",
+        "level": 3
       },
       {
-        "heading": "Інструменти ощадливого виробництва",
-        "level": 2
-      },
-      {
-        "heading": "Інструменти ощадливого виробництва",
-        "level": 2
-      },
-      {
-        "heading": "Інструменти ощадливого виробництва",
-        "level": 2
-      },
-      {
-        "heading": "Інструменти ощадливого виробництва",
-        "level": 2
+        "heading": "Глобальний ігнор",
+        "level": 3
       }
     ]
   },
   {
-    "fileName": "Технологічна операція",
-    "relativePath": "notes/inbox/Технологічна операція.md",
-    "frontmatter": {
-      "title": "Технологічна операція",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    }
+    "fileName": "QR-коди на кожну сторінку сайту",
+    "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
+  },
+  {
+    "fileName": "Dockerfile для Langflow",
+    "relativePath": "notes/LangFlow/Dockerfile для Langflow.md"
   },
   {
     "fileName": "Як налаштувати autogpt через проксі gpt4free",
     "relativePath": "notes/inbox/Як налаштувати autogpt через проксі gpt4free.md"
-  },
-  {
-    "fileName": "Що таке Lua",
-    "relativePath": "notes/inbox/Що таке Lua.md",
-    "frontmatter": {
-      "title": "Lua",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 22
-        }
-      }
-    }
   },
   {
     "fileName": "Цикл управління знаннями",
@@ -989,10 +914,10 @@
     ]
   },
   {
-    "fileName": "Процесний підхід",
-    "relativePath": "notes/inbox/Процесний підхід.md",
+    "fileName": "Що таке Lua",
+    "relativePath": "notes/inbox/Що таке Lua.md",
     "frontmatter": {
-      "title": "Процесний підхід",
+      "title": "Lua",
       "position": {
         "start": {
           "line": 0,
@@ -1002,20 +927,29 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 35
+          "offset": 22
         }
       }
-    },
-    "headings": [
-      {
-        "heading": "до управління бізнес-процесами підприємства",
-        "level": 2
-      },
-      {
-        "heading": "Отже:",
-        "level": 1
+    }
+  },
+  {
+    "fileName": "Технологічна операція",
+    "relativePath": "notes/inbox/Технологічна операція.md",
+    "frontmatter": {
+      "title": "Технологічна операція",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
       }
-    ]
+    }
   },
   {
     "fileName": "Сучасний стан та опис проекту",
@@ -1043,10 +977,10 @@
     ]
   },
   {
-    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
-    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
+    "fileName": "Процесний підхід",
+    "relativePath": "notes/inbox/Процесний підхід.md",
     "frontmatter": {
-      "title": "Процесний підхід до управління бізнес-процесами підприємства",
+      "title": "Процесний підхід",
       "position": {
         "start": {
           "line": 0,
@@ -1056,10 +990,20 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 79
+          "offset": 35
         }
       }
-    }
+    },
+    "headings": [
+      {
+        "heading": "до управління бізнес-процесами підприємства",
+        "level": 2
+      },
+      {
+        "heading": "Отже:",
+        "level": 1
+      }
+    ]
   },
   {
     "fileName": "Складання",
@@ -1127,6 +1071,25 @@
     ]
   },
   {
+    "fileName": "Процесний підхід до управління бізнес-процесами підприємства",
+    "relativePath": "notes/inbox/Процесний підхід до управління бізнес-процесами підприємства.md",
+    "frontmatter": {
+      "title": "Процесний підхід до управління бізнес-процесами підприємства",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 79
+        }
+      }
+    }
+  },
+  {
     "fileName": "Принцип Парето в управлінні бізнес-процесами",
     "relativePath": "notes/inbox/Принцип Парето в управлінні бізнес-процесами/Принцип Парето в управлінні бізнес-процесами.md",
     "frontmatter": {
@@ -1146,10 +1109,10 @@
     }
   },
   {
-    "fileName": "Онтологічний інжиніринг",
-    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
+    "fileName": "Інструменти ощадливого виробництва",
+    "relativePath": "notes/inbox/Потокове виробництво/Інструменти ощадливого виробництва.md",
     "frontmatter": {
-      "title": "Онтологічний інжиніринг",
+      "title": "Потокове виробництво, ощадливе виробництво та інструменти ощадливого",
       "position": {
         "start": {
           "line": 0,
@@ -1159,33 +1122,32 @@
         "end": {
           "line": 2,
           "col": 3,
-          "offset": 42
+          "offset": 85
         }
       }
-    }
-  },
-  {
-    "fileName": "Комплексна методологія",
-    "relativePath": "notes/inbox/Комплексна методологія.md",
-    "frontmatter": {
-      "title": "Комплексна методологія",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 39
-        }
+    },
+    "headings": [
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
       }
-    }
-  },
-  {
-    "fileName": "Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot",
-    "relativePath": "notes/inbox/Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot.md"
+    ]
   },
   {
     "fileName": "Онтологія знань",
@@ -1244,8 +1206,46 @@
     ]
   },
   {
-    "fileName": "Без назви 2",
-    "relativePath": "notes/inbox/Без назви 2.md"
+    "fileName": "Онтологічний інжиніринг",
+    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
+    "frontmatter": {
+      "title": "Онтологічний інжиніринг",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Комплексна методологія",
+    "relativePath": "notes/inbox/Комплексна методологія.md",
+    "frontmatter": {
+      "title": "Комплексна методологія",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 39
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot",
+    "relativePath": "notes/inbox/Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot.md"
   },
   {
     "fileName": "Вимоги до проекту",
@@ -1285,37 +1285,12 @@
     "relativePath": "notes/inbox/Без назви.md"
   },
   {
+    "fileName": "Без назви 2",
+    "relativePath": "notes/inbox/Без назви 2.md"
+  },
+  {
     "fileName": "Без назви 1",
     "relativePath": "notes/inbox/Без назви 1.md"
-  },
-  {
-    "fileName": "Інверсія крльору тексту у вікні вводу коментарів",
-    "relativePath": "notes/inbox/Інверсія крльору тексту у вікні вводу коментарів.md"
-  },
-  {
-    "fileName": "Налаштування maubot за допомогою Docker",
-    "relativePath": "notes/inbox/maubot/Налаштування maubot за допомогою Docker.md",
-    "frontmatter": {
-      "title": "Налаштування maubot за допомогою Docker",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 58
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "[Оновлення](https://docs.mau.fi/maubot/usage/setup/docker.html#upgrading)",
-        "level": 3
-      }
-    ]
   },
   {
     "fileName": "Алгоритм онтологічного інженірінгу",
@@ -1335,36 +1310,6 @@
         }
       }
     }
-  },
-  {
-    "fileName": "Інтеграція медіаплеєра Plyr в Hugo",
-    "relativePath": "notes/inbox/Інтеграція медіаплеєра Plyr в Hugo.md"
-  },
-  {
-    "fileName": "Hugo",
-    "relativePath": "notes/inbox/Hugo.md",
-    "frontmatter": {
-      "title": "Hugo",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 23
-        }
-      }
-    },
-    "backlinks": [
-      {
-        "fileName": "_index",
-        "link": "Hugo",
-        "relativePath": "_index.md"
-      }
-    ]
   },
   {
     "fileName": "Інструкція по встановленню Alpine Linux Extended",
@@ -1391,6 +1336,14 @@
         "level": 2
       }
     ]
+  },
+  {
+    "fileName": "Інтеграція медіаплеєра Plyr в Hugo",
+    "relativePath": "notes/inbox/Інтеграція медіаплеєра Plyr в Hugo.md"
+  },
+  {
+    "fileName": "Інверсія крльору тексту у вікні вводу коментарів",
+    "relativePath": "notes/inbox/Інверсія крльору тексту у вікні вводу коментарів.md"
   },
   {
     "fileName": "S–BPM",
@@ -1422,6 +1375,881 @@
     ]
   },
   {
+    "fileName": "README",
+    "relativePath": "notes/inbox/README.md",
+    "headings": [
+      {
+        "heading": "![](https://avatars1.githubusercontent.com/u/8237355?v=2&s=50) Grav",
+        "level": 1
+      },
+      {
+        "heading": "Requirements",
+        "level": 1
+      },
+      {
+        "heading": "Documentation",
+        "level": 1
+      },
+      {
+        "heading": "QuickStart",
+        "level": 1
+      },
+      {
+        "heading": "Downloading a Grav Package",
+        "level": 3
+      },
+      {
+        "heading": "With Composer",
+        "level": 3
+      },
+      {
+        "heading": "From GitHub",
+        "level": 3
+      },
+      {
+        "heading": "Adding Functionality",
+        "level": 1
+      },
+      {
+        "heading": "Updating",
+        "level": 1
+      },
+      {
+        "heading": "Upgrading from older version",
+        "level": 2
+      },
+      {
+        "heading": "Contributing",
+        "level": 1
+      },
+      {
+        "heading": "Security issues",
+        "level": 2
+      },
+      {
+        "heading": "Getting Started",
+        "level": 1
+      },
+      {
+        "heading": "Exploring More",
+        "level": 1
+      },
+      {
+        "heading": "Backers",
+        "level": 1
+      },
+      {
+        "heading": "Supporters",
+        "level": 1
+      },
+      {
+        "heading": "Sponsors",
+        "level": 1
+      },
+      {
+        "heading": "License",
+        "level": 1
+      },
+      {
+        "heading": "Running Tests",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "#backers",
+        "relativePath": "notes/inbox/README.md",
+        "cleanLink": "README",
+        "displayText": ""
+      },
+      {
+        "link": "#supporters",
+        "relativePath": "notes/inbox/README.md",
+        "cleanLink": "README",
+        "displayText": ""
+      },
+      {
+        "link": "#sponsors",
+        "relativePath": "notes/inbox/README.md",
+        "cleanLink": "README",
+        "displayText": ""
+      },
+      {
+        "link": "CONTRIBUTING.md",
+        "displayText": "",
+        "relativePath": "notes/inbox/CONTRIBUTING.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Налаштування maubot за допомогою Docker",
+    "relativePath": "notes/inbox/maubot/Налаштування maubot за допомогою Docker.md",
+    "frontmatter": {
+      "title": "Налаштування maubot за допомогою Docker",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 58
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "[Оновлення](https://docs.mau.fi/maubot/usage/setup/docker.html#upgrading)",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "Langchain-UI",
+    "relativePath": "notes/inbox/Langchain-UI.md",
+    "headings": [
+      {
+        "heading": "Dockerfile",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "JavaScript у застосунках на Redbean 2",
+    "relativePath": "notes/inbox/JavaScript у застосунках на Redbean 2.md"
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/21.zamovlennya-na-litogin/default.md",
+    "frontmatter": {
+      "title": "Замовлення на литогин",
+      "webpushtitle": "Zamovlennya-na-litogin",
+      "webpushurl": "https://books.m-e.pp.ua/zamovlennya-na-litogin",
+      "webpushbutton": {
+        "send": false
+      },
+      "webpushmessage": "&amp;lt;p&amp;gt;&amp;lt;div class=&amp;quot;browser-wrapper&amp;quot;&amp;gt;\n    &amp;lt;div class=&amp;quot;browser-frame&amp;quot;&amp;gt;\n        &amp;lt;div class=&amp;quot;btoolbar&amp;quot;&amp;gt;\n            &amp;lt;span class=&amp;quot;btoolbar-button button-1&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;\n            &amp;lt;span class=&amp;quot;btoolbar-button button-2&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;\n            &amp;lt;span class=&amp;quot;btoolbar-button button-3&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;\n            &amp;lt;div class=&amp;quot;btoolbar-address&amp;quot;&amp;gt;&amp;lt;i class=&amp;quot;fa fa-repeat&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;em&amp;gt;http://htm.m-e.pp.ua/inter/&amp;lt;/em&amp;gt;&amp;lt;/div&amp;gt;\n            &amp;lt;span class=&amp;quot;btoolbar-action&amp;quot;&amp;gt;&amp;lt;i class=&amp;quot;fa fa-bars&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/span&amp;gt;\n        &amp;lt;/div&amp;gt;\n        &amp;lt;div class=&amp;quot;bbody &amp;quot;&amp;gt;&amp;lt;/div&amp;gt;\n    &amp;lt;/div&amp;gt;\n&amp;lt;/div&amp;gt;[/browser]&amp;lt;/p&amp;gt;\n\n&amp;lt;div  class=&amp;quot;external iframe&amp;quot;&amp;gt;\n  &amp;lt;iframe src=&amp;quot;https://polina.m-e.pp.ua/&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;1200&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;\n&amp;lt;/div&amp;gt;\n\n&amp;lt;h5&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;div class=&amp;quot;sc-notice info&amp;quot;&amp;gt;\n  &amp;lt;div&amp;gt;&amp;lt;div style=&amp;quot;text-align: center;&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;https://polina.m-e.pp.ua/&amp;quot;&amp;gt;Тапай тут щоб відкрити поліну в окремому вікні з можливістю діалогу голосом. Далі тисни на мікрофон та проговори питання!&amp;lt;/a&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;\n&amp;lt;/div&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/h5&amp;gt;",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 2062
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "**[notice][center][Тапай тут щоб відкрити поліну в окремому вікні з можливістю діалогу голосом. Далі тисни на мікрофон та проговори питання!](https://polina.m-e.pp.ua/)[/center][/notice]**",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/20.polina2/default.md",
+    "frontmatter": {
+      "title": "Поліна",
+      "webpushtitle": "Vtrati",
+      "webpushurl": "https://books.m-e.pp.ua/vtrati",
+      "webpushbutton": {
+        "send": false
+      },
+      "webpushmessage": "&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div  class=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n  &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;iframe src=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://app.m-e.pp.ua/tickets&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; width=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;640&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot; height=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;480&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/iframe&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 1337
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "**[notice][center][Тапай тут щоб відкрити поліну в окремому вікні з можливістю діалогу голосом. Далі тисни на мікрофон та проговори питання!](https://polina.m-e.pp.ua/)[/center][/notice]**",
+        "level": 5
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/18.vtrati/default.md",
+    "frontmatter": {
+      "title": "Втрати",
+      "webpushtitle": "Vtrati",
+      "webpushurl": "https://books.m-e.pp.ua/vtrati",
+      "webpushbutton": {
+        "send": false
+      },
+      "webpushmessage": "&amp;amp;lt;div  class=&amp;amp;quot;&amp;amp;quot;&amp;amp;gt;\n  &amp;amp;lt;iframe src=&amp;amp;quot;https://app.m-e.pp.ua/tickets&amp;amp;quot; width=&amp;amp;quot;640&amp;amp;quot; height=&amp;amp;quot;480&amp;amp;quot;&amp;amp;gt;&amp;amp;lt;/iframe&amp;amp;gt;\n&amp;amp;lt;/div&amp;amp;gt;",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 441
+        }
+      }
+    }
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/17.cikl-upravlinnya-znannyami/default.md",
+    "frontmatter": {
+      "title": "Цикл управління знаннями",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 43
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Накопичення",
+        "level": 4
+      },
+      {
+        "heading": "Структурування",
+        "level": 4
+      },
+      {
+        "heading": "Формалізація і програмна реалізація",
+        "level": 4
+      },
+      {
+        "heading": "Обслуговування",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/16.algoritm-ontologichnogo-inzheniringu/default.md",
+    "frontmatter": {
+      "title": "Алгоритм онтологічного інженірінгу",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 53
+        }
+      }
+    }
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/15.ontologichnii-inzhiniring/default.md",
+    "frontmatter": {
+      "title": "Онтологічний інжиніринг",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
+        }
+      }
+    }
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/14.ontologiya-znan/default.md",
+    "frontmatter": {
+      "title": "Онтологія знань",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 34
+        }
+      }
+    }
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/13.upravlinnya-znannyami/default.md",
+    "frontmatter": {
+      "title": "Управління знаннями",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "**Рівень** 1.",
+        "level": 2
+      },
+      {
+        "heading": "**Рівень** 2.",
+        "level": 2
+      },
+      {
+        "heading": "**Витяг**.",
+        "level": 2
+      },
+      {
+        "heading": "**Структурування**.",
+        "level": 2
+      },
+      {
+        "heading": "**Формалізація** і програмна реалізація.",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/12.metodologichna-osnova-proektu/default.md",
+    "frontmatter": {
+      "title": "Методологічна основа проекту",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 47
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Етап 1. **Створення** **знань**",
+        "level": 2
+      },
+      {
+        "heading": "Етап 2. **Організація** **знань**",
+        "level": 2
+      },
+      {
+        "heading": "Етап 3. **Розповсюдження** **знань**",
+        "level": 2
+      },
+      {
+        "heading": "Етап 4. **Використання** **знань**",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/11.s-bpm/default.md",
+    "frontmatter": {
+      "title": "S–BPM",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 22
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Основний фокус",
+        "level": 2
+      },
+      {
+        "heading": "Ключова відмінність нового покоління інструментів",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/09.kompleksna-metodologiya/default.md",
+    "frontmatter": {
+      "title": "Комплексна методологія",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 41
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Комплексна методологія.",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/10.procesnii-pidkhid/default.md",
+    "frontmatter": {
+      "title": "Процесний підхід",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 35
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "до управління бізнес-процесами підприємства",
+        "level": 2
+      },
+      {
+        "heading": "Отже:",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/08.programa-proektu/default.md",
+    "frontmatter": {
+      "webpushtitle": "Програма проекту",
+      "webpushmessage": "&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;h2&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Програма проекту&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/h2&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Розвиток проекту ТребаТак включає в себе наступні кроки:&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;0 крок&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Переконати, топ-менеджмент компанії в необхідності змін, впровадженні  процесної методики управління.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Щоб цього домогтися зазвичай застосовується сценарій &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;пілотний проект&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;, саме таким проектом має стати ТребаТак. Працюючи над ним я враховую наступні моменти:&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;• проект повинен формувати розуміння BPM, щоб забезпечити тверду прихильність і достатню підтримку. Для цього я створив  &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://rep-c.treba.ml/blog/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;блог до проекту&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;, де докладно викладу власне бачення BPM.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;• проект не повинен довго затримуватися на етапі формування розуміння BPM, оскільки про мої зусилля будуть здебільшого судити по досягненню цілей проекту, а не з усвідомлення гіпотетичних переваг BPM, що лежать поза рамками проекту. Проект повинен стати кращою ілюстрацією бізнес-вигод BPM. &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Кращий спосіб переконати в користі BPM-не теоріями або прикладами з підручників, а досягненням результатів всередині самої організації&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;, тому я &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://pp.vokov.tk/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;розробляю робочу реалізацію  системи&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; по технологічному процесу виробничого відділу де я працюю;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;ul&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;li&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;проект повинен бути узгоджений з іншими проектами, щоб виявити синергію удосконалення процесів. Це допоможе в підвищенні прозорості та прийнятності BPM у всій організації. Для такого узгодження потрібна площадка де керівники та спеціалісти виробничих проектів могли ознайомитись з процесами BPM-проекту. Такою площадкою станe &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://toc.treba.ml/riot/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; чат проекту&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/li&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;li&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;також має забезпечуватися достатнє поширення інформації на початку проекту. Дуже часто інформація починає надходити вже в самому кінці реалізації проекту, коли рівень впевненості в успіху вище, що часто виявляється занадто мало і занадто пізно. Тому я реалізував доступ до проекту в світовій мережі, ще можна підписатись на кана RSS  блогу.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/li&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/ul&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;1 крок.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Переконатися, що у компанії є чітка стратегія на шляху до впровадження процесної методики управління.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;2 крок&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Побудувати модель процесу, розмежувати зони відповідальності, розробити показники ефективності процесу (показник результативності процесу ППІ) і навчитися їх вимірювати.\nДля цього я адаптував під мікрокомп‘ютерну архітектуру кілька внструментів: &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;http://treba.ml:5011/boards/anonymous&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;редактор інформаційних моделей&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;. Ці компоненти дозволяють моделювати логіку процесів, для моделювання предметної області виробничої системи, пропоную використати адаптований мною &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://km.treba.ml/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;інструмент для моделювання бази знань проекту&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;, &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;http://dew.treba.ml/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;інструмент управління документами &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt; та &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;a href=&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;https://4to.treba.ml/&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;фотоматеріалами (внутрішній фотохостинг)&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;. &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;3 крок&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Оптимізувати і автоматизувати пілотний бізнес-процес за допомогою інструментів проекту.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;4 крок&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Виділити ключові бізнес-процеси, які створюють [основний внесок у досягнення  стратегічних цілей і запрпонувати виконання автоматизації використавши досвід пілотного проекту.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;5 крок&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Зробити процес управління бізнес-процесами безперервним керуючим процесом. Тобто проект повинен перерости в загально-виробничий процес, стати впровадженим.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Умови успіху&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/strong&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/h3&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Єдине понятійне поле + наявність зрозумілої стратегії в компанії замовника + виділені ключові бізнес-процеси + призначені власники процесів + визначені зони відповідальності (у цьому питанні кращий помічник - це нотації BPMN діаграма) + визначені набори показників для оцінки ефективності бізнес-процесів.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;Всі згадані тут компоненти проекту будуть описані в окремих публікаціях блогу та порталу документації.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/p&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;\n&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;hr /&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;",
+      "webpushurl": "https://books.m-e.pp.ua/programa-proektu",
+      "webpushbutton": {
+        "send": false
+      },
+      "title": "Програма проекту",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 38177
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "**0 крок**",
+        "level": 3
+      },
+      {
+        "heading": "**1 крок.**",
+        "level": 3
+      },
+      {
+        "heading": "**2 крок**.",
+        "level": 3
+      },
+      {
+        "heading": "**3 крок**.",
+        "level": 3
+      },
+      {
+        "heading": "**4 крок**.",
+        "level": 3
+      },
+      {
+        "heading": "**5 крок**.",
+        "level": 3
+      },
+      {
+        "heading": "**Умови успіху**",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/07.tekhnologichna-operaciya-to/default.md",
+    "frontmatter": {
+      "title": "Технологічна операція (ТО)",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 45
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "[modal-launch modal=\"qr-kod-of-the-page\"] **QR-код сторінки** [/modal-launch]",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/06.princip-pareto-v-upravlinni-biznes-procesami/default.md",
+    "frontmatter": {
+      "title": "Принцип Парето в управлінні бізнес-процесами",
+      "webpushtitle": "Принцип Парето в управлінні бізнес-процесами",
+      "webpushmessage": "&amp;lt;hr /&amp;gt;\n&amp;lt;p&amp;gt;layout: post\ntitle: Принцип Парето в управлінні бізнес-процесами\ncategory: бізнес-процеси&amp;lt;/p&amp;gt;\n&amp;lt;hr /&amp;gt;\n&amp;lt;p&amp;gt;Економіст і соціолог Вільфредо Парето прославився завдяки своєму емпіричному правилу, яке в загальному вигляді звучить так: «20% зусиль дають 80% результату, а інші 80 % зусиль — лише 20 % результату».&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/user/pages/06.princip-pareto-v-upravlinni-biznes-procesami/20191130150105-7d2e5354.jpg&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;На основі даного правила побудовано багато аналогій:&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;«20% клієнтів приносять 80% прибутку»&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Або «20% чоловіків випиває 80% пива» :)&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Як застосувати принцип Парето в управлінні бізнес-процесами?&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Часто керівник компанії, зацікавившись ідеєю процесного управління, приходить до своїх співробітників з новим баченням: нам потрібно формалізувати наші бізнес-процеси. Проводяться тренінги, залучаються консультанти або наймається штат бізнес-аналітиків, робота кипить. На перших порах рядові співробітники і лінійні керівники з інтересом беруть участь у робочих групах, проводяться інтерв&amp;#039;ю, будуються моделі процесів, пишуться інструкції. Але через пару місяців інтерес пропадає, операційна діяльність затягує, а кінцевий результат стає все менш відчутним. Рано чи пізно проект завершується. В результаті компанія отримує набір регламентів та моделей бізнес-процесів, проте часто після завершення проекту діяльність компанії не зазнає серйозних змін. Більш того, вже через 3-4 місяці керівники розуміють, що регламенти починають застарівати, так як процеси в силу своєї природи починають змінюватися. У топ-менеджменту виникає відчуття, що вкладені інвестиції не відповідають отриманому результату.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Що ж робити, щоб отримати відчутну віддачу від інвестицій в управління бізнес-процесами?&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Нагадаю, що бізнес-процеси – це інструмент досягнення стратегічних цілей. Застосовуючи принцип Парето можна зформулювати таке твердження: 20% бізнес-процесів дають 80% внеску в досягнення стратегічних цілей компанії.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;/princip-pareto-v-upravlinni-biznes-procesami/20191130150111-390078f2.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Тому має сенс на першому етапі зосередити всі сили, увагу і ресурси на 3-5 ключових для організації процесах і запустити для них цикл процесного управління (моделювання, аналіз, оптимізація, трансформація, вимірювання, контроль).&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Додатковий плюс такої сфокусованості – можливість отримати результат вже через 2,5-3 місяці після старту проекту. І це дуже важливо!  Адже будь-яка людина може зацікавлено працювати над будь-яким питанням без отримання позитивного зворотного зв&amp;#039;язку досить короткий проміжок часу, потім його інтерес починає згасати. Після отримання перших результатів можна вже короткими ітераціями почати шліфувати бізнес-процес.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Отже, використання принципу Парето в управлінні бізнес-процесами означає, що в першу чергу потрібно сфокусуватися на найбільш критичних для досягнення стратегічних цілей процесах, залишивши на потім, можливо, проблемні, але не ключові бізнес-процеси.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;https://bpm-in-ua.com/&amp;quot;&amp;gt;За матеріалами BPM in UA&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;",
+      "webpushurl": "https://webm.m-e.pp.ua/princip-pareto-v-upravlinni-biznes-procesami",
+      "webpushbutton": {
+        "send": false
+      },
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 3961
+        }
+      }
+    }
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/05.scladanya2/default.md",
+    "headings": [
+      {
+        "heading": "Урок 3.",
+        "level": 1
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      },
+      {
+        "heading": "Інструменти ощадливого виробництва",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/04.to-scladanya/default.md",
+    "headings": [
+      {
+        "heading": "Курс теоретичних та практичних уроків для складальників.",
+        "level": 4
+      },
+      {
+        "heading": "Мета:",
+        "level": 4
+      },
+      {
+        "heading": "Складання",
+        "level": 1
+      },
+      {
+        "heading": "Складання",
+        "level": 3
+      },
+      {
+        "heading": "Інструменти для складання.",
+        "level": 3
+      },
+      {
+        "heading": "RIVETEC RIV938",
+        "level": 4
+      },
+      {
+        "heading": "4.Від єднуємо інструмент від пневмомережі",
+        "level": 5
+      },
+      {
+        "heading": "Заміна затискних втулок:",
+        "level": 4
+      },
+      {
+        "heading": "г и",
+        "level": 1
+      },
+      {
+        "heading": "Безпека на робочому місці",
+        "level": 4
+      }
+    ]
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/01.vvedennya/default.md",
+    "frontmatter": {
+      "title": "Введення",
+      "webpushtitle": "Введення",
+      "webpushmessage": "&amp;amp;lt;div id=&amp;amp;quot;qr-kod-of-the-page&amp;amp;quot; class=&amp;amp;quot;jqmodal&amp;amp;quot;&amp;amp;gt;\n    \n&amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;img  {{ filecontent(&amp;amp;#039;/user/files/inter.html&amp;amp;#039;) }} src=&amp;amp;quot;https://chart.googleapis.com/chart?chs=440x440&amp;amp;amp;amp;cht=qr&amp;amp;amp;amp;chl=https://books.m-e.pp.ua&amp;amp;quot; alt=&amp;amp;quot;&amp;amp;quot; /&amp;amp;gt; &amp;amp;lt;/p&amp;amp;gt;\n\n&amp;amp;lt;/div&amp;amp;gt;\n\n&amp;amp;lt;h6&amp;amp;gt;\n&amp;amp;lt;a href=&amp;amp;quot;#qr-kod-of-the-page&amp;amp;quot; class=&amp;amp;quot;&amp;amp;quot; rel=&amp;amp;quot;modal:open&amp;amp;quot;&amp;amp;gt; &amp;amp;lt;strong&amp;amp;gt;QR-код сторінки&amp;amp;lt;/strong&amp;amp;gt; &amp;amp;lt;/a&amp;amp;gt;\n&amp;amp;lt;/h6&amp;amp;gt;\n&amp;amp;lt;blockquote&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;strong&amp;amp;gt;Те, що ти шуаєш, теж шукає тебе.&amp;amp;lt;/strong&amp;amp;gt;\n-- Джелаладдін Румі  &amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;/blockquote&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;Коронавірус торкнувся бізнесу компанії, після завершення жорсткого карантину попит катастрофічно впав, підприємства, зокрема наше, впроваджують низку заходів, щоб знизити вплив кризи на свою діяльність. Перш за все - скорочуються витрати. Але можна досягти того ж результату підвищенням швидкості товарного потоку завдяки оптимізації бізнес-процесів. &amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;За теорією обмежень, зараз, обмеженням системи для абсолютної більшості компаній, в тому числі нашої, є ринок. Своїми потужностями - виробничими, логістичними, персоналом, можемо задовільнити набагато більше попиту, ніж той, який до нас приходить зараз і який, можливо, буде приходити потім. Тому я пропоную, разом з зменшенням витрат, працювати над підвищенням швидкості товарного потоку, завдяки оптимізації бізнес-процесів, усунути всі пробки в цьому потоці.&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;Оптимізація та автоматизація бізнес-процесів зробить можливим зменшити собівартість продукції та час виконання замовлень, що підвищить конкурентоспроможність продукції. Тобто можна буде орієнтуватися не на скорочення витрат, або не тільки, а на збільшення швидкості товарного потоку завдяки збільшенню кількості замовлень.&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;Метою проекту є пропозиція ефективного в сучасних умовах програмно-апаратного комплексу, фреймворку для оптимізації бізнес-процесів в умовах кризи викликаної пандемією та небезпечної для підприемства &amp;amp;lt;a href=&amp;amp;quot;https://rep-d.treba.ml/reshoryng.html&amp;amp;quot;&amp;amp;gt;загальноекономічної тенденції решорингу&amp;amp;lt;/a&amp;amp;gt;.&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;Після декількох років вивчення теми оптимізації та автоматизацї виробничих процесів, презентацій, обговорень в яких приймав участь, склався ряд вимог як до такої інформаційної системи так і до базової методології, що визначатиме робочий цикл та структуру системи.&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;Перш за все, користувачі процесів, стейкхолдери, повинні мати можливість самостійно створювати і адаптувати моделі процесів. Не повинно бути необхідності у фахівцях з моделювання процесів або фахівцях з впровадження процесів. Тільки учасники процесу по-справжньому розуміють складність процесів, в які вони залучені і часто особисто зацікавлені в їх оптимізації.&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;По-друге, моделі процесів повинні легко формалізуватись, щоб звести до мінімуму програмування, оскільки користувачі процесів зазвичай не володіють необхідними для цього знаннями.&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;По-третє, інтеграція з існуючою інформаційною системою практично не можлива, максимум виккористання web браузера для доступу до інтерфейсів розроблюваного фреймворку.&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;Традиційні системи управління бізнес-процесами - BPM-системи (Business Process Management Suite, BPMS) мають стандартний набір графічних символів, в основному заснований на нотації BPMN (Business Process Model and Notation). Джим Сінур, провідний аналітик Gartner в області BPM, розшифрував BPMN як «Business People May Not Undestand», тобто «люди бізнесу можуть не розуміти» цю нотацію. Дійсно в BPMN-моделі при описі процесу необхідно виділити всі можливі сценарії і послідовності ланцюжків дій, що призводить до надзвичайного «розростання» і ускладнення моделі. Моделі стають дуже громіздкими і складними для сприйняття та аналізу. BPMN нотація сама по собі складна: вона містить більше ста різних символів, специфікація яких займає понад 500 сторінок, а перетворення BPMN-моделі у виконуваний додаток часто не дає належного ефекту, оскільки бізнес-експерти не здатні працювати з такими моделями без спеціальної підготовки. Бар&amp;amp;#039;єр між бізнесом та ІТ як і раніше знаходиться на своєму місці.&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;Зокрема тому в моєму проекті використовується альтернативна відкрита нотація, розроблена, Радянськими інженерами при створенні космічного корабля «Буран» та активно використовувана і нині - візуальна алгоритмічна мова програмування і моделювання ДРАКОН та інструменти з відкритим кодом, що її підтримують.&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;&amp;amp;lt;a href=&amp;amp;quot;https://rep-d.treba.ml/sbpm.html&amp;amp;quot;&amp;amp;gt;Методологія S-BPM&amp;amp;lt;/a&amp;amp;gt;, обрана як основа робочого процесу розроблюваного фреймворку, передбачає суб&amp;amp;#039;єктно-орієнтований підхід до управління бізнес-процесами основу складають акти (події) відносин між суб&amp;amp;#039;єктами, до яких редукується функціонування підприємства, або, точніше сказати, на рівень яких проектується його діяльність. Рухаючись далі в цьому напрямку, суб&amp;amp;#039;єктно-подієвий підхід в якості змістовного елемента системи пропонує розглядати будь-який акт суб&amp;amp;#039;єкта, всі його відносини як з суб&amp;amp;#039;єктами, так і з об&amp;amp;#039;єктами. Такий підхід дає змогу, ще на етапі побудови моделі бізнес-процесів знаходити події, явища, що мають негативний вплив та усувати їх застосовуючи методики &amp;amp;lt;a href=&amp;amp;quot;https://rep-d.treba.ml/toc.html&amp;amp;quot;&amp;amp;gt;Теорії обмежень Голдрата&amp;amp;lt;/a&amp;amp;gt;, а на рівні архітектури фреймворку використовувати мікросервіси з &amp;amp;lt;a href=&amp;amp;quot;https://ru.m.wikipedia.org/wiki/Модель_акторов&amp;amp;quot;&amp;amp;gt;акторною моделю взаємодії&amp;amp;lt;/a&amp;amp;gt; між ними. Кожному субëєкту&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;За рахунок граничної простоти нотації опису бізнес-процесів ДРАКОН-схем та можливості екпорту &amp;amp;lt;a href=&amp;amp;quot;https://drakon.tech/&amp;amp;quot;&amp;amp;gt;безпосередньо в програмний код&amp;amp;lt;/a&amp;amp;gt;, і погляду на процес очима його учасників, а не бізнес-аналітиків, про відсутність яких на заводі я дізнався після останньої презентації, планую досягти вISOкої якості моделей бізнес-процесів на етапі проектування автоматизованого процесу і швидкої програмної реалізації. Таким чином, вирішується ключова проблема - ламається горезвісний бар&amp;amp;#039;єр між бізнесом та ІТ. Крім того, згодом, має бути істотний ефект при управлінні змінами автоматизованих процесів, оскільки такий підхід дозволяє мінімізувати залучення ІТ-фахівців в цій активності.&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;У більшості випадків, людині не потрібні додаткові складні програми для планування і управління різними процесами також звичайно комерційні рішення не є дешевими, а в маштабах корпорації тягнуть взагалі значі витрати, тому в своєму проекті я використовую застосунки з відкритим кодом, тобто безкоштовні. Всix їх об‘єднує те, що це web-застосунки, отже забезпечують доступ до своїх інтерфейсів через браузери та мережу інтернет. Це дає змогу об‘єднати зуселя різних спеціалістів компанії віддалено, з будьякого куточку світу, і в будьякий час, застосовуючи &amp;amp;lt;a href=&amp;amp;quot;https://rep-d.treba.ml/kraud.html&amp;amp;quot;&amp;amp;gt;краудсорсинг для виявлення проблем та пошуку рiшень&amp;amp;lt;/a&amp;amp;gt;.&amp;amp;lt;/p&amp;amp;gt;\n&amp;amp;lt;p&amp;amp;gt;На виробництві ми використовуємо інформаційну систему розроблену ще в 2005 році, звичайно вона морально застаріла, на сучасному етапі розвитку прикладного ПО який характеризується переходом від «інтелектуальних пристроїв» до «інтелектуального простору», це не може влаштовувати. Витрачати робочий час на тривалий процес заповнення різноманітних статистичних форм виконаних в застарілому, схожому на Microsoft Access інтерфейсі, не є продуктивним. Встановити таку взаємодію працівника з інтелектуальними інформаційною системою коли її робота стає непомітною для останнього, не акцентує на собі увагу в процесі виробництва є на меті мого проекту.&amp;amp;lt;/p&amp;amp;gt;",
+      "webpushurl": "https://books.m-e.pp.ua/vvedennya",
+      "webpushbutton": {
+        "send": false
+      },
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 9133
+        }
+      }
+    }
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/01.vvedennya/procesnii-pidkhid-do-upravlinnya-biznes-procesami-pidpriyemstva/default.md",
+    "frontmatter": {
+      "title": "Процесний підхід до управління бізнес-процесами підприємства",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 79
+        }
+      }
+    }
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/01.vvedennya/07.Сучасний_стан_та_опис_проекту/default.md",
+    "frontmatter": {
+      "title": "Сучасний стан та опис проекту",
+      "body_classes": "title-center title-h1h2",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 89
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "**Що зараз собою являє проект ТребаТак ?**",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "form",
+    "relativePath": "notes/inbox/import-grav/01.vvedennya/07.Сучасний_стан_та_опис_проекту/01.typography/form.md",
+    "frontmatter": {
+      "title": "A Page with an Example Form",
+      "form": {
+        "name": "contact-form",
+        "fields": [
+          {
+            "name": "name",
+            "label": "Name",
+            "placeholder": "Enter your name",
+            "autofocus": "on",
+            "autocomplete": "on",
+            "type": "text",
+            "validate": {
+              "required": true
+            }
+          },
+          {
+            "name": "email",
+            "label": "Email",
+            "placeholder": "Enter your email address",
+            "type": "email",
+            "validate": {
+              "required": true
+            }
+          }
+        ],
+        "buttons": [
+          {
+            "type": "submit",
+            "value": "Submit"
+          },
+          {
+            "type": "reset",
+            "value": "Reset"
+          }
+        ],
+        "process": [
+          {
+            "email": {
+              "from": "{{ config.plugins.email.from }}",
+              "to": [
+                "{{ config.plugins.email.to }}",
+                "{{ form.value.email }}"
+              ],
+              "subject": "[Feedback] {{ form.value.name|e }}",
+              "body": "{% include 'forms/data.html.twig' %}"
+            }
+          },
+          {
+            "save": {
+              "fileprefix": "feedback-",
+              "dateformat": "Ymd-His-u",
+              "extension": "txt",
+              "body": "{% include 'forms/data.txt.twig' %}"
+            }
+          },
+          {
+            "message": "Thank you for your feedback!"
+          },
+          {
+            "display": "thankyou"
+          }
+        ]
+      },
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 47,
+          "col": 3,
+          "offset": 1331
+        }
+      }
+    }
+  },
+  {
+    "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/01.vvedennya/02.vimogi-do-proektu/default.md",
+    "frontmatter": {
+      "title": "Вимоги до проекту",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "[modal-launch modal=\"qr-kod-of-the-page\"] **QR-код сторінки** [/modal-launch]",
+        "level": 6
+      }
+    ]
+  },
+  {
+    "fileName": "Hugo",
+    "relativePath": "notes/inbox/Hugo.md",
+    "frontmatter": {
+      "title": "Hugo",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 23
+        }
+      }
+    },
+    "backlinks": [
+      {
+        "fileName": "_index",
+        "link": "Hugo",
+        "relativePath": "_index.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
+    "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
+  },
+  {
     "fileName": "Cинхронізації сховища Obsidian на Android",
     "relativePath": "notes/inbox/Cинхронізації сховища Obsidian на Android.md",
     "frontmatter": {
@@ -1441,8 +2269,69 @@
     }
   },
   {
-    "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
-    "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
+    "fileName": "Docker для Drakon.Tech",
+    "relativePath": "notes/inbox/Docker для Drakon.Tech.md"
+  },
+  {
+    "fileName": "CONTRIBUTING",
+    "relativePath": "notes/inbox/CONTRIBUTING.md",
+    "headings": [
+      {
+        "heading": "Contributing to Grav",
+        "level": 1
+      },
+      {
+        "heading": "Grav, Plugins, Themes and Skeletons",
+        "level": 2
+      },
+      {
+        "heading": "Using the issue tracker",
+        "level": 2
+      },
+      {
+        "heading": "Bug reports",
+        "level": 2
+      },
+      {
+        "heading": "Feature requests",
+        "level": 2
+      },
+      {
+        "heading": "Pull requests",
+        "level": 2
+      },
+      {
+        "heading": "Translations",
+        "level": 3
+      }
+    ],
+    "links": [
+      {
+        "link": "#bugs",
+        "relativePath": "notes/inbox/CONTRIBUTING.md",
+        "cleanLink": "CONTRIBUTING",
+        "displayText": ""
+      },
+      {
+        "link": "#features",
+        "relativePath": "notes/inbox/CONTRIBUTING.md",
+        "cleanLink": "CONTRIBUTING",
+        "displayText": ""
+      },
+      {
+        "link": "#pull-requests",
+        "relativePath": "notes/inbox/CONTRIBUTING.md",
+        "cleanLink": "CONTRIBUTING",
+        "displayText": ""
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "README",
+        "link": "CONTRIBUTING.md",
+        "relativePath": "notes/inbox/README.md"
+      }
+    ]
   },
   {
     "fileName": "ChatGPT в текст",
@@ -1498,6 +2387,60 @@
     ]
   },
   {
+    "fileName": "CODE_OF_CONDUCT",
+    "relativePath": "notes/inbox/CODE_OF_CONDUCT.md",
+    "headings": [
+      {
+        "heading": "Contributor Covenant Code of Conduct",
+        "level": 1
+      },
+      {
+        "heading": "Our Pledge",
+        "level": 2
+      },
+      {
+        "heading": "Our Standards",
+        "level": 2
+      },
+      {
+        "heading": "Enforcement Responsibilities",
+        "level": 2
+      },
+      {
+        "heading": "Scope",
+        "level": 2
+      },
+      {
+        "heading": "Enforcement",
+        "level": 2
+      },
+      {
+        "heading": "Enforcement Guidelines",
+        "level": 2
+      },
+      {
+        "heading": "1. Correction",
+        "level": 3
+      },
+      {
+        "heading": "2. Warning",
+        "level": 3
+      },
+      {
+        "heading": "3. Temporary Ban",
+        "level": 3
+      },
+      {
+        "heading": "4. Permanent Ban",
+        "level": 3
+      },
+      {
+        "heading": "Attribution",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "Збереження повідомлення в чат-матриці в markdown -1",
     "relativePath": "notes/inbox/ChatGPT/Збереження повідомлення в чат-матриці в markdown -1.md"
   },
@@ -1532,6 +2475,230 @@
     ]
   },
   {
+    "fileName": "Швидкий запуск із використанням моделей чату",
+    "relativePath": "notes/LangChain/Швидкий запуск із використанням моделей чату.md",
+    "headings": [
+      {
+        "heading": "Інсталяція та настроювання",
+        "level": 2
+      },
+      {
+        "heading": "Початок роботи",
+        "level": 2
+      },
+      {
+        "heading": "Моделі чатів: повідомлення, повідомлення",
+        "level": 3
+      },
+      {
+        "heading": "Кілька повідомлень",
+        "level": 4
+      },
+      {
+        "heading": "Багаторазові завершення",
+        "level": 4
+      },
+      {
+        "heading": "Шаблони підказок чату: керування підказками для моделей чату",
+        "level": 3
+      },
+      {
+        "heading": "Модель + Запит = LLMChain",
+        "level": 3
+      },
+      {
+        "heading": "Агенти: Динамічно запускаються ланцюжки на основі введення користувача",
+        "level": 3
+      },
+      {
+        "heading": "Пам'ять: Додати стан до ланцюгів і агентів",
+        "level": 3
+      },
+      {
+        "heading": "Потокове передавання",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "install",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "Чат-пам'ять DynamoDB-Backed",
+    "relativePath": "notes/LangChain/Чат-пам'ять DynamoDB-Backed.md",
+    "headings": [
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Хрома",
+    "relativePath": "notes/LangChain/Хрома.md",
+    "headings": [
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Документи про використання, індекс і запити",
+        "level": 2
+      },
+      {
+        "heading": "Використання, індекс і тексти запитів",
+        "level": 2
+      },
+      {
+        "heading": "Використання, документація запитів з наявної колекції",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Швидкий запуск, використання LLM",
+    "relativePath": "notes/LangChain/Швидкий запуск, використання LLM.md",
+    "headings": [
+      {
+        "heading": "Інсталяція та настроювання",
+        "level": 2
+      },
+      {
+        "heading": "Отримання LLM",
+        "level": 2
+      },
+      {
+        "heading": "Створення програми мовної моделі",
+        "level": 2
+      },
+      {
+        "heading": "LLM: отримати прогнози від мовної моделі",
+        "level": 3
+      },
+      {
+        "heading": "Шаблони підказок: керування підказками для LLM",
+        "level": 3
+      },
+      {
+        "heading": "Ланцюжки: об'єднуйте LLM та підказки в багатокрокових робочих процесах",
+        "level": 3
+      },
+      {
+        "heading": "Агенти: Динамічно запускаються ланцюжки на основі введення користувача",
+        "level": 3
+      },
+      {
+        "heading": "Пам'ять: Додати стан до ланцюгів і агентів",
+        "level": 3
+      },
+      {
+        "heading": "Потокове передавання",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "install",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "Фігма",
+    "relativePath": "notes/LangChain/Фігма.md"
+  },
+  {
+    "fileName": "Табличні відповіді на запитання",
+    "relativePath": "notes/LangChain/Табличні відповіді на запитання.md",
+    "headings": [
+      {
+        "heading": "Ланцюги",
+        "level": 2
+      },
+      {
+        "heading": "Agents",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "sql",
+        "displayText": ""
+      },
+      {
+        "link": "sql.mdx",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "Файсс",
+    "relativePath": "notes/LangChain/Файсс.md",
+    "headings": [
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Використання",
+        "level": 2
+      },
+      {
+        "heading": "Створення нового покажчика з текстів",
+        "level": 3
+      },
+      {
+        "heading": "Створити новий індекс із завантажувача",
+        "level": 3
+      },
+      {
+        "heading": "Зберегти індекс у файл і завантажити його знову",
+        "level": 3
+      },
+      {
+        "heading": "Завантажити збережений файл з [Реалізація Python](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/faiss.html#saving-and-loading)",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "Створення обробників зворотного виклику",
+    "relativePath": "notes/LangChain/Створення обробників зворотного виклику.md",
+    "headings": [
+      {
+        "heading": "Створення власного обробника",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "#built-in-handlers",
+        "relativePath": "notes/LangChain/Створення обробників зворотного виклику.md",
+        "cleanLink": "Створення обробників зворотного виклику",
+        "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "Сепаратор тексту, символів",
+    "relativePath": "notes/LangChain/Сепаратор тексту, символів.md"
+  },
+  {
+    "fileName": "Розмовний пошук QA",
+    "relativePath": "notes/LangChain/Розмовний пошук QA.md"
+  },
+  {
+    "fileName": "Розмовний агент",
+    "relativePath": "notes/LangChain/Розмовний агент.md"
+  },
+  {
     "fileName": "Грабер в Obsidian-markdown",
     "relativePath": "notes/LangChain/Грабер в Obsidian-markdown.md"
   },
@@ -1541,93 +2708,6 @@
     "headings": [
       {
         "heading": "Agent with Zapier NLA Integration",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "webbrowser",
-    "relativePath": "notes/LangChain/webbrowser.md",
-    "frontmatter": {
-      "hide_table_of_contents": true,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 36
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Web Browser Tool",
-        "level": 1
-      },
-      {
-        "heading": "Setup",
-        "level": 2
-      },
-      {
-        "heading": "Usage, standalone",
-        "level": 2
-      },
-      {
-        "heading": "Usage, in an Agent",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "vector_store_memory",
-    "relativePath": "notes/LangChain/vector_store_memory.md",
-    "frontmatter": {
-      "hide_table_of_contents": true,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "VectorStore-Backed Memory",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "vectorstore",
-    "relativePath": "notes/LangChain/vectorstore.md",
-    "frontmatter": {
-      "hide_table_of_contents": true,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 36
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "VectorStore Agent Toolkit",
         "level": 1
       }
     ]
@@ -1670,43 +2750,6 @@
     ]
   },
   {
-    "fileName": "upstash_redis",
-    "relativePath": "notes/LangChain/upstash_redis.md",
-    "frontmatter": {
-      "hide_table_of_contents": true,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Upstash Redis-Backed Chat Memory",
-        "level": 1
-      },
-      {
-        "heading": "Setup",
-        "level": 2
-      },
-      {
-        "heading": "Usage",
-        "level": 2
-      },
-      {
-        "heading": "Advanced Usage",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "unstructured",
     "relativePath": "notes/LangChain/unstructured.md",
     "headings": [
@@ -1735,27 +2778,16 @@
     ]
   },
   {
-    "fileName": "token",
-    "relativePath": "notes/LangChain/token.md",
-    "frontmatter": {
-      "hide_table_of_contents": true,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 36
-        }
-      }
-    },
+    "fileName": "time-weighted-retriever",
+    "relativePath": "notes/LangChain/time-weighted-retriever.md",
     "headings": [
       {
-        "heading": "TokenTextSplitter",
+        "heading": "Time-Weighted Retriever",
         "level": 1
+      },
+      {
+        "heading": "Usage",
+        "level": 2
       }
     ]
   },
@@ -1805,25 +2837,11 @@
     ]
   },
   {
-    "fileName": "time-weighted-retriever",
-    "relativePath": "notes/LangChain/time-weighted-retriever.md",
-    "headings": [
-      {
-        "heading": "Time-Weighted Retriever",
-        "level": 1
-      },
-      {
-        "heading": "Usage",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "tabular",
-    "relativePath": "notes/LangChain/tabular.md",
+    "fileName": "summarization",
+    "relativePath": "notes/LangChain/summarization.md",
     "frontmatter": {
       "hide_table_of_contents": true,
-      "sidebar_position": 3,
+      "sidebar_position": 6,
       "position": {
         "start": {
           "line": 0,
@@ -1839,26 +2857,40 @@
     },
     "headings": [
       {
-        "heading": "Tabular Question Answering",
+        "heading": "Summarization",
         "level": 1
-      },
-      {
-        "heading": "Chains",
-        "level": 2
-      },
-      {
-        "heading": "Agents",
-        "level": 2
       }
     ],
     "links": [
       {
-        "link": "sql",
+        "link": "summarization",
         "displayText": ""
-      },
+      }
+    ]
+  },
+  {
+    "fileName": "structured_chat",
+    "relativePath": "notes/LangChain/structured_chat.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "sidebar_position": 4,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 59
+        }
+      }
+    },
+    "headings": [
       {
-        "link": "sql.mdx",
-        "displayText": ""
+        "heading": "Structured Tool Chat Agent",
+        "level": 1
       }
     ]
   },
@@ -1897,90 +2929,6 @@
     ]
   },
   {
-    "fileName": "summarization",
-    "relativePath": "notes/LangChain/summarization.md",
-    "frontmatter": {
-      "hide_table_of_contents": true,
-      "sidebar_position": 6,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 3,
-          "col": 3,
-          "offset": 59
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Summarization",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "summarization",
-        "displayText": ""
-      }
-    ]
-  },
-  {
-    "fileName": "supabase-hybrid",
-    "relativePath": "notes/LangChain/supabase-hybrid.md",
-    "headings": [
-      {
-        "heading": "Supabase Hybrid Search",
-        "level": 1
-      },
-      {
-        "heading": "Setup",
-        "level": 2
-      },
-      {
-        "heading": "Install the library with",
-        "level": 3
-      },
-      {
-        "heading": "Create a table and search functions in your database",
-        "level": 3
-      },
-      {
-        "heading": "Usage",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "structured_chat",
-    "relativePath": "notes/LangChain/structured_chat.md",
-    "frontmatter": {
-      "hide_table_of_contents": true,
-      "sidebar_position": 4,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 3,
-          "col": 3,
-          "offset": 59
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Structured Tool Chat Agent",
-        "level": 1
-      }
-    ]
-  },
-  {
     "fileName": "sql",
     "relativePath": "notes/LangChain/sql.md",
     "frontmatter": {
@@ -2002,40 +2950,6 @@
       {
         "heading": "SQL Agent Toolkit",
         "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "s3",
-    "relativePath": "notes/LangChain/s3.md",
-    "frontmatter": {
-      "hide_table_of_contents": true,
-      "sidebar_class_name": "node-only",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 3,
-          "col": 3,
-          "offset": 69
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "S3 File",
-        "level": 1
-      },
-      {
-        "heading": "Setup",
-        "level": 2
-      },
-      {
-        "heading": "Usage",
-        "level": 2
       }
     ]
   },
@@ -2108,6 +3022,31 @@
     ]
   },
   {
+    "fileName": "recursive_character",
+    "relativePath": "notes/LangChain/recursive_character.md",
+    "frontmatter": {
+      "hide_table_of_contents": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 36
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "`RecursiveCharacterTextSplitter`",
+        "level": 1
+      }
+    ]
+  },
+  {
     "fileName": "redis",
     "relativePath": "notes/LangChain/redis.md",
     "frontmatter": {
@@ -2140,60 +3079,6 @@
       },
       {
         "heading": "Query docs",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "recursive_character",
-    "relativePath": "notes/LangChain/recursive_character.md",
-    "frontmatter": {
-      "hide_table_of_contents": true,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 36
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "`RecursiveCharacterTextSplitter`",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "remote-retriever",
-    "relativePath": "notes/LangChain/remote-retriever.md",
-    "frontmatter": {
-      "hide_table_of_contents": true,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Remote Retriever",
-        "level": 1
-      },
-      {
-        "heading": "Usage",
         "level": 2
       }
     ]
@@ -2257,51 +3142,6 @@
     ]
   },
   {
-    "fileName": "qdrant",
-    "relativePath": "notes/LangChain/qdrant.md",
-    "frontmatter": {
-      "sidebar_class_name": "тільки вузол",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 42
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Крант",
-        "level": 1
-      },
-      {
-        "heading": "Налаштування",
-        "level": 2
-      },
-      {
-        "heading": "Використання",
-        "level": 2
-      },
-      {
-        "heading": "Створення нового покажчика з текстів",
-        "level": 3
-      },
-      {
-        "heading": "Створити новий індекс із документів",
-        "level": 3
-      },
-      {
-        "heading": "Запитати документи з наявної колекції",
-        "level": 3
-      }
-    ]
-  },
-  {
     "fileName": "prisma",
     "relativePath": "notes/LangChain/prisma.md",
     "headings": [
@@ -2332,30 +3172,6 @@
       {
         "heading": "Використання",
         "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "personal_assistants",
-    "relativePath": "notes/LangChain/personal_assistants.md",
-    "headings": [
-      {
-        "heading": "Персональні асистенти",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "index.mdx",
-        "displayText": ""
-      },
-      {
-        "link": "index.mdx",
-        "displayText": ""
-      },
-      {
-        "link": "index.mdx",
-        "displayText": ""
       }
     ]
   },
@@ -2399,31 +3215,6 @@
     ]
   },
   {
-    "fileName": "notiondb",
-    "relativePath": "notes/LangChain/notiondb.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Поняття БД",
-        "level": 1
-      }
-    ]
-  },
-  {
     "fileName": "myscale",
     "relativePath": "notes/LangChain/myscale.md",
     "frontmatter": {
@@ -2461,6 +3252,31 @@
     ]
   },
   {
+    "fileName": "notiondb",
+    "relativePath": "notes/LangChain/notiondb.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Поняття БД",
+        "level": 1
+      }
+    ]
+  },
+  {
     "fileName": "multi_retrieval_qa_chain",
     "relativePath": "notes/LangChain/multi_retrieval_qa_chain.md",
     "headings": [
@@ -2471,14 +3287,8 @@
     ]
   },
   {
-    "fileName": "multi_prompt_chain",
-    "relativePath": "notes/LangChain/multi_prompt_chain.md",
-    "headings": [
-      {
-        "heading": "`MultiPromptChain`",
-        "level": 1
-      }
-    ]
+    "fileName": "MultiPromptChain",
+    "relativePath": "notes/LangChain/MultiPromptChain.md"
   },
   {
     "fileName": "moderation_chain",
@@ -2491,96 +3301,20 @@
     ]
   },
   {
-    "fileName": "metal-retriever",
-    "relativePath": "notes/LangChain/metal-retriever.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
+    "fileName": "MRKL агент для моделей чату",
+    "relativePath": "notes/LangChain/MRKL агент для моделей чату.md",
+    "links": [
       {
-        "heading": "Метал ретривер",
-        "level": 1
-      },
-      {
-        "heading": "Налаштування",
-        "level": 2
-      },
-      {
-        "heading": "Використання",
-        "level": 2
+        "link": "Агент МРКЛ для ЛМ.md",
+        "displayText": "",
+        "relativePath": "notes/LangChain/Агент МРКЛ для ЛМ.md"
       }
     ]
   },
   {
-    "fileName": "latex",
-    "relativePath": "notes/LangChain/latex.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
+    "fileName": "MemoryVectorStore",
+    "relativePath": "notes/LangChain/MemoryVectorStore.md",
     "headings": [
-      {
-        "heading": "`LatexTextSplitter`",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "markdown",
-    "relativePath": "notes/LangChain/markdown.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "`MarkdownTextSplitter`",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "memory",
-    "relativePath": "notes/LangChain/memory.md",
-    "headings": [
-      {
-        "heading": "`MemoryVectorStore`",
-        "level": 1
-      },
       {
         "heading": "Використання",
         "level": 2
@@ -2600,11 +3334,15 @@
     ]
   },
   {
-    "fileName": "llm_chain",
-    "relativePath": "notes/LangChain/llm_chain.md",
+    "fileName": "MarkdownTextSplitter",
+    "relativePath": "notes/LangChain/MarkdownTextSplitter.md"
+  },
+  {
+    "fileName": "LLMChain",
+    "relativePath": "notes/LangChain/LLMChain.md",
     "headings": [
       {
-        "heading": "Початок роботи: Початок роботи",
+        "heading": "Початок роботи:",
         "level": 1
       },
       {
@@ -2630,119 +3368,6 @@
       },
       {
         "link": ""
-      }
-    ]
-  },
-  {
-    "fileName": "llm_mrkl",
-    "relativePath": "notes/LangChain/llm_mrkl.md",
-    "headings": [
-      {
-        "heading": "Агент МРКЛ для ЛМ",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "chat_mrkl",
-        "displayText": "",
-        "relativePath": "notes/LangChain/chat_mrkl.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "chat_mrkl",
-        "link": "llm_mrkl",
-        "relativePath": "notes/LangChain/chat_mrkl.md"
-      }
-    ]
-  },
-  {
-    "fileName": "integrations",
-    "relativePath": "notes/LangChain/integrations.md",
-    "headings": [
-      {
-        "heading": "Інтеграції: LLM",
-        "level": 1
-      },
-      {
-        "heading": "`OpenAI`",
-        "level": 2
-      },
-      {
-        "heading": "Лазуровий `OpenAI`",
-        "level": 2
-      },
-      {
-        "heading": "Google Вершина AI",
-        "level": 2
-      },
-      {
-        "heading": "`HuggingFaceInference`",
-        "level": 2
-      },
-      {
-        "heading": "`Cohere`",
-        "level": 2
-      },
-      {
-        "heading": "`Replicate`",
-        "level": 2
-      },
-      {
-        "heading": "AWS `SageMakerEndpoint`",
-        "level": 2
-      },
-      {
-        "heading": "Додаткові реалізації LLM",
-        "level": 2
-      },
-      {
-        "heading": "`PromptLayerOpenAI`",
-        "level": 3
-      },
-      {
-        "heading": "Лазуровий `PromptLayerOpenAI`",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "index",
-    "relativePath": "notes/LangChain/index.md",
-    "headings": [
-      {
-        "heading": "Автономні агенти",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "hyde",
-    "relativePath": "notes/LangChain/hyde.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Ретрівер Ходе",
-        "level": 1
-      },
-      {
-        "heading": "Використання",
-        "level": 2
       }
     ]
   },
@@ -2796,151 +3421,9 @@
     ]
   },
   {
-    "fileName": "guide-llm",
-    "relativePath": "notes/LangChain/guide-llm.md",
-    "frontmatter": {
-      "позиція_бічної панелі": 2,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 34
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Швидкий запуск, використання LLM",
-        "level": 1
-      },
-      {
-        "heading": "Інсталяція та настроювання",
-        "level": 2
-      },
-      {
-        "heading": "Отримання LLM",
-        "level": 2
-      },
-      {
-        "heading": "Створення програми мовної моделі",
-        "level": 2
-      },
-      {
-        "heading": "LLM: отримати прогнози від мовної моделі",
-        "level": 3
-      },
-      {
-        "heading": "Шаблони підказок: керування підказками для LLM",
-        "level": 3
-      },
-      {
-        "heading": "Ланцюжки: об'єднуйте LLM та підказки в багатокрокових робочих процесах",
-        "level": 3
-      },
-      {
-        "heading": "Агенти: Динамічно запускаються ланцюжки на основі введення користувача",
-        "level": 3
-      },
-      {
-        "heading": "Пам'ять: Додати стан до ланцюгів і агентів",
-        "level": 3
-      },
-      {
-        "heading": "Потокове передавання",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "install",
-        "displayText": ""
-      }
-    ]
-  },
-  {
-    "fileName": "guide-chat",
-    "relativePath": "notes/LangChain/guide-chat.md",
-    "frontmatter": {
-      "позиція_бічної панелі": 3,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 34
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Швидкий запуск із використанням моделей чату",
-        "level": 1
-      },
-      {
-        "heading": "Інсталяція та настроювання",
-        "level": 2
-      },
-      {
-        "heading": "Початок роботи",
-        "level": 2
-      },
-      {
-        "heading": "Моделі чатів: повідомлення, повідомлення",
-        "level": 3
-      },
-      {
-        "heading": "Кілька повідомлень",
-        "level": 4
-      },
-      {
-        "heading": "Багаторазові завершення",
-        "level": 4
-      },
-      {
-        "heading": "Шаблони підказок чату: керування підказками для моделей чату",
-        "level": 3
-      },
-      {
-        "heading": "Модель + Запит = LLMChain",
-        "level": 3
-      },
-      {
-        "heading": "Агенти: Динамічно запускаються ланцюжки на основі введення користувача",
-        "level": 3
-      },
-      {
-        "heading": "Пам'ять: Додати стан до ланцюгів і агентів",
-        "level": 3
-      },
-      {
-        "heading": "Потокове передавання",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "install",
-        "displayText": ""
-      }
-    ]
-  },
-  {
     "fileName": "github",
     "relativePath": "notes/LangChain/github.md",
     "headings": [
-      {
-        "heading": "GitHub",
-        "level": 1
-      },
       {
         "heading": "Налаштування",
         "level": 2
@@ -2956,736 +3439,20 @@
     ]
   },
   {
-    "fileName": "getting-started",
-    "relativePath": "notes/LangChain/getting-started.md",
-    "headings": [
-      {
-        "heading": "Початок роботи: виконавці агентів",
-        "level": 1
-      }
-    ]
+    "fileName": "LatexTextSplitter",
+    "relativePath": "notes/LangChain/LatexTextSplitter.md"
   },
   {
-    "fileName": "faiss",
-    "relativePath": "notes/LangChain/faiss.md",
-    "frontmatter": {
-      "sidebar_class_name": "тільки вузол",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 42
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Файсс",
-        "level": 1
-      },
-      {
-        "heading": "Налаштування",
-        "level": 2
-      },
-      {
-        "heading": "Використання",
-        "level": 2
-      },
-      {
-        "heading": "Створення нового покажчика з текстів",
-        "level": 3
-      },
-      {
-        "heading": "Створити новий індекс із завантажувача",
-        "level": 3
-      },
-      {
-        "heading": "Зберегти індекс у файл і завантажити його знову",
-        "level": 3
-      },
-      {
-        "heading": "Завантажити збережений файл з [Реалізація Python](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/faiss.html#saving-and-loading)",
-        "level": 3
-      }
-    ]
+    "fileName": "APIChain",
+    "relativePath": "notes/LangChain/APIChain.md"
   },
   {
-    "fileName": "figma",
-    "relativePath": "notes/LangChain/figma.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Фігма",
-        "level": 1
-      }
-    ]
+    "fileName": "ConstitutionalChain",
+    "relativePath": "notes/LangChain/ConstitutionalChain.md"
   },
   {
-    "fileName": "document_qa",
-    "relativePath": "notes/LangChain/document_qa.md",
-    "headings": [
-      {
-        "heading": "Запитання й відповіді про документ",
-        "level": 1
-      },
-      {
-        "heading": "Використання, `StuffDocumentsChain` і `MapReduceDocumentsChain`",
-        "level": 2
-      },
-      {
-        "heading": "Використання, `RefineDocumentsChain`",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "dynamodb",
-    "relativePath": "notes/LangChain/dynamodb.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Чат-пам'ять DynamoDB-Backed",
-        "level": 1
-      },
-      {
-        "heading": "Налаштування",
-        "level": 2
-      },
-      {
-        "heading": "Використання",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "entity_memory",
-    "relativePath": "notes/LangChain/entity_memory.md",
-    "headings": [
-      {
-        "heading": "Пам’ять сутності",
-        "level": 1
-      },
-      {
-        "heading": "Використання:",
-        "level": 2
-      },
-      {
-        "heading": "Перевірка сховища пам'яті",
-        "level": 3
-      }
-    ]
-  },
-  {
-    "fileName": "databerry-retriever",
-    "relativePath": "notes/LangChain/databerry-retriever.md",
-    "headings": [
-      {
-        "heading": "Ретрівер",
-        "level": 1
-      },
-      {
-        "heading": "Використання",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "custom_agent_llm",
-    "relativePath": "notes/LangChain/custom_agent_llm.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Настроюваний агент LLM",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "custom_prompt_chat",
-    "relativePath": "notes/LangChain/custom_prompt_chat.md",
-    "headings": [
-      {
-        "heading": "Призначені для користувача підказки, за допомогою Чат Моделі",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "creating-subclasses",
-    "relativePath": "notes/LangChain/creating-subclasses.md",
-    "frontmatter": {
-      "sidebar_label": "Зворотні виклики в користувацьких ланцюжках",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 68
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Зворотні виклики в ланцюжках/агентах користувача",
-        "level": 1
-      },
-      {
-        "heading": "Додавання зворотних викликів до користувацьких ланцюжків",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "chains#subclassing-basechain",
-        "cleanLink": "chains",
-        "displayText": ""
-      }
-    ]
-  },
-  {
-    "fileName": "custom_agent_chat",
-    "relativePath": "notes/LangChain/custom_agent_chat.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Власний агент чату",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "conversational_agent",
-    "relativePath": "notes/LangChain/conversational_agent.md",
-    "headings": [
-      {
-        "heading": "Розмовний агент",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "create-handlers",
-    "relativePath": "notes/LangChain/create-handlers.md",
-    "headings": [
-      {
-        "heading": "Створення обробників зворотного виклику",
-        "level": 1
-      },
-      {
-        "heading": "Створення власного обробника",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "#built-in-handlers",
-        "relativePath": "notes/LangChain/create-handlers.md",
-        "cleanLink": "create-handlers",
-        "displayText": ""
-      }
-    ]
-  },
-  {
-    "fileName": "conversational_retrieval",
-    "relativePath": "notes/LangChain/conversational_retrieval.md",
-    "headings": [
-      {
-        "heading": "Розмовний пошук QA",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "conversation_summary",
-    "relativePath": "notes/LangChain/conversation_summary.md",
-    "headings": [
-      {
-        "heading": "Зведена пам’ять розмови",
-        "level": 1
-      },
-      {
-        "heading": "Використання, з LLM",
-        "level": 2
-      },
-      {
-        "heading": "Використання, з моделлю чату",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "constitutional_chain",
-    "relativePath": "notes/LangChain/constitutional_chain.md",
-    "headings": [
-      {
-        "heading": "`ConstitutionalChain`",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "confluence",
-    "relativePath": "notes/LangChain/confluence.md",
-    "frontmatter": {
-      "sidebar_class_name": "тільки вузол",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 42
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Злиття",
-        "level": 1
-      },
-      {
-        "heading": "Облікові дані",
-        "level": 2
-      },
-      {
-        "heading": "Використання",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "chroma",
-    "relativePath": "notes/LangChain/chroma.md",
-    "headings": [
-      {
-        "heading": "Хрома",
-        "level": 1
-      },
-      {
-        "heading": "Налаштування",
-        "level": 2
-      },
-      {
-        "heading": "Документи про використання, індекс і запити",
-        "level": 2
-      },
-      {
-        "heading": "Використання, індекс і тексти запитів",
-        "level": 2
-      },
-      {
-        "heading": "Використання, документація запитів з наявної колекції",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "contextual-compression-retriever",
-    "relativePath": "notes/LangChain/contextual-compression-retriever.md",
-    "headings": [
-      {
-        "heading": "Контекстуальний ретрівер стиснення",
-        "level": 1
-      },
-      {
-        "heading": "Використання",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "chroma-self-query",
-    "relativePath": "notes/LangChain/chroma-self-query.md",
-    "headings": [
-      {
-        "heading": "Self Query Chroma Ретрівер",
-        "level": 1
-      },
-      {
-        "heading": "Використання",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "chat_mrkl",
-    "relativePath": "notes/LangChain/chat_mrkl.md",
-    "headings": [
-      {
-        "heading": "MRKL агент для моделей чату",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "llm_mrkl",
-        "displayText": "",
-        "relativePath": "notes/LangChain/llm_mrkl.md"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "llm_mrkl",
-        "link": "chat_mrkl",
-        "relativePath": "notes/LangChain/llm_mrkl.md"
-      }
-    ]
-  },
-  {
-    "fileName": "character",
-    "relativePath": "notes/LangChain/character.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Роздільник_тексту_символів",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "auto_gpt",
-    "relativePath": "notes/LangChain/auto_gpt.md",
-    "headings": [
-      {
-        "heading": "АвтоGPT",
-        "level": 1
-      },
-      {
-        "heading": "Ізоморфний приклад",
-        "level": 2
-      },
-      {
-        "heading": "Приклад Node.js",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "chatgpt-retriever-plugin",
-    "relativePath": "notes/LangChain/chatgpt-retriever-plugin.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Інструмент отримання додатків ChatGPT",
-        "level": 1
-      },
-      {
-        "heading": "Використання",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "baby_agi",
-    "relativePath": "notes/LangChain/baby_agi.md",
-    "headings": [
-      {
-        "heading": "БебіАГІ",
-        "level": 1
-      },
-      {
-        "heading": "Простий приклад",
-        "level": 2
-      },
-      {
-        "heading": "Приклад з інструментами",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "buffer_memory_chat",
-    "relativePath": "notes/LangChain/buffer_memory_chat.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Використання буферної пам'яті з моделями чату",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "api",
-    "relativePath": "notes/LangChain/api.md",
-    "headings": [
-      {
-        "heading": "Взаємодія з API",
-        "level": 1
-      },
-      {
-        "heading": "Ланцюги",
-        "level": 2
-      },
-      {
-        "heading": "Агенти",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "api_chain.mdx",
-        "displayText": ""
-      },
-      {
-        "link": "openapi.md",
-        "displayText": ""
-      }
-    ]
-  },
-  {
-    "fileName": "api_chain",
-    "relativePath": "notes/LangChain/api_chain.md",
-    "headings": [
-      {
-        "heading": "`APIChain`",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "apify_dataset",
-    "relativePath": "notes/LangChain/apify_dataset.md",
-    "headings": [
-      {
-        "heading": "Апіфікація набору даних",
-        "level": 1
-      },
-      {
-        "heading": "Огляд",
-        "level": 2
-      },
-      {
-        "heading": "Налаштування",
-        "level": 2
-      },
-      {
-        "heading": "Використання",
-        "level": 2
-      },
-      {
-        "heading": "З нового набору даних",
-        "level": 3
-      },
-      {
-        "heading": "З наявного набору даних",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "aiplugin-tool",
-    "relativePath": "notes/LangChain/aiplugin-tool.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Додатки ChatGPT",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "analyze_document",
-    "relativePath": "notes/LangChain/analyze_document.md",
-    "headings": [
-      {
-        "heading": "`AnalyzeDocumentChain`",
-        "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "additional_functionality",
-    "relativePath": "notes/LangChain/additional_functionality.md",
-    "frontmatter": {
-      "sidebar_label": "Додаткові можливості",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 45
-        }
-      }
-    },
-    "headings": [
-      {
-        "heading": "Додаткова функціональність: LLM",
-        "level": 1
-      },
-      {
-        "heading": "Додаткові методи",
-        "level": 2
-      },
-      {
-        "heading": "Потокові відповіді",
-        "level": 2
-      },
-      {
-        "heading": "Кешування",
-        "level": 2
-      },
-      {
-        "heading": "Кешування в пам'яті",
-        "level": 3
-      },
-      {
-        "heading": "Кешування з Redis",
-        "level": 3
-      },
-      {
-        "heading": "Додавання часу очікування",
-        "level": 2
-      },
-      {
-        "heading": "Скасування запитів",
-        "level": 2
-      },
-      {
-        "heading": "Робота з лімітами ставок",
-        "level": 2
-      },
-      {
-        "heading": "Робота з помилками API",
-        "level": 2
-      },
-      {
-        "heading": "Підписка на події",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": ""
-      }
-    ]
+    "fileName": "AnalyzeDocumentChain",
+    "relativePath": "notes/LangChain/AnalyzeDocumentChain.md"
   },
   {
     "fileName": "docker",
@@ -3740,12 +3507,12 @@
     ]
   },
   {
-    "fileName": "2023-05-19",
-    "relativePath": "2023-05-19.md"
-  },
-  {
     "fileName": "getting_started.html",
     "relativePath": "getting_started/getting_started.html.md"
+  },
+  {
+    "fileName": "2023-05-19",
+    "relativePath": "2023-05-19.md"
   },
   {
     "fileName": "(invalid)",
