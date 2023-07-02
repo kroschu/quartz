@@ -1,4 +1,6 @@
 ---
+dg-publish: true
+dg-home: true
 title: ...треба...
 enableToc: false
 ---
