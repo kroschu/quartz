@@ -1,4 +1,4 @@
 ---
 title: "{{title}}"
-dg-publish: falce
+dg-publish: true
 ---
