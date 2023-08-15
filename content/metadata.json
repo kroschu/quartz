@@ -11,21 +11,6 @@
     ]
   },
   {
-    "fileName": "Комп'ютерні системи",
-    "relativePath": "Комп'ютерні системи.md",
-    "backlinks": [
-      {
-        "fileName": "Iєрархічне дерев словника даних предметної області загальної теорії систем та системного аналізу",
-        "link": "Комп'ютерні системи",
-        "relativePath": "Словник даних/Iєрархічне дерев словника даних предметної області загальної теорії систем та системного аналізу.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Без назви",
-    "relativePath": "Без назви.md"
-  },
-  {
     "fileName": "Словник даних",
     "relativePath": "Словник даних/Словник даних.md",
     "frontmatter": {
@@ -173,6 +158,26 @@
     }
   },
   {
+    "fileName": "Класифікація моделей",
+    "relativePath": "Словник даних/Класифікація моделей.md",
+    "frontmatter": {
+      "title": "Класифікація моделей",
+      "dg-publish": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 54
+        }
+      }
+    }
+  },
+  {
     "fileName": "Концептуальна модель",
     "relativePath": "Словник даних/Концептуальна модель.md",
     "frontmatter": {
@@ -213,26 +218,6 @@
     }
   },
   {
-    "fileName": "Класифікація моделей",
-    "relativePath": "Словник даних/Класифікація моделей.md",
-    "frontmatter": {
-      "title": "Класифікація моделей",
-      "dg-publish": true,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 3,
-          "col": 3,
-          "offset": 54
-        }
-      }
-    }
-  },
-  {
     "fileName": "Діаграми сутність-зв'язок",
     "relativePath": "Словник даних/Діаграми сутність-зв'язок.md",
     "frontmatter": {
@@ -248,26 +233,6 @@
           "line": 3,
           "col": 3,
           "offset": 59
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Аналіз проблеми",
-    "relativePath": "Словник даних/Аналіз проблеми.md",
-    "frontmatter": {
-      "title": "Аналіз проблеми",
-      "dg-publish": true,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 3,
-          "col": 3,
-          "offset": 49
         }
       }
     }
@@ -504,6 +469,37 @@
     ]
   },
   {
+    "fileName": "Аналіз проблеми",
+    "relativePath": "Словник даних/Аналіз проблеми.md",
+    "frontmatter": {
+      "title": "Аналіз проблеми",
+      "dg-publish": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 49
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Комп'ютерні системи",
+    "relativePath": "Комп'ютерні системи.md",
+    "backlinks": [
+      {
+        "fileName": "Iєрархічне дерев словника даних предметної області загальної теорії систем та системного аналізу",
+        "link": "Комп'ютерні системи",
+        "relativePath": "Словник даних/Iєрархічне дерев словника даних предметної області загальної теорії систем та системного аналізу.md"
+      }
+    ]
+  },
+  {
     "fileName": "патаракин",
     "relativePath": "патаракин.md",
     "frontmatter": {
@@ -581,52 +577,6 @@
     ]
   },
   {
-    "fileName": "Без назви 1",
-    "relativePath": "Без назви 1.md"
-  },
-  {
-    "fileName": "_index",
-    "relativePath": "_index.md",
-    "frontmatter": {
-      "dg-publish": true,
-      "dg-home": true,
-      "title": "...треба...",
-      "enableToc": false,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 5,
-          "col": 3,
-          "offset": 74
-        }
-      }
-    }
-  },
-  {
-    "fileName": "post",
-    "relativePath": "templates/post.md",
-    "frontmatter": {
-      "title": "{{title}}",
-      "dg-publish": true,
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 3,
-          "col": 3,
-          "offset": 46
-        }
-      }
-    }
-  },
-  {
     "fileName": "private-note",
     "relativePath": "private/private-note.md",
     "frontmatter": {
@@ -644,6 +594,14 @@
         }
       }
     }
+  },
+  {
+    "fileName": "Без назви",
+    "relativePath": "Без назви.md"
+  },
+  {
+    "fileName": "Без назви 1",
+    "relativePath": "Без назви 1.md"
   },
   {
     "fileName": "Власна базазнань",
@@ -676,10 +634,13 @@
     ]
   },
   {
-    "fileName": "Філософія",
-    "relativePath": "notes/Філософія.md",
+    "fileName": "_index",
+    "relativePath": "_index.md",
     "frontmatter": {
-      "title": "Філософія Quartz",
+      "dg-publish": true,
+      "dg-home": true,
+      "title": "...треба...",
+      "enableToc": false,
       "position": {
         "start": {
           "line": 0,
@@ -687,18 +648,12 @@
           "offset": 0
         },
         "end": {
-          "line": 2,
+          "line": 5,
           "col": 3,
-          "offset": 35
+          "offset": 74
         }
       }
-    },
-    "headings": [
-      {
-        "heading": "Чому Quartz?",
-        "level": 2
-      }
-    ]
+    }
   },
   {
     "fileName": "Усунення проблем",
@@ -835,14 +790,10 @@
     ]
   },
   {
-    "fileName": "Установка",
-    "relativePath": "notes/Установка.md",
-    "tags": [
-      "установка"
-    ],
+    "fileName": "Філософія",
+    "relativePath": "notes/Філософія.md",
     "frontmatter": {
-      "title": "Установка",
-      "weight": -5,
+      "title": "Філософія Quartz",
       "position": {
         "start": {
           "line": 0,
@@ -850,40 +801,16 @@
           "offset": 0
         },
         "end": {
-          "line": 5,
+          "line": 2,
           "col": 3,
-          "offset": 60
+          "offset": 35
         }
       }
     },
     "headings": [
       {
-        "heading": "Створення власного Quartz",
+        "heading": "Чому Quartz?",
         "level": 2
-      },
-      {
-        "heading": "Форкінг",
-        "level": 3
-      },
-      {
-        "heading": "Клонування",
-        "level": 3
-      },
-      {
-        "heading": "Редагування",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Редагування вмісту.md",
-        "displayText": "",
-        "relativePath": "notes/Редагування вмісту.md"
-      },
-      {
-        "link": "Усунення проблем.md",
-        "displayText": "",
-        "relativePath": "notes/Усунення проблем.md"
       }
     ]
   },
@@ -936,6 +863,59 @@
       {
         "heading": "Почніть свій власний",
         "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "Установка",
+    "relativePath": "notes/Установка.md",
+    "tags": [
+      "установка"
+    ],
+    "frontmatter": {
+      "title": "Установка",
+      "weight": -5,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "col": 3,
+          "offset": 60
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Створення власного Quartz",
+        "level": 2
+      },
+      {
+        "heading": "Форкінг",
+        "level": 3
+      },
+      {
+        "heading": "Клонування",
+        "level": 3
+      },
+      {
+        "heading": "Редагування",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Редагування вмісту.md",
+        "displayText": "",
+        "relativePath": "notes/Редагування вмісту.md"
+      },
+      {
+        "link": "Усунення проблем.md",
+        "displayText": "",
+        "relativePath": "notes/Усунення проблем.md"
       }
     ]
   },
@@ -1053,6 +1033,48 @@
     "relativePath": "notes/Публікуємо повідомлення, отримане через webhook, у певній директорії GitHub репозиторію, кожне нове повідомлення в окремий файл markdown.md"
   },
   {
+    "fileName": "Пошук",
+    "relativePath": "notes/Пошук.md",
+    "frontmatter": {
+      "title": "Пошук",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 4,
+          "col": 3,
+          "offset": 43
+        }
+      }
+    },
+    "aliases": [
+      "пошук"
+    ],
+    "headings": [
+      {
+        "heading": "Природна мова",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "Пошук",
+        "relativePath": "notes/Пошук.md"
+      },
+      {
+        "link": "CJK + підтримка LaTex"
+      },
+      {
+        "link": "виноски",
+        "displayText": "нагадування у стилі Admonition",
+        "relativePath": "notes/Виноски.md"
+      }
+    ]
+  },
+  {
     "fileName": "Перегляд змін",
     "relativePath": "notes/Перегляд змін.md",
     "tags": [
@@ -1121,10 +1143,10 @@
     ]
   },
   {
-    "fileName": "Пошук",
-    "relativePath": "notes/Пошук.md",
+    "fileName": "Оновлення",
+    "relativePath": "notes/Оновлення.md",
     "frontmatter": {
-      "title": "Пошук",
+      "title": "Оновлення",
       "position": {
         "start": {
           "line": 0,
@@ -1134,32 +1156,12 @@
         "end": {
           "line": 4,
           "col": 3,
-          "offset": 43
+          "offset": 47
         }
       }
     },
     "aliases": [
-      "пошук"
-    ],
-    "headings": [
-      {
-        "heading": "Природна мова",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "Пошук",
-        "relativePath": "notes/Пошук.md"
-      },
-      {
-        "link": "CJK + підтримка LaTex"
-      },
-      {
-        "link": "виноски",
-        "displayText": "нагадування у стилі Admonition",
-        "relativePath": "notes/Виноски.md"
-      }
+      "оновлення"
     ]
   },
   {
@@ -1220,28 +1222,6 @@
         "displayText": "",
         "relativePath": "notes/Усунення проблем.md"
       }
-    ]
-  },
-  {
-    "fileName": "Оновлення",
-    "relativePath": "notes/Оновлення.md",
-    "frontmatter": {
-      "title": "Оновлення",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 4,
-          "col": 3,
-          "offset": 47
-        }
-      }
-    },
-    "aliases": [
-      "оновлення"
     ]
   },
   {
@@ -1307,6 +1287,25 @@
     ]
   },
   {
+    "fileName": "Варіанти використання",
+    "relativePath": "notes/Варіанти використання.md",
+    "frontmatter": {
+      "title": "Варіанти використання",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    }
+  },
+  {
     "fileName": "Введення",
     "relativePath": "notes/Введення/Введення.md",
     "frontmatter": {
@@ -1322,25 +1321,6 @@
           "line": 4,
           "col": 3,
           "offset": 43
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Варіанти використання",
-    "relativePath": "notes/Варіанти використання.md",
-    "frontmatter": {
-      "title": "Варіанти використання",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
         }
       }
     }
@@ -1415,12 +1395,12 @@
     ]
   },
   {
-    "fileName": "QR-коди на кожну сторінку сайту",
-    "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
-  },
-  {
     "fileName": "Dockerfile для Langflow",
     "relativePath": "notes/LangFlow/Dockerfile для Langflow.md"
+  },
+  {
+    "fileName": "QR-коди на кожну сторінку сайту",
+    "relativePath": "notes/QR-коди на кожну сторінку сайту.md"
   },
   {
     "fileName": "Швидкий запуск, використання LLM",
@@ -1467,6 +1447,28 @@
       {
         "link": "install",
         "displayText": ""
+      }
+    ]
+  },
+  {
+    "fileName": "Хрома",
+    "relativePath": "notes/LangChain/Хрома.md",
+    "headings": [
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Документи про використання, індекс і запити",
+        "level": 2
+      },
+      {
+        "heading": "Використання, індекс і тексти запитів",
+        "level": 2
+      },
+      {
+        "heading": "Використання, документація запитів з наявної колекції",
+        "level": 2
       }
     ]
   },
@@ -1537,30 +1539,32 @@
     ]
   },
   {
-    "fileName": "Хрома",
-    "relativePath": "notes/LangChain/Хрома.md",
-    "headings": [
-      {
-        "heading": "Налаштування",
-        "level": 2
-      },
-      {
-        "heading": "Документи про використання, індекс і запити",
-        "level": 2
-      },
-      {
-        "heading": "Використання, індекс і тексти запитів",
-        "level": 2
-      },
-      {
-        "heading": "Використання, документація запитів з наявної колекції",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "Фігма",
     "relativePath": "notes/LangChain/Фігма.md"
+  },
+  {
+    "fileName": "Табличні відповіді на запитання",
+    "relativePath": "notes/LangChain/Табличні відповіді на запитання.md",
+    "headings": [
+      {
+        "heading": "Ланцюги",
+        "level": 2
+      },
+      {
+        "heading": "Agents",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "sql",
+        "displayText": ""
+      },
+      {
+        "link": "sql.mdx",
+        "displayText": ""
+      }
+    ]
   },
   {
     "fileName": "Файсс",
@@ -1611,30 +1615,6 @@
     ]
   },
   {
-    "fileName": "Табличні відповіді на запитання",
-    "relativePath": "notes/LangChain/Табличні відповіді на запитання.md",
-    "headings": [
-      {
-        "heading": "Ланцюги",
-        "level": 2
-      },
-      {
-        "heading": "Agents",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "sql",
-        "displayText": ""
-      },
-      {
-        "link": "sql.mdx",
-        "displayText": ""
-      }
-    ]
-  },
-  {
     "fileName": "Сепаратор тексту, символів",
     "relativePath": "notes/LangChain/Сепаратор тексту, символів.md"
   },
@@ -1657,42 +1637,6 @@
     ]
   },
   {
-    "fileName": "Призначені для користувача підказки, за допомогою Чат Моделі",
-    "relativePath": "notes/LangChain/Призначені для користувача підказки, за допомогою Чат Моделі.md"
-  },
-  {
-    "fileName": "Метал ретривер",
-    "relativePath": "notes/LangChain/Метал ретривер.md",
-    "headings": [
-      {
-        "heading": "Налаштування",
-        "level": 2
-      },
-      {
-        "heading": "Використання",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Початок роботи - виконавці агентів",
-    "relativePath": "notes/LangChain/Початок роботи - виконавці агентів.md"
-  },
-  {
-    "fileName": "Пам’ять сутності",
-    "relativePath": "notes/LangChain/Пам’ять сутності.md",
-    "headings": [
-      {
-        "heading": "Використання:",
-        "level": 2
-      },
-      {
-        "heading": "Перевірка сховища пам'яті",
-        "level": 3
-      }
-    ]
-  },
-  {
     "fileName": "Персональні асистенти",
     "relativePath": "notes/LangChain/Персональні асистенти.md",
     "links": [
@@ -1711,8 +1655,26 @@
     ]
   },
   {
-    "fileName": "Настроюваний агент LLM",
-    "relativePath": "notes/LangChain/Настроюваний агент LLM.md"
+    "fileName": "Призначені для користувача підказки, за допомогою Чат Моделі",
+    "relativePath": "notes/LangChain/Призначені для користувача підказки, за допомогою Чат Моделі.md"
+  },
+  {
+    "fileName": "Початок роботи - виконавці агентів",
+    "relativePath": "notes/LangChain/Початок роботи - виконавці агентів.md"
+  },
+  {
+    "fileName": "Пам’ять сутності",
+    "relativePath": "notes/LangChain/Пам’ять сутності.md",
+    "headings": [
+      {
+        "heading": "Використання:",
+        "level": 2
+      },
+      {
+        "heading": "Перевірка сховища пам'яті",
+        "level": 3
+      }
+    ]
   },
   {
     "fileName": "Крант",
@@ -1737,6 +1699,24 @@
       {
         "heading": "Запитати документи з наявної колекції",
         "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "Настроюваний агент LLM",
+    "relativePath": "notes/LangChain/Настроюваний агент LLM.md"
+  },
+  {
+    "fileName": "Метал ретривер",
+    "relativePath": "notes/LangChain/Метал ретривер.md",
+    "headings": [
+      {
+        "heading": "Налаштування",
+        "level": 2
+      },
+      {
+        "heading": "Використання",
+        "level": 2
       }
     ]
   },
@@ -1774,20 +1754,6 @@
       },
       {
         "heading": "Використання, `RefineDocumentsChain`",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Зведена пам’ять розмови",
-    "relativePath": "notes/LangChain/Зведена пам’ять розмови.md",
-    "headings": [
-      {
-        "heading": "Використання, з LLM",
-        "level": 2
-      },
-      {
-        "heading": "Використання, з моделлю чату",
         "level": 2
       }
     ]
@@ -1848,6 +1814,20 @@
     ]
   },
   {
+    "fileName": "Зведена пам’ять розмови",
+    "relativePath": "notes/LangChain/Зведена пам’ять розмови.md",
+    "headings": [
+      {
+        "heading": "Використання, з LLM",
+        "level": 2
+      },
+      {
+        "heading": "Використання, з моделлю чату",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "Додатки ChatGPT",
     "relativePath": "notes/LangChain/Додатки ChatGPT.md"
   },
@@ -1861,14 +1841,6 @@
         "displayText": ""
       }
     ]
-  },
-  {
-    "fileName": "Грабер в Obsidian-markdown",
-    "relativePath": "notes/LangChain/Грабер в Obsidian-markdown.md"
-  },
-  {
-    "fileName": "Власний агент чату",
-    "relativePath": "notes/LangChain/Власний агент чату.md"
   },
   {
     "fileName": "Гібридний пошук Supabase",
@@ -1893,22 +1865,16 @@
     ]
   },
   {
-    "fileName": "Використання буферної пам'яті з моделями чату",
-    "relativePath": "notes/LangChain/Використання буферної пам'яті з моделями чату.md"
+    "fileName": "Власний агент чату",
+    "relativePath": "notes/LangChain/Власний агент чату.md"
   },
   {
-    "fileName": "БебіАГІ",
-    "relativePath": "notes/LangChain/БебіАГІ.md",
-    "headings": [
-      {
-        "heading": "Простий приклад",
-        "level": 2
-      },
-      {
-        "heading": "Приклад з інструментами",
-        "level": 2
-      }
-    ]
+    "fileName": "Грабер в Obsidian-markdown",
+    "relativePath": "notes/LangChain/Грабер в Obsidian-markdown.md"
+  },
+  {
+    "fileName": "Використання буферної пам'яті з моделями чату",
+    "relativePath": "notes/LangChain/Використання буферної пам'яті з моделями чату.md"
   },
   {
     "fileName": "Взаємодія з API",
@@ -1935,6 +1901,20 @@
     ]
   },
   {
+    "fileName": "БебіАГІ",
+    "relativePath": "notes/LangChain/БебіАГІ.md",
+    "headings": [
+      {
+        "heading": "Простий приклад",
+        "level": 2
+      },
+      {
+        "heading": "Приклад з інструментами",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "Апіфікація набору даних",
     "relativePath": "notes/LangChain/Апіфікація набору даних.md",
     "headings": [
@@ -1956,20 +1936,6 @@
       },
       {
         "heading": "З наявного набору даних",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "АвтоGPT",
-    "relativePath": "notes/LangChain/АвтоGPT.md",
-    "headings": [
-      {
-        "heading": "Ізоморфний приклад",
-        "level": 2
-      },
-      {
-        "heading": "Приклад Node.js",
         "level": 2
       }
     ]
@@ -2039,11 +2005,15 @@
     ]
   },
   {
-    "fileName": "Інструмент отримання додатків ChatGPT",
-    "relativePath": "notes/LangChain/Інструмент отримання додатків ChatGPT.md",
+    "fileName": "АвтоGPT",
+    "relativePath": "notes/LangChain/АвтоGPT.md",
     "headings": [
       {
-        "heading": "Використання",
+        "heading": "Ізоморфний приклад",
+        "level": 2
+      },
+      {
+        "heading": "Приклад Node.js",
         "level": 2
       }
     ]
@@ -2051,16 +2021,6 @@
   {
     "fileName": "Інструмент веб-браузера",
     "relativePath": "notes/LangChain/Інструмент веб-браузера.md"
-  },
-  {
-    "fileName": "zapier_agent",
-    "relativePath": "notes/LangChain/zapier_agent.md",
-    "headings": [
-      {
-        "heading": "Agent with Zapier NLA Integration",
-        "level": 1
-      }
-    ]
   },
   {
     "fileName": "weaviate",
@@ -2081,8 +2041,14 @@
     ]
   },
   {
-    "fileName": "VectorStore-Backed Memory",
-    "relativePath": "notes/LangChain/VectorStore-Backed Memory.md"
+    "fileName": "Інструмент отримання додатків ChatGPT",
+    "relativePath": "notes/LangChain/Інструмент отримання додатків ChatGPT.md",
+    "headings": [
+      {
+        "heading": "Використання",
+        "level": 2
+      }
+    ]
   },
   {
     "fileName": "unstructured",
@@ -2107,6 +2073,20 @@
         "displayText": ""
       }
     ]
+  },
+  {
+    "fileName": "zapier_agent",
+    "relativePath": "notes/LangChain/zapier_agent.md",
+    "headings": [
+      {
+        "heading": "Agent with Zapier NLA Integration",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "VectorStore-Backed Memory",
+    "relativePath": "notes/LangChain/VectorStore-Backed Memory.md"
   },
   {
     "fileName": "VectorStore Agent Toolkit",
@@ -2171,6 +2151,40 @@
     ]
   },
   {
+    "fileName": "supabase",
+    "relativePath": "notes/LangChain/supabase.md",
+    "headings": [
+      {
+        "heading": "Supabase",
+        "level": 1
+      },
+      {
+        "heading": "Setup",
+        "level": 2
+      },
+      {
+        "heading": "Install the library with",
+        "level": 3
+      },
+      {
+        "heading": "Create a table and search function in your database",
+        "level": 3
+      },
+      {
+        "heading": "Usage",
+        "level": 2
+      },
+      {
+        "heading": "Standard Usage",
+        "level": 3
+      },
+      {
+        "heading": "Metadata Filtering",
+        "level": 3
+      }
+    ]
+  },
+  {
     "fileName": "summarization",
     "relativePath": "notes/LangChain/summarization.md",
     "frontmatter": {
@@ -2225,40 +2239,6 @@
       {
         "heading": "Structured Tool Chat Agent",
         "level": 1
-      }
-    ]
-  },
-  {
-    "fileName": "supabase",
-    "relativePath": "notes/LangChain/supabase.md",
-    "headings": [
-      {
-        "heading": "Supabase",
-        "level": 1
-      },
-      {
-        "heading": "Setup",
-        "level": 2
-      },
-      {
-        "heading": "Install the library with",
-        "level": 3
-      },
-      {
-        "heading": "Create a table and search function in your database",
-        "level": 3
-      },
-      {
-        "heading": "Usage",
-        "level": 2
-      },
-      {
-        "heading": "Standard Usage",
-        "level": 3
-      },
-      {
-        "heading": "Metadata Filtering",
-        "level": 3
       }
     ]
   },
@@ -2525,20 +2505,6 @@
     ]
   },
   {
-    "fileName": "pinecone-self-query",
-    "relativePath": "notes/LangChain/pinecone-self-query.md",
-    "headings": [
-      {
-        "heading": "Self Query Ретривер Pinecone",
-        "level": 1
-      },
-      {
-        "heading": "Використання",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "notion_markdown",
     "relativePath": "notes/LangChain/notion_markdown.md",
     "frontmatter": {
@@ -2560,6 +2526,45 @@
       {
         "heading": "Експортування поняття markdown",
         "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "notiondb",
+    "relativePath": "notes/LangChain/notiondb.md",
+    "frontmatter": {
+      "hide_table_of_contents": "так",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 37
+        }
+      }
+    },
+    "headings": [
+      {
+        "heading": "Поняття БД",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "fileName": "pinecone-self-query",
+    "relativePath": "notes/LangChain/pinecone-self-query.md",
+    "headings": [
+      {
+        "heading": "Self Query Ретривер Pinecone",
+        "level": 1
+      },
+      {
+        "heading": "Використання",
+        "level": 2
       }
     ]
   },
@@ -2611,33 +2616,18 @@
     ]
   },
   {
-    "fileName": "notiondb",
-    "relativePath": "notes/LangChain/notiondb.md",
-    "frontmatter": {
-      "hide_table_of_contents": "так",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 37
-        }
-      }
-    },
+    "fileName": "MultiPromptChain",
+    "relativePath": "notes/LangChain/MultiPromptChain.md"
+  },
+  {
+    "fileName": "moderation_chain",
+    "relativePath": "notes/LangChain/moderation_chain.md",
     "headings": [
       {
-        "heading": "Поняття БД",
+        "heading": "`OpenAIModerationChain`",
         "level": 1
       }
     ]
-  },
-  {
-    "fileName": "MultiPromptChain",
-    "relativePath": "notes/LangChain/MultiPromptChain.md"
   },
   {
     "fileName": "MRKL агент для моделей чату",
@@ -2654,16 +2644,6 @@
         "fileName": "Агент МРКЛ для ЛМ",
         "link": "MRKL агент для моделей чату.md",
         "relativePath": "notes/LangChain/Агент МРКЛ для ЛМ.md"
-      }
-    ]
-  },
-  {
-    "fileName": "moderation_chain",
-    "relativePath": "notes/LangChain/moderation_chain.md",
-    "headings": [
-      {
-        "heading": "`OpenAIModerationChain`",
-        "level": 1
       }
     ]
   },
@@ -2794,16 +2774,16 @@
     ]
   },
   {
+    "fileName": "ConstitutionalChain",
+    "relativePath": "notes/LangChain/ConstitutionalChain.md"
+  },
+  {
     "fileName": "APIChain",
     "relativePath": "notes/LangChain/APIChain.md"
   },
   {
     "fileName": "AnalyzeDocumentChain",
     "relativePath": "notes/LangChain/AnalyzeDocumentChain.md"
-  },
-  {
-    "fileName": "ConstitutionalChain",
-    "relativePath": "notes/LangChain/ConstitutionalChain.md"
   },
   {
     "fileName": "Як налаштувати autogpt через проксі gpt4free",
@@ -2866,6 +2846,25 @@
     ]
   },
   {
+    "fileName": "Технологічна операція",
+    "relativePath": "notes/inbox/Технологічна операція.md",
+    "frontmatter": {
+      "title": "Технологічна операція",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 38
+        }
+      }
+    }
+  },
+  {
     "fileName": "Управління знаннями",
     "relativePath": "notes/inbox/Управління знаннями.md",
     "frontmatter": {
@@ -2905,25 +2904,6 @@
         "level": 2
       }
     ]
-  },
-  {
-    "fileName": "Технологічна операція",
-    "relativePath": "notes/inbox/Технологічна операція.md",
-    "frontmatter": {
-      "title": "Технологічна операція",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 38
-        }
-      }
-    }
   },
   {
     "fileName": "Сучасний стан та опис проекту",
@@ -3068,10 +3048,6 @@
     }
   },
   {
-    "fileName": "Програми ELM 327 Windows",
-    "relativePath": "notes/inbox/Програми ELM 327 Windows.md"
-  },
-  {
     "fileName": "Принцип Парето в управлінні бізнес-процесами",
     "relativePath": "notes/inbox/Принцип Парето в управлінні бізнес-процесами/Принцип Парето в управлінні бізнес-процесами.md",
     "frontmatter": {
@@ -3089,10 +3065,6 @@
         }
       }
     }
-  },
-  {
-    "fileName": "Підключитися до github через ssh на alpine linux server",
-    "relativePath": "notes/inbox/Підключитися до github через ssh на alpine linux server.md"
   },
   {
     "fileName": "Інструменти ощадливого виробництва",
@@ -3136,6 +3108,14 @@
     ]
   },
   {
+    "fileName": "Програми ELM 327 Windows",
+    "relativePath": "notes/inbox/Програми ELM 327 Windows.md"
+  },
+  {
+    "fileName": "Підключитися до github через ssh на alpine linux server",
+    "relativePath": "notes/inbox/Підключитися до github через ssh на alpine linux server.md"
+  },
+  {
     "fileName": "Онтологія знань",
     "relativePath": "notes/inbox/Онтологія знань.md",
     "frontmatter": {
@@ -3150,6 +3130,44 @@
           "line": 2,
           "col": 3,
           "offset": 34
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Комплексна методологія",
+    "relativePath": "notes/inbox/Комплексна методологія.md",
+    "frontmatter": {
+      "title": "Комплексна методологія",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 39
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Онтологічний інжиніринг",
+    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
+    "frontmatter": {
+      "title": "Онтологічний інжиніринг",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 42
         }
       }
     }
@@ -3192,50 +3210,12 @@
     ]
   },
   {
-    "fileName": "Онтологічний інжиніринг",
-    "relativePath": "notes/inbox/Онтологічний інжиніринг.md",
-    "frontmatter": {
-      "title": "Онтологічний інжиніринг",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 42
-        }
-      }
-    }
-  },
-  {
-    "fileName": "Комплексна методологія",
-    "relativePath": "notes/inbox/Комплексна методологія.md",
-    "frontmatter": {
-      "title": "Комплексна методологія",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 39
-        }
-      }
-    }
+    "fileName": "Дописи на Git Pages (Hugo, Perlite project) через вебхуки",
+    "relativePath": "notes/inbox/Дописи на Git Pages (Hugo, Perlite project) через вебхуки.md"
   },
   {
     "fileName": "Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot",
     "relativePath": "notes/inbox/Додавання контенту на сайт на основі генератора Hugo за допомогою встроєного чату Typebot.md"
-  },
-  {
-    "fileName": "Дописи на Git Pages (Hugo, Perlite project) через вебхуки",
-    "relativePath": "notes/inbox/Дописи на Git Pages (Hugo, Perlite project) через вебхуки.md"
   },
   {
     "fileName": "Вимоги до проекту",
@@ -3332,10 +3312,6 @@
     }
   },
   {
-    "fileName": "Інтеграція медіаплеєра Plyr в Hugo",
-    "relativePath": "notes/inbox/Інтеграція медіаплеєра Plyr в Hugo.md"
-  },
-  {
     "fileName": "Інструкція по встановленню Alpine Linux Extended",
     "relativePath": "notes/inbox/Інструкція по встановленню Alpine Linux Extended.md",
     "headings": [
@@ -3360,6 +3336,10 @@
         "level": 2
       }
     ]
+  },
+  {
+    "fileName": "Інтеграція медіаплеєра Plyr в Hugo",
+    "relativePath": "notes/inbox/Інтеграція медіаплеєра Plyr в Hugo.md"
   },
   {
     "fileName": "Інверсія крльору тексту у вікні вводу коментарів",
@@ -3535,10 +3515,6 @@
         "level": 2
       }
     ]
-  },
-  {
-    "fileName": "JavaScript у застосунках на Redbean 2",
-    "relativePath": "notes/inbox/JavaScript у застосунках на Redbean 2.md"
   },
   {
     "fileName": "default",
@@ -3964,6 +3940,31 @@
   },
   {
     "fileName": "default",
+    "relativePath": "notes/inbox/import-grav/06.princip-pareto-v-upravlinni-biznes-procesami/default.md",
+    "frontmatter": {
+      "title": "Принцип Парето в управлінні бізнес-процесами",
+      "webpushtitle": "Принцип Парето в управлінні бізнес-процесами",
+      "webpushmessage": "&amp;lt;hr /&amp;gt;\n&amp;lt;p&amp;gt;layout: post\ntitle: Принцип Парето в управлінні бізнес-процесами\ncategory: бізнес-процеси&amp;lt;/p&amp;gt;\n&amp;lt;hr /&amp;gt;\n&amp;lt;p&amp;gt;Економіст і соціолог Вільфредо Парето прославився завдяки своєму емпіричному правилу, яке в загальному вигляді звучить так: «20% зусиль дають 80% результату, а інші 80 % зусиль — лише 20 % результату».&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/user/pages/06.princip-pareto-v-upravlinni-biznes-procesami/20191130150105-7d2e5354.jpg&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;На основі даного правила побудовано багато аналогій:&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;«20% клієнтів приносять 80% прибутку»&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Або «20% чоловіків випиває 80% пива» :)&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Як застосувати принцип Парето в управлінні бізнес-процесами?&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Часто керівник компанії, зацікавившись ідеєю процесного управління, приходить до своїх співробітників з новим баченням: нам потрібно формалізувати наші бізнес-процеси. Проводяться тренінги, залучаються консультанти або наймається штат бізнес-аналітиків, робота кипить. На перших порах рядові співробітники і лінійні керівники з інтересом беруть участь у робочих групах, проводяться інтерв&amp;#039;ю, будуються моделі процесів, пишуться інструкції. Але через пару місяців інтерес пропадає, операційна діяльність затягує, а кінцевий результат стає все менш відчутним. Рано чи пізно проект завершується. В результаті компанія отримує набір регламентів та моделей бізнес-процесів, проте часто після завершення проекту діяльність компанії не зазнає серйозних змін. Більш того, вже через 3-4 місяці керівники розуміють, що регламенти починають застарівати, так як процеси в силу своєї природи починають змінюватися. У топ-менеджменту виникає відчуття, що вкладені інвестиції не відповідають отриманому результату.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Що ж робити, щоб отримати відчутну віддачу від інвестицій в управління бізнес-процесами?&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Нагадаю, що бізнес-процеси – це інструмент досягнення стратегічних цілей. Застосовуючи принцип Парето можна зформулювати таке твердження: 20% бізнес-процесів дають 80% внеску в досягнення стратегічних цілей компанії.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;/princip-pareto-v-upravlinni-biznes-procesami/20191130150111-390078f2.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Тому має сенс на першому етапі зосередити всі сили, увагу і ресурси на 3-5 ключових для організації процесах і запустити для них цикл процесного управління (моделювання, аналіз, оптимізація, трансформація, вимірювання, контроль).&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Додатковий плюс такої сфокусованості – можливість отримати результат вже через 2,5-3 місяці після старту проекту. І це дуже важливо!  Адже будь-яка людина може зацікавлено працювати над будь-яким питанням без отримання позитивного зворотного зв&amp;#039;язку досить короткий проміжок часу, потім його інтерес починає згасати. Після отримання перших результатів можна вже короткими ітераціями почати шліфувати бізнес-процес.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Отже, використання принципу Парето в управлінні бізнес-процесами означає, що в першу чергу потрібно сфокусуватися на найбільш критичних для досягнення стратегічних цілей процесах, залишивши на потім, можливо, проблемні, але не ключові бізнес-процеси.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;https://bpm-in-ua.com/&amp;quot;&amp;gt;За матеріалами BPM in UA&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;",
+      "webpushurl": "https://webm.m-e.pp.ua/princip-pareto-v-upravlinni-biznes-procesami",
+      "webpushbutton": {
+        "send": false
+      },
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 7,
+          "col": 3,
+          "offset": 3961
+        }
+      }
+    }
+  },
+  {
+    "fileName": "default",
     "relativePath": "notes/inbox/import-grav/05.scladanya2/default.md",
     "headings": [
       {
@@ -3991,31 +3992,6 @@
         "level": 2
       }
     ]
-  },
-  {
-    "fileName": "default",
-    "relativePath": "notes/inbox/import-grav/06.princip-pareto-v-upravlinni-biznes-procesami/default.md",
-    "frontmatter": {
-      "title": "Принцип Парето в управлінні бізнес-процесами",
-      "webpushtitle": "Принцип Парето в управлінні бізнес-процесами",
-      "webpushmessage": "&amp;lt;hr /&amp;gt;\n&amp;lt;p&amp;gt;layout: post\ntitle: Принцип Парето в управлінні бізнес-процесами\ncategory: бізнес-процеси&amp;lt;/p&amp;gt;\n&amp;lt;hr /&amp;gt;\n&amp;lt;p&amp;gt;Економіст і соціолог Вільфредо Парето прославився завдяки своєму емпіричному правилу, яке в загальному вигляді звучить так: «20% зусиль дають 80% результату, а інші 80 % зусиль — лише 20 % результату».&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;&amp;lt;img alt=&amp;quot;&amp;quot; src=&amp;quot;/user/pages/06.princip-pareto-v-upravlinni-biznes-procesami/20191130150105-7d2e5354.jpg&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;На основі даного правила побудовано багато аналогій:&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;«20% клієнтів приносять 80% прибутку»&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Або «20% чоловіків випиває 80% пива» :)&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Як застосувати принцип Парето в управлінні бізнес-процесами?&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Часто керівник компанії, зацікавившись ідеєю процесного управління, приходить до своїх співробітників з новим баченням: нам потрібно формалізувати наші бізнес-процеси. Проводяться тренінги, залучаються консультанти або наймається штат бізнес-аналітиків, робота кипить. На перших порах рядові співробітники і лінійні керівники з інтересом беруть участь у робочих групах, проводяться інтерв&amp;#039;ю, будуються моделі процесів, пишуться інструкції. Але через пару місяців інтерес пропадає, операційна діяльність затягує, а кінцевий результат стає все менш відчутним. Рано чи пізно проект завершується. В результаті компанія отримує набір регламентів та моделей бізнес-процесів, проте часто після завершення проекту діяльність компанії не зазнає серйозних змін. Більш того, вже через 3-4 місяці керівники розуміють, що регламенти починають застарівати, так як процеси в силу своєї природи починають змінюватися. У топ-менеджменту виникає відчуття, що вкладені інвестиції не відповідають отриманому результату.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Що ж робити, щоб отримати відчутну віддачу від інвестицій в управління бізнес-процесами?&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Нагадаю, що бізнес-процеси – це інструмент досягнення стратегічних цілей. Застосовуючи принцип Парето можна зформулювати таке твердження: 20% бізнес-процесів дають 80% внеску в досягнення стратегічних цілей компанії.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;&amp;lt;img src=&amp;quot;/princip-pareto-v-upravlinni-biznes-procesami/20191130150111-390078f2.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Тому має сенс на першому етапі зосередити всі сили, увагу і ресурси на 3-5 ключових для організації процесах і запустити для них цикл процесного управління (моделювання, аналіз, оптимізація, трансформація, вимірювання, контроль).&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Додатковий плюс такої сфокусованості – можливість отримати результат вже через 2,5-3 місяці після старту проекту. І це дуже важливо!  Адже будь-яка людина може зацікавлено працювати над будь-яким питанням без отримання позитивного зворотного зв&amp;#039;язку досить короткий проміжок часу, потім його інтерес починає згасати. Після отримання перших результатів можна вже короткими ітераціями почати шліфувати бізнес-процес.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;Отже, використання принципу Парето в управлінні бізнес-процесами означає, що в першу чергу потрібно сфокусуватися на найбільш критичних для досягнення стратегічних цілей процесах, залишивши на потім, можливо, проблемні, але не ключові бізнес-процеси.&amp;lt;/p&amp;gt;\n&amp;lt;p&amp;gt;&amp;lt;a href=&amp;quot;https://bpm-in-ua.com/&amp;quot;&amp;gt;За матеріалами BPM in UA&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;",
-      "webpushurl": "https://webm.m-e.pp.ua/princip-pareto-v-upravlinni-biznes-procesami",
-      "webpushbutton": {
-        "send": false
-      },
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 7,
-          "col": 3,
-          "offset": 3961
-        }
-      }
-    }
   },
   {
     "fileName": "default",
@@ -4240,6 +4216,10 @@
     ]
   },
   {
+    "fileName": "JavaScript у застосунках на Redbean 2",
+    "relativePath": "notes/inbox/JavaScript у застосунках на Redbean 2.md"
+  },
+  {
     "fileName": "Hugo",
     "relativePath": "notes/inbox/Hugo.md",
     "frontmatter": {
@@ -4259,31 +4239,12 @@
     }
   },
   {
-    "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
-    "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
-  },
-  {
     "fileName": "DrakonHub в Docker",
     "relativePath": "notes/inbox/DrakonHub в Docker.md"
   },
   {
-    "fileName": "Cинхронізації сховища Obsidian на Android",
-    "relativePath": "notes/inbox/Cинхронізації сховища Obsidian на Android.md",
-    "frontmatter": {
-      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
-      "position": {
-        "start": {
-          "line": 0,
-          "col": 0,
-          "offset": 0
-        },
-        "end": {
-          "line": 2,
-          "col": 3,
-          "offset": 89
-        }
-      }
-    }
+    "fileName": "Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8",
+    "relativePath": "notes/inbox/eno-bot/Як встановити matrix-eno-bot як сервіс на мікрокомпютер orangepipc2 arm64v8.md"
   },
   {
     "fileName": "Docker для Drakon.Tech",
@@ -4351,6 +4312,29 @@
     ]
   },
   {
+    "fileName": "Cинхронізації сховища Obsidian на Android",
+    "relativePath": "notes/inbox/Cинхронізації сховища Obsidian на Android.md",
+    "frontmatter": {
+      "title": "Використання Git для синхронізації сховища Obsidian на Android-пристроях",
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "col": 3,
+          "offset": 89
+        }
+      }
+    }
+  },
+  {
+    "fileName": "Збереження повідомлення в чат-матриці в markdown -1",
+    "relativePath": "notes/inbox/ChatGPT/Збереження повідомлення в чат-матриці в markdown -1.md"
+  },
+  {
     "fileName": "CODE_OF_CONDUCT",
     "relativePath": "notes/inbox/CODE_OF_CONDUCT.md",
     "headings": [
@@ -4403,10 +4387,6 @@
         "level": 2
       }
     ]
-  },
-  {
-    "fileName": "Збереження повідомлення в чат-матриці в markdown -1",
-    "relativePath": "notes/inbox/ChatGPT/Збереження повідомлення в чат-матриці в markdown -1.md"
   },
   {
     "fileName": "ChatGPT в текст",
@@ -4538,6 +4518,26 @@
         "relativePath": "notes/Перегляд змін.md"
       }
     ]
+  },
+  {
+    "fileName": "post",
+    "relativePath": "templates/post.md",
+    "frontmatter": {
+      "title": "{{title}}",
+      "dg-publish": true,
+      "position": {
+        "start": {
+          "line": 0,
+          "col": 0,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "col": 3,
+          "offset": 46
+        }
+      }
+    }
   },
   {
     "fileName": "Ava - Getting Started",
